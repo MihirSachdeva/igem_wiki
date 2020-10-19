@@ -240,7 +240,21 @@ nav.navbar {
   background-color: var(--main-dark-color);
 }
 
-.dropdown-item:hover::after {
+.dropdown-item::after {
+  content: "";
+  display: block;
+  width: 0%;
+  transition: 0.2s ease-in;
+  margin-top: 3px;
+  border-radius: 10px;
+  transform: translateX(0%);
+  height: var(--tab-underline-size, 2px);
+  background-color: var(--tab-underline-color, currentColor);
+  transition: 0.1s ease-in;
+}
+
+.dropdown-item:hover::after,
+.dropdown-item-active::after {
   content: "";
   display: block;
   width: 60%;
@@ -254,19 +268,6 @@ nav.navbar {
 
 .dropdown-item-active {
   color: var(--text-light-color) !important;
-}
-
-.dropdown-item::after {
-  content: "";
-  display: block;
-  width: 0%;
-  transition: 0.2s ease-in;
-  margin-top: 3px;
-  border-radius: 10px;
-  transform: translateX(0%);
-  height: var(--tab-underline-size, 2px);
-  background-color: var(--tab-underline-color, currentColor);
-  transition: 0.1s ease-in;
 }
 
 .dropdown-item-active::after {
