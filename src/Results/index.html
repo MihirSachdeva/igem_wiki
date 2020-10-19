@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="Pyomancer by iGEM IIT Roorkee" />
+    <meta name="author" content="Team iGEM IIT Roorkee" />
+    <meta name="theme-color" content="#272727">
+    <title>PYOMANCER</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="../css/igem_reset.css" rel="stylesheet" />
+    <link href="../css/styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header>
+      <div class="navbar-overlay navbar-overlay-1"></div>
+      <div class="navbar-overlay navbar-overlay-2"></div>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top wiki-navbar">
+        <a class="navbar-brand" href="../">PYOMANCER</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto tabs-wrapper">
+            <li class="nav-item dropdown">
+                <a
+                  class="tab nav-link"
+                  href="#"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  People
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="../Team/"><span>Team</span></a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../Attributions"><span>Attributions</span></a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../Sponsors/"><span>Sponsors</span></a>
+                  </li>
+                </ul>
+              </li>
+            <li class="nav-item dropdown">
+              <a
+                class="tab nav-link"
+                href="#"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Project
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../Description"><span>Description</span></a></li>
+                <li><a class="dropdown-item" href="../Problem"><span>Problem</span></a></li>
+                <li><a class="dropdown-item" href="../Design"><span>Design</span></a></li>
+                <li><a class="dropdown-item" href="..Implementation"><span>Implementation</span></a></li>
+                <li><a class="dropdown-item" href="../Contrbutions"><span>Contributions</span></a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="tab nav-link"
+                href="#"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Human Practices
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../Human_Practices"> <span>Overview</span></a></li>
+                <li><a class="dropdown-item" href="../Education"> <span>Science Communication & Public Engagement</span> </a></li>
+                <li><a class="dropdown-item" href="../Integrated_HP"> <span>Integrated Human Practices</span> </a></li>
+                <li><a class="dropdown-item" href="../Sustainable"> <span>Sustainable Development Goals</span> </a></li>
+                <li><a class="dropdown-item" href="../Collaborations"> <span>Collaborations</span> </a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="tab nav-link"
+              href="#"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Dry Lab
+              </a>
+              <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../DryLab"> <span>Overview</span></a></li>
+              <li><a class="dropdown-item" href="../Model"> <span>Modelling</span> </a></li>
+              <li><a class="dropdown-item" href="../DryLab_Results"> <span>Results</span> </a></li>
+              <li><a class="dropdown-item" href="../Software"> <span>Software</span> </a></li>
+              </ul>
+           </li>
+           <li class="nav-item dropdown">
+            <a class="tab nav-link nav-link-active"
+            href="#"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+            >Wet Lab
+            </a>
+            <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="../Experiments"> <span>Overview</span></a></li>
+            <li><a class="dropdown-item dropdown-item-active" href="../Results"> <span>Results</span> </a></li>
+            <li><a class="dropdown-item" href="../Protocols"> <span>Protocols</span> </a></li>
+            <li><a class="dropdown-item" href="../Parts"> <span>Parts</span> </a></li>
+            <li><a class="dropdown-item" href="#"> <span>Safety</span> </a></li>
+            <li><a class="dropdown-item" href="../References"> <span>References</span> </a></li>
+            </ul>
+         </li>
+         <li class="nav-item dropdown">
+          <a class="tab nav-link"
+          href="#"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+          >Machine Learning
+          </a>
+          <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="../ML_Overview"> <span>Overview</span></a></li>
+          <li><a class="dropdown-item" href="../ML_Model"> <span>Model</span> </a></li>
+          <li><a class="dropdown-item" href="../ML_Results"> <span>Results</span> </a></li>
+          <li><a class="dropdown-item" href="../ML_Impact"> <span>Impact</span> </a></li>
+          </ul>
+       </li>
+            <li class="nav-item">
+              <a class="tab nav-link" href="#">Judges</a>
+            </li>
+            <li class="nav-item">
+              <a class="tab nav-link" href="#">Notebook</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="header-progress">
+        <div class="header-progress-indicator"></div>
+      </div>
+      
+    </header>
+
+    <div class="banner">
+      <p class="text-center font-size-24">
+        <h1 class="banner-h1">Wet Lab</h1>
+        <h2 class="banner-h2">Results</h2>
+        
+        <div class="banner-overlay"></div>
+      </p>
+    </div>
+
+    <main role="main" class="container wiki">    
+
+      <div class="side-nav">
+        <div class="page-title">Results</div>
+        <div class="side-nav-menu">
+        </div>
+      </div>
+
+      <div class="wiki-content">
+
+        <h1 class="wiki-h wiki-h1 wiki-section-start" id="wiki-section-1">Dry Lab</h1>
+        <br/>
+        <br/>
+        <br/>
+        
+        <p class="wiki-p">
+          We choose to assemble our ordered gBlocks gene fragments into the expression plasmid using Gibson Assembly, as we have to
+          assemble a total of 9 fragments. Other reasons we chose Gibson are its lower relative cost and number of steps compared to
+          conventional cloning and because it doesn't leave restriction site scars. The need for a PCR extension step of the ordered fragments
+          is eliminated as they come with the necessary overlaps. However, the overlaps between the terminal fragments and the plasmid
+          backbone were not included. We would linearize the pET-28a plasmid with BamHI and use PCR extension to add the overlap
+          sequences with appropriate primers.
+        </p>
+
+        <br/>
+
+        <p class="wiki-p">
+          R2 tail fibre protein sequence comprises 691 amino acids. The AP22 bacteriophage tail fibre protein that targets A.baumannii is 271
+          amino acids in length. However, through literature review, it was found that the R2 pyocin- NTF (N-truncated fragment) (G-443 to
+          R-691) is sufficient to bind to the bacterial surface. Therefore, only the N-truncated fragment was modelled. 
+        </p>
+        
+        <br/>
+
+        <p class="wiki-p">
+          Through preliminary bioinformatics analysis during fusion protein design, we identified the restriction sites needed to create an R2
+          pyocin-AP22 fusion protein. It was inferred that removing the last 134 amino acids of the R2 pyocin tail fibre protein sequence and
+          ligating the last 137 amino acids of the AP22 bacteriophage sequence to this truncated pyocin sequence would create a functional
+          fusion product. 
+        </p>
+
+        <br/>
+        <br/>
+
+        <p class="wiki-p wiki-bold">
+          <span style="color:#5BBD70;">
+          >R2-NTF-AP22 Fusion tail fibre 
+          GSFTKEADGELPGGVNLDSMVTSGWWSQSFTAQAASGANYPIVRAGLLHVYAASSNFIYQTYQAYDGESFYFRCRHSNT
+          WFPWRRMWHGGDFNPSDYLLKSGFYWNALPGKPATF</span><span style="color:red;">IPTATSTTAGITKVLNVLNSNDVGSALSAAQGKVLNDKFNFQN
+          SKNQSGYVRLGDSGLIIQWGVFTSTKTQSNLIFPLAFPNALLSITGNLNSNTPDVIGIDFDLSTATKTSIKTGAAQVGASWLSG
+          KKISWIAIGY</span>
+        </p>
+
+        <br/>
+        <br/>
+
+        <p class="wiki-p">
+          We model this sequence using various modelling techniques and then compare the models obtained through all these methods. We
+          compare the models obtained through their RMSD scores for alignment with the native R2-NTF pyocin and the AP22 bacteriophage
+          structures. The Ramachandran plots are also compared for these models.
+        </p>
+
+       <br/>
+
+        <p class="wiki-p"><a href="" class="wiki-a">Model View</a></p>
+        <p class="wiki-p"><a href="" class="wiki-a">Ramachandran plot image</a></p>
+        <p class="wiki-p"><a href="" class="wiki-a">Model alignment view</a></p>
+
+        <br/>
+        <br/>
+
+        <p class="wiki-p">
+          For more information on how we modelled our fusion tail fibre, please refer to the <a href="" class="wiki-a">Bioinformatics</a> tab.
+        </p>
+        
+        <br/>
+        <br/>
+        <br/>
+
+        <h1 class="wiki-h wiki-h1  wiki-section-start" id="wiki-section-2">Wet Lab</h1>        
+
+        <p class="wiki-p wiki-bold" style="color:#6196D6;">
+          As our institute remains closed to students due to the coronavirus pandemic, we would not be able to
+          perform the experiments we have planned within time for iGEM 2020. This section is a discussion about
+          what results we might expect from our experiments and our contingency plans in case some of them
+          don’t go as planned.
+        </p>
+
+        <br/>
+        
+        <p class="wiki-p">
+          We had initially performed some preliminary experiments in March to verify the function of wild-type pyocins against
+          susceptible P aeruginosa strains and their effect(or lack thereof) on A. baumannii. However, evacuation of the campus
+          was ordered shortly after planning of this. The experiment ended up failing, as we tried to rush through them. Inducing
+          expression of pyocins in PAO1 is done by addition of mitomycin C, a mutagen that triggers the SOS pathway. The order
+          for the reagent did not arrive in time, and so we tried to induce expression through oxidative stressor methylviologen.
+          Pelleting the proteins from the PAO1 lysates showed that there was no expression induced.
+        </p>
+
+        <br/>
+        <br/>
+
+        <h2 class="wiki-h wiki-h2" style="color:#5C5C5C;">Assembly/Cloning</h2>
+
+        <p class="wiki-p">
+          Gibson Assembly being a highly reliable process should not pose any problems in terms of results. We chose to use the two-step
+          Gibson protocol, which has been shown to reliably assemble upto 15 fragments. However, since this is our first time doing Gibson,
+          we contemplate the possibility of a learning curve and optimization.
+        </p>
+
+        <p class="wiki-p">
+          In the unlikely case that cloning the synthetic DNA fails, we would circumnavigate this by cloning the native genes from P. aeruginosa.
+          PCR cloning of the pyocin gene cluster from PAO1 followed by replacement of the tail fiber gene with a fusion tail fiber
+          gene by restriction-ligation would be done. The gene products would be identical to those from the synthetic DNA.
+        </p>
+
+        <p class="wiki-p">
+          However, the native gene cluster contains many illegal restriction sites which would have to be edited through site-directed
+          mutagenesis. This is a rather lengthy process which we hope to avoid, and hence our primary plan is the synthesis method.
+        </p>
+
+        <br/>
+        <br/>
+
+        <h2 class="wiki-h wiki-h2" style="color:#5C5C5C;">Antimicrobial tests</h2>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        *TO BE FILLED*
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+
+
+      </div>
+    </main>
+
+    <div class="fab-border"></div>
+    <a class="fab" href="#">
+      <img src="../assets/images/icons/next.svg" data-toggle="tooltip" data-placement="left" title="Next section" class="fab-next-section"></img>
+      <img src="../assets/images/icons/top.svg" data-toggle="tooltip" data-placement="left" title="Top"  class="fab-top-section"></img>
+    </a>
+    <div class="circular-progress-container">
+      <svg class="progress-svg" viewbox="0 0 84 84">
+        <circle class="progress-pie" cx="42" cy="42" r="40"></circle>
+      </svg>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-brand"><a href="#" class="">iGEM IIT Roorkee</a></div>
+      <div class="footer-lists">
+        <div class="footer-list">
+          <div class="footer-list-title">People</div>
+          <a href="../Team/" class="tab footer-list-item"><span>Team</span></a>
+          <a href="../Attributions" class="tab footer-list-item"><span>Attributions</span></a>
+          <a href="../Sponsors/" class="tab footer-list-item"><span>Sponsors</span></a>
+        </div>
+        <div class="footer-list">
+          <div class="footer-list-title">Project</div>
+          <a href="../Description" class="tab footer-list-item"><span>Description</span></a>
+          <a href="../Problem" class="tab footer-list-item"><span>Problem</span></a>
+          <a href="../Design" class="tab footer-list-item"><span>Design</span></a>
+          <a href="..Implementation" class="tab footer-list-item"><span>Implementation</span></a>
+          <a href="../Contrbutions" class="tab footer-list-item"><span>Contributions</span></a>
+        </div>
+        <div class="footer-list">
+          <div class="footer-list-title">Human Practices</div>
+          <a href="../Human_Practices" class="tab footer-list-item"><span>Overview</span></a>
+          <a href="../Education" class="tab footer-list-item"><span>Science Communication and Public Engagement</span></a>
+          <a href="../Integrated_HP" class="tab footer-list-item"><span>Integrated Human Practices</span></a>
+          <a href="../Sustainable" class="tab footer-list-item"><span>Sustainable Development Goals</span></a>
+          <a href="../Collaborations" class="tab footer-list-item"><span>Collaborations</span></a>
+        </div>
+        <div class="footer-list">
+          <div class="footer-list-title">Dry Lab</div>
+          <a href="../DryLab" class="tab footer-list-item"><span>Overview</span></a>
+          <a href="../Model" class="tab footer-list-item"><span>Modelling</span></a>
+          <a href="../DryLab_Results" class="tab footer-list-item"><span>Results</span></a>
+          <a href="../Software" class="tab footer-list-item"><span>Software</span></a>
+        </div>
+        <div class="footer-list">
+          <div class="footer-list-title">Wet Lab</div>
+          <a href="../Experiments" class="tab footer-list-item"><span>Overview</span></a>
+          <a href="../Results" class="tab footer-list-item footer-list-item-active"><span>Results</span></a>
+          <a href="../Protocols" class="tab footer-list-item"><span>Protocols</span></a>
+          <a href="../Parts" class="tab footer-list-item"><span>Parts</span></a>
+          <a href="#" class="tab footer-list-item"><span>Safety</span></a>
+          <a href="../References" class="tab footer-list-item"><span>References</span></a>
+        </div>
+        <div class="footer-list">
+          <div class="footer-list-title">Machine Learning</div>
+          <a href="../ML_Overview" class="tab footer-list-item"><span>Overview</span></a>
+          <a href="../ML_Model" class="tab footer-list-item"><span>Model</span></a>
+          <a href="../ML_Results" class="tab footer-list-item"><span>Results</span></a>
+          <a href="../ML_Impac" class="tab footer-list-item"><span>Impact</span></a>
+        </div>
+      </div>
+      <div class="footer-info">
+        <div class="footer-info-address">
+          <div class="footer-address">
+            The Department of Biotechnology, <br />
+            Indian Institute of Technology, Roorkee <br />
+            Roorkee, Uttarakhand, <br />
+            India - 247667
+            </div>
+          <img src="../assets/images/images/james_thomason_building.svg" class="footer-james-thomason"></img>
+        </div>
+        <div class="footer-info-socials">
+          <div class="footer-section-heading">Contact us:</div>
+          <div class="contacts">
+            <a href="tel:+011-2875468" class="contact"><span>+011-2875468</span></a>
+            <a href="tel:+91-76487699" class="contact"><span>+91-76487699</span></a>
+            <a href="mailto:igem@iitr.ac.in" class="contact"><span>igem@iitr.ac.in</span></a>
+          </div>
+          <div class="footer-section-heading">Follow us on:</div>
+          <div class="socials">
+            <a href="#" class="social"><img src="../assets/images/icons/instagram.svg" alt="Instagrm"></a>
+            <a href="#" class="social"><img src="../assets/images/icons/linkedin.svg" alt="Linkedin"></a>
+            <a href="#" class="social"><img src="../assets/images/icons/facebook.svg" alt="Facebook"></a>
+            <a href="#" class="social"><img src="../assets/images/icons/twitter.svg" alt="Twitter"></a>
+          </div>
+        </div>
+        <img src="../assets/images/images/james_thomason_building.svg" class="footer-james-thomason-mobile"></img>
+      </div>
+    </footer>
+
+    <script src="../js/igem-reset.js"></script>
+    <script src="../js/jquery-slim.min.js"></script>
+    </script>
+    <script src="../js/jquery.waypoints.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/holder.min.js"></script>
+    <script src="../js/index.js"></script>
+    <script>
+      Holder.addTheme("thumb", {
+        bg: "#55595c",
+        fg: "#eceeef",
+        text: "Thumbnail",
+      });
+    </script>
+  </body>
+</html>
