@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="Pyomancer by iGEM IIT Roorkee" />
+    <meta name="author" content="Team iGEM IIT Roorkee" />
+    <meta name="theme-color" content="#272727">
+    <title>PYOMANCER</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="../css/igem_reset.css" rel="stylesheet" />
+    <link href="../css/styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header>
+      <div class="navbar-overlay navbar-overlay-1"></div>
+      <div class="navbar-overlay navbar-overlay-2"></div>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top wiki-navbar">
+        <a class="navbar-brand" href="../">PYOMANCER</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto tabs-wrapper">
+            <li class="nav-item dropdown">
+                <a
+                  class="tab nav-link"
+                  href="#"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  People
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="../Team/"><span>Team</span></a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../Attributions"><span>Attributions</span></a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../Sponsors/"><span>Sponsors</span></a>
+                  </li>
+                </ul>
+              </li>
+            <li class="nav-item dropdown">
+              <a
+                class="tab nav-link"
+                href="#"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Project
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../Description"><span>Description</span></a></li>
+                <li><a class="dropdown-item" href="../Problem"><span>Problem</span></a></li>
+                <li><a class="dropdown-item" href="../Design"><span>Design</span></a></li>
+                <li><a class="dropdown-item" href="..Implementation"><span>Implementation</span></a></li>
+                <li><a class="dropdown-item" href="../Contrbutions"><span>Contributions</span></a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="tab nav-link"
+                href="#"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Human Practices
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../Human_Practices"> <span>Overview</span></a></li>
+                <li><a class="dropdown-item" href="../Education"> <span>Science Communication & Public Engagement</span> </a></li>
+                <li><a class="dropdown-item" href="../Integrated_HP"> <span>Integrated Human Practices</span> </a></li>
+                <li><a class="dropdown-item" href="../Sustainable"> <span>Sustainable Development Goals</span> </a></li>
+                <li><a class="dropdown-item" href="../Collaborations"> <span>Collaborations</span> </a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="tab nav-link"
+              href="#"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Dry Lab
+              </a>
+              <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../DryLab"> <span>Overview</span></a></li>
+              <li><a class="dropdown-item" href="../Model"> <span>Modelling</span> </a></li>
+              <li><a class="dropdown-item" href="../DryLab_Results"> <span>Results</span> </a></li>
+              <li><a class="dropdown-item" href="../Software"> <span>Software</span> </a></li>
+              </ul>
+           </li>
+           <li class="nav-item dropdown">
+            <a class="tab nav-link nav-link-active"
+            href="#"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+            >Wet Lab
+            </a>
+            <ul class="dropdown-menu">
+            <li><a class="dropdown-item dropdown-item-active" href="../Experiments"> <span>Overview</span></a></li>
+            <li><a class="dropdown-item" href="../Results"> <span>Results</span> </a></li>
+            <li><a class="dropdown-item" href="../Protocols"> <span>Protocols</span> </a></li>
+            <li><a class="dropdown-item" href="../Parts"> <span>Parts</span> </a></li>
+            <li><a class="dropdown-item" href="#"> <span>Safety</span> </a></li>
+            <li><a class="dropdown-item" href="../References"> <span>References</span> </a></li>
+            </ul>
+         </li>
+         <li class="nav-item dropdown">
+          <a class="tab nav-link"
+          href="#"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+          >Machine Learning
+          </a>
+          <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="../ML_Overview"> <span>Overview</span></a></li>
+          <li><a class="dropdown-item" href="../ML_Model"> <span>Model</span> </a></li>
+          <li><a class="dropdown-item" href="../ML_Results"> <span>Results</span> </a></li>
+          <li><a class="dropdown-item" href="../ML_Impact"> <span>Impact</span> </a></li>
+          </ul>
+       </li>
+            <li class="nav-item">
+              <a class="tab nav-link" href="#">Judges</a>
+            </li>
+            <li class="nav-item">
+              <a class="tab nav-link" href="#">Notebook</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="header-progress">
+        <div class="header-progress-indicator"></div>
+      </div>
+      
+    </header>
+
+    <div class="banner">
+      <p class="text-center font-size-24">
+        <h1 class="banner-h1">Wet Lab</h1>
+        <h2 class="banner-h2">Overview</h2>
+        
+        <div class="banner-overlay"></div>
+      </p>
+    </div>
+
+    <main role="main" class="container wiki">    
+
+      <div class="side-nav">
+        <div class="page-title">Overview</div>
+        <div class="side-nav-menu">
+        </div>
+      </div>
+
+      <div class="wiki-content">
+        <h1 class="wiki-h wiki-h1 wiki-section-start" id="wiki-section-1">Construction</h1>
+        <br/>
+
+        <p class="wiki-p wiki-bold" style="color:#6196D6;">
+          In the Design section, we designed Seekercin-encoding sequences by fusing the tail fiber sequence of a
+          phage to that of an R pyocin. In this section, we describe how we plan to assemble the DNA correctly and
+          introduce our constructed expression plasmid into a competent host. We used Gibson assembly to
+          assemble the fragments.
+        </p>
+        <br/>
+        <br/>
+
+        <h2 class="wiki-h wiki-h2" style="color:#5C5C5C;">Gibson Assembly</h2>
+        <br/>
+        <p class="wiki-p">
+          We choose to assemble our ordered gBlocks gene fragments into the expression plasmid using Gibson Assembly, as we have to
+          assemble a total of 9 fragments. Other reasons we chose Gibson are its lower relative cost and number of steps compared to
+          conventional cloning and because it doesn't leave restriction site scars. The need for a PCR extension step of the ordered fragments
+          is eliminated as they come with the necessary overlaps. However, the overlaps between the terminal fragments and the plasmid
+          backbone were not included. We would linearize the pET-28a plasmid with BamHI and use PCR extension to add the overlap
+          sequences with appropriate primers.
+        </p>
+
+        <br/>
+        <br/>
+        <img src="../assets/images/images/WL_Overview_1.jpg" alt="image to be added" />
+        <br/>
+        <br/>
+
+        <p class="wiki-p">
+          As we want to assemble more than 5 parts simultaneously, it was recommended that we follow the protocol for two-step Gibson
+          Assembly. It is a one-pot reaction that requires two separate additions of master mix; one for the exonuclease and annealing step
+          and second for the DNA polymerase and ligation steps. For the two-step approach, different incubation temperatures are used in the
+          two steps.
+        </p>
+
+        <br/>
+        <br/>
+        <br/>
+        <h2 class="wiki-h wiki-h2" style="color:#5C5C5C;">Transformation</h2>
+        <br/>
+        <p class="wiki-p">
+          Transformation of plasmids into chemically competent E. coli BL21 DE3 cells would be done by heat shock method. Prior to this, the
+          mixture would be digested by BamHI to linearize the plasmid backbones that did not undergo successful Gibson, ensuring that only
+          correctly assembled plasmids get transformed. The transformed cells would be selected for by growing on media containing
+          kanamycin.  The plasmid would be extracted after agarose gel electrophoresis and sent for sequence verification.
+        </p>
+
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        
+
+
+        <h1 class="wiki-h wiki-h1  wiki-section-start" id="wiki-section-2">Production</h1>
+        <br/>
+
+        <p class="wiki-p wiki-bold" style="color:#6196D6;">
+          Here we describe the process for expressing our Seekercins in E. coli and producing high-purity solutions
+          with appreciable yield.
+        </p>
+
+        <br/>
+        <br/>
+
+        <h2 class="wiki-h wiki-h2" style="color:#5C5C5C;">Expression and Purification</h2>
+        <br/>
+        <p class="wiki-p">
+          In 2011, Williams et al demonstrated that functional pyocins could be produced in E.coli with appreciable yield. Transformed E. coli
+          BL21 ED3 cells will be grown overnight in a tryptic soy broth till it reaches an OD600 of 1.0.  Expression would be induced by
+          addition of IPTG. This would activate the T7-lac promoter of the pET28a plasmid and transcription of the several protein subunits of
+          pyocins would begin. After roughly 3 hours, complete cell lysis of the culture should occur due to the presence of a lysis cassette in
+          the gene cluster. As shown in the literature, the Seekercins would be purified by three step high-speed ultracentrifugation at
+          increasing speeds and resuspension in TN 50 buffer. This should achieve approximately 90% Seekercin purity and net approximately
+          10^10 killing units per ml. Since E. coli lysates do not typically have anti- Acinetobacter properties, this purity should be sufficient for
+          antimicrobial activity tests. We would perform the same purification procedure on non-transformed E. coli lysates as well, to
+          provide a negative control solution for the coming tests.
+        </p>
+
+        <br/>
+        <br/>
+        <br/>
+
+        <h2 class="wiki-h wiki-h2" style="color:#5C5C5C;">Yield Assessment</h2>
+        <br/>
+        <p class="wiki-p">
+          To assess the yield of our Seekercins in comparison to other cell proteins, we would be using the Bradford assay. This is a simple and
+          accurate spectroscopic method which relies on measuring the absorbance of a protein solution dyed with Coomassie Brilliant Blue
+          G-250 dye (Bradford reagent) at 595 nm. The assay would be performed on both the crude lysate as well as the centrifuge-purified
+          solution, so as to calculate the ratio between Seekercin to total protein produced, as a simple indicator of yield.
+        </p>
+
+        <br/>
+        <br/>
+        <br/>
+
+        <h2 class="wiki-h wiki-h2" style="color:#5C5C5C;">Advanced purification</h2>
+        <br/>
+        <p class="wiki-p">
+          Performing protein characterization assays like CD spectroscopy require a highly pure protein solution. To achieve this purity, we
+          plan to use an alternate dialysis method described by Scholl et al. The impure solution would be ultracentrifuged, resuspended in a
+          Tris buffer and subjected to repeated filtration through 100kDa Amicon molecular filters. The resultant purity should be sufficient for
+          working with a spectrophotometer.
+        </p>
+
+
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        
+
+
+        <h1 class="wiki-h wiki-h1  wiki-section-start" id="wiki-section-3">Testing</h1>
+        <br/>
+
+        <p class="wiki-p wiki-bold" style="color:#6196D6;">
+          Here, we attempt to validate the design of our Seekercins by testing their effectiveness against
+          Acinetobacter baumannii clinical strains.
+        </p>
+
+        <br/>
+        <br/>
+
+        <h2 class="wiki-h wiki-h2" style="color:#5C5C5C;">Antibacterial Spectrum Determination</h2>
+        <br/>
+        <p class="wiki-p">
+          Semiquantitative assays for determination of strain spectrum and specificity would
+          be performed. The purified Seekercins would be tested against 50+ Acinetobacter
+          baumannii isolates, E. coli lab strains, Pseudomonas aeruginosa PAO1 and other
+          common pathogenic bacteria. The Pathania lab (our PI’s!) hosts a large library of
+          Acinetobacter baumannii clinical strains ranging from MDR to XDR in nature.
+        </p>
+
+        <br/>
+        <img src="../assets/images/images/WL_Overview_2.png" alt="image to be added" />
+        <br/>
+
+        <br/>
+        <p class="wiki-p">
+          Serially diluted samples of Seekercins would be spotted on lawns of bacteria and
+          incubated overnight. Activity would be shown by a circular clear zone of inhibition
+          with a sharp edge. Solutions of purified E. coli lysates would also be spotted as a
+          negative control.
+        </p>
+        
+        <br/>
+        <p class="wiki-p">
+          Mueller-Hinton agar plates will be used for growing the lawns, as they are optimal
+          for antimicrobial testing. It contains starch which is known to absorb toxins
+          released from bacteria, so that they cannot interfere with antimicrobials. Secondly,
+          it is a loose agar which allows for better diffusion than most other plates, which
+          would show a truer zone of inhibition.
+        </p>
+
+        <br/>
+        <p class="wiki-p">
+          A meta analysis of antibiotic resistance patterns along with those of pyocin
+          susceptibility of tested strains would hopefully give us some new insights.
+        </p>
+
+
+        <br/>
+        <br/>
+        <br/>
+
+        <h2 class="wiki-h wiki-h2" style="color:#5C5C5C;">Quantitative assays</h2>
+        <br/>
+
+        <h4 class="wiki-h wiki-h4" style="color:#010104;">Broth microdilution</h4>
+        <br/>
+        <p class="wiki-p">
+          Broth microdilution method is widely used because of its accuracy and clear results. In this method, wells are filled with broth
+          containing different concentrations of the antibiotic. These are then inoculated with bacteria and incubated overnight. The next day,
+          the contents of the wells are extracted and plated on agar, followed by counting of surviving cells using a colony counter. This would
+          allow us to determine the minimum inhibitory concentration as well as the number of bactericidal events per ml.
+        </p>
+        <br/>
+        <p class="wiki-p">
+          It has been shown by Kageyama et al that one pyocin molecule is capable of killing one bacterial cell, and that is how we define a
+          bactericidal event. Probabilistically, bacterial cells may be met by multiple pyocins, one pyocin or no pyocins at all. We must
+          account for this variability by relating the number of bactericidal events to a certain measurable quantity. It was suggested by our
+          advisor that we employ a Poisson distribution, a discrete probability distribution that expresses the probability of a given number of
+          events occurring in a fixed volume if these events occur with a known constant mean rate and independently of the time since the
+          last event, which is exactly the case for pyocins.
+        </p>
+        <br/>
+        <img src="../assets/images/images/WL_Overview_3.jpg" alt="image to be added" />
+        <br/>
+        <p class="wiki-p">
+          Based on the work of Scholl et. al, the number of bactericidal events are related to the fraction of bacterial survivors in a Poisson
+          distribution, m = −lnS, where m is the average number of bactericidal events per bacterial cell, and S is the fraction of survivors. This
+          would allow us to calculate the total number of bactericidal events per ml, which equals m times the number of bacterial cells per ml.
+        </p>
+        <br/>
+        <br/>
+
+
+        <h4 class="wiki-h wiki-h4" style="color:#010104;">Time-Kill Assay</h4>
+        <br/>
+        <p class="wiki-p">
+          An effective antimicrobial should have a known and reliable duration required for it to take effect. We plan to observe the
+          bactericidal effect of Seekercins over time in-vitro. This would give us an idea of the time-frame required for sufficient 3-log
+          reduction of cell count. Seekercins at twice the calculated value of MIC would be added to a susceptible bacterial culture of 10^8
+          CFU/100 μl. Samples would be extracted and the number of surviving cells counted at regular intervals.
+        </p>
+        <br/>
+        <p class="wiki-p">
+          We felt this was a necessary experiment, as it is important to characterize the time-activity of our designed antimicrobials. Future
+          iGEM teams may use pyocins for many applications that we may have not thought of yet, and this would give them a fair idea of how
+          fast their designs might take to work, and if it would make sense in their application.
+        </p>
+
+        <br/>
+        <br/>
+
+        <h4 class="wiki-h wiki-h4" style="color:#010104;">Cell line antimicrobial assay</h4>
+        <br/>
+        <p class="wiki-p">
+          As a proof of concept for the application of treating ventilator-associated pneumonia, an experiment to test the efficacy of
+          Seekercins on lung epithelial cell lines would be conducted. Activity in vitro vs in cells could differ due to a multitude of factors
+          including but not limited to diffusion in the medium, cell permeability, inactivation due to native proteins, and activation of virulence
+          factors. Evidence of antimicrobial action on the intended medium would be a good validation of our project in the Therapeutics track.
+        </p>
+        <br/>
+        <p class="wiki-p">
+          MIC determinations will be  performed on lung epithelial cell line (A549) monolayers in 96-well plates infected with A. baumannii
+          test strains at MOI of 100 – 1000. Prior to infection, epithelial cells will be maintained in antimicrobial-free growth medium based on
+          DMEM. On the day of infection, 2-fold serial dilutions of pyocins in antibiotic-free DMEM will be added to each well. After incubation,
+          bacterial cell numbers will be calculated by serially diluting and spotting the dilutions on LB agar plates. Epithelial cell viability would
+          be calculated by performing an MTT assay using a cell proliferation kit (as per manufacturer’s instructions).
+        </p>
+
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        
+
+
+        <h1 class="wiki-h wiki-h1  wiki-section-start" id="wiki-section-4">Biochemical Characterization</h1>
+        <br/>
+
+        <p class="wiki-p wiki-bold" style="color:#6196D6;">
+          The characterization of Seekercins under different environmental conditions is crucial for determining the
+          feasibility of a proposed implementation, for our project as well as future projects. Observing the structure 
+          of the complexes over a range of physical factors would allow for development of optimal delivery media
+          or optimal storage conditions.
+        </p>
+
+        <br/>
+        <br/>
+
+        <h2 class="wiki-h wiki-h2" style="color:#5C5C5C;">Temperature and pH stability test by CD spectroscopy</h2>
+        <br/>
+        <p class="wiki-p">
+            Circular Dichroism is an absorption spectroscopy method based on the differential absorption of left and right circularly polarized light, known as ellipticity. It is widely used in identifying conformational changes of proteins. The peptide bonds in proteins are optically active and secondary structures such as α-helices and β-sheets exhibit unique spectra that form the basis for protein secondary structure analysis. A change in these secondary structures would produce a change in the ellipticity recorded by the instrument.
+        </p>
+        <br/>
+        <p class="wiki-p">
+            We aim to use this method to learn the range of pH and temperature over which the Seekercins maintain their native conformation. High purity Seekercins suspended in a special CD buffer would be pipetted into a quartz cuvette. Measurements of ellipticity would be taken by a calibrated spectrophotometer in units of millidegrees in the range of 0-80 ℃.
+        </p>
+        <br/>
+        <p class="wiki-p">
+            For pH range, a similar experiment would be conducted with multiple cuvettes, each containing a highly pure pyocin solution with different pH buffers in the range of 4-10. The data would be analysed using the DichroWeb interface to find out the limits of stability.
+        </p>
+        <br/>
+        <p class="wiki-p">
+            In reporting CD data for large biomolecules such as pyocins it is necessary to convert the data into a normalized value that is independent of molecular length. To do this the molar ellipticity is divided by the number of residues or monomer units in the molecule.
+        </p>
+
+
+
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        
+
+
+        <h1 class="wiki-h wiki-h1  wiki-section-start" id="wiki-section-5">Resistance development studies</h1>
+        <br/>
+
+        <p class="wiki-p wiki-bold" style="color:#6196D6;">
+            A concern when designing any antimicrobial agent is the potential for development of resistant 
+            strains. Wild-type R pyocins have been shown to have extremely low frequency of resistance when
+             used against their natural host, at the order of 10^-8. Here, we try to assess the frequency of
+              resistance to Seekercins by Acinetobacter baumannii, a bacteria known to develop rapid resistance
+               to all classes of antibiotics.
+        </p>
+
+        <br/>
+        <br/>
+
+        <h2 class="wiki-h wiki-h2" style="color:#5C5C5C;">Spontaneous mutation frequency
+           assay(aka. Frequency of Resistance analysis)</h2>
+        <br/>
+        <p class="wiki-p">
+            An experiment to calculate the frequency at which resistant mutants emerge when
+             exposed to inhibitory concentrations of Seekercins. The first step would be to expose a
+              culture of susceptible A baumannii to a high dose, about 4 times the calculated MIC,
+               so as to ensure that all bacterial cells come into contact with at least one pyocin molecule
+               . This would ensure that only true resistant strains survive in the culture.This would be followed
+                by plating the cultures and counting the remaining number of colony forming units.
+        </p>
+
+        <br/>
+        <br/>
+        <br/>
+
+        <h2 class="wiki-h wiki-h2" style="color:#5C5C5C;">LPS analysis of resistant mutants and susceptible strains</h2>
+        <br/>
+        <p class="wiki-p">
+            Seekercins bind specifically to surface receptors on the Gram negative cell wall, which are often crucial
+             virulence or fitness factors. The development of resistance against pyocins is thought to be associated with
+              modification or loss of these receptors. The lipooligosaccharide of Acinetobacter baumannii has been shown
+               to be an important virulence and antibiotic resistance factor. Further, it has been shown that LPS-deficient
+                A. baumannii have increased permeability and show higher sensitivity to certain antibiotics and antimicrobial
+                 peptides.
+        </p>
+        <br/>
+        <p class="wiki-p">
+            We would attempt to demonstrate that pyocin-resistant
+             A. baumannii mutants show phenotype for reduced LPS/LOS as 
+             compared to susceptible strains. LPS would be extracted using
+              the Bacterial lipopolysaccharide extraction  kit from iNtRON Biotech.
+               THe LPS preparations would be separated on a 15% SDS-PAGE and visualized 
+               using 2D-Silver Stain Reagent II. Lack of a band in comparison to LPS band 
+               of susceptible bacteria would indicate loss of LPS.
+        </p>
+
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>          
+        <br/>
+        <br/>
+
+      </div>
+    </main>
+
+    <div class="fab-border"></div>
+    <a class="fab" href="#">
+      <img src="../assets/images/icons/next.svg" data-toggle="tooltip" data-placement="left" title="Next section" class="fab-next-section"></img>
+      <img src="../assets/images/icons/top.svg" data-toggle="tooltip" data-placement="left" title="Top"  class="fab-top-section"></img>
+    </a>
+    <div class="circular-progress-container">
+      <svg class="progress-svg" viewbox="0 0 84 84">
+        <circle class="progress-pie" cx="42" cy="42" r="40"></circle>
+      </svg>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-brand"><a href="#" class="">iGEM IIT Roorkee</a></div>
+      <div class="footer-lists">
+        <div class="footer-list">
+          <div class="footer-list-title">People</div>
+          <a href="../Team/" class="tab footer-list-item"><span>Team</span></a>
+          <a href="../Attributions" class="tab footer-list-item"><span>Attributions</span></a>
+          <a href="../Sponsors/" class="tab footer-list-item"><span>Sponsors</span></a>
+        </div>
+        <div class="footer-list">
+          <div class="footer-list-title">Project</div>
+          <a href="../Description" class="tab footer-list-item"><span>Description</span></a>
+          <a href="../Problem" class="tab footer-list-item"><span>Problem</span></a>
+          <a href="../Design" class="tab footer-list-item"><span>Design</span></a>
+          <a href="..Implementation" class="tab footer-list-item"><span>Implementation</span></a>
+          <a href="../Contrbutions" class="tab footer-list-item"><span>Contributions</span></a>
+        </div>
+        <div class="footer-list">
+          <div class="footer-list-title">Human Practices</div>
+          <a href="../Human_Practices" class="tab footer-list-item"><span>Overview</span></a>
+          <a href="../Education" class="tab footer-list-item"><span>Science Communication and Public Engagement</span></a>
+          <a href="../Integrated_HP" class="tab footer-list-item"><span>Integrated Human Practices</span></a>
+          <a href="../Sustainable" class="tab footer-list-item"><span>Sustainable Development Goals</span></a>
+          <a href="../Collaborations" class="tab footer-list-item"><span>Collaborations</span></a>
+        </div>
+        <div class="footer-list">
+          <div class="footer-list-title">Dry Lab</div>
+          <a href="../DryLab" class="tab footer-list-item"><span>Overview</span></a>
+          <a href="../Model" class="tab footer-list-item"><span>Modelling</span></a>
+          <a href="../DryLab_Results" class="tab footer-list-item"><span>Results</span></a>
+          <a href="../Software" class="tab footer-list-item"><span>Software</span></a>
+        </div>
+        <div class="footer-list">
+          <div class="footer-list-title">Wet Lab</div>
+          <a href="../Experiments" class="tab footer-list-item footer-list-item-active"><span>Overview</span></a>
+          <a href="../Results" class="tab footer-list-item"><span>Results</span></a>
+          <a href="../Protocols" class="tab footer-list-item"><span>Protocols</span></a>
+          <a href="../Parts" class="tab footer-list-item"><span>Parts</span></a>
+          <a href="#" class="tab footer-list-item "><span>Safety</span></a>
+          <a href="../References" class="tab footer-list-item"><span>References</span></a>
+        </div>
+        <div class="footer-list">
+          <div class="footer-list-title">Machine Learning</div>
+          <a href="../ML_Overview" class="tab footer-list-item"><span>Overview</span></a>
+          <a href="../ML_Model" class="tab footer-list-item"><span>Model</span></a>
+          <a href="../ML_Results" class="tab footer-list-item"><span>Results</span></a>
+          <a href="../ML_Impac" class="tab footer-list-item"><span>Impact</span></a>
+        </div>
+      </div>
+      <div class="footer-info">
+        <div class="footer-info-address">
+          <div class="footer-address">
+            The Department of Biotechnology, <br />
+            Indian Institute of Technology, Roorkee <br />
+            Roorkee, Uttarakhand, <br />
+            India - 247667
+            </div>
+          <img src="../assets/images/images/james_thomason_building.svg" class="footer-james-thomason"></img>
+        </div>
+        <div class="footer-info-socials">
+          <div class="footer-section-heading">Contact us:</div>
+          <div class="contacts">
+            <a href="tel:+011-2875468" class="contact"><span>+011-2875468</span></a>
+            <a href="tel:+91-76487699" class="contact"><span>+91-76487699</span></a>
+            <a href="mailto:igem@iitr.ac.in" class="contact"><span>igem@iitr.ac.in</span></a>
+          </div>
+          <div class="footer-section-heading">Follow us on:</div>
+          <div class="socials">
+            <a href="#" class="social"><img src="../assets/images/icons/instagram.svg" alt="Instagrm"></a>
+            <a href="#" class="social"><img src="../assets/images/icons/linkedin.svg" alt="Linkedin"></a>
+            <a href="#" class="social"><img src="../assets/images/icons/facebook.svg" alt="Facebook"></a>
+            <a href="#" class="social"><img src="../assets/images/icons/twitter.svg" alt="Twitter"></a>
+          </div>
+        </div>
+        <img src="../assets/images/images/james_thomason_building.svg" class="footer-james-thomason-mobile"></img>
+      </div>
+    </footer>
+
+    <script src="../js/igem-reset.js"></script>
+    <script src="../js/jquery-slim.min.js"></script>
+    </script>
+    <script src="../js/jquery.waypoints.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/holder.min.js"></script>
+    <script src="../js/index.js"></script>
+    <script>
+      Holder.addTheme("thumb", {
+        bg: "#55595c",
+        fg: "#eceeef",
+        text: "Thumbnail",
+      });
+    </script>
+  </body>
+</html>
