@@ -216,3 +216,19 @@ const progressIndicator = () => {
   var scrolled = (winScroll / height) * 100
   $(".header-progress-indicator").css("width", `${scrolled}%`)
 }
+
+
+var coll = document.getElementsByClassName("wiki-collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("wiki-collapsible-active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
