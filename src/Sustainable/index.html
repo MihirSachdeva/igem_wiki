@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="Pyomancer by iGEM IIT Roorkee" />
+    <meta name="author" content="Team iGEM IIT Roorkee" />
+    <meta name="theme-color" content="#272727">
+    <title>PYOMANCER</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="../css/igem_reset.css" rel="stylesheet" />
+    <link href="../css/styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header>
+      <div class="navbar-overlay navbar-overlay-1"></div>
+      <div class="navbar-overlay navbar-overlay-2"></div>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top wiki-navbar">
+        <a class="navbar-brand" href="../">PYOMANCER</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto tabs-wrapper">
+            <li class="nav-item dropdown">
+                <a
+                  class="tab nav-link"
+                  href="#"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  People
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="../Team/"><span>Team</span></a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../Attributions"><span>Attributions</span></a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../Sponsors/"><span>Sponsors</span></a>
+                  </li>
+                </ul>
+              </li>
+            <li class="nav-item dropdown">
+              <a
+                class="tab nav-link"
+                href="#"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Project
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../Description"><span>Description</span></a></li>
+                <li><a class="dropdown-item" href="../Problem"><span>Problem</span></a></li>
+                <li><a class="dropdown-item" href="../Design"><span>Design</span></a></li>
+                <li><a class="dropdown-item" href="..Implementation"><span>Implementation</span></a></li>
+                <li><a class="dropdown-item" href="../Contrbutions"><span>Contributions</span></a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="tab nav-link  nav-link-active"
+                href="#"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Human Practices
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../Human_Practices"> <span>Overview</span></a></li>
+                <li><a class="dropdown-item" href="../Education"> <span>Science Communication & Public Engagement</span> </a></li>
+                <li><a class="dropdown-item" href="../Integrated_HP"> <span>Integrated Human Practices</span> </a></li>
+                <li><a class="dropdown-item  dropdown-item-active" href="#"> <span>Sustainable Development Goals</span> </a></li>
+                <li><a class="dropdown-item" href="../Collaborations"> <span>Collaborations</span> </a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="tab nav-link"
+              href="#"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Dry Lab
+              </a>
+              <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../DryLab"> <span>Overview</span></a></li>
+              <li><a class="dropdown-item" href="../Model"> <span>Modelling</span> </a></li>
+              <li><a class="dropdown-item" href="../DryLab_Results"> <span>Results</span> </a></li>
+              <li><a class="dropdown-item" href="../Software"> <span>Software</span> </a></li>
+              </ul>
+           </li>
+           <li class="nav-item dropdown">
+            <a class="tab nav-link"
+            href="#"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+            >Wet Lab
+            </a>
+            <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="../Experiments"> <span>Overview</span></a></li>
+            <li><a class="dropdown-item" href="../Results"> <span>Results</span> </a></li>
+            <li><a class="dropdown-item" href="../Protocols"> <span>Protocols</span> </a></li>
+            <li><a class="dropdown-item" href="../Parts"> <span>Parts</span> </a></li>
+            <li><a class="dropdown-item" href="../Safety"> <span>Safety</span> </a></li>
+            <li><a class="dropdown-item" href="../References"> <span>References</span> </a></li>
+            </ul>
+         </li>
+         <li class="nav-item dropdown">
+          <a class="tab nav-link"
+          href="#"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+          >Machine Learning
+          </a>
+          <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="../ML_Overview"> <span>Overview</span></a></li>
+          <li><a class="dropdown-item" href="../ML_Model"> <span>Model</span> </a></li>
+          <li><a class="dropdown-item" href="../ML_Results"> <span>Results</span> </a></li>
+          <li><a class="dropdown-item" href="../ML_Impact"> <span>Impact</span> </a></li>
+          </ul>
+       </li>
+            <li class="nav-item">
+              <a class="tab nav-link" href="#">Judges</a>
+            </li>
+            <li class="nav-item">
+              <a class="tab nav-link" href="#">Notebook</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="header-progress">
+        <div class="header-progress-indicator"></div>
+      </div>
+      
+    </header>
+
+    <div class="banner">
+      <p class="text-center font-size-24">
+        <h1 class="banner-h1">Human Practices</h1>
+        <h2 class="banner-h2">Sustainable Development Goals</h2>
+        
+        <div class="banner-overlay"></div>
+      </p>
+    </div>
+
+    <main role="main" class="container wiki">    
+
+      <div class="side-nav">
+        <div class="page-title">Sustainable Developmet Goals</div>
+        <div class="side-nav-menu">
+        </div>
+      </div>
+
+      <div class="wiki-content">
+        <h1 class="wiki-h wiki-h1 wiki-section-start" id="SDG">Sustainable Developmet Goals</h1>
+        <!-- <h2 class="wiki-h wiki-h2">Heading 2</h2>
+        <h3 class="wiki-h wiki-h3">Heading 3</h3> -->
+        
+        <p class="wiki-p">
+          Transforming the world requires patience, effort, and time. 
+          Especially when it comes to promoting equality, peace, harmony,
+           and care for the environment, the United Nations (UN) has framed
+            17 sustainable development goals. The ultimate target to achieve 
+            all of these 17 goals is the year 2030. 
+        </p>
+        
+        <p class="wiki-p">
+          Moving on, as per the study published by Dr. Victor D Rosenthal, 
+          Founder and Chairman of The International Nosocomial Infection 
+          Control Consortium (INICC), The data was collected from 236,700 
+          ICU patients for 970,713 bed-days in 20 Indian cities during ten 
+          years. The results pooled device-associated healthcare-associated 
+          infection rates for adult and pediatric ICUs were 5.1 central 
+          line-associated bloodstream infections (CLABSIs)/1,000 central 
+          line-days, 9.4 cases of ventilator-associated pneumonia (VAPs)/1,000 
+          mechanical ventilator-days, and 2.1 catheter-associated urinary tracts 
+          infections/1,000 urinary catheter-days. In neonatal ICUs (NICUs) 
+          pooled rates were 36.2 CLABSIs/1,000 central line-days and 1.9 VAPs/1,000 
+          mechanical ventilator-days. Non-ventilator associated pneumonia 
+          represents less than 10 percent of all healthcare-acquired pneumonia, 
+          usually caused after aspiration.
+        </p>
+
+        <p class="wiki-p">
+          These healthcare-associated infections are vastly related to 
+          Antimicrobial Resistance (AMR), and the issue is becoming a 
+          significant threat to the country as cases have increased 
+          enormously. There is a connection between HAI and AMR as the 
+          approach taken, at times, is to prevent hospital-acquired infections 
+          with antibiotics, which leads to many people consuming a large 
+          proportion of antibiotics resulting in resistance towards those drugs.
+        </p>
+
+        <p class="wiki-p">
+          Thus, to maintain world peace and harmony, team iGEM IIT Roorkee 
+          decides to promote the sustainable development goal (SDGs) of the 
+          United Nations to achieve a better and more sustainable future for 
+          all. We want to achieve this by focusing on the SDGs, including 
+          good health and well being, quality education, and reduced inequalities.
+        </p>
+
+        <h1 class="wiki-h wiki-h1 wiki-section-start" id="SDGs_Mapping_and_Implementation">SDGs Mapping and Implementation</h1>
+        <div class="wiki-graphic">
+          <img src="../assets/images/images/HP_SDG_1.png" alt="" class="wiki-graphic-image">
+        </div>
+
+        <h4 class="wiki-h wiki-h3">Good Health and Well Being</h4>
+        <p class="wiki-p">
+          To ensure a healthy life and to provide the revolutionized 
+          treatment of HAIs, our team chooses Good Health and Well Being 
+          as our first goal. The hospital or clinic environment are at the 
+          highest risk of acquiring these infections, especially the intensive 
+          care units, and operating rooms. Hence, it is of utmost importance 
+          that control measures are practiced to stop the spreading of diseases. 
+          We have done an awareness program for students of different age groups, 
+          through which we taught them about the AMR because education is the 
+          foundation upon which we build our future and our "Good Health and Well Being."
+        </p>
+
+        <h4 class="wiki-h wiki-h3">Quality Education</h4>
+          <p class="wiki-p">
+            Justifying studying at one of India's top institutions, 
+            the team provides quality education to every section of 
+            society in collaboration with the National Service Scheme (NSS), 
+            IIT Roorkee. NSS is the Central Sector Scheme of the Government 
+            of India, Ministry of Youth Affairs & Sports. After the iGEM 2020, 
+            our team would dedicate itself to primary training to teach students 
+            good hand hygiene habits and motivate them to practice standard 
+            precautions religiously. 
+          </p>
+
+        <h4 class="wiki-h wiki-h3">Partnerships for the Goals</h4>
+          <p class="wiki-p">
+              An unbiased partnership creates something more significant than 
+              what individual people/teams can do. With the same ideology, our 
+              partnerships, in the form of collaborations, are not just based on 
+              knowledge, but they stand on our partners' expertise in a specific 
+              field and adequate resources to promote the cause to accomplish 
+              sustainable development. We are happy to have formed an alliance with 
+              iGEM UPCH Peru for the iGEM ⤬ SDGs.
+          </p>
+
+          <h4 class="wiki-h wiki-h3">Our iGEM ⤬ SDGs Project</h4>
+            <p class="wiki-p">
+                The recent chaos of the COVID-19 Pandemic has disrupted 
+                the living and working conditions of people worldwide. 
+                Everyone is locked inside their houses, waiting for the 
+                havoc to come to a halt. As a result, people are losing 
+                their mental peace and are anxious to start their routine 
+                work as soon as possible.
+            </p>
+
+            <p class="wiki-p">
+              The continually increasing number of coronavirus cases is 
+              getting unsettling, making it impossible for people to keep calm. 
+              Team IIT Roorkee believes that 'Smile' brings happiness, and vibes 
+              of positivity are spread in the air. We worked out a collaboration 
+              on one of our mottoes - <span class="wiki-bold">"SMILE: Keep Your Spirits High." </span> 
+              We asked our fellow iGEM Teams to send us a video message stating their 
+              <span class="wiki-bold">'Mantras' </span>
+              to stay positive in these challenging times. 
+              <br><br>
+            </p>
+       
+
+      
+
+      </div>
+    </main>
+
+    <div class="fab-border"></div>
+    <a class="fab" href="#">
+      <img src="../assets/images/icons/next.svg" data-toggle="tooltip" data-placement="left" title="Next section" class="fab-next-section"></img>
+      <img src="../assets/images/icons/top.svg" data-toggle="tooltip" data-placement="left" title="Top"  class="fab-top-section"></img>
+    </a>
+    <div class="circular-progress-container">
+      <svg class="progress-svg" viewbox="0 0 84 84">
+        <circle class="progress-pie" cx="42" cy="42" r="40"></circle>
+      </svg>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-brand"><a href="#" class="">iGEM IIT Roorkee</a></div>
+      <div class="footer-lists">
+        <div class="footer-list">
+          <div class="footer-list-title">People</div>
+          <a href="../Team/" class="tab footer-list-item"><span>Team</span></a>
+          <a href="../Attributions" class="tab footer-list-item"><span>Attributions</span></a>
+          <a href="../Sponsors/" class="tab footer-list-item"><span>Sponsors</span></a>
+        </div>
+        <div class="footer-list">
+          <div class="footer-list-title">Project</div>
+          <a href="../Description" class="tab footer-list-item"><span>Description</span></a>
+          <a href="../Problem" class="tab footer-list-item"><span>Problem</span></a>
+          <a href="../Design" class="tab footer-list-item"><span>Design</span></a>
+          <a href="..Implementation" class="tab footer-list-item"><span>Implementation</span></a>
+          <a href="../Contrbutions" class="tab footer-list-item"><span>Contributions</span></a>
+        </div>
+        <div class="footer-list">
+          <div class="footer-list-title">Human Practices</div>
+          <a href="../Human_Practices" class="tab footer-list-item"><span>Overview</span></a>
+          <a href="../Education" class="tab footer-list-item"><span>Science Communication and Public Engagement</span></a>
+          <a href="../Integrated_HP" class="tab footer-list-item"><span>Integrated Human Practices</span></a>
+          <a href="#" class="tab footer-list-item footer-list-item-active"><span>Sustainable Development Goals</span></a>
+          <a href="../Collaborations" class="tab footer-list-item"><span>Collaborations</span></a>
+        </div>
+        <div class="footer-list">
+          <div class="footer-list-title">Dry Lab</div>
+          <a href="../DryLab" class="tab footer-list-item"><span>Overview</span></a>
+          <a href="../Model" class="tab footer-list-item"><span>Modelling</span></a>
+          <a href="../DryLab_Results" class="tab footer-list-item"><span>Results</span></a>
+          <a href="../Software" class="tab footer-list-item"><span>Software</span></a>
+        </div>
+        <div class="footer-list">
+          <div class="footer-list-title">Wet Lab</div>
+          <a href="../Experiments" class="tab footer-list-item"><span>Overview</span></a>
+          <a href="../Results" class="tab footer-list-item"><span>Results</span></a>
+          <a href="../Protocols" class="tab footer-list-item"><span>Protocols</span></a>
+          <a href="../Parts" class="tab footer-list-item"><span>Parts</span></a>
+          <a href="../Safety" class="tab footer-list-item"><span>Safety</span></a>
+          <a href="../References" class="tab footer-list-item"><span>References</span></a>
+        </div>
+        <div class="footer-list">
+          <div class="footer-list-title">Machine Learning</div>
+          <a href="../ML_Overview" class="tab footer-list-item"><span>Overview</span></a>
+          <a href="../ML_Model" class="tab footer-list-item"><span>Model</span></a>
+          <a href="../ML_Results" class="tab footer-list-item"><span>Results</span></a>
+          <a href="../ML_Impac" class="tab footer-list-item"><span>Impact</span></a>
+        </div>
+      </div>
+      <div class="footer-info">
+        <div class="footer-info-address">
+          <div class="footer-address">
+            The Department of Biotechnology, <br />
+            Indian Institute of Technology, Roorkee <br />
+            Roorkee, Uttarakhand, <br />
+            India - 247667
+            </div>
+          <img src="../assets/images/images/james_thomason_building.svg" class="footer-james-thomason"></img>
+        </div>
+        <div class="footer-info-socials">
+          <div class="footer-section-heading">Contact us:</div>
+          <div class="contacts">
+            <a href="tel:+011-2875468" class="contact"><span>+011-2875468</span></a>
+            <a href="tel:+91-76487699" class="contact"><span>+91-76487699</span></a>
+            <a href="mailto:igem@iitr.ac.in" class="contact"><span>igem@iitr.ac.in</span></a>
+          </div>
+          <div class="footer-section-heading">Follow us on:</div>
+          <div class="socials">
+            <a href="#" class="social"><img src="../assets/images/icons/instagram.svg" alt="Instagrm"></a>
+            <a href="#" class="social"><img src="../assets/images/icons/linkedin.svg" alt="Linkedin"></a>
+            <a href="#" class="social"><img src="../assets/images/icons/facebook.svg" alt="Facebook"></a>
+            <a href="#" class="social"><img src="../assets/images/icons/twitter.svg" alt="Twitter"></a>
+          </div>
+        </div>
+        <img src="../assets/images/images/james_thomason_building.svg" class="footer-james-thomason-mobile"></img>
+      </div>
+    </footer>
+
+    <script src="../js/igem-reset.js"></script>
+    <script src="../js/jquery-slim.min.js"></script>
+    </script>
+    <script src="../js/jquery.waypoints.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/holder.min.js"></script>
+    <script src="../js/index.js"></script>
+    <script>
+      Holder.addTheme("thumb", {
+        bg: "#55595c",
+        fg: "#eceeef",
+        text: "Thumbnail",
+      });
+    </script>
+  </body>
+</html>

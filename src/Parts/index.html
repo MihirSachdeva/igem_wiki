@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="Pyomancer by iGEM IIT Roorkee" />
+    <meta name="author" content="Team iGEM IIT Roorkee" />
+    <meta name="theme-color" content="#272727">
+    <title>PYOMANCER</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="../css/igem_reset.css" rel="stylesheet" />
+    <link href="../css/styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header>
+      <div class="navbar-overlay navbar-overlay-1"></div>
+      <div class="navbar-overlay navbar-overlay-2"></div>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top wiki-navbar">
+        <a class="navbar-brand" href="../">PYOMANCER</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto tabs-wrapper">
+            <li class="nav-item dropdown">
+                <a
+                  class="tab nav-link"
+                  href="#"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  People
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="../Team/"><span>Team</span></a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../Attributions"><span>Attributions</span></a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../Sponsors/"><span>Sponsors</span></a>
+                  </li>
+                </ul>
+              </li>
+            <li class="nav-item dropdown">
+              <a
+                class="tab nav-link"
+                href="#"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Project
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../Description"><span>Description</span></a></li>
+                <li><a class="dropdown-item" href="../Problem"><span>Problem</span></a></li>
+                <li><a class="dropdown-item" href="../Design"><span>Design</span></a></li>
+                <li><a class="dropdown-item" href="..Implementation"><span>Implementation</span></a></li>
+                <li><a class="dropdown-item" href="../Contrbutions"><span>Contributions</span></a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="tab nav-link"
+                href="#"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Human Practices
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../Human_Practices"> <span>Overview</span></a></li>
+                <li><a class="dropdown-item" href="../Education"> <span>Science Communication & Public Engagement</span> </a></li>
+                <li><a class="dropdown-item" href="../Integrated_HP"> <span>Integrated Human Practices</span> </a></li>
+                <li><a class="dropdown-item" href="../Sustainable"> <span>Sustainable Development Goals</span> </a></li>
+                <li><a class="dropdown-item" href="../Collaborations"> <span>Collaborations</span> </a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="tab nav-link"
+              href="#"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Dry Lab
+              </a>
+              <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../DryLab"> <span>Overview</span></a></li>
+              <li><a class="dropdown-item" href="../Model"> <span>Modelling</span> </a></li>
+              <li><a class="dropdown-item" href="../DryLab_Results"> <span>Results</span> </a></li>
+              <li><a class="dropdown-item" href="../Software"> <span>Software</span> </a></li>
+              </ul>
+           </li>
+           <li class="nav-item dropdown">
+            <a class="tab nav-link nav-link-active"
+            href="#"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+            >Wet Lab
+            </a>
+            <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="../Experiments"> <span>Overview</span></a></li>
+            <li><a class="dropdown-item" href="../Results"> <span>Results</span> </a></li>
+            <li><a class="dropdown-item" href="../Protocols"> <span>Protocols</span> </a></li>
+            <li><a class="dropdown-item dropdown-item-active" href="#"> <span>Parts</span> </a></li>
+            <li><a class="dropdown-item" href="../Safety"> <span>Safety</span> </a></li>
+            <li><a class="dropdown-item" href="../References"> <span>References</span> </a></li>
+            </ul>
+         </li>
+         <li class="nav-item dropdown">
+          <a class="tab nav-link"
+          href="#"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+          >Machine Learning
+          </a>
+          <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="../ML_Overview"> <span>Overview</span></a></li>
+          <li><a class="dropdown-item" href="../ML_Model"> <span>Model</span> </a></li>
+          <li><a class="dropdown-item" href="../ML_Results"> <span>Results</span> </a></li>
+          <li><a class="dropdown-item" href="../ML_Impact"> <span>Impact</span> </a></li>
+          </ul>
+       </li>
+            <li class="nav-item">
+              <a class="tab nav-link" href="#">Judges</a>
+            </li>
+            <li class="nav-item">
+              <a class="tab nav-link" href="#">Notebook</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="header-progress">
+        <div class="header-progress-indicator"></div>
+      </div>
+      
+    </header>
+
+    <div class="banner">
+      <p class="text-center font-size-24">
+        <h1 class="banner-h1">Wet Lab</h1>
+        <h2 class="banner-h2">Parts</h2>
+        
+        <div class="banner-overlay"></div>
+      </p>
+    </div>
+
+    <main role="main" class="container wiki">    
+
+      <div class="side-nav">
+        <div class="page-title">Parts</div>
+        <div class="side-nav-menu">
+        </div>
+      </div>
+
+      <div class="wiki-content">
+        <h1 class="wiki-h wiki-h1 wiki-section-start" id="basic_parts">Basic Parts</h1>
+        <!-- <h2 class="wiki-h wiki-h2">Heading 2</h2>
+        <h3 class="wiki-h wiki-h3">Heading 3</h3> -->
+        
+        <p class="wiki-p wiki-bold">
+          We have introduced two new basic Parts to 
+          the iGEM registry as a contribution for us ebay future iGEM teams.
+        </p>
+
+        <div class="table-responsive">
+          <table class="table table-hover table-bordered">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">Part Number</th>
+                <th scope="col">Name</th>
+                <th scope="col">Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Part:BBa_K3564001 <br> <img src="../assets/images/images/wetlab_parts_1.png" width=90px/></td>
+                <td>Pseudomonas aeruginosa PAO1 R2 Pyocin Gene Cluster (tail fiber deleted)</td>
+                <td>Gene cluster encoding for R-type pyocin with the tail fiber gene deleted</td>
+              </tr>
+              <tr>
+                <td>Part:BBa_K3564002 <br> <img src="../assets/images/images/wetlab_parts_1.png" width=90px/></td>
+                <td>Pyocin-AP22 phage fusion tail fiber</td>
+                <td>Fusion tail fiber of R pyocin tail fiber and Acinetobacter phage AP22 tail fiber</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        
+        <p class="wiki-p">
+          The first Part:BBa_K3564001 would be used for producing 
+          pyocins without any tail fiber. This is meant to be used 
+          in conjunction with Part:BBa_K3564002 or any others that 
+          are added in the K35640xx series, which are fusion tail 
+          fiber genes that would allow the pyocin to bind to a target bacterium. 
+        </p>
+
+        <p class="wiki-p">
+          We feel this contribution to the registry would allow future 
+          iGEM teams to conveniently incorporate pyocins into their systems, 
+          and target whichever bacterial species they should chose. 
+          The natural gene cluster sequence is highly complex and was 
+          not compatible for synthesis and also had 13 illegal 
+          restriction sites. All illegal restriction sites have been 
+          removed to make it compatible with both RFC10 as well as Type IIs assembly. 
+          It has also been sequence optimized for sequencing by changing codon usage 
+          to remove complexity.
+        </p>
+
+        <h1 class="wiki-h wiki-h1 wiki-section-start" id="composite_parts">Composite Parts</h1>
+        
+        <div class="table-responsive">
+          <table class="table table-hover table-bordered">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">Part Number</th>
+                <th scope="col">Name</th>
+                <th scope="col">Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Part:BBa_K3564102 <br><br> <img src="../assets/images/images/wetlab_parts_2.png" width=140px/></td>
+                <td>Engineered Pyocin targeting Acinetobacter baumannii (with AP22 phage fusion tail fiber)</td>
+                <td>Composite of BBa_K3564001 and BBa_K3564002 that expresses a Seekercin, i.e. a pyocin targeted to specifically Bind and kill Acinetobacter baumannii </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        
+        <p class="wiki-p">
+        Characterization for the composite parts would be updated once the 
+        experiments planned in the <a href="../Experiments" class="wiki-a">Wet Lab</a> section are completed post-pandemic.
+        <br><br> 
+        </p>
+
+      </div>
+    </main>
+
+    <div class="fab-border"></div>
+    <a class="fab" href="#">
+      <img src="../assets/images/icons/next.svg" data-toggle="tooltip" data-placement="left" title="Next section" class="fab-next-section"></img>
+      <img src="../assets/images/icons/top.svg" data-toggle="tooltip" data-placement="left" title="Top"  class="fab-top-section"></img>
+    </a>
+    <div class="circular-progress-container">
+      <svg class="progress-svg" viewbox="0 0 84 84">
+        <circle class="progress-pie" cx="42" cy="42" r="40"></circle>
+      </svg>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-brand"><a href="#" class="">iGEM IIT Roorkee</a></div>
+      <div class="footer-lists">
+        <div class="footer-list">
+          <div class="footer-list-title">People</div>
+          <a href="../Team/" class="tab footer-list-item"><span>Team</span></a>
+          <a href="../Attributions" class="tab footer-list-item"><span>Attributions</span></a>
+          <a href="../Sponsors/" class="tab footer-list-item"><span>Sponsors</span></a>
+        </div>
+        <div class="footer-list">
+          <div class="footer-list-title">Project</div>
+          <a href="../Description" class="tab footer-list-item"><span>Description</span></a>
+          <a href="../Problem" class="tab footer-list-item"><span>Problem</span></a>
+          <a href="../Design" class="tab footer-list-item"><span>Design</span></a>
+          <a href="..Implementation" class="tab footer-list-item"><span>Implementation</span></a>
+          <a href="../Contrbutions" class="tab footer-list-item"><span>Contributions</span></a>
+        </div>
+        <div class="footer-list">
+          <div class="footer-list-title">Human Practices</div>
+          <a href="../Human_Practices" class="tab footer-list-item"><span>Overview</span></a>
+          <a href="../Education" class="tab footer-list-item"><span>Science Communication and Public Engagement</span></a>
+          <a href="../Integrated_HP" class="tab footer-list-item"><span>Integrated Human Practices</span></a>
+          <a href="../Sustainable" class="tab footer-list-item"><span>Sustainable Development Goals</span></a>
+          <a href="../Collaborations" class="tab footer-list-item"><span>Collaborations</span></a>
+        </div>
+        <div class="footer-list">
+          <div class="footer-list-title">Dry Lab</div>
+          <a href="../DryLab" class="tab footer-list-item"><span>Overview</span></a>
+          <a href="../Model" class="tab footer-list-item"><span>Modelling</span></a>
+          <a href="../DryLab_Results" class="tab footer-list-item"><span>Results</span></a>
+          <a href="../Software" class="tab footer-list-item"><span>Software</span></a>
+        </div>
+        <div class="footer-list">
+          <div class="footer-list-title">Wet Lab</div>
+          <a href="../Experiments" class="tab footer-list-item"><span>Overview</span></a>
+          <a href="../Results" class="tab footer-list-item"><span>Results</span></a>
+          <a href="../Protocols" class="tab footer-list-item"><span>Protocols</span></a>
+          <a href="#" class="tab footer-list-item footer-list-item-active"><span>Parts</span></a>
+          <a href="../Safety" class="tab footer-list-item"><span>Safety</span></a>
+          <a href="../References" class="tab footer-list-item"><span>References</span></a>
+        </div>
+        <div class="footer-list">
+          <div class="footer-list-title">Machine Learning</div>
+          <a href="../ML_Overview" class="tab footer-list-item"><span>Overview</span></a>
+          <a href="../ML_Model" class="tab footer-list-item"><span>Model</span></a>
+          <a href="../ML_Results" class="tab footer-list-item"><span>Results</span></a>
+          <a href="../ML_Impac" class="tab footer-list-item"><span>Impact</span></a>
+        </div>
+      </div>
+      <div class="footer-info">
+        <div class="footer-info-address">
+          <div class="footer-address">
+            The Department of Biotechnology, <br />
+            Indian Institute of Technology, Roorkee <br />
+            Roorkee, Uttarakhand, <br />
+            India - 247667
+            </div>
+          <img src="../assets/images/images/james_thomason_building.svg" class="footer-james-thomason"></img>
+        </div>
+        <div class="footer-info-socials">
+          <div class="footer-section-heading">Contact us:</div>
+          <div class="contacts">
+            <a href="tel:+011-2875468" class="contact"><span>+011-2875468</span></a>
+            <a href="tel:+91-76487699" class="contact"><span>+91-76487699</span></a>
+            <a href="mailto:igem@iitr.ac.in" class="contact"><span>igem@iitr.ac.in</span></a>
+          </div>
+          <div class="footer-section-heading">Follow us on:</div>
+          <div class="socials">
+            <a href="#" class="social"><img src="../assets/images/icons/instagram.svg" alt="Instagrm"></a>
+            <a href="#" class="social"><img src="../assets/images/icons/linkedin.svg" alt="Linkedin"></a>
+            <a href="#" class="social"><img src="../assets/images/icons/facebook.svg" alt="Facebook"></a>
+            <a href="#" class="social"><img src="../assets/images/icons/twitter.svg" alt="Twitter"></a>
+          </div>
+        </div>
+        <img src="../assets/images/images/james_thomason_building.svg" class="footer-james-thomason-mobile"></img>
+      </div>
+    </footer>
+
+    <script src="../js/igem-reset.js"></script>
+    <script src="../js/jquery-slim.min.js"></script>
+    </script>
+    <script src="../js/jquery.waypoints.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/holder.min.js"></script>
+    <script src="../js/index.js"></script>
+    <script>
+      Holder.addTheme("thumb", {
+        bg: "#55595c",
+        fg: "#eceeef",
+        text: "Thumbnail",
+      });
+    </script>
+  </body>
+</html>
