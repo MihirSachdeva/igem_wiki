@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="Pyomancer by iGEM IIT Roorkee" />
+    <meta name="author" content="Team iGEM IIT Roorkee" />
+    <meta name="theme-color" content="#272727">
+    <title>PYOMANCER</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="../css/igem_reset.css" rel="stylesheet" />
+    <link href="../css/styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header>
+      <div class="navbar-overlay navbar-overlay-1"></div>
+      <div class="navbar-overlay navbar-overlay-2"></div>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top wiki-navbar">
+        <a class="navbar-brand" href="../">PYOMANCER</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto tabs-wrapper">
+            <li class="nav-item dropdown">
+                <a
+                  class="tab nav-link"
+                  href="#"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  People
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="../Team/"><span>Team</span></a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../Attributions/"><span>Attributions</span></a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../Sponsors/"><span>Sponsors</span></a>
+                  </li>
+                </ul>
+              </li>
+            <li class="nav-item dropdown">
+              <a
+                class="tab nav-link"
+                href="#"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Project
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../Description/"><span>Description</span></a></li>
+                <li><a class="dropdown-item" href="../Problem/"><span>Problem</span></a></li>
+                <li><a class="dropdown-item" href="../Design/"><span>Design</span></a></li>
+                <li><a class="dropdown-item" href="../Engineering/"><span>Engineering</span></a></li>
+                <li><a class="dropdown-item" href="..Implementation/"><span>Implementation</span></a></li>
+                <li><a class="dropdown-item" href="../Contribution/"><span>Contributions</span></a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="tab nav-link"
+                href="#"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Human Practices
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../Human_Practices/"> <span>Overview</span></a></li>
+                <li><a class="dropdown-item" href="../Education/"> <span>Science Communication & Public Engagement</span> </a></li>
+                <li><a class="dropdown-item" href="../Integrated_HP/"> <span>Integrated Human Practices</span> </a></li>
+                <li><a class="dropdown-item" href="../Sustainable/"> <span>Sustainable Development Goals</span> </a></li>
+                <li><a class="dropdown-item" href="../Collaborations/"> <span>Collaborations</span> </a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="tab nav-link  nav-link-active"
+              href="#"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Dry Lab
+              </a>
+              <ul class="dropdown-menu">
+              <li><a class="dropdown-item  dropdown-item-active" href="#"> <span>Modelling</span> </a></li>
+              <li><a class="dropdown-item" href="../DryLab_Results/"> <span>Results</span> </a></li>
+              <li><a class="dropdown-item" href="../Software/"> <span>Software</span> </a></li>
+              </ul>
+           </li>
+           <li class="nav-item dropdown">
+            <a class="tab nav-link"
+            href="#"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+            >Wet Lab
+            </a>
+            <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="../Experiments/"> <span>Overview</span></a></li>
+            <li><a class="dropdown-item" href="../Results/"> <span>Results</span> </a></li>
+            <li><a class="dropdown-item" href="../Protocols/"> <span>Protocols</span> </a></li>
+            <li><a class="dropdown-item" href="../Parts/"> <span>Parts</span> </a></li>
+            <li><a class="dropdown-item" href="../Safety/"> <span>Safety</span> </a></li>
+            <li><a class="dropdown-item" href="../References/"> <span>References</span> </a></li>
+            </ul>
+         </li>
+         <li class="nav-item dropdown">
+          <a class="tab nav-link"
+          href="#"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+          >Machine Learning
+          </a>
+          <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="../ML_Overview/"> <span>Overview</span></a></li>
+          <li><a class="dropdown-item" href="../ML_Model/"> <span>Model</span> </a></li>
+          <li><a class="dropdown-item" href="../ML_Results/"> <span>Results</span> </a></li>
+          <li><a class="dropdown-item" href="../ML_Impact/"> <span>Impact</span> </a></li>
+          </ul>
+       </li>
+            <li class="nav-item">
+              <a class="tab nav-link" href="#">Judges</a>
+            </li>
+            <li class="nav-item">
+              <a class="tab nav-link" href="#">Notebook</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="header-progress">
+        <div class="header-progress-indicator"></div>
+      </div>
+      
+    </header>
+
+    <div class="banner">
+      <p class="text-center font-size-24">
+        <h1 class="banner-h1">Dry Lab</h1>
+        <h2 class="banner-h2">Modelling</h2>
+        
+        <div class="banner-overlay"></div>
+      </p>
+    </div>
+
+    <main role="main" class="container wiki">    
+
+      <div class="side-nav">
+        <div class="page-title">Modelling</div>
+        <div class="side-nav-menu">
+        </div>
+      </div>
+
+      <div class="wiki-content">
+        
+        <p class="wiki-p">
+          During the COVID-19 pandemic, due to inaccessibility of 
+          labs and experimentation, we couldn’t perform mathematical 
+          modelling for our experiments. Hence, we chose bioinformatics 
+          modelling for validating our results. It serves as a strong 
+          proof-of-concept of our fusion protein design and we believe 
+          that it’ll closely resemble the results expected through experiments. 
+          <br><br><br><br><br>
+        </p>
+        
+        <h2 class="wiki-h wiki-h2 wiki-section-start" id="pm_1">What is protein modelling?</h2>
+        
+        <!-- <h2 class="wiki-h wiki-h2">Heading 2</h2>
+        <h3 class="wiki-h wiki-h3">Heading 3</h3> -->
+        
+        <p class="wiki-p">
+          Bioinformatics tools can be used to model a protein structure if the 
+          sequence of the protein is known. Computational protein structure prediction 
+          relies on principles of protein structures obtained through X-ray crystallography, 
+          NMR spectroscopy and other physical energy functions to predict the three-dimensional 
+          structures of proteins. It uses various Machine Learning algorithms to develop protein 
+          structures. There are three methods for modelling proteins:
+        </p>
+
+        <p class="wiki-p">
+          <ol class="wiki-ol">
+
+            <li><span class="wiki-bold">Homology Modelling: </span><br>
+              This is used when we have a structurally unknown protein and a similar 
+              structurally known protein. The structurally known protein is used as a 
+              template to predict the structure of the unknown protein. A primary BLAST 
+              search is performed in the Protein Data Bank (PDB) to find the template protein 
+              that resembles the unknown protein sequence. High percentage identity, high query 
+              coverage, high alignment score and low e-value is desired for the template sequence. 
+              Once the matching template is found, it is then used to model the unknown structure. 
+              Several tools can be used for performing Homology Modelling. SWISS-MODEL is commonly 
+              used. It is a Python-based program to predict the protein structure. 
+            </li>
+
+            <li><span class="wiki-bold">Threading/Fold-recognition method: </span><br>
+              With this method, you can predict the protein structures of your target protein 
+              using known protein folds of similar proteins found in different databases. 
+              Web-server I-Tasser was used for modelling the protein using this method.  
+            </li>
+
+            <li><span class="wiki-bold">Ab-Initio method: </span><br>
+              When nothing is known about the protein structure or in other words structural 
+              information is not available for similar protein, this method is used to model 
+              the protein structure from scratch. Most favourable energy conformations for the 
+              protein are taken into account while modelling the protein using this method. 
+              Robetta-Baker Lab’s online modelling server was used to model our protein using this method. 
+            </li>
+          </ol>
+        </p>
+              
+        
+        <h2 class="wiki-h wiki-h2 wiki-section-start" id="our_approach">Our Approach:</h2><br>
+        <h4 class="wiki-h wiki-h4">Protein Sequence</h4>
+        <!-- <h2 class="wiki-h wiki-h2">Heading 2</h2>
+        <h3 class="wiki-h wiki-h3">Heading 3</h3> -->
+        
+        <p class="wiki-p">
+          R2 tail fibre protein sequence comprises 691 amino acids. The AP22 
+          bacteriophage tail fibre protein that targets A.baumannii is 271 amino 
+          acids in length. However, through literature review, it was found that the 
+          R2 pyocin- NTF (N-truncated fragment) (G-443 to R-691) is sufficient to 
+          bind to the bacterial surface. Therefore, only the N-truncated fragment was modelled. <br>
+          Through preliminary bioinformatics analysis during fusion protein design, we 
+          identified the restriction sites needed to create an R2 pyocin-AP22 fusion protein. 
+          It was inferred that removing the last 134 amino acids of the R2 pyocin tail fibre 
+          protein sequence and ligating the last 137 amino acids of the AP22 bacteriophage 
+          sequence to this truncated pyocin sequence would create a functional fusion product. 
+        </p>
+
+        <p class="wiki-p">
+          <span style="color:#008000;">
+          >R2-NTF Tail Fibre Sequence<br> 
+          GSFTKEADGELPGGVNLDSMVTSGWWSQSFTAQAASGANYPIVRAGLLHVYAASSNFIYQTYQAYDGESFYFRCRHSNTWFPWRRMWHGGDFNPSDYLLKSGFYWNALPGKPATF
+          </span>
+          <span style="color:#0000FF;">
+          PPSAHNHDVGQLTSGILPLARGGVGSNTAAGARSTIGAGVPATASLGASGWWRDNDTGLIRQWGQVTCPADADASITFPIPFPTLCLGGYANQTSAFHPGTDASTGFRGATTTTAVIRNGYFAQAVLSWEAFGR
+          </span>
+        </p>
+        <p class="wiki-p">
+          <span style="color:#F7A13D;">
+          >AP22 tail fibre protein<br> 
+          MANPIFIPMAFAANGIKNLIQKVRQVGQDPEDFTWDEGAPLITMTKIEDGGKAPKGQDFNGVLNALSEHVIYGQNGNRYTWSQDVVDEFGGYALGAIVQSNDTTKEFRSLIANNTVNPNNGLGGAWEVYSGQGS
+          </span>
+          <span style="color:#FF0000;">
+          IPTATSTTAGITKVLNVLNSNDVGSALSAAQGKVLNDKFNFQNSKNQSGYVRLGDSGLIIQWGVFTSTKTQSNLIFPLAFPNALLSITGNLNSNTPDVIGIDFDLSTATKTSIKTGAAQVGASWLSGKKISWIAIGY
+          </span>
+        </p>
+
+        <p class="wiki-p">
+          The last 134 amino acids from the R2-NTF pyocin were removed 
+          and the last 137 amino acids of the AP22 phage were inserted 
+          in the remaining sequence to generate the R2-NTF-AP22 fusion 
+          tail fibre protein sequence. 
+        </p>
+        <p class="wiki-p">
+          <span style="color:#008000;">
+          >R2-NTF-AP22 Fusion tail fibre<br> 
+          GSFTKEADGELPGGVNLDSMVTSGWWSQSFTAQAASGANYPIVRAGLLHVYAASSNFIYQTYQAYDGESFYFRCRHSNTWFPWRRMWHGGDFNPSDYLLKSGFYWNALPGKPATF
+          </span>
+          <span style="color:#FF0000;">
+          IPTATSTTAGITKVLNVLNSNDVGSALSAAQGKVLNDKFNFQNSKNQSGYVRLGDSGLIIQWGVFTSTKTQSNLIFPLAFPNALLSITGNLNSNTPDVIGIDFDLSTATKTSIKTGAAQVGASWLSGKKISWIAIGY
+          </span>
+        </p>
+
+        <div class="wiki-graphic">
+          <img src="../assets/images/images/DL_Modelling_Design_figure.png" alt="Design Figure" class="wiki-graphic-image">
+          <div class="wiki-graphic-reference">Design Figure</div>
+        </div>
+
+        <p class="wiki-p">
+          We model this sequence of the fusion tail fibre using all the three 
+          modelling methods discussed above. <br>
+          In homology modelling, we use the sequence input for modelling. 
+          After entering the sequence of the fusion protein in the fasta format 
+          we searched for templates on the platform. 6cl6 was chosen as a template 
+          structure as it had a GMQE score of 0.71 and identity of 63.64 and the target
+          model was predicted to be a homo-trimer. The GMQE (Global Model Quality Estimation) 
+          score is a quality estimation which combines properties from the target–template alignment 
+          and the template search method. The resulting GMQE score is expressed as a number between 
+          0 and 1, reflecting the expected accuracy of a model built with that alignment and template 
+          and the coverage of the target. Higher numbers indicate higher reliability. 
+          It also takes into account the QMEAN score to increase the reliability of the quality estimation.
+        </p>
+
+        <p class="wiki-p">
+          For threading and ab-initio modelling, we submitted our target sequence on 
+          the I-Tasser & Robetta Baker Lab’s modelling server respectively and results were obtained via email. 
+        </p>
+        <br><br><br>
+        
+        <h4 class="wiki-h wiki-h4">Protein Structure</h4>
+        <!-- <h2 class="wiki-h wiki-h2">Heading 2</h2>
+        <h3 class="wiki-h wiki-h3">Heading 3</h3> -->
+        
+        <p class="wiki-p">
+          The overall structure of the trimeric R2-NTF is a barbell-like protein, 
+          with a three-domain organization consisting of a “head”, medial “shaft”, 
+          and “foot”. The head (G443-M525) and foot domains (P598-R691) are globular 
+          and connected by an intertwined, helical, and fibrous-looking shaft (W529-V597). 
+        </p>
+        <p class="wiki-p">
+          We modelled our protein through all the three methods and compared the results of our models. 
+          The models obtained through threading were monomers and since our native structure is a trimer, 
+          we didn’t consider the monomeric models. The models obtained through homology modelling & ab-initio 
+          were trimers and were considered & further compared to choose the best model.
+
+        </p><br><br><br><br><br>
+
+        <h2 class="wiki-h wiki-h2 wiki-section-start" id="obtained_models">Obtained Models:</h2><br>
+        <h4 class="wiki-h wiki-h4">Homology Modelling</h4>
+        <!-- <h2 class="wiki-h wiki-h2">Heading 2</h2>
+        <h3 class="wiki-h wiki-h3">Heading 3</h3> -->
+        
+        <p class="wiki-p">
+          The SWISS-MODEL template library (SMTL version 2020-09-09, PDB release 2020-09-04) 
+          was searched with BLAST <span style="color:#FF0000;">(Camacho et al.)</span> and 
+          HHBlits <span style="color:#FF0000;">(Remmert et al.)</span> for evolutionary 
+          related structures matching the target sequence of the fusion protein. Overall 43 templates 
+          were found and the best one was chosen. 6cl6.1.A having a sequence identity of 63.64, 
+          a sequence similarity of 0.49 and a coverage of 0.96 was chosen as the template. 
+          The QSQE score is a number between 0 and 1, reflecting the expected accuracy of the 
+          interchain contacts for a model built based on a given alignment and template. 
+          In general, a higher QSQE is "better", while a value above 0.7 can be considered 
+          reliable to follow the predicted quaternary structure in the modelling process. 
+          The chosen template had a QSQE score of 0.79, indicating it to be a good template for modelling.  
+        </p>
+
+        <p class="wiki-p">
+          Template Parameters -  
+        </p>
+
+        <div class="table-responsive">
+          <table class="table table-hover table-bordered">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">Template</th>
+                <th scope="col">Seq Identity</th>
+                <th scope="col">Oligo-state</th>
+                <th scope="col">QSQE</th>
+                <th scope="col">Found by</th>
+                <th scope="col">Method</th>
+                <th scope="col">Resolution</th>
+                <th scope="col">Sew Similarity</th>
+                <th scope="col">Range</th>
+                <th scope="col">Coverage</th>
+                <th scope="col">Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>6cl6.1.A</td>
+                <td>63.64</td>
+                <td>homo-trimer</td>
+                <td>0.79</td>
+                <td>BLAST</td>
+                <td>X-Ray</td>
+                <td>1.90Å</td>
+                <td>0.49</td>
+                <td>1 - 251</td>
+                <td>0.96</td>
+                <td>Tail fiber protein</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p class="wiki-p">
+          Model Parameters -  
+        </p>
+
+        <div class="table-responsive">
+          <table class="table table-hover table-bordered">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">Built with </th>
+                <th scope="col">Oligo-state</th>
+                <th scope="col">Ligands </th>
+                <th scope="col">GMQE</th>
+                <th scope="col">QMEAN</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>ProMod3 3.1.1</td>
+                <td>homo-trimer (matching prediction)</td>
+                <td>None</td>
+                <td>0.77</td>
+                <td>-3.42</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="wiki-graphic">
+          <img src="../assets/images/images/DL_Modelling_Homology_model.png" alt="Homology Model" class="wiki-graphic-image">
+          <div class="wiki-graphic-reference">Homology Model</div>
+        </div>
+        <br><br><br>
+
+
+        <h4 class="wiki-h wiki-h4">Threading/Fold-Recognition</h4>
+        <!-- <h2 class="wiki-h wiki-h2">Heading 2</h2>
+        <h3 class="wiki-h wiki-h3">Heading 3</h3> -->
+        
+        <p class="wiki-p">
+          The fusion protein sequence was submitted for modelling on 
+          the I-Tasser web server and the modelling results were obtained 
+          via email. Top 5 models are predicted by I-Tasser using the threading 
+          approach for protein modelling. The confidence of each model is 
+          quantitatively measured by a C-score that is calculated based on 
+          the significance of threading template alignments and the convergence
+          parameters of the structure assembly simulations. C-score is typically 
+          in the range of [-5, 2], where a C-score of a higher value signifies a 
+          model with higher confidence and vice-versa.  
+        </p>
+
+        <div class="table-responsive">
+          <table class="table table-hover table-bordered">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">I-Tasser Models </th>
+                <th scope="col">C-Scores</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Model 1</th>
+                <td>0.71</td>
+              </tr>
+              <tr>
+                <th scope="row">Model 2</th>
+                <td>-2.15</td>
+              </tr>
+              <tr>
+                <th scope="row">Model 3</th>
+                <td>-2.70</td>
+              </tr>
+              <tr>
+                <th scope="row">Model 4</th>
+                <td>-1.50</td>
+              </tr>
+              <tr>
+                <th scope="row">Model 5</th>
+                <td>-4.08</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p class="wiki-p">
+          All the 5 models obtained were monomers and through 
+          C-score comparison model 1 comes out to be the best model predicted by this method. 
+        </p>
+
+        <div class="wiki-graphic">
+          <img src="../assets/images/images/DL_Modelling_Threading_model_1.png" alt="Threading Model 1" class="wiki-graphic-image">
+          <div class="wiki-graphic-reference">Threading Model 1</div>
+        </div>
+        <div class="wiki-graphic">
+          <img src="../assets/images/images/DL_Modelling_Threading_model_2.png" alt="Threading Model 2" class="wiki-graphic-image">
+          <div class="wiki-graphic-reference">Threading Model 2</div>
+        </div>
+        <div class="wiki-graphic">
+          <img src="../assets/images/images/DL_Modelling_Threading_model_3.png" alt="Threading Model 3" class="wiki-graphic-image">
+          <div class="wiki-graphic-reference">Threading Model 3</div>
+        </div>
+        <div class="wiki-graphic">
+          <img src="../assets/images/images/DL_Modelling_Threading_model_4.png" alt="Threading Model 4" class="wiki-graphic-image">
+          <div class="wiki-graphic-reference">Threading Model 4</div>
+        </div>
+        <div class="wiki-graphic">
+          <img src="../assets/images/images/DL_Modelling_Threading_model_5.png" alt="Threading Model 5" class="wiki-graphic-image">
+          <div class="wiki-graphic-reference">Threading Model 5</div>
+        </div>
+        <br><br><br>
+
+
+        <h4 class="wiki-h wiki-h4">Ab-initio Modelling</h4>
+        <!-- <h2 class="wiki-h wiki-h2">Heading 2</h2>
+        <h3 class="wiki-h wiki-h3">Heading 3</h3> -->
+        
+        <p class="wiki-p">
+          The fusion protein sequence was submitted on the Robetta Baker Lab web server. 
+          The modelling results were obtained in a couple of days and 5 best models were 
+          predicted for the fusion protein sequence. All the suggested models were 
+          homo-trimers similar to the native R2-NTF pyocin structure.  
+        </p>
+
+        <div class="wiki-graphic">
+          <img src="../assets/images/images/DL_Modelling_ab-initio_model_1.png" alt="Ab-Initio Model 1" class="wiki-graphic-image">
+          <div class="wiki-graphic-reference">Ab-initio Model 1</div>
+        </div>
+        <div class="wiki-graphic">
+          <img src="../assets/images/images/DL_Modelling_ab-initio_model_2.png" alt="Ab-Initio Model 2" class="wiki-graphic-image">
+          <div class="wiki-graphic-reference">Ab-initio Model 2</div>
+        </div>
+        <div class="wiki-graphic">
+          <img src="../assets/images/images/DL_Modelling_ab-initio_model_3.png" alt="Ab-Initio Model 3" class="wiki-graphic-image">
+          <div class="wiki-graphic-reference">Ab-initio Model 3</div>
+        </div>
+        <div class="wiki-graphic">
+          <img src="../assets/images/images/DL_Modelling_ab-initio_model_4.png" alt="Ab-Initio Model 4" class="wiki-graphic-image">
+          <div class="wiki-graphic-reference">Ab-initio Model 4</div>
+        </div>
+        <div class="wiki-graphic">
+          <img src="../assets/images/images/DL_Modelling_ab-initio_model_5.png" alt="Ab-Initio Model 5" class="wiki-graphic-image">
+          <div class="wiki-graphic-reference">Ab-initio Model 5</div>
+        </div>
+        <br><br><br><br><br>
+
+            
+
+      </div>
+    </main>
+
+    <div class="fab-border"></div>
+    <a class="fab" href="#">
+      <img src="../assets/images/icons/next.svg" data-toggle="tooltip" data-placement="left" title="Next section" class="fab-next-section"></img>
+      <img src="../assets/images/icons/top.svg" data-toggle="tooltip" data-placement="left" title="Top"  class="fab-top-section"></img>
+    </a>
+    <div class="circular-progress-container">
+      <svg class="progress-svg" viewbox="0 0 84 84">
+        <circle class="progress-pie" cx="42" cy="42" r="40"></circle>
+      </svg>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-brand"><a href="#" class="">iGEM IIT Roorkee</a></div>
+      <div class="footer-lists">
+        <div class="footer-list">
+          <div class="footer-list-title">People</div>
+          <a href="../Team/" class="tab footer-list-item"><span>Team</span></a>
+          <a href="../Attributions/" class="tab footer-list-item"><span>Attributions</span></a>
+          <a href="../Sponsors/" class="tab footer-list-item"><span>Sponsors</span></a>
+        </div>
+        <div class="footer-list">
+          <div class="footer-list-title">Project</div>
+          <a href="../Description/" class="tab footer-list-item"><span>Description</span></a>
+          <a href="../Problem/" class="tab footer-list-item"><span>Problem</span></a>
+          <a href="../Design/" class="tab footer-list-item"><span>Design</span></a>
+          <a href="../Engineering/" class="tab footer-list-item"><span>Engineering</span></a>
+          <a href="..Implementation/" class="tab footer-list-item"><span>Implementation</span></a>
+          <a href="../Contribution/" class="tab footer-list-item"><span>Contributions</span></a>
+        </div>
+        <div class="footer-list">
+          <div class="footer-list-title">Human Practices</div>
+          <a href="../Human_Practices/" class="tab footer-list-item"><span>Overview</span></a>
+          <a href="../Education/" class="tab footer-list-item"><span>Science Communication and Public Engagement</span></a>
+          <a href="../Integrated_HP/" class="tab footer-list-item"><span>Integrated Human Practices</span></a>
+          <a href="../Sustainable/" class="tab footer-list-item"><span>Sustainable Development Goals</span></a>
+          <a href="../Collaborations/" class="tab footer-list-item"><span>Collaborations</span></a>
+        </div>
+        <div class="footer-list">
+          <div class="footer-list-title">Dry Lab</div>
+          <a href=".#" class="tab footer-list-item footer-list-item-active"><span>Modelling</span></a>
+          <a href="../DryLab_Results/" class="tab footer-list-item"><span>Results</span></a>
+          <a href="../Software/" class="tab footer-list-item"><span>Software</span></a>
+        </div>
+        <div class="footer-list">
+          <div class="footer-list-title">Wet Lab</div>
+          <a href="../Experiments/" class="tab footer-list-item"><span>Overview</span></a>
+          <a href="../Results/" class="tab footer-list-item"><span>Results</span></a>
+          <a href="../Protocols/" class="tab footer-list-item"><span>Protocols</span></a>
+          <a href="../Parts/" class="tab footer-list-item"><span>Parts</span></a>
+          <a href="../Safety/" class="tab footer-list-item"><span>Safety</span></a>
+          <a href="../References/" class="tab footer-list-item"><span>References</span></a>
+        </div>
+        <div class="footer-list">
+          <div class="footer-list-title">Machine Learning</div>
+          <a href="../ML_Overview/" class="tab footer-list-item"><span>Overview</span></a>
+          <a href="../ML_Model/" class="tab footer-list-item"><span>Model</span></a>
+          <a href="../ML_Results/" class="tab footer-list-item"><span>Results</span></a>
+          <a href="../ML_Impact/" class="tab footer-list-item"><span>Impact</span></a>
+        </div>
+      </div>
+      <div class="footer-info">
+        <div class="footer-info-address">
+          <div class="footer-address">
+            The Department of Biotechnology, <br />
+            Indian Institute of Technology, Roorkee <br />
+            Roorkee, Uttarakhand, <br />
+            India - 247667
+            </div>
+          <img src="../assets/images/images/james_thomason_building.svg" class="footer-james-thomason"></img>
+        </div>
+        <div class="footer-info-socials">
+          <div class="footer-section-heading">Contact us:</div>
+          <div class="contacts">
+            <a href="tel:+011-2875468" class="contact"><span>+011-2875468</span></a>
+            <a href="tel:+91-76487699" class="contact"><span>+91-76487699</span></a>
+            <a href="mailto:igem@iitr.ac.in" class="contact"><span>igem@iitr.ac.in</span></a>
+          </div>
+          <div class="footer-section-heading">Follow us on:</div>
+          <div class="socials">
+            <a href="#" class="social"><img src="../assets/images/icons/instagram.svg" alt="Instagrm"></a>
+            <a href="#" class="social"><img src="../assets/images/icons/linkedin.svg" alt="Linkedin"></a>
+            <a href="#" class="social"><img src="../assets/images/icons/facebook.svg" alt="Facebook"></a>
+            <a href="#" class="social"><img src="../assets/images/icons/twitter.svg" alt="Twitter"></a>
+          </div>
+        </div>
+        <img src="../assets/images/images/james_thomason_building.svg" class="footer-james-thomason-mobile"></img>
+      </div>
+    </footer>
+
+    <script src="../js/igem-reset.js"></script>
+    <script src="../js/jquery-slim.min.js"></script>
+    </script>
+    <script src="../js/jquery.waypoints.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/holder.min.js"></script>
+    <script src="../js/index.js"></script>
+    <script>
+      Holder.addTheme("thumb", {
+        bg: "#55595c",
+        fg: "#eceeef",
+        text: "Thumbnail",
+      });
+    </script>
+  </body>
+</html>

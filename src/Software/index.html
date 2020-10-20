@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="Pyomancer by iGEM IIT Roorkee" />
+    <meta name="author" content="Team iGEM IIT Roorkee" />
+    <meta name="theme-color" content="#272727">
+    <title>PYOMANCER</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="../css/igem_reset.css" rel="stylesheet" />
+    <link href="../css/styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header>
+      <div class="navbar-overlay navbar-overlay-1"></div>
+      <div class="navbar-overlay navbar-overlay-2"></div>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top wiki-navbar">
+        <a class="navbar-brand" href="../">PYOMANCER</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto tabs-wrapper">
+            <li class="nav-item dropdown">
+                <a
+                  class="tab nav-link"
+                  href="#"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  People
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="../Team/"><span>Team</span></a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../Attributions/"><span>Attributions</span></a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../Sponsors/"><span>Sponsors</span></a>
+                  </li>
+                </ul>
+              </li>
+            <li class="nav-item dropdown">
+              <a
+                class="tab nav-link"
+                href="#"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Project
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../Description/"><span>Description</span></a></li>
+                <li><a class="dropdown-item" href="../Problem/"><span>Problem</span></a></li>
+                <li><a class="dropdown-item" href="../Design/"><span>Design</span></a></li>
+                <li><a class="dropdown-item" href="../Engineering/"><span>Engineering</span></a></li>
+                <li><a class="dropdown-item" href="..Implementation/"><span>Implementation</span></a></li>
+                <li><a class="dropdown-item" href="../Contribution/"><span>Contributions</span></a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="tab nav-link"
+                href="#"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Human Practices
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../Human_Practices/"> <span>Overview</span></a></li>
+                <li><a class="dropdown-item" href="../Education/"> <span>Science Communication & Public Engagement</span> </a></li>
+                <li><a class="dropdown-item" href="../Integrated_HP/"> <span>Integrated Human Practices</span> </a></li>
+                <li><a class="dropdown-item" href="../Sustainable/"> <span>Sustainable Development Goals</span> </a></li>
+                <li><a class="dropdown-item" href="../Collaborations/"> <span>Collaborations</span> </a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="tab nav-link  nav-link-active"
+              href="#"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Dry Lab
+              </a>
+              <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../Model/"> <span>Modelling</span> </a></li>
+              <li><a class="dropdown-item" href="../DryLab_Results/"> <span>Results</span> </a></li>
+              <li><a class="dropdown-item dropdown-item-active" href="#"> <span>Software</span> </a></li>
+              </ul>
+           </li>
+           <li class="nav-item dropdown">
+            <a class="tab nav-link"
+            href="#"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+            >Wet Lab
+            </a>
+            <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="../Experiments/"> <span>Overview</span></a></li>
+            <li><a class="dropdown-item" href="../Results/"> <span>Results</span> </a></li>
+            <li><a class="dropdown-item" href="../Protocols/"> <span>Protocols</span> </a></li>
+            <li><a class="dropdown-item" href="../Parts/"> <span>Parts</span> </a></li>
+            <li><a class="dropdown-item" href="../Safety/"> <span>Safety</span> </a></li>
+            <li><a class="dropdown-item" href="../References/"> <span>References</span> </a></li>
+            </ul>
+         </li>
+         <li class="nav-item dropdown">
+          <a class="tab nav-link"
+          href="#"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+          >Machine Learning
+          </a>
+          <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="../ML_Overview/"> <span>Overview</span></a></li>
+          <li><a class="dropdown-item" href="../ML_Model/"> <span>Model</span> </a></li>
+          <li><a class="dropdown-item" href="../ML_Results/"> <span>Results</span> </a></li>
+          <li><a class="dropdown-item" href="../ML_Impact/"> <span>Impact</span> </a></li>
+          </ul>
+       </li>
+            <li class="nav-item">
+              <a class="tab nav-link" href="#">Judges</a>
+            </li>
+            <li class="nav-item">
+              <a class="tab nav-link" href="#">Notebook</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="header-progress">
+        <div class="header-progress-indicator"></div>
+      </div>
+      
+    </header>
+
+    <div class="banner">
+      <p class="text-center font-size-24">
+        <h1 class="banner-h1">Dry Lab</h1>
+        <h2 class="banner-h2">Software</h2>
+        
+        <div class="banner-overlay"></div>
+      </p>
+    </div>
+
+    <main role="main" class="container wiki">    
+
+      <div class="side-nav">
+        <div class="page-title">Software</div>
+        <div class="side-nav-menu">
+        </div>
+      </div>
+
+      <div class="wiki-content">
+        
+        <h2 class="wiki-h wiki-h2 wiki-section-start" id="illustration">Illustration</h2>
+
+        <!-- <h2 class="wiki-h wiki-h2">Heading 2</h2>
+        <h3 class="wiki-h wiki-h3">Heading 3</h3> -->
+
+        <div class="wiki-graphic">
+          <img src="../assets/images/images/DL_Software_1.png" alt="Illustration" class="wiki-graphic-image">
+          <div class="wiki-graphic-reference">Illustration</div>
+        </div>
+        <br><br><br><br>
+
+        <h2 class="wiki-h wiki-h2 wiki-section-start" id="inspiration">Inspiration</h2>
+
+        <!-- <h2 class="wiki-h wiki-h2">Heading 2</h2>
+        <h3 class="wiki-h wiki-h3">Heading 3</h3> -->
+
+        <p class="wiki-p">
+          Our project attempts to create a novel engineered protein, 
+          based on R-Type Pyocins to target Priority 1 ESKAPE Pathogen - A.Baumannii. <br>
+          Our team did an extensive literature review to identify which exact 
+          strains of Pyocin and Bacteriophages could be engineered together.<br>
+          This process was very cumbersome and time-consuming, and we realised there 
+          is a need for a software which could automate this whole process so that the 
+          first model could be made bioinformatically. <br>
+          We came to know about TAU Israel’s TAIL OR SWIFT software which was designed 
+          to fulfil a similar purpose. As we set out to explore that software, we 
+          realised the whole process had to be done in individual steps by the user 
+          and the user needs to have a basic understanding of the science behind 
+          engineering this protein. We thus decided on improving and automating 
+          the software further so that anyone can model engineered proteins to 
+          fight resistant bacteria using Django Web Framework. After discussion 
+          with our Instructors, we decided to integrate REST APIs of Clustal Omega 
+          and JPred, which form the backbone of our software.
+          <br><br><br><br><br>
+        </p>
+        
+        <h2 class="wiki-h wiki-h2 wiki-section-start" id="project_description">Project Description</h2>
+        
+        <!-- <h2 class="wiki-h wiki-h2">Heading 2</h2>
+        <h3 class="wiki-h wiki-h3">Heading 3</h3> -->
+        
+        <p class="wiki-p">
+          TailScout is a user-friendly software that can be used either by some 
+          pharma industry which targets to combat AMR using Engineered pyocins or 
+          any other iGEM team to build upon their iGEM project. TailScout is basically 
+          designed to increase the user’s productivity by reducing their time in 
+          bioinformatically designing the engineered pyocin and quickly proceeding 
+          them towards the wet lab experiments.
+        </p>
+
+        <p class="wiki-p">
+          By using our software, pharmacology labs and future igem teams will be able 
+          to produce stable 3D structures of the engineered proteins with detailed analysis.
+        </p>
+
+        <p class="wiki-p">
+          The workflow is straightforward, and TailScout's simple GUI makes the complete process effortless:<br>
+          <ol class="wiki-ol">
+            <li>Select Resistant Bacteria from the given list of Antimicrobial Resistant Pathogens.</li>
+            <li>TailScout detects the most lytic phage for the chosen bacteria.</li>
+            <li>The software produces the sequence of engineered pyocin.</li>
+            <li>The secondary structure file of the engineered pyocin is available for the user to download.</li>
+          </ol>
+        </p><br>
+        <p class="wiki-p">
+          We have uploaded all of our source code on our github. You can easily 
+          access the codes from there and it will also help any future teams to 
+          further build upon our work.
+        </p>
+        <br><br><br><br>
+      
+        <h2 class="wiki-h wiki-h2 wiki-section-start" id="features">Features</h2>
+
+        <!-- <h2 class="wiki-h wiki-h2">Heading 2</h2>
+        <h3 class="wiki-h wiki-h3">Heading 3</h3> -->
+
+        <p class="wiki-p">
+          
+          <ol class="wiki-ol">
+            <li><span class="wiki-bold">Gene Detection</span><br>
+              TailScout uses a comprehensive tail fibers sequence database of 
+              Bacteriophages and a unique algorithm to detect the most lytic phage tail.
+              <div class="wiki-graphic">
+                <img src="../assets/images/images/DL_Software_2.png" width=200px alt="features_1" class="wiki-graphic-image">
+              </div>
+            </li>
+
+            <li><span class="wiki-bold">MSA and sequence of engineered pyocin</span><br>
+              Tail Scout gives the sequence of the protein by combining the lytic area of the phage with R-type pyocin.
+              <div class="wiki-graphic">
+                <img src="../assets/images/images/DL_Software_3.png" width=200px alt="features_2" class="wiki-graphic-image">
+              </div>
+            </li>
+
+            <li><span class="wiki-bold">Secondary Structure Prediction</span><br>
+              Secondary Structure prediction and detailed analysis of the stability of proteins.
+              <div class="wiki-graphic">
+                <img src="../assets/images/images/DL_Software_4.png" width=200px alt="features_3" class="wiki-graphic-image">
+              </div>
+            </li>
+
+            <li><span class="wiki-bold">OS Independent</span><br>
+              Since tail scout is a web-based application we do not need any specific Operating System.
+              <div class="wiki-graphic">
+                <img src="../assets/images/images/DL_Software_5.png" width=200px alt="features_4" class="wiki-graphic-image">
+              </div>
+            </li>
+          </ol>
+        </p><br><br><br><br>
+
+
+        <h2 class="wiki-h wiki-h2 wiki-section-start" id="comparison">Comparison with Tail-or Swift</h2>
+
+        <!-- <h2 class="wiki-h wiki-h2">Heading 2</h2>
+        <h3 class="wiki-h wiki-h3">Heading 3</h3> -->
+
+        <p class="wiki-p">
+          As we set out to explore TAIL-OR-SWIFT, we realised the whole process 
+          had to be done in individual steps by the user and the user needs to have 
+          a basic understanding of the science behind engineering this protein. 
+          Also, we realised Tail-or-Swift is a type of standalone application developed 
+          completely on Python GUI and its versions are only available for Windows and MAC 
+          and the secondary structure predicting function works by manually providing the input file.<br>
+          So, after analyzing these features we worked upon these shortcomings and tried to design 
+          our web server accordingly which will work on any type of system and the prediction function 
+          will be automated where the user has to just give input at the starting of the process.
+
+        </p><br><br>
+
+        <div class="table-responsive">
+          <table class="table table-hover table-bordered">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col"></th>
+                <th scope="col">Tail-Or-Swift</th>
+                <th scope="col">TailScout</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Operating System</th>
+                <td>Windows<br>MAC</td>
+                <td>Any</td>
+              </tr>
+              <tr>
+                <th scope="row">Application Type</th>
+                <td>Computer Software</td>
+                <td>Web Application</td>
+              </tr>
+              <tr>
+                <th scope="row">Secondary Str Prediction</th>
+                <td>Manual</td>
+                <td>Automatic</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <br><br>
+        <h5 class="wiki-h wiki-h5">Why a Web application and not a Software</h5>
+        <ul class="wiki-ul">
+          <li>
+            While discovering our inspiration project we decided to follow the approach 
+            of Design thinking and started revolving our thought process around empathising and prototyping.
+          </li>
+          <li>
+            Keeping in mind the different accessibility that users have issues with, 
+            we decided to make our software in the form of WebApplication so that 
+            It can be used on different platforms.
+          </li>
+          <li>
+            It is more beneficial than a regular software as software requires 
+            periodic updates and it also faces issues with regards to compatibility 
+            with different operating systems.
+          </li>
+        </ul>
+        <br><br>
+
+        <h5 class="wiki-h wiki-h5">Why Django and not flask</h5>
+        <ul class="wiki-ul">
+          <li>
+            While thinking about the scalability of the webapp, we chose Django over flask. 
+          </li>
+          <li>
+            Django provides its own Django ORM (object-relational mapping) and uses data models, 
+            while Flask doesn’t have any data models at all. 
+          </li>
+          <li>
+            Data models allow us to link database tables with classes in a 
+            programming language so they can work with models in the same way 
+            as database references. 
+          </li>
+          <li>
+            And as for our gene detection algorithm, we had to use a phage database so we decided to go with Django. 
+          </li>
+          <li>
+            Also, Flask generally is used for very small web applications but as in the future we plan to scale up 
+            the process we decided to go with django as in the end if we plan to scale up we would have to switch to django. 
+          </li>
+        </ul>
+        <br><br>
+
+        <h2 class="wiki-h wiki-h2 wiki-section-start" id="algorithms">Algorithms</h2>
+
+        <!-- <h2 class="wiki-h wiki-h2">Heading 2</h2>
+        <h3 class="wiki-h wiki-h3">Heading 3</h3> -->
+
+        <h5 class="wiki-h wiki-h5">Gene Name Detection : </h5>
+        <ul class="wiki-ul">
+          <li>
+            An algorithm which searches for genes with names which 
+            have ‘tail in them’ such as ‘tail fibre protein’ or 
+            ‘putative tail fibre’ etc.
+          </li>
+          <li>
+            For making this algorithm we first made a local database 
+            using Virus-Host DB and then a sequence file of all phage 
+            tails of some prominent Resistant bacterias. 
+          </li>
+          <li>
+            We wanted a sequence file containing all the phage tail sequences 
+            of a particular resistant bacteria, so we divided our thought 
+            process into two sub processes: 
+            <ul class="wiki-ul">
+              <li>The first function will be used for getting the list of all the phages of that bacteria</li>
+              <li>The second function will be used for getting their particular sequences</li>
+            </ul>
+          </li>
+        </ul>
+        <br><br><br>
+
+        <h5 class="wiki-h wiki-h5">Clustal Omega Algorithm [1] : </h5>
+        <ul class="wiki-ul">
+          <li>
+            An algorithm which aims to determine the similarity in the sequence of 
+            phages(talking about TailScout here).
+          </li>
+          <li>
+            This algorithm starts by computing a rough distance matrix between each pair 
+            of sequences based on pairwise sequence alignment scores. 
+          </li>
+          <li>
+            These scores are computed using the pairwise alignment parameters for 
+            DNA and protein sequences. 
+          </li>
+          <li>
+            Next, the algorithm uses the neighbour-joining method with midpoint rooting to 
+            create a guide tree, which is used to generate a global alignment.  
+          </li>
+          <li>
+            The guide tree serves as a rough template for clades that tend to share 
+            insertion and deletion features.   
+          </li>
+        </ul>
+        <br><br><br>
+
+        <h5 class="wiki-h wiki-h5">JPred Jnet Neural network model for protein production [2] : </h5>
+        <ul class="wiki-ul">
+          <li>
+            Jnet is a neural network prediction algorithm that 
+            works by applying multiple sequence alignments, 
+            alongside PSI-BLAST and HMM profiles.
+          </li>
+          <li>
+            Consensus techniques are applied that predict the final secondary 
+            structure more accurately. 
+          </li>
+          <li>
+            Jnet can also predict 2 state solvent exposure at 25, 5, and 0% relative 
+            exposure. Positions, where the different prediction methods do not agree, 
+            are marked as no jury positions.  
+          </li>
+          <li>
+            A separate network is applied for these positions, which improves 
+            the cross-validated accuracy. A reliability index indicates which 
+            residues are predicted with high confidence.  
+          </li>
+        </ul>
+        <br><br><br>
+
+        <div class="wiki-graphic">
+          <img src="../assets/images/images/DL_Software_6.png" alt="Flowchart" class="wiki-graphic-image">
+          <div class="wiki-graphic-reference">Flowchart</div>
+        </div>
+        <br><br><br>
+
+        <h2 class="wiki-h wiki-h2 wiki-section-start" id="test_bugs">Testing the Bugs</h2>
+
+        <!-- <h2 class="wiki-h wiki-h2">Heading 2</h2>
+        <h3 class="wiki-h wiki-h3">Heading 3</h3> -->
+
+        <p class="wiki-p">
+          For checking the bugs in our codes, we made a presentation giving the gist of the 
+          software and how to run a corresponding code. We reached out to some professors, 
+          professionals through our mentor and some seniors who helped us in debugging the 
+          codes and providing us with meaningful discussions paving the way for TAILSCOUT.
+        </p><br><br>
+
+        <h2 class="wiki-h wiki-h2 wiki-section-start" id="next_phase">Next Phase</h2>
+
+        <!-- <h2 class="wiki-h wiki-h2">Heading 2</h2>
+        <h3 class="wiki-h wiki-h3">Heading 3</h3> -->
+        
+        <h4 class="wiki-h wiki-h4">Plans for the Next Phase of Project</h4>
+
+        <ul class="wiki-ul">
+          <li>
+            Increasing the numbers of Multiple Drug Resistant Bacteria in our phage library.
+          </li>
+          <li>
+            Result Analysis of Secondary and Tertiary structure of the fusion protein.
+          </li>
+          <li>
+            Incorporating protein modeling of the pyocin bacteriophage fusion protein.
+          </li>
+        </ul>
+        <br><br><br>
+
+        <h2 class="wiki-h wiki-h2 wiki-section-start" id="references">References</h2>
+
+        <!-- <h2 class="wiki-h wiki-h2">Heading 2</h2>
+        <h3 class="wiki-h wiki-h3">Heading 3</h3> -->
+
+        <ul class="wiki-ul">
+          <li>
+            Madeira F, Park YM, Lee J, et al. The EMBL-EBI search and sequence 
+            analysis tools APIs in 2019. Nucleic Acids Research. 2019 Jul;47(W1)
+            :W636-W641. DOI: 10.1093/nar/gkz268.
+          </li>
+          <li>
+            Drozdetskiy A, Cole C, Procter J, Barton GJ. JPred4: a protein 
+            secondary structure prediction server. Nucleic Acids Res. 2015 Jul 
+            1;43(W1):W389-94. doi: 10.1093/nar/gkv332. Epub 2015 Apr 16. PMID: 
+            25883141; PMCID: PMC4489285.
+          </li>
+        </ul>
+        <br><br><br><br><br>
+
+
+      </div>
+    </main>
+
+    <div class="fab-border"></div>
+    <a class="fab" href="#">
+      <img src="../assets/images/icons/next.svg" data-toggle="tooltip" data-placement="left" title="Next section" class="fab-next-section"></img>
+      <img src="../assets/images/icons/top.svg" data-toggle="tooltip" data-placement="left" title="Top"  class="fab-top-section"></img>
+    </a>
+    <div class="circular-progress-container">
+      <svg class="progress-svg" viewbox="0 0 84 84">
+        <circle class="progress-pie" cx="42" cy="42" r="40"></circle>
+      </svg>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-brand"><a href="#" class="">iGEM IIT Roorkee</a></div>
+      <div class="footer-lists">
+        <div class="footer-list">
+          <div class="footer-list-title">People</div>
+          <a href="../Team/" class="tab footer-list-item"><span>Team</span></a>
+          <a href="../Attributions/" class="tab footer-list-item"><span>Attributions</span></a>
+          <a href="../Sponsors/" class="tab footer-list-item"><span>Sponsors</span></a>
+        </div>
+        <div class="footer-list">
+          <div class="footer-list-title">Project</div>
+          <a href="../Description/" class="tab footer-list-item"><span>Description</span></a>
+          <a href="../Problem/" class="tab footer-list-item"><span>Problem</span></a>
+          <a href="../Design/" class="tab footer-list-item"><span>Design</span></a>
+          <a href="../Engineering/" class="tab footer-list-item"><span>Engineering</span></a>
+          <a href="..Implementation/" class="tab footer-list-item"><span>Implementation</span></a>
+          <a href="../Contribution/" class="tab footer-list-item"><span>Contributions</span></a>
+        </div>
+        <div class="footer-list">
+          <div class="footer-list-title">Human Practices</div>
+          <a href="../Human_Practices/" class="tab footer-list-item"><span>Overview</span></a>
+          <a href="../Education/" class="tab footer-list-item"><span>Science Communication and Public Engagement</span></a>
+          <a href="../Integrated_HP/" class="tab footer-list-item"><span>Integrated Human Practices</span></a>
+          <a href="../Sustainable/" class="tab footer-list-item"><span>Sustainable Development Goals</span></a>
+          <a href="../Collaborations/" class="tab footer-list-item"><span>Collaborations</span></a>
+        </div>
+        <div class="footer-list">
+          <div class="footer-list-title">Dry Lab</div>
+          <a href="../Model/" class="tab footer-list-item"><span>Modelling</span></a>
+          <a href="../DryLab_Results/" class="tab footer-list-item"><span>Results</span></a>
+          <a href="#" class="tab footer-list-item footer-list-item-active"><span>Software</span></a>
+        </div>
+        <div class="footer-list">
+          <div class="footer-list-title">Wet Lab</div>
+          <a href="../Experiments/" class="tab footer-list-item"><span>Overview</span></a>
+          <a href="../Results/" class="tab footer-list-item"><span>Results</span></a>
+          <a href="../Protocols/" class="tab footer-list-item"><span>Protocols</span></a>
+          <a href="../Parts/" class="tab footer-list-item"><span>Parts</span></a>
+          <a href="../Safety/" class="tab footer-list-item"><span>Safety</span></a>
+          <a href="../References/" class="tab footer-list-item"><span>References</span></a>
+        </div>
+        <div class="footer-list">
+          <div class="footer-list-title">Machine Learning</div>
+          <a href="../ML_Overview/" class="tab footer-list-item"><span>Overview</span></a>
+          <a href="../ML_Model/" class="tab footer-list-item"><span>Model</span></a>
+          <a href="../ML_Results/" class="tab footer-list-item"><span>Results</span></a>
+          <a href="../ML_Impact/" class="tab footer-list-item"><span>Impact</span></a>
+        </div>
+      </div>
+      <div class="footer-info">
+        <div class="footer-info-address">
+          <div class="footer-address">
+            The Department of Biotechnology, <br />
+            Indian Institute of Technology, Roorkee <br />
+            Roorkee, Uttarakhand, <br />
+            India - 247667
+            </div>
+          <img src="../assets/images/images/james_thomason_building.svg" class="footer-james-thomason"></img>
+        </div>
+        <div class="footer-info-socials">
+          <div class="footer-section-heading">Contact us:</div>
+          <div class="contacts">
+            <a href="tel:+011-2875468" class="contact"><span>+011-2875468</span></a>
+            <a href="tel:+91-76487699" class="contact"><span>+91-76487699</span></a>
+            <a href="mailto:igem@iitr.ac.in" class="contact"><span>igem@iitr.ac.in</span></a>
+          </div>
+          <div class="footer-section-heading">Follow us on:</div>
+          <div class="socials">
+            <a href="#" class="social"><img src="../assets/images/icons/instagram.svg" alt="Instagrm"></a>
+            <a href="#" class="social"><img src="../assets/images/icons/linkedin.svg" alt="Linkedin"></a>
+            <a href="#" class="social"><img src="../assets/images/icons/facebook.svg" alt="Facebook"></a>
+            <a href="#" class="social"><img src="../assets/images/icons/twitter.svg" alt="Twitter"></a>
+          </div>
+        </div>
+        <img src="../assets/images/images/james_thomason_building.svg" class="footer-james-thomason-mobile"></img>
+      </div>
+    </footer>
+
+    <script src="../js/igem-reset.js"></script>
+    <script src="../js/jquery-slim.min.js"></script>
+    </script>
+    <script src="../js/jquery.waypoints.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/holder.min.js"></script>
+    <script src="../js/index.js"></script>
+    <script>
+      Holder.addTheme("thumb", {
+        bg: "#55595c",
+        fg: "#eceeef",
+        text: "Thumbnail",
+      });
+    </script>
+  </body>
+</html>
