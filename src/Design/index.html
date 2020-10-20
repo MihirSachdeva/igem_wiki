@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="Pyomancer by iGEM IIT Roorkee" />
+    <meta name="author" content="Team iGEM IIT Roorkee" />
+    <meta name="theme-color" content="#272727">
+    <title>PYOMANCER</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="../css/igem_reset.css" rel="stylesheet" />
+    <link href="../css/styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header>
+      <div class="navbar-overlay navbar-overlay-1"></div>
+      <div class="navbar-overlay navbar-overlay-2"></div>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top wiki-navbar">
+        <a class="navbar-brand" href="../">PYOMANCER</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto tabs-wrapper">
+            <li class="nav-item dropdown">
+                <a
+                  class="tab nav-link"
+                  href="#"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  People
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="../Team/"><span>Team</span></a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../Attributions/"><span>Attributions</span></a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../Sponsors/"><span>Sponsors</span></a>
+                  </li>
+                </ul>
+              </li>
+            <li class="nav-item dropdown">
+              <a
+                class="tab nav-link nav-link-active"
+                href="#"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Project
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../Description/"><span>Description</span></a></li>
+                <li><a class="dropdown-item" href="../Problem/"><span>Problem</span></a></li>
+                <li><a class="dropdown-item dropdown-item-active" href="../Design/"><span>Design</span></a></li>
+                <li><a class="dropdown-item" href="../Engineering/"><span>Engineering</span></a></li>
+                <li><a class="dropdown-item" href="..Implementation/"><span>Implementation</span></a></li>
+                <li><a class="dropdown-item" href="../Contribution/"><span>Contributions</span></a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="tab nav-link"
+                href="#"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Human Practices
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../Human_Practices/"> <span>Overview</span></a></li>
+                <li><a class="dropdown-item" href="../Education/"> <span>Science Communication & Public Engagement</span> </a></li>
+                <li><a class="dropdown-item" href="../Integrated_HP/"> <span>Integrated Human Practices</span> </a></li>
+                <li><a class="dropdown-item" href="#"> <span>Sustainable Development Goals</span> </a></li>
+                <li><a class="dropdown-item" href="../Collaborations/"> <span>Collaborations</span> </a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="tab nav-link"
+              href="#"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Dry Lab
+              </a>
+              <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../Model/"> <span>Modelling</span> </a></li>
+              <li><a class="dropdown-item" href="../DryLab_Results/"> <span>Results</span> </a></li>
+              <li><a class="dropdown-item" href="../Software/"> <span>Software</span> </a></li>
+              </ul>
+           </li>
+           <li class="nav-item dropdown">
+            <a class="tab nav-link"
+            href="#"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+            >Wet Lab
+            </a>
+            <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="../Experiments/"> <span>Overview</span></a></li>
+            <li><a class="dropdown-item" href="../Results/"> <span>Results</span> </a></li>
+            <li><a class="dropdown-item" href="../Protocols/"> <span>Protocols</span> </a></li>
+            <li><a class="dropdown-item" href="../Parts/"> <span>Parts</span> </a></li>
+            <li><a class="dropdown-item" href="../Safety/"> <span>Safety</span> </a></li>
+            <li><a class="dropdown-item" href="../References/"> <span>References</span> </a></li>
+            </ul>
+         </li>
+         <li class="nav-item dropdown">
+          <a class="tab nav-link"
+          href="#"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+          >Machine Learning
+          </a>
+          <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="../ML_Overview/"> <span>Overview</span></a></li>
+          <li><a class="dropdown-item" href="../ML_Model/"> <span>Model</span> </a></li>
+          <li><a class="dropdown-item" href="../ML_Results/"> <span>Results</span> </a></li>
+          <li><a class="dropdown-item" href="../ML_Impact/"> <span>Impact</span> </a></li>
+          </ul>
+       </li>
+            <li class="nav-item">
+              <a class="tab nav-link" href="#">Judges</a>
+            </li>
+            <li class="nav-item">
+              <a class="tab nav-link" href="#">Notebook</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="header-progress">
+        <div class="header-progress-indicator"></div>
+      </div>
+      
+    </header>
+
+    <div class="banner">
+      <p class="text-center font-size-24">
+        <h1 class="banner-h1">Project</h1>
+        <h2 class="banner-h2">Desgin</h2>
+        
+        <div class="banner-overlay"></div>
+      </p>
+    </div>
+
+    <main role="main" class="container wiki">    
+
+      <div class="side-nav">
+        <div class="page-title">Desgin</div>
+        <div class="side-nav-menu">
+        </div>
+      </div>
+
+      <div class="wiki-content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <p class="wiki-p">
+              In 2008, Scholl et. al demonstrated that R-type pyocins could be retargeted to specifically bind and inhibit a target bacterium, by creating a fusion of the pyocin tail-fiber protein with that of a phage tail-fiber. 
+          </p>
+          <p class="wiki-p">
+              In this project, we plan to make an E.coli based expression system for producing antibacterial protein complexes called <span style="font-weight: bold;">Seekercins</span>, which have been engineered to target drug-resistant pathogens. The pathogen we have chosen to test our system on is <span style="font-style:italic;">Acinetobacter baumannii</span>. 
+          </p>
+          <br/><br/><br/>
+
+    
+        <h1 class="wiki-h wiki-h1 wiki-section-start" id="wiki-section-1">Principles of Seekercin design</h1><br/>
+        <ol class="wiki-ol">
+          <li>
+            All native proteins of the pyocin tail structure including tube, spike, sheath and baseplate must be conserved for proper functioning.
+          </li>
+          <li>
+            The initial 164 N-terminal amino acid residues of the wild-type pyocin tail fiber must be conserved for proper functioning. 
+          </li>
+          <li>
+            The C-terminal of the fusion tail-fiber (originating from the phage-tail) must bind specifically to a surface-accessible receptor(sugar or protein) on the cell wall of the target bacterium.
+          </li>
+        </ol>
+        <br/><br/><br/>
+
+
+
+
+        <h1 class="wiki-h wiki-h1 wiki-section-start" id="wiki-section-2">Targeting Acinetobacter baumannii</h1><br/>
+        <h2 class="wiki-h wiki-h2">Choosing a phage </h2>
+        <p class="wiki-p">
+            An extensive literature search was done to identify phages that show lytic activity to MDR <span style="font-style: italic;">A. baumannii</span> clinical isolates. The search was limited to the families <span style="font-style: italic;">Myoviridae</span> and <span style="font-style: italic;">Podoviridae</span>, due to the similarity of their structure and injection mechanism (in the cell wall) to that of pyocins. Search parameters that were used were lytic spectrum range as well as specificity to the species. An ideal search parameter would be to look for their binding spectrum, which is the percentage of strains the phage binds to out of tested strains. However, this characteristic is rarely studied by researchers and the data was insufficient. Further, the phage would have to have been tested on a minimum of 40 strains for the results to be considered significant for our purpose. 
+        </p>
+        <p class="wiki-p">
+            Based on the search, following candidates were selected for their large lytic spectrum- 
+        </p>
+        <br/>
+        <div class="table-responsive">
+            <table class="table table-hover table-bordered">
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col">Name</th>
+                  <th scope="col">Lytic Spectrum(susceptible strains/tested strains)</th>
+                  <th scope="col">Family</th>
+                  <th scope="col">Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Acinetobacter phage AP22</th>
+                  <td>68% (89 of 130)</td>
+                  <td>Myoviridae</td>
+                  <td>Sequenced and annotated</td>
+                </tr>
+                <tr>
+                  <th scope="row">Phage  vB-GEC_Ab-M-G7</th>
+                  <td>68% (136/200)</td>
+                  <td>Myoviridae</td>
+                  <td>Not sequenced</td>
+                </tr>
+                <tr>
+                  <th scope="row">Phage PD-6A3</th>
+                  <td colspan="2">32% (179/552)</td>
+                  <td>Podoviridae</td>
+                  <td>Partially sequenced, tail fiber not annotated/unavailable</td>
+                </tr>
+                <tr>
+                  <th scope="row">YMC13/01/C62 ABA BP (phage Bϕ-C62)</th>
+                  <td colspan="2"> 35%(16/45)</td>
+                  <td>Myoviridae</td>
+                  <td>Sequenced and annotated</td>
+                </tr>
+                <tr>
+                  <th scope="row"> Βϕ‐R1215/ Βϕ‐R2315</th>
+                  <td colspan="2">46.6%(21/45)</td>
+                  <td>Myoviridae</td>
+                  <td>Sequenced and annotated</td>
+                </tr>
+              </tbody>
+            </table>
+          </div><br/>
+          <p class="wiki-p">
+              2 out of the 5 phages had not been sequenced completely and could not be used for their tail fiber gene. Out of the remaining, two had relatively low numbers of strains that they were tested on. This highlights the requirement for more widespread isolation, characterization and sequencing of phages to realize the full potential of our project. For these reasons, we chose phage AP22 as the ideal candidate for further development and characterization.  
+          </p>
+          <br/><br/>
+          
+          <h2 class="wiki-h wiki-h2">Bioinformatic Analysis and MSA of AP22- </h2>
+          <p class="wiki-p">
+              We used a preliminary bioinformatics analysis to design our fusion protein tail fiber. The overall analysis involved:
+          </p><br/>
+          <ol class="wiki-ol">
+            <li>
+              <span class="wiki-bold">Identifying a suitable bacteriophage for A.baumannii</span><br/>
+              <p class="wiki-p">
+                  A bioinformatics search for A. baumannii bacteriophages and the multiple sequence alignment of resulting bacteriophage tail fiber sequences resulted in identification of conservedness in N-terminal region (Fig 1). The C-terminal region is highly variable in sequence and length. Phylogenetic analysis revealed two prominent clades of viral tail fibers; a short tail clade (AP22 clade) of approximately 270 aa and a long tail clade (AB1 clade) of around 730 aa (Fig 2). The crystal structure of a bacteriophage AP22 tail fiber is available in the database and we chose to utilize the same for our further work. When analyzed for evolutionary sequence-similarity , AP22 tail fiber had over 60% similarity with the other members in its clade (Fig 3). 
+              </p>
+              <div class="wiki-graphic">
+                  <img src="../assets/images/images/Project_Design_Figure_1.png" alt="" class="wiki-graphic-image">
+                  <div class="wiki-graphic-reference">Fig 1. Representative AP22 and AB1-type A. baumannii bacteriophage tail fiber sequences were aligned by CLUSTAL Omega and rendered using JALVIEW. Sequence differences between two types occur in a C-terminal region.</div>
+              </div><br/>
+              <div class="wiki-graphic">
+                  <img src="../assets/images/images/Project_Design_Figure_2.png" alt="" class="wiki-graphic-image">
+                  <div class="wiki-graphic-reference">Fig 2. Neighbour-joining phylogenetic tree obtained from tail fiber sequences of major Acinetobacter bacteriophages. Numbers refer to significant bootstrap values of 100 calculated trees.</div>
+              </div><br/>
+              <div class="wiki-graphic">
+                  <img src="../assets/images/images/Project_Design_Figure_3.png" alt="" class="wiki-graphic-image">
+                  <div class="wiki-graphic-reference">Fig 3. AP22-type Acinetobacter bacteriophage tail fibers sequences are conserved in their sequences with minor variations at C-terminal end.</div>
+              </div><br/>
+            </li>
+
+
+            <li class="wiki-bold">
+                <span class="wiki-bold">Rational design of chimeric tail fiber </span><br/>
+                <p class="wiki-p">
+                    Analysis of key domains in AP22 tail fiber (Fig 4) revealed a conserved lectin-fold similar to that of R2-pyocin tail fiber. Considering this information, we reasoned that a chimera of R2 N-terminal domain fused with AP22 C-terminal domain (Fig 5) would result in generation of specific R2 pyocin against A.baumannii. To identify specific amino acid positions for genetic replacement, we aligned C-terminal ends of AP22 and R2 pyocin tail fibers (Fig 6). The sequence alignment revealed that the last 137 amino acids of AP22 constituting the head and shaft of tail fiber aligned with the last 134 amino acids of R2 pyocin tail fiber. We predicted the secondary structure formation of the aforementioned 137 and 134 amino acid sequences and found that the alpha helix and 8 beta sheets (constituting lectin fold) are conserved in both the tails (fig 7) albeit variations in sequence length and size (Fig 8). 
+                </p>
+                <div class="wiki-graphic">
+                    <img src="../assets/images/images/Project_Design_Figure_4.png" alt="" class="wiki-graphic-image">
+                    <div class="wiki-graphic-reference">
+                        Fig 4. Key domains of Acinetobacter bacteriophage AP22-type tail fiber involved in bacterial attachment. The lectin fold in the C-terminal domain head region is majorly involved in binding to bacterial lipopolysaccharides.
+                        </div>
+                </div><br/>
+                <div class="wiki-graphic">
+                    <img src="../assets/images/images/Project_Design_Figure_5.png" alt="" class="wiki-graphic-image">
+                    <div class="wiki-graphic-reference">Fig 5. Rationale and design of chimeric R2P-AP22 tail fiber</div>
+                </div><br/>
+                <div class="wiki-graphic">
+                    <img src="../assets/images/images/Project_Design_Figure_6.png" alt="" class="wiki-graphic-image">
+                    <div class="wiki-graphic-reference">Fig 6. Sequence comparison of C-domains of AP22 phage tail (137 aa) with R2-pyocin (134 aa).</div>
+                </div><br/>
+                <div class="wiki-graphic">
+                    <img src="../assets/images/images/Project_Design_Figure_7.png" alt="" class="wiki-graphic-image">
+                    <div class="wiki-graphic-reference">Fig 7. AP22 and R2-pyocin tail fiber C-domain secondary structure prediction by Jpred4 software.</div>
+                </div><br/>
+                <div class="wiki-graphic">
+                    <img src="../assets/images/images/Project_Design_Figure_8.png" alt="" class="wiki-graphic-image">
+                    <div class="wiki-graphic-reference">Fig 8. Major structural differences between R2 Pyocin and AP22 tail fiber head regions.</div>
+                </div><br/>
+                For further information on our bioinformatics and modelling, refer to the <a href="../Model/" class="wiki-a">Dry Lab</a> tab.
+            </li>
+          </ol><br/><br/><br/>
+
+
+          <h1 class="wiki-h wiki-h1 wiki-section-start" id="wiki-section-3">Plasmid Design</h1><br/>
+          <p class="wiki-p">
+              Based on the fusion protein sequence created after bioinformatic analysis, the fusion tail fiber gene will  be incorporated into the pyocin gene cluster in an expression vector. 
+          </p>
+          <p class="wiki-p">
+              The wild-type pyocin gene cluster consists of 18 genes, PA0613 to PA0631, with 16 ORFs, that encode for all the subunit proteins and chaperones required for proper folding and complex formation. It also contains a lysis gene which allows the release of assembled pyocins into the surroundings. The gene responsible for the tail fiber, PA0620 has been replaced by the fusion tail-fiber gene originating from AP22 phage. 
+          </p>
+          <p class="wiki-p">
+              This procedure is possible through biochemical methods but we opted for DNA synthesis to reduce complications and time taken. 
+          </p>
+          <br/>
+          <div class="wiki-graphic">
+              <img src="../assets/images/images/Project_Design_Figure_9.png" alt="" class="wiki-graphic-image">
+              <div class="wiki-graphic-reference"></div>
+          </div><br/>
+          <p class="wiki-p">
+              As a chassis we chose to produce them in Escherichia coli, specifically strain BL21(DE3). It is a commonly grown lab strain that is used for expression of proteins at a high efficiency. Its genome contains a DE3 recombinant prophage harboring the T7 RNA polymerase gene that can direct high-level expression of cloned genes under the control of the T7 promoter. 
+          </p>
+          <p class="wiki-p">
+              As an expression vector, we chose pET-28 a from Novagen. It contains a T7 promoter upstream of a strong RBS and a lac operator, allowing IPTG-controllable protein expression. 
+          </p><br/><br/><br/>
+
+
+          <h1 class="wiki-h wiki-h1 wiki-section-start" id="wiki-section-4">DNA Synthesis</h1><br/>
+          <p class="wiki-p">The sequences for the pyocin gene cluster and fusion tail fiber were generously synthesized by our sponsor IDT. Coding region sequences were codon-optimized by the supplier to reduce the high natural complexity of the gene cluster sequence to allow the possibility of DNA synthesis. Furthermore, illegal Biobrick and Type IIs restriction sites were edited out. The entire construct is <span class="wiki-bold">12732</span> bp long and was divided into 8 gBlocks fragments during synthesis. The overlaps required for Gibson assembly were built into the ordered gBlocks, eliminating the need for a PCR extension step. The ordered DNA was received and is ready for assembly. Our plasmid would be sent for sequencing to verify that we cloned it correctly.
+          </p>
+          <p class="wiki-p">
+              For further details about the assembly and further experiments, refer to the <a href="../Experiments/" class="wiki-a">Experiments</a> page. 
+          </p><br/><br/><br/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+       
+      </div>
+    </main>
+
+    <div class="fab-border"></div>
+    <a class="fab" href="#">
+      <img src="../assets/images/icons/next.svg" data-toggle="tooltip" data-placement="left" title="Next section" class="fab-next-section"></img>
+      <img src="../assets/images/icons/top.svg" data-toggle="tooltip" data-placement="left" title="Top"  class="fab-top-section"></img>
+    </a>
+    <div class="circular-progress-container">
+      <svg class="progress-svg" viewbox="0 0 84 84">
+        <circle class="progress-pie" cx="42" cy="42" r="40"></circle>
+      </svg>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-brand"><a href="#" class="">iGEM IIT Roorkee</a></div>
+      <div class="footer-lists">
+        <div class="footer-list">
+          <div class="footer-list-title">People</div>
+          <a href="../Team/" class="tab footer-list-item"><span>Team</span></a>
+          <a href="../Attributions/" class="tab footer-list-item"><span>Attributions</span></a>
+          <a href="../Sponsors/" class="tab footer-list-item"><span>Sponsors</span></a>
+        </div>
+        <div class="footer-list">
+          <div class="footer-list-title">Project</div>
+          <a href="../Description/" class="tab footer-list-item"><span>Description</span></a>
+          <a href="../Problem/" class="tab footer-list-item"><span>Problem</span></a>
+          <a href="../Design/" class="tab footer-list-item footer-list-item-active"><span>Design</span></a>
+          <a href="../Engineering/" class="tab footer-list-item"><span>Engineering</span></a>
+          <a href="..Implementation/" class="tab footer-list-item"><span>Implementation</span></a>
+          <a href="../Contribution/" class="tab footer-list-item"><span>Contributions</span></a>
+        </div>
+        <div class="footer-list">
+          <div class="footer-list-title">Human Practices</div>
+          <a href="../Human_Practices/" class="tab footer-list-item"><span>Overview</span></a>
+          <a href="../Education/" class="tab footer-list-item"><span>Science Communication and Public Engagement</span></a>
+          <a href="../Integrated_HP/" class="tab footer-list-item"><span>Integrated Human Practices</span></a>
+          <a href="#" class="tab footer-list-item "><span>Sustainable Development Goals</span></a>
+          <a href="../Collaborations/" class="tab footer-list-item"><span>Collaborations</span></a>
+        </div>
+        <div class="footer-list">
+          <div class="footer-list-title">Dry Lab</div>
+          <a href="../Model/" class="tab footer-list-item"><span>Modelling</span></a>
+          <a href="../DryLab_Results/" class="tab footer-list-item"><span>Results</span></a>
+          <a href="../Software/" class="tab footer-list-item"><span>Software</span></a>
+        </div>
+        <div class="footer-list">
+          <div class="footer-list-title">Wet Lab</div>
+          <a href="../Experiments/" class="tab footer-list-item"><span>Overview</span></a>
+          <a href="../Results/" class="tab footer-list-item"><span>Results</span></a>
+          <a href="../Protocols/" class="tab footer-list-item"><span>Protocols</span></a>
+          <a href="../Parts/" class="tab footer-list-item"><span>Parts</span></a>
+          <a href="../Safety/" class="tab footer-list-item"><span>Safety</span></a>
+          <a href="../References/" class="tab footer-list-item"><span>References</span></a>
+        </div>
+        <div class="footer-list">
+          <div class="footer-list-title">Machine Learning</div>
+          <a href="../ML_Overview/" class="tab footer-list-item"><span>Overview</span></a>
+          <a href="../ML_Model/" class="tab footer-list-item"><span>Model</span></a>
+          <a href="../ML_Results/" class="tab footer-list-item"><span>Results</span></a>
+          <a href="../ML_Impact/" class="tab footer-list-item"><span>Impact</span></a>
+        </div>
+      </div>
+      <div class="footer-info">
+        <div class="footer-info-address">
+          <div class="footer-address">
+            The Department of Biotechnology, <br />
+            Indian Institute of Technology, Roorkee <br />
+            Roorkee, Uttarakhand, <br />
+            India - 247667
+            </div>
+          <img src="../assets/images/images/james_thomason_building.svg" class="footer-james-thomason"></img>
+        </div>
+        <div class="footer-info-socials">
+          <div class="footer-section-heading">Contact us:</div>
+          <div class="contacts">
+            <a href="tel:+011-2875468" class="contact"><span>+011-2875468</span></a>
+            <a href="tel:+91-76487699" class="contact"><span>+91-76487699</span></a>
+            <a href="mailto:igem@iitr.ac.in" class="contact"><span>igem@iitr.ac.in</span></a>
+          </div>
+          <div class="footer-section-heading">Follow us on:</div>
+          <div class="socials">
+            <a href="#" class="social"><img src="../assets/images/icons/instagram.svg" alt="Instagrm"></a>
+            <a href="#" class="social"><img src="../assets/images/icons/linkedin.svg" alt="Linkedin"></a>
+            <a href="#" class="social"><img src="../assets/images/icons/facebook.svg" alt="Facebook"></a>
+            <a href="#" class="social"><img src="../assets/images/icons/twitter.svg" alt="Twitter"></a>
+          </div>
+        </div>
+        <img src="../assets/images/images/james_thomason_building.svg" class="footer-james-thomason-mobile"></img>
+      </div>
+    </footer>
+
+    <script src="../js/igem-reset.js"></script>
+    <script src="../js/jquery-slim.min.js"></script>
+    </script>
+    <script src="../js/jquery.waypoints.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/holder.min.js"></script>
+    <script src="../js/index.js"></script>
+    <script>
+      Holder.addTheme("thumb", {
+        bg: "#55595c",
+        fg: "#eceeef",
+        text: "Thumbnail",
+      });
+    </script>
+  </body>
+</html>
