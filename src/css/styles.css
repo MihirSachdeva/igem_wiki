@@ -79,6 +79,44 @@ li {
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Quattrocento Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Quattrocento Sans Regular"), local("QuattrocentoSans-Regular"),
+    url(../assets/fonts/QuattrocentoSans/QuattrocentoSans-Regular.ttf)
+      format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Quattrocento Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Quattrocento Sans Bold"), local("QuattrocentoSans-Bold"),
+    url(../assets/fonts/QuattrocentoSans/QuattrocentoSans-Bold.ttf)
+      format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Quattrocento Sans";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Quattrocento Sans Italic"), local("QuattrocentoSans-Italic"),
+    url(../assets/fonts/QuattrocentoSans/QuattrocentoSans-Italic.ttf)
+      format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Quattrocento Sans";
+  font-style: italic;
+  font-weight: 700;
+  src: local("QuattrocentoSans Bold Italic"),
+    local("QuattrocentoSans-Bold-Italic"),
+    url(../assets/fonts/QuattrocentoSans/QuattrocentoSans-BoldItalic.ttf)
+      format("truetype");
+  font-display: swap;
+}
+
 /* FONTS END */
 a {
   color: unset;
@@ -103,6 +141,7 @@ html {
   --main-blue-color: #7bb9fa;
   --main-darker-blue-color: #397bcb;
   --main-even-darker-blue-color: #2966b1;
+  --main-purple-color: #6761d6;
 
   --main-top-spacing: 80px;
   --desktop-spacing: 7.5vw;
@@ -294,7 +333,7 @@ nav.navbar {
 @media screen and (max-width: 768px) {
   nav.navbar {
     padding: var(--navbar-top-bottom-mobile-padding);
-    /* height: var(--navbar-height-mobile); */
+    height: unset;
   }
 
   .header-progress {
@@ -588,6 +627,11 @@ main.wiki {
 /* WIKI CONTENT END */
 
 /* WIKI COMPONENTS */
+.wiki-bold {
+  font-size: 14px;
+  font-weight: 700;
+}
+
 .wiki-h {
   color: var(--main-darker-blue-color);
   font-weight: 600;
@@ -617,21 +661,24 @@ main.wiki {
   font-size: 25px;
 }
 
+.wiki-h5 {
+  font-size: 20px;
+}
+
 .wiki-p {
   font-size: 14px;
   margin: 10px 0;
   /* font-weight: 500; */
-}
-
-.wiki-bold {
-  font-size: 14px;
-  font-weight: 700;
+  /* font-family: Helvetica, sans-serif !important;
+  letter-spacing: 0.5px;
+  word-spacing: 1.3px; */
 }
 
 .wiki-a {
   color: var(--main-darker-blue-color);
   font-weight: 700;
   text-decoration: none;
+  word-break: break-word;
 }
 
 .wiki-a:hover {
@@ -698,6 +745,7 @@ main.wiki {
   color: var(--main-green-color);
   font-weight: 700;
   margin-right: 15px !important;
+  font-size: inherit;
 }
 
 .wiki-ol .wiki-ol,
@@ -705,6 +753,11 @@ main.wiki {
 .wiki-ul .wiki-ol,
 .wiki-ol .wiki-ul {
   margin: 15px 0 !important;
+}
+
+.wiki-ul.wiki-list-purple li::before,
+.wiki-ul.wiki-list-purple li::before {
+  color: var(--main-purple-color);
 }
 
 .wiki-table {
@@ -736,6 +789,158 @@ main.wiki {
 
 .table .thead-dark th {
   background-color: var(--main-dark-color);
+}
+
+.wiki-collapsible {
+  color: #5c5c5c;
+  font-weight: 600;
+  font-size: 30px !important;
+  cursor: pointer;
+  padding: 25px 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  background-color: transparent;
+  border-radius: 4px;
+  transition: all 0.1s ease;
+}
+
+.wiki-collapsible-active,
+.wiki-collapsible:hover {
+  color: var(--main-green-color);
+}
+
+.wiki-collapsed-content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  border-bottom: 2px solid #d0d0d0c0;
+}
+
+.wiki-chevron-down {
+  width: 20px;
+  margin-left: 20px;
+  transform: rotate(0deg);
+  transition: all 0.1s ease;
+}
+
+.wiki-collapsible-active .wiki-chevron-down {
+  transform: rotate(180deg);
+}
+
+.wiki-hr {
+  margin: 30px auto;
+  padding: 0;
+  width: 70%;
+  background-color: transparent;
+  color: transparent;
+  height: 0px;
+  border-bottom: 3px solid rgba(128, 128, 128, 0.63);
+}
+
+.wiki-hr2 {
+  margin: 0 auto;
+  padding: 0;
+  width: calc(100% - 20px);
+  background-color: transparent;
+  color: transparent;
+  height: 0px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.63);
+}
+
+.wiki-interview {
+  margin: 25px 0;
+}
+
+.interviewees {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0;
+}
+
+.interview-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.interviewee {
+  margin: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.interviewee-image {
+  padding: 15px;
+  width: 200px;
+  border-radius: 1000px;
+  margin: auto;
+}
+
+.interviewee-info {
+  text-align: center;
+}
+
+.interviewee-name {
+  padding: 5px 0 15px 0;
+  font-family: Helvetica, sans-serif !important;
+  letter-spacing: 1px;
+}
+
+.interviewee-about {
+  font-size: 13px;
+  font-weight: 500;
+  font-family: Helvetica, sans-serif !important;
+}
+
+.interview-description {
+  text-align: left;
+  max-width: 500px;
+  margin: auto auto;
+}
+
+.interview-link {
+  margin: 25px 0;
+}
+
+.wiki-indent {
+  padding-left: 30px;
+}
+
+.wiki-reference {
+  font-family: "Quattrocento Sans" !important;
+  font-weight: 600;
+  margin: 20px 0;
+  font-size: 16px;
+  color: #5c5c5c;
+}
+
+.wiki-align-right {
+  text-align: right;
+}
+
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
+.wiki-green {
+  color: var(--main-green-color) !important;
+}
+
+.wiki-blue {
+  color: var(--main-darker-blue-color) !important;
+}
+
+.wiki-dark {
+  color: #5c5c5c !important;
+}
+
+.wiki-purple {
+  color: var(--main-purple-color);
 }
 /* WIKI COMPONENTS END */
 
