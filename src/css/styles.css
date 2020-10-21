@@ -722,7 +722,7 @@ main.wiki {
 
 .wiki-ul li::before {
   content: "\2022";
-  color: var(--main-green-color);
+  color: var(--main-purple-color);
   font-weight: 800;
   display: inline-block;
   width: 1em;
@@ -743,7 +743,7 @@ main.wiki {
 .wiki-ol li:before {
   content: counter(item) ". ";
   counter-increment: item;
-  color: var(--main-green-color);
+  color: var(--main-purple-color);
   font-weight: 700;
   margin-right: 15px !important;
   font-size: inherit;
@@ -754,12 +754,17 @@ main.wiki {
 .wiki-ul .wiki-ol,
 .wiki-ol .wiki-ul {
   margin: 15px 0 !important;
-  padding-left: 20px !important;
+  padding-left: 30px !important;
 }
 
 .wiki-ul.wiki-list-purple li::before,
 .wiki-ul.wiki-list-purple li::before {
   color: var(--main-purple-color);
+}
+
+.wiki-ul.wiki-list-green li::before,
+.wiki-ul.wiki-list-green li::before {
+  color: var(--main-green-color);
 }
 
 .wiki-table {
