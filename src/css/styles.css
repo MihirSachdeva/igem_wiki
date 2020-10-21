@@ -754,6 +754,7 @@ main.wiki {
 .wiki-ul .wiki-ol,
 .wiki-ol .wiki-ul {
   margin: 15px 0 !important;
+  padding-left: 20px !important;
 }
 
 .wiki-ul.wiki-list-purple li::before,
