@@ -218,17 +218,22 @@ const progressIndicator = () => {
 }
 
 
-var coll = document.getElementsByClassName("wiki-collapsible");
-var i;
+var coll = document.getElementsByClassName("wiki-collapsible")
+var i
 
 for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("wiki-collapsible-active");
-    var content = this.nextElementSibling;
-    if (content.style.maxHeight){
-      content.style.maxHeight = null;
+  coll[i].addEventListener("click", function () {
+    this.classList.toggle("wiki-collapsible-active")
+    var content = this.nextElementSibling
+    if (content.style.paddingBottom) {
+      content.style.paddingBottom = null
     } else {
-      content.style.maxHeight = content.scrollHeight + "px";
-    } 
-  });
+      content.style.paddingBottom = "50px"
+    }
+    if (content.style.maxHeight) {
+      content.style.maxHeight = null
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px"
+    }
+  })
 }
