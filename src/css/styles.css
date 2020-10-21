@@ -178,7 +178,7 @@ html {
   --fab-progress-bottom: 30px;
   --fab-progress-right: 30px;
 
-  --navbar-overlay-1: 60px;
+  --navbar-overlay-1: 100px;
   --navbar-overlay-2: 200px;
 
   --navbar-height: 100px;
@@ -206,6 +206,12 @@ nav.navbar {
   height: var(--navbar-height);
   font-size: 14px;
   top: 15px;
+  /* background: linear-gradient(
+    180deg,
+    #000000 22.66%,
+    rgba(0, 0, 0, 0.25) 182.95%
+  );
+  box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.25); */
 }
 
 .navbar-overlay-1 {
@@ -213,16 +219,23 @@ nav.navbar {
   top: 0;
   width: 100%;
   height: var(--navbar-overlay-1);
-  background-color: #000000;
+  background: linear-gradient(
+    180deg,
+    #000000 22.66%,
+    rgba(0, 0, 0, 0.25) 182.95%
+  );
+  box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(20px);
+  /* background-color: #000000; */
 }
 
-.navbar-overlay-2 {
+/* .navbar-overlay-2 {
   position: absolute;
   top: calc(var(--navbar-overlay-1));
   width: 100%;
   height: var(--navbar-overlay-2);
   background: linear-gradient(to top, #ffffff00, #000000);
-}
+} */
 
 .navbar-dark .navbar-toggler {
   border: none;
@@ -610,6 +623,12 @@ main.wiki {
 
 /* SIDE NAV END */
 
+/* BANNER BACKGROUND IMAGES */
+.banner-notebook {
+  background-image: url(../assets/images/images/notebook-banner.png);
+}
+/* BANNER BACKGROUND IMAGES END */
+
 /* WIKI CONTENT */
 .wiki-content {
   width: calc(100% - var(--sidebar-width) - var(--middle-white-space));
@@ -617,6 +636,12 @@ main.wiki {
   margin-left: calc(var(--middle-white-space) + var(--sidebar-width));
   position: relative;
   word-break: break-word;
+}
+
+.wiki-content-no-margin {
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
 }
 
 @media screen and (max-width: 768px) {
@@ -767,6 +792,11 @@ main.wiki {
   color: var(--main-green-color);
 }
 
+.wiki-ul > li::before {
+  position: relative;
+  bottom: -4px;
+}
+
 .wiki-table {
 }
 
@@ -860,6 +890,16 @@ main.wiki {
   color: transparent;
   height: 0px;
   border-bottom: 1px solid rgba(128, 128, 128, 0.63);
+}
+
+.wiki-hr3 {
+  margin: 0 auto;
+  padding: 0;
+  width: calc(100% - 20px);
+  background-color: transparent;
+  color: transparent;
+  height: 0px;
+  border-bottom: 4px solid rgba(128, 128, 128, 0.63);
 }
 
 .wiki-interview {
@@ -976,21 +1016,124 @@ main.wiki {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 25px 0;
+  margin: 25px 0 100px 0;
 }
 
 .align-center {
   justify-content: center;
 }
 
-.image-link {
+.image-link-image {
   height: 100px;
   width: 100px;
   border-radius: 4px;
-  margin-right: 30px;
+  margin: 0 20px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.image-link-text {
+  max-width: 100px;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  position: relative;
+  top: 110px;
+}
+
+.carousel-indicators li {
+  background-color: #2727275b;
+}
+
+.carousel-indicators .active {
+  background-color: #272727d0;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-item {
+  height: 500px;
+  /* background-image: url(../assets/images/images/DL_Modelling_ab-initio_model_2.png); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: var(--main-dark-color);
+}
+
+.carousel-inner img {
+  height: 100%;
+  max-width: 100%;
+}
+
+.wiki-notebook-collapsible {
+  color: var(--main-darker-blue-color);
+  text-align: center;
+  transition: all 0s;
+}
+
+.wiki-notebook-collapsible:hover {
+  text-decoration: underline;
+  text-decoration-color: #5bbd703b;
+  color: var(--main-even-darker-blue-color);
+}
+
+.wiki-notebook-collapsible.wiki-collapsible-active {
+  text-decoration: underline;
+  text-decoration-color: var(--main-green-color);
+  color: var(--main-even-darker-blue-color);
+}
+
+.wiki-notebook-collapsed-content {
+  border-bottom: none;
+}
+
+.feature-cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.feature-card {
+  border-radius: 7px;
+  background-color: rgb(200 227 255 / 17%);
+  padding: 35px 20px;
+  margin: 15px;
+}
+
+.feature-card-heading {
+  text-align: center;
+  font-size: 20px;
+}
+
+.notebook-banner-p {
+  width: 40%;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.medal {
+  margin: 0;
+  margin-right: 70px;
+  float: right;
+}
+
+@media screen and (max-width: 768px) {
+  .notebook-banner-p {
+    width: 95%;
+  }
+
+  .feature-cards {
+    flex-direction: column;
+  }
 }
 /* WIKI COMPONENTS END */
 
