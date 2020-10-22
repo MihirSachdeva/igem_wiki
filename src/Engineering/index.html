@@ -62,7 +62,7 @@
               </li>
             <li class="nav-item dropdown">
               <a
-                class="tab nav-link"
+                class="tab nav-link nav-link-active"
                 href="#"
                 data-toggle="dropdown"
                 aria-haspopup="true"
@@ -71,10 +71,10 @@
                 Project
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="../Description/"><span>Description</span></a></li>
+                <li><a class="dropdown-item " href="../Description/"><span>Description</span></a></li>
                 <li><a class="dropdown-item" href="../Problem/"><span>Problem</span></a></li>
                 <li><a class="dropdown-item" href="../Design/"><span>Design</span></a></li>
-                <li><a class="dropdown-item" href="../Engineering/"><span>Engineering</span></a></li>
+                <li><a class="dropdown-item dropdown-item-active" href="#"><span>Engineering</span></a></li>
                 <li><a class="dropdown-item" href="../Implementation/"><span>Implementation</span></a></li>
                 <li><a class="dropdown-item" href="../Contribution/"><span>Contributions</span></a></li>
               </ul>
@@ -92,7 +92,7 @@
                 <li><a class="dropdown-item" href="../Human_Practices/"> <span>Overview</span></a></li>
                 <li><a class="dropdown-item" href="../Education/"> <span>Science Communication & Public Engagement</span> </a></li>
                 <li><a class="dropdown-item" href="../Integrated_HP/"> <span>Integrated Human Practices</span> </a></li>
-                <li><a class="dropdown-item" href="../Sustainable/"> <span>Sustainable Development Goals</span> </a></li>
+                <li><a class="dropdown-item" href="#"> <span>Sustainable Development Goals</span> </a></li>
                 <li><a class="dropdown-item" href="../Collaborations/"> <span>Collaborations</span> </a></li>
               </ul>
             </li>
@@ -128,7 +128,7 @@
             </ul>
          </li>
          <li class="nav-item dropdown">
-          <a class="tab nav-link nav-link-active"
+          <a class="tab nav-link"
           href="#"
           data-toggle="dropdown"
           aria-haspopup="true"
@@ -136,7 +136,7 @@
           >Machine Learning
           </a>
           <ul class="dropdown-menu">
-          <li><a class="dropdown-item  dropdown-item-active" href="#"> <span>Overview</span></a></li>
+          <li><a class="dropdown-item" href="../ML_Overview/"> <span>Overview</span></a></li>
           <li><a class="dropdown-item" href="../ML_Model/"> <span>Model</span> </a></li>
           <li><a class="dropdown-item" href="../ML_Results/"> <span>Results</span> </a></li>
           <li><a class="dropdown-item" href="../ML_Impact/"> <span>Impact</span> </a></li>
@@ -157,10 +157,10 @@
       
     </header>
 
-    <div class="banner banner-ml">
+    <div class="banner banner-project">
       <p class="text-center font-size-24">
-        <h1 class="banner-h1">Machine Learning</h1>
-        <h2 class="banner-h2">Overview</h2>
+        <h2 class="banner-h2">Project</h2>
+        <h2 class="banner-h2">Description</h2>
         
         <div class="banner-overlay"></div>
       </p>
@@ -169,124 +169,65 @@
     <main role="main" class="container wiki">    
 
       <div class="side-nav">
-        <div class="page-title">Overview</div>
+        <div class="page-title">Description</div>
         <div class="side-nav-menu">
         </div>
       </div>
 
       <div class="wiki-content">
-        
-        <h1 class="wiki-h wiki-h1">DARG <br>(Detection of Antibiotic Resistant Genes)</h1>
-        <br><br>
 
-        <h3 class="wiki-h wiki-h3">
-          Inspiration: 
-          <a href="http://2018.igem.org/Team:Paris_Bettencourt/AMPDesigner_Overview" class="wiki-a">http://2018.igem.org/Team:Paris_Bettencourt/AMPDesigner_Overview</a>. 
-        </h3>
-        <br><br>
-
-        <h3 class="wiki-h wiki-h3 wiki-section-start" id="about">About</h3>
         <p class="wiki-p">
-          Antibiotic resistance is a major threat to mankind with an estimated 10 million deaths 
-          annually by the year 2050. <i>Acinetobacter baumannii</i> is the most critical priority pathogen 
-          with 77% of its strains in India being carbapenem-resistant as per ICMR Report, 2017. The 
-          majority of focus on overcoming the resistance of <i>A. baumannii</i> has been on understanding 
-          biological mechanisms using wet-lab analysis. But, the availability of public datasets 
-          makes it crucial to carry analysis using computational tools especially machine learning algorithms.
+          To realise our iGEM Project and successfully utilise biological entities to create systems that solve problems, we consistently maintained a thorough understanding of engineering principles. We worked out our way through a <b>middle-out</b> approach, probably the best way for engineering biology.
+        </p><br/><br/>
+
+        <h2 class="wiki-h wiki-h2 wiki-section-start" id="wiki-section-1">Research</h2>
+        <p class="wiki-p">
+          We started with a wide range of ideas, to enable a good breadth of research and possible leads. In the process, we came across an interesting molecule, Pyocin, which possessed unique properties and distinctive features from the current solutions like bacteriophages, antibiotics etc. Next, we followed an extensive literature review for Pyocins, thoroughly understanding the evolutionary relationships, mechanisms, and their positioning in the environment. Our further research was guided by the idea to re-apply or tweak these features in a more directed & controlled manner. 
         </p>
-        <br><br><br><br>
-
-        <h3 class="wiki-h wiki-h3 wiki-section-start" id="description">Brief Description</h3>
-        <p class="wiki-p">
-          We have developed a machine learning approach called <span class="wiki-bold">DARG</span>, i.e. 
-          <span class="wiki-bold">Detection of Antibiotic Resistant Genes,</span> 
-          utilising a class of machine learning algorithms called Support Vector Machines (SVMs) [1] 
-          on allele-strain database PATRIC [2]. The approach is inspired by previous work in literature 
-          for Mycobacterium tuberculosis [3] and Escherichia coli, Pseudomonas aeruginosa, and Staphylococcus 
-          aureus [4]. The genomes of A. baumanii (target pathogen) strains are annotated using Prokka software 
-          [5] to develop pan-genome. We used SVMs to predict phenotype of strains using knowledge of genes present 
-          in a particular strain and interpreted the trained SVM model to calculate the weights given to different 
-          alleles while predicting resistance phenotype of strains. Following which, we selected top alleles based 
-          on these weights and performed correlation analysis along with analysing the impact of mutation on 
-          resistance phenotype of strains.
-        </p>
-        <br><br><br><br>
+        <br/><br/><br/>
 
 
-        <h3 class="wiki-h wiki-h3 wiki-section-start" id="Requirements">Requirements</h3>
-        <p class="wiki-p">
-          <ul class="wiki-ul">
-            <li>
-              System having python and other necessary libraries, numpy, pandas, matplotlib and sklearn
-            </li>
-            <li>
-              Ability to run and use Prokka software
-            </li>
-            <li>
-              Knowledge of PATRIC database
-            </li>
-            <li>
-              Basic understanding of Support Vector Machines and their working
-            </li>
-            <li>
-              For more information, check our github link
-            </li>
-          </ul>
-        </p>
-        <br><br><br><br>
-
-        <h3 class="wiki-h wiki-h3 wiki-section-start" id="Brief_Results">Brief Results</h3>
-        <p class="wiki-p">
-          Implementation of our approach yielded three key results.
-          <ul class="wiki-ul">
-            <li>
-              A list of top genes conferring resistance in <i>A. baumannii</i> strains to several well-known antibiotics
-            </li>
-            <li>
-              Epistatic and correlation analysis between top alleles for understanding impact of mutation in one gene on the other
-            </li>
-            <li>
-              Analysed the impact of mutation in genes on the resistant phenotype of strain
-            </li>
-          </ul>
-        </p>
-        <br><br><br><br>
 
 
-        <h3 class="wiki-h wiki-h3 wiki-section-start" id="References">References</h3>
-        <p class="wiki-p">
+
+
+        <h2 class="wiki-h wiki-h2 wiki-section-start" id="wiki-section-2">Rational Design</h2>
+        <p class="wiki-p">Based on the scientific literature analysis and on-ground exploration of the problem of antibiotic resistance, we funnelled down to 3 key questions that determined our course of action further:
           <ol class="wiki-ol">
-
-            <li>Support-Vector Networks, Cortes C., Vapnik V., Machine Learning, 20, 273-297 (1995),   
-              <a href="https://doi.org/10.1007/BF00994018" class="wiki-a">DOI: 10.1007/BF00994018</a>
-            </li>
-
-            <li>PATRIC, the bacterial bioinformatics database and analysis resource, Wattam A. R. et al., 
-              Nucleic Acids Research, Database issue (42), D581-D591 (2013), 
-              <a href="https://doi.org/10.1093/nar/gkt1099" class="wiki-a">DOI: 10.1093/nar/gkt1099</a>
-            </li>
-
-            <li>Machine learning and structural analysis of Mycobacterium tuberculosis pan-genome 
-              identifies genetic signatures of antibiotic resistance, Kavvas S. E. et al., 
-              Nature Communications, 9:4306 (2018),  
-              <a href="https://doi.org/10.1038/s41467-018-06634-y" class="wiki-a">DOI: 10.1038/s41467-018-06634-y</a>
-            </li>
-
-            <li>Machine learning with random subspace ensembles identifies antimicrobial 
-              resistance determinants from pan-genomes of three pathogens, PLOS 
-              Computational Biology, 16(3): e1007608,
-              <a href="https://doi.org/10.1371/journal.pcbi.1007608" class="wiki-a">DOI: 10.1371/journal.pcbi.1007608</a>
-            </li>
-
-            <li>Prokka: rapid prokaryotic genome annotation, Seemann T., Bioinformatics, 30(14):2068-9 (2014),
-              <a href="https://doi.org/10.1093/bioinformatics/btu153" class="wiki-a">DOI: 10.1093/bioinformatics/btu153</a>
-            </li>
-
+            <li>Selecting the Pyocin</li>
+            <li>Selecting the Bacteriophage</li>
+            <li>Approach for Fusion </li>
           </ol>
-        </p><br><br><br><br><br>
+          Refer to our <a href="../Design/" class="wiki-a">Design Page </a>that elucidates the principles adopted and techniques used to design the complete system for the production of chimeric pyocins. 
+        </p>
+        <br/><br/><br/>
 
 
 
+        <h2 class="wiki-h wiki-h2 wiki-section-start" id="wiki-section-3">Experimental Design</h2>
+        <p class="wiki-p">Without access to lab and testing facilities, it was challenging to interpret the functioning of the antimicrobial complexes our project is based on. We focussed on laying out a robust design of the experiments that will indicate the success & failure of our systems once we get access to the lab. The experiments are designed to test all our hypotheses and assumptions and provide meaningful data that will be utilised in project phase II. Refer to our <a href="../Experiments/" class="wiki-a">Experiments Page </a>for more details
+        </p>
+        <br/><br/><br/>
+        <h2 class="wiki-h wiki-h2 wiki-section-start" id="wiki-section-4">In-Silico Testing</h2>
+        <p class="wiki-p">
+          Bioinformatics analysis and protein modelling allowed us to make calculated predictions and formulate a primary proof of concept. We followed a three-pronged approach to develop the best model of the fusion protein, Seekercin, and results from biophysical testing improved our understanding of our fusion protein structure. Refer to <a href="../Model/" class="wiki-a">Modelling</a> and <a href="../Results/" class="wiki-a">Results</a> for more details.
+        </p><br/><br/><br/>
+        <h2 class="wiki-h wiki-h2 wiki-section-start" id="wiki-section-5">Community Feedback</h2>
+        <p class="wiki-p">
+          We continued to reach out to the stakeholders and experts in the field that helped us aligning and realigned our project goals and focus areas. While we started with the global problem of AMR, our interviews and research directed our objectives towards Hospital Acquired Infections. We penetrated through multiple layers and targeted one specific species, A. baumannii. This allowed us to have a well thought out solution, which now can be replicated to other areas by future iGEM Teams. 
+        </p><br/><br/><br/>
+        <h2 class="wiki-h wiki-h2 wiki-section-start" id="wiki-section-6">Making Useful Tools</h2>
+        <p class="wiki-p">
+          While researching, designing and implementing various techniques to curate our project, we decided to standardize and automate the process that will make it easier for other teams to build further on this concept. This will provide them with space to explore other areas of analysis and applications, which was not possible within the frame of our work. Refer to our <a href="../Software/" class="wiki-a">Software page</a> for further details. We intend to provide this modular system to the students and researchers so that it can be improved, and collaboratively reach a higher impact level. The lack of therapeutic interventions for handling resistant species is a grave concern, and through this work, we aim to popularise a new way of antimicrobials.
+        </p><br/><br/><br/>
+
+
+
+        
+        <br/>
+        <br/>
+        <br/>
+        
       </div>
     </main>
 
@@ -315,7 +256,7 @@
           <a href="../Description/" class="tab footer-list-item"><span>Description</span></a>
           <a href="../Problem/" class="tab footer-list-item"><span>Problem</span></a>
           <a href="../Design/" class="tab footer-list-item"><span>Design</span></a>
-          <a href="../Engineering/" class="tab footer-list-item"><span>Engineering</span></a>
+          <a href="../Engineering/" class="tab footer-list-item footer-list-item-active"><span>Engineering</span></a>
           <a href="../Implementation/" class="tab footer-list-item"><span>Implementation</span></a>
           <a href="../Contribution/" class="tab footer-list-item"><span>Contributions</span></a>
         </div>
@@ -324,7 +265,7 @@
           <a href="../Human_Practices/" class="tab footer-list-item"><span>Overview</span></a>
           <a href="../Education/" class="tab footer-list-item"><span>Science Communication and Public Engagement</span></a>
           <a href="../Integrated_HP/" class="tab footer-list-item"><span>Integrated Human Practices</span></a>
-          <a href="../Sustainable/" class="tab footer-list-item"><span>Sustainable Development Goals</span></a>
+          <a href="#" class="tab footer-list-item "><span>Sustainable Development Goals</span></a>
           <a href="../Collaborations/" class="tab footer-list-item"><span>Collaborations</span></a>
         </div>
         <div class="footer-list">
@@ -344,7 +285,7 @@
         </div>
         <div class="footer-list">
           <div class="footer-list-title">Machine Learning</div>
-          <a href="#" class="tab footer-list-item footer-list-item-active"><span>Overview</span></a>
+          <a href="../ML_Overview/" class="tab footer-list-item"><span>Overview</span></a>
           <a href="../ML_Model/" class="tab footer-list-item"><span>Model</span></a>
           <a href="../ML_Results/" class="tab footer-list-item"><span>Results</span></a>
           <a href="../ML_Impact/" class="tab footer-list-item"><span>Impact</span></a>
