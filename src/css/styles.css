@@ -541,6 +541,9 @@ main.wiki {
   width: var(--sidebar-width);
   float: left;
   background-color: var(--main-light-color);
+  /* background-color: #82828214; */
+  padding: 20px;
+  border-radius: 10px;
 }
 
 @media screen and (min-width: 768px) {
@@ -895,7 +898,7 @@ main.wiki {
 .wiki-hr3 {
   margin: 0 auto;
   padding: 0;
-  width: calc(100% - 20px);
+  width: calc(100%);
   background-color: transparent;
   color: transparent;
   height: 0px;
@@ -1072,6 +1075,11 @@ main.wiki {
   max-width: 100%;
 }
 
+.carousel-caption {
+  background: linear-gradient(to top, #ffffffd1, #ffffff91);
+  color: #121212;
+}
+
 .wiki-notebook-collapsible {
   color: var(--main-darker-blue-color);
   text-align: center;
@@ -1097,7 +1105,7 @@ main.wiki {
 .feature-cards {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   width: 100%;
 }
@@ -1109,9 +1117,17 @@ main.wiki {
   margin: 15px;
 }
 
+.feature-card-2 {
+  padding: 35px;
+}
+
 .feature-card-heading {
   text-align: center;
   font-size: 20px;
+}
+
+.feature-card-image {
+  max-width: 60%;
 }
 
 .notebook-banner-p {
@@ -1124,6 +1140,14 @@ main.wiki {
   margin: 0;
   margin-right: 70px;
   float: right;
+}
+
+.feature-image {
+  width: 65%;
+}
+
+.feature-text {
+  font-family: "Quattrocento Sans";
 }
 
 @media screen and (max-width: 768px) {
