@@ -121,9 +121,9 @@
             <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="../Experiments/"> <span>Overview</span></a></li>
             <li><a class="dropdown-item" href="../Results/"> <span>Results</span> </a></li>
-            <li><a class="dropdown-item dropdown-item-active" href="../Protocols/"> <span>Protocols</span> </a></li>
+            <li><a class="dropdown-item  dropdown-item-active" href="#"> <span>Protocols</span> </a></li>
             <li><a class="dropdown-item" href="../Parts/"> <span>Parts</span> </a></li>
-            <li><a class="dropdown-item" href="#"> <span>Safety</span> </a></li>
+            <li><a class="dropdown-item" href="../Safety"> <span>Safety</span> </a></li>
             <li><a class="dropdown-item" href="../References/"> <span>References</span> </a></li>
             </ul>
          </li>
@@ -175,218 +175,1066 @@
       </div>
 
       <div class="wiki-content">
-        
-        
 
 
+ 
 
-
-          <button class="wiki-collapsible wiki-section-start" id="wiki-section-1">
-              Open Section 1
-              <svg class="wiki-chevron-down" viewBox="0 0 448 512"><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg>
-            </button>
-            <div class="wiki-collapsed-content">
-              <h5 class="wiki-h5 wiki-bold wiki-dark">
-                For assembly of >5 parts a two-step Gibson assembly procedure is recommended. Hence, we have decided to use NEB’s Gibson Assembly Ultra Kit. Its protocol is as follows- 
-              </h5>
-              <ul class="wiki-ul wiki-list-purple">
-                <li>
-                  Use approximately 10–300 ng of each DNA fragment (including the cloning vector) in equimolar amounts according to the following guidelines: 
-                  <div class="wiki-graphic">
-                    <img src="../src/assets/images/images/dna.jpg" alt="">
-                  </div>
-                </li>
-                <li>The total volume for the combined DNA fragments in the assembly reaction is ≤ 5 μL.</li>
-                <li>To assemble multiple fragments and minimize pipetting error, create a master mix of fragments in the proper ratios.</li>
-              </ul>
+<button class="wiki-collapsible wiki-section-start" id="wiki-section-1">
+    Gibson Assembly
+    <svg class="wiki-chevron-down" viewBox="0 0 448 512"><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg>
+</button>
+  <div class="wiki-collapsed-content">
+    <h5 class="wiki-h5 wiki-bold wiki-dark">
+        For assembly of >5 parts a two-step Gibson assembly procedure is recommended. Hence, we have decided to use NEB’s Gibson Assembly Ultra Kit. Its protocol is as follows- <br> Guidelines
+    </h5>
+    <ul class="wiki-ul wiki-list-purple">
+      <li>
+        Use approximately 10–300 ng of each DNA fragment (including the cloning vector) in equimolar amounts according to the following guidelines:
+        <div>
+            <table class="table table-hover table-bordered side-wrapped-item">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">Fragment Size</th>
+                    <th scope="col">Amount</th>
+                    <th scope="col">pmols</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>≤1 kb</td>
+                    <td>20-40 ng</td>
+                    <td>0.04</td>
+                  </tr>
+                  <tr>
+                    <td>1-5 kb</td>
+                    <td>10-25 ng</td>
+                    <td>0.008-0.04</td>
+                  </tr>
+                  <tr>
+                    <td>5-8 kb</td>
+                    <td>25 ng</td>
+                    <td rowspan="2">0.005-0.008</td>
+                  </tr>
+                  <tr>
+                    <td>8-20 kb</td>
+                    <td>25-100 ng</td>
+                  </tr>
+                  <tr>
+                    <td>20-32 kb</td>
+                    <td>100 ng</td>
+                    <td>~0.008</td>
+                  </tr>
+                  <tr>
+                    <td>32-100 kb</td>
+                    <td>100-300 ng</td>
+                    <td>0.005</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+      </li>
+      <li>The total volume for the combined DNA fragments in the assembly reaction is ≤ 5 μL.</li>
+      <li>To assemble multiple fragments and minimize pipetting error, create a master mix of fragments in the proper ratios.</li>
+    </ul>
+    <br><br>
+    <h5 class="wiki-h5 wiki-bold wiki-dark">
+        Gibson Assembly® Ultra Procedure 
+    </h5>
+    <ol class="wiki-ol wiki-list-purple">
+        <li>Thaw the GA Ultra Master Mix A (2X) on ice.</li>
+        <li>Dilute your DNA fragments with nuclease-free water in PCR tubes to a total volume of 5 μL (see the “Guidelines” above for guidance). </li>
+        <li>Vortex the thawed master mix immediately before use. </li>
+        <li>In a 0.2 mL PCR tube on ice, combine 5 μL of DNA fragments and 5 μL of GA Ultra Master Mix A (2X). Mix the reaction by pipetting. </li>
+        <li>(Optional) Set up a positive control reaction by aliquoting 5 μL of GA Positive Control (2X) into a 0.2 mL PCR tube on ice. Add 5 μL of GA Ultra Master Mix A (2X) and mix the reaction by pipetting. </li>
+        <li>Vortex and spin down all reactions. </li>
+        <li>Transfer assembly reaction tubes to a thermocycler and program the following conditions:  
+            <div>
+                <table class="table table-hover table-bordered side-wrapped-item">
+                    <tbody>
+                      <tr>
+                        <td rowspan="3">3' end Chew Back</td>
+                        <td rowspan="3">1 cycle</td>
+                        <td colspan="2">Overlap Size:</td>
+                      </tr>
+                      <tr>
+                        <td>less than 80 bp</td>
+                        <td>≥ 80 bp</td>
+                      </tr>
+                      <tr>
+                        <td>37 °C for 5 min</td>
+                        <td>37 °C for 15 min</td>
+                      </tr>
+                    </tbody>
+                  </table>
             </div>
+            <p class="wiki-p wiki-align-center">↓</p>
+            <div>
+                <table class="table table-hover table-bordered side-wrapped-item">
+                    <tbody>
+                      <tr>
+                        <td>Inactivation</td>
+                        <td>1 cycle</td>
+                        <td>75 °C for 20 min <br> (for all overlap sizes)</td>
+                      </tr>
+                      <tr>
+                        <td>Slowly Cool</td>
+                        <td>1 cycle</td>
+                        <td>0.1 °C/sec to 60 °C </td>
+                      </tr>
+                      <tr>
+                        <td>Anneal</td>
+                        <td>1 cycle</td>
+                        <td>60 °C for 30 min</td>
+                      </tr>
+                      <tr>
+                        <td>Slowly Cool</td>
+                        <td>1 cycle</td>
+                        <td>0.1 °C/sec to 4 °C </td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+        </li>
+        <li>Thaw the GA Ultra Master Mix B (2X) on ice and vortex the thawed master mix immediately before use. </li>
+        <li>While keeping the tubes on ice, add 10 μL of GA Ultra Master Mix B (2X) to the reactions from step 7. Mix the reaction by pipetting.  </li>
+        <li>Incubate the reactions using the following conditions:
+            <div>
+                <table class="table table-hover table-bordered side-wrapped-item">
+                    <tbody>
+                      <tr>
+                        <td>Repair</td>
+                        <td>1 cycle</td>
+                        <td>45 °C for 15 min</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+        </li>
+        <li>After the incubation is complete, store reactions at −20°C or proceed to transformation. </li>
+        <li>(Optional) Analyze assembly reactions with agarose gel electrophoresis. A high molecular weight smear is indicative of a successful assembly reaction.</li>
+    </ol>
+  </div>
 
 
-            <button class="wiki-collapsible wiki-section-start" id="wiki-section-2">
-                Open Section 1
-                <svg class="wiki-chevron-down" viewBox="0 0 448 512"><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg>
-              </button>
-              <div class="wiki-collapsed-content">
-                <h5 class="wiki-h5 wiki-bold wiki-dark">
-                  For assembly of >5 parts a two-step Gibson assembly procedure is recommended. Hence, we have decided to use NEB’s Gibson Assembly Ultra Kit. Its protocol is as follows- 
-                </h5>
-                <ul class="wiki-ul wiki-list-purple">
-                  <li>
-                    Use approximately 10–300 ng of each DNA fragment (including the cloning vector) in equimolar amounts according to the following guidelines: 
-                    <div class="wiki-graphic">
-                      <img src="../src/assets/images/images/dna.jpg" alt="">
-                    </div>
-                  </li>
-                  <li>The total volume for the combined DNA fragments in the assembly reaction is ≤ 5 μL.</li>
-                  <li>To assemble multiple fragments and minimize pipetting error, create a master mix of fragments in the proper ratios.</li>
-                </ul>
-              </div>
+<button class="wiki-collapsible wiki-section-start" id="wiki-section-2">
+    Plasmid Extraction:
+    <svg class="wiki-chevron-down" viewBox="0 0 448 512"><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg>
+</button>
+  <div class="wiki-collapsed-content">
+    <h5 class="wiki-h5 wiki-bold wiki-dark">
+        All plasmids in the study will be extracted using Qiagen’s QIAprep Spin Miniprep Kit following its standard protocol which is attached on the Protocols page.
+    </h5>
+    <p class="wiki-p">
+        <a href="../src/assets/documents/WetLab_Protocols_Plasimd_extraction.pdf" class="wiki-a">Link</a>
+    </p>
+  </div>
+
+
+<button class="wiki-collapsible wiki-section-start" id="wiki-section-3">
+    Agarose Gel Electrophoresis:
+    <svg class="wiki-chevron-down" viewBox="0 0 448 512"><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg>
+</button>
+  <div class="wiki-collapsed-content">
+    <h5 class="wiki-h5 wiki-bold wiki-dark">
+        These would be done to verify proper cloning of gene fragments by Gibson assembly.
+    </h5>
+    <p class="wiki-p">
+        <span class="wiki-bold">
+            Preparation of Agarose gel
+        </span>
+        It is necessary to adjust the percentage of agarose to get the desired gel concentration. To separate ~1 kb fragments, the agarose gel is used in a concentration of at least 1% w/v. 
+    </p>
+    <ol class="wiki-ol wiki-list-purple">
+      <li>Weight 0.8 g of agarose powder in an erlenmeyer flask. </li>
+      <li>Measure 80 mL of TAE (1X) and add it to the erlenmeyer. </li>
+      <li>Put the mix in the microwave until the agarose is completely dissolved.</li>
+      <li>Let the mix cool down at ~60C and add EtBr to the gel. </li>
+      <li>Slowly pour into the electrophoresis tray to avoid bubbling.</li>
+      <li>Place the comb and allow the agarose to solidify properly. </li>
+    </ol>
+    <br><br>
+    <p class="wiki-p">
+        <span class="wiki-bold">
+            Running Agarose Gel
+        </span>
+    </p>
+    <ol class="wiki-ol wiki-list-purple">
+      <li>When agarose gel is solidified, remove the comb, transfer the gel into a gel electrophoresis unit and cover the gel with TAE (1X). </li>
+      <li>Mix the DNA samples with 6X loading dye (final concentration 1X) and load in the wells </li>
+      <li>Load the molecular weight ladder with EtBr into the extreme wells (4 µl in each).</li>
+      <li>Run the gel with the required voltage. It depends on the voltage range of the electrophoresis buffer (V/cm) and the DNA sizes to separate.  </li>
+      <li>Visualize the DNA fragments using a UV transilluminator.</li><li>Place the comb and allow the agarose to solidify properly. </li>
+    </ol>
+    <br><br>
+    <p class="wiki-p">
+        <span class="wiki-bold">
+            Safety considerations:
+        </span>
+    </p>
+    <ol class="wiki-ol wiki-list-purple">
+      <li>Wearing lab coat, gloves and goggles is required during the protocol. </li>
+      <li>Used agarose gels are disposed into cytotoxic waste containers. </li>
+    </ol>
+  </div>
+
+
+<button class="wiki-collapsible wiki-section-start" id="wiki-section-4">
+    Gell Extraction
+    <svg class="wiki-chevron-down" viewBox="0 0 448 512"><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg>
+</button>
+  <div class="wiki-collapsed-content">
+    <h5 class="wiki-h5 wiki-bold wiki-dark">
+      Gel extraction would be done using Qiagen’s QIAquick® Gel Extraction Kit / QIAquick® PCR & Gel Cleanup Kit, using its standard protocol.
+    </h5>
+    <br>
+    <h5 class="wiki-h5 wiki-bold wiki-dark">
+      Notes before starting
+    </h5>
+    <ul class="wiki-ul wiki-list-purple">
+      <li>
+        This protocol is for the purification of up to 10 μg DNA (70 bp to 10 kb).              
+      </li>
+      <li>
+        The yellow color of Buffer QG indicates a pH ≤7.5. DNA adsorption to the membrane is only efficient at pH ≤7.5.  Add ethanol (96–100%) to Buffer PE before use (see bottle label for volume).  Isopropanol (100%) and a heating block or water bath at 50°C are required.
+      </li>
+      <li>
+        All centrifugation steps are carried out at 17,900 x g (13,000 rpm) in a conventional table-top microcentrifuge.
+      </li>
+    </ul>
+      <br><br>
+        <ol class="wiki-ol">
+          <li>
+            Excise the DNA fragment from the agarose gel with a clean, sharp scalpel.
+          </li>
+          <li>
+            Weigh the gel slice in a colorless tube. Add 3 volumes Buffer QG to 1 volume gel (100 mg gel ~100 μl). The maximum amount of gel per spin column is 400 mg. For >2% agarose gels, add 6 volumes Buffer QG.
+          </li>
+          <li>
+            Incubate at 50°C for 10 min (or until the gel slice has completely dissolved). Vortex the tube every 2–3 min to help dissolve gel. After the gel slice has dissolved completely, check that the color of the mixture is yellow (similar to Buffer QG without dissolved agarose). If the color of the mixture is orange or violet, add 10 μl 3 M sodium acetate, pH 5.0, and mix. The mixture turns yellow.
+          </li>
+          <li>
+            Add 1 gel volume isopropanol to the sample and mix.
+          </li>
+          <li>
+            Place a QIAquick spin column in a provided 2 ml collection tube or into a vacuum manifold. To bind DNA, apply the sample to the QIAquick column and centrifuge for 1 min or apply vacuum to the manifold until all the samples have passed through the column. Discard flow-through and place the QIAquick column back into the same tube. For sample volumes >800 μl, load and spin/apply vacuum again.
+          </li>
+          <li>
+            If DNA will subsequently be used for sequencing, in vitro transcription, or microinjection, add 500 μl Buffer QG to the QIAquick column and centrifuge for 1 min or apply vacuum. Discard flow-through and place the QIAquick column back into the same tube. 
+          </li>
+          <li>
+            To wash, add 750 μl Buffer PE to QIAquick column and centrifuge for 1 min or apply vacuum. Discard flow-through and place the QIAquick column back into the same tube. Note: If the DNA will be used for salt-sensitive applications (e.g., sequencing, bluntended ligation), let the column stand 2–5 min after addition of Buffer PE. Centrifuge the QIAquick column in the provided 2 ml collection tube for 1 min to remove residual wash buffer.
+          </li>
+          <li>
+            Place QIAquick column into a clean 1.5 ml microcentrifuge tube.
+          </li>
+          <li>
+            To elute DNA, add 50 μl Buffer EB (10 mM Tris·Cl, pH 8.5) or water to the center of the QIAquick membrane and centrifuge the column for 1 min. For increased DNA concentration, add 30 μl Buffer EB to the center of the QIAquick membrane, let the column stand for 1 min, and then centrifuge for 1 min. After the addition of Buffer EB to the QIAquick membrane, increasing the incubation time to up to 4 min can increase the yield of purified DNA. 
+          </li>
+          <li>
+            If purified DNA is to be analyzed on a gel, add 1 volume of Loading Dye to 5 volumes of purified DNA. Mix the solution by pipetting up and down before loading the gel.
+          </li>
+        </ol>
+  </div>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      
-
-      </div>
-    </main>
-
-    <div class="fab-border"></div>
-    <a class="fab" href="#">
-      <img src="../assets/images/icons/next.svg" data-toggle="tooltip" data-placement="left" title="Next section" class="fab-next-section"></img>
-      <img src="../assets/images/icons/top.svg" data-toggle="tooltip" data-placement="left" title="Top"  class="fab-top-section"></img>
-    </a>
-    <div class="circular-progress-container">
-      <svg class="progress-svg" viewbox="0 0 84 84">
-        <circle class="progress-pie" cx="42" cy="42" r="40"></circle>
-      </svg>
+<button class="wiki-collapsible wiki-section-start" id="wiki-section-5">
+    Competent cell preparation:
+    <svg class="wiki-chevron-down" viewBox="0 0 448 512"><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg>
+</button>
+    <div class="wiki-collapsed-content">
+        <p class="wiki-p">
+            Streak out frozen glycerol stock of bacterial cells (Top10, DH5α, etc.) onto an LB plate (no antibiotics since these cells do not have a plasmid in them). Work sterile. Grow plate overnight at 37°C.
+            <br>Autoclave: 1 L LB (or SOC media), 1 L of 100 mM CaCl2, 100 mL of 85 mM CaCl2, 15% glycerol v/v, 4 centrifuge bottles and caps, Lots of microfuge tubes. 
+            <br>Chill overnight at 4°C: 100 mM CaCl2, 85 mM CaCl2, 15% glycerol v/v, Centrifuge rotor.
+            <br>Prepare starter culture of cells Select a single colony of E. coli from fresh LB plate and inoculate a 10 mL starter culture of LB (or your preferred media – no antibiotics). Grow culture at 37°C in shaker overnight.         
+        </p><br>
+        <ol class="wiki-ol">
+            <li>
+                Inoculate 1 L of LB media with 10 mL starter culture and grow in 37°C shaker. Measure the OD600 every hour, then every 15-20 minutes when the OD gets above 0.2. 
+            </li>
+            <li>
+                When the OD600 reaches 0.35-0.4, immediately put the cells on ice. Chill the culture for 20-30 minutes, swirling occasionally to ensure even cooling. Place centrifuge bottles on ice at this time.
+            </li>
+            <li>
+                Split the 1 L culture into four parts by pouring about 250 mL into ice cold centrifuge bottles.
+            </li>
+            <li>
+                Harvest the cells by centrifugation at 4000g for 15 minutes at 4°C.
+            </li>
+            <li>
+                Decant the supernatant and gently resuspend each pellet in about 100 mL of ice cold CaCl2. 
+            </li>
+            <li>
+                Combine all suspensions into one centrifuge bottle. Make sure to prepare a blank bottle as a balance.
+            </li>
+            <li>
+                Harvest the cells by centrifugation at 3500g for 15 minutes at 4°C.
+            </li>
+            <li>
+                Decant the supernatant and resuspend the pellet in about 200 mL of ice cold CaCl2.
+            </li>
+            <li>
+                Keep this suspension on ice for at least 20 minutes.
+            </li>
+            <li>
+                Harvest the cells by centrifugation at 3000g for 15 minutes at 4°C. At this step, rinse a 50 mL conical tube with ddH2O and chill on ice.
+            </li>
+            <li>
+                Decant the supernatant and resuspend the pellet in ~50 mL of ice cold 85 mM CaCl2, 15% glycerol. 
+            </li>
+            <li>
+                Transfer the suspension to the 50 mL conical tube. Harvest the cells by centrifugation at 3000g for 15 minutes at 4°C.
+            </li>
+            <li>
+                Decant the supernatant and resuspend the pellet in 2 mL of ice cold 85 mM CaCl2, 15% glycerol.
+            </li>
+            <li>
+                Aliquot 50 μL into sterile 1.5 mL microfuge tubes and snap freeze with liquid nitrogen. Store frozen cells in the -80°C freezer.
+            </li>
+          </ol>
     </div>
 
-    <footer class="footer">
-      <div class="footer-brand"><a href="#" class="">iGEM IIT Roorkee</a></div>
-      <div class="footer-lists">
-        <div class="footer-list">
-          <div class="footer-list-title">People</div>
-          <a href="../Team/" class="tab footer-list-item"><span>Team</span></a>
-          <a href="../Attributions/" class="tab footer-list-item"><span>Attributions</span></a>
-          <a href="../Sponsors/" class="tab footer-list-item"><span>Sponsors</span></a>
+
+<button class="wiki-collapsible wiki-section-start" id="wiki-section-6">
+    Transformation:
+    <svg class="wiki-chevron-down" viewBox="0 0 448 512"><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg>
+</button>
+    <div class="wiki-collapsed-content">
+        <h5 class="wiki-h5 wiki-bold wiki-dark">
+            Things to do before starting transformation:
+        </h5>
+            <ul class="wiki-ul">
+            <li>
+                Prepare LB agar plates and allow to gel.
+            </li>
+            <li>
+                Depending on the antibiotic marker present in the plasmid DNA, incorporate appropriate antibiotic in the LB agar.
+            </li>
+            <li>
+                Heat the water bath to 42°C.
+            </li>
+            <li>
+                Warm the sterile SOC medium to room temperature (or 20-25°C in water bath).
+            </li>
+        </ul>
+        <br>
+        <h5 class="wiki-h5 wiki-bold wiki-dark">
+            Standard Transformation Protocol:
+        </h5>
+        <ol class="wiki-ol">
+            <li>
+                Transfer the required number of tubes from -70°C freezer to wet ice. Include an extra tube for control DNA, if desired.
+            </li>
+            <li>
+                Allow the cells to thaw for 5 minutes. Gently tap the tubes multiple times to obtain uniform suspension.
+            </li>
+            <li>
+                Add 1-50ng of purified plasmid DNA directly to cells in rest of the tubes. Mix by gentle tapping and place on ice.
+                <br>
+                Note: For control: Add 1µL (10ng) pUC19 control DNA to one tube. Mix by gentle tapping and place on ice.
+            </li>
+            <li>
+                Incubate the cells on ice for 30 minutes.
+            </li>
+            <li>
+                Transfer the cells to 42°C water bath for exactly 90 seconds.
+            </li>
+            <li>
+                Transfer the cells to ice for 2 minutes.
+            </li>
+            <li>
+                Add SOC medium to each tube. Transfer the cells to sterile polypropylene tubes and loosen the caps to facilitate aeration of the cultures.
+            </li>
+            <li>
+                Incubates the cells on shaker incubator (225-250 rpm) at 37°C for 1 hour.
+            </li>
+            <li>
+                Pipette 10-100µL of each transformed cell suspension onto LB agar plates with selection antibiotic and spread it using sterile spreader.
+            </li>
+            <li>
+                Incubate plates at 37°C overnight.
+            </li>
+            <li>
+                Select colony (colonies) and culture as needed.
+            </li>
+            <li>
+                Isolate the plasmid DNA from each culture.
+            </li>
+            <li>
+                Digest the plasmid DNA using restriction enzymes; separate by gel electrophoresis.
+            </li>
+            <li>
+                Culture the preferred clones.
+            </li>
+        </ol>
+    </div>
+
+
+
+
+    <button class="wiki-collapsible wiki-section-start" id="wiki-section-7">
+    Transformation:
+    <svg class="wiki-chevron-down" viewBox="0 0 448 512"><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg>
+</button>
+    <div class="wiki-collapsed-content">
+        <h5 class="wiki-h5 wiki-bold wiki-dark">
+            Things to do before starting transformation:
+        </h5>
+            <ul class="wiki-ul">
+            <li>
+                Prepare LB agar plates and allow to gel.
+            </li>
+            <li>
+                Depending on the antibiotic marker present in the plasmid DNA, incorporate appropriate antibiotic in the LB agar.
+            </li>
+            <li>
+                Heat the water bath to 42°C.
+            </li>
+            <li>
+                Warm the sterile SOC medium to room temperature (or 20-25°C in water bath).
+            </li>
+        </ul>
+        <br>
+        <h5 class="wiki-h5 wiki-bold wiki-dark">
+            Standard Transformation Protocol:
+        </h5>
+        <ol class="wiki-ol">
+            <li>
+                Transfer the required number of tubes from -70°C freezer to wet ice. Include an extra tube for control DNA, if desired.
+            </li>
+            <li>
+                Allow the cells to thaw for 5 minutes. Gently tap the tubes multiple times to obtain uniform suspension.
+            </li>
+            <li>
+                Add 1-50ng of purified plasmid DNA directly to cells in rest of the tubes. Mix by gentle tapping and place on ice.
+                <br>
+                Note: For control: Add 1µL (10ng) pUC19 control DNA to one tube. Mix by gentle tapping and place on ice.
+            </li>
+            <li>
+                Incubate the cells on ice for 30 minutes.
+            </li>
+            <li>
+                Transfer the cells to 42°C water bath for exactly 90 seconds.
+            </li>
+            <li>
+                Transfer the cells to ice for 2 minutes.
+            </li>
+            <li>
+                Add SOC medium to each tube. Transfer the cells to sterile polypropylene tubes and loosen the caps to facilitate aeration of the cultures.
+            </li>
+            <li>
+                Incubates the cells on shaker incubator (225-250 rpm) at 37°C for 1 hour.
+            </li>
+            <li>
+                Pipette 10-100µL of each transformed cell suspension onto LB agar plates with selection antibiotic and spread it using sterile spreader.
+            </li>
+            <li>
+                Incubate plates at 37°C overnight.
+            </li>
+            <li>
+                Select colony (colonies) and culture as needed.
+            </li>
+            <li>
+                Isolate the plasmid DNA from each culture.
+            </li>
+            <li>
+                Digest the plasmid DNA using restriction enzymes; separate by gel electrophoresis.
+            </li>
+            <li>
+                Culture the preferred clones.
+            </li>
+        </ol>
+    </div>
+
+
+<button class="wiki-collapsible wiki-section-start" id="wiki-section-8">
+    Transformation:
+    <svg class="wiki-chevron-down" viewBox="0 0 448 512"><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg>
+</button>
+    <div class="wiki-collapsed-content">
+        <h5 class="wiki-h5 wiki-bold wiki-dark">
+            Things to do before starting transformation:
+        </h5>
+            <ul class="wiki-ul">
+            <li>
+                Prepare LB agar plates and allow to gel.
+            </li>
+            <li>
+                Depending on the antibiotic marker present in the plasmid DNA, incorporate appropriate antibiotic in the LB agar.
+            </li>
+            <li>
+                Heat the water bath to 42°C.
+            </li>
+            <li>
+                Warm the sterile SOC medium to room temperature (or 20-25°C in water bath).
+            </li>
+        </ul>
+        <br>
+        <h5 class="wiki-h5 wiki-bold wiki-dark">
+            Standard Transformation Protocol:
+        </h5>
+        <ol class="wiki-ol">
+            <li>
+                Transfer the required number of tubes from -70°C freezer to wet ice. Include an extra tube for control DNA, if desired.
+            </li>
+            <li>
+                Allow the cells to thaw for 5 minutes. Gently tap the tubes multiple times to obtain uniform suspension.
+            </li>
+            <li>
+                Add 1-50ng of purified plasmid DNA directly to cells in rest of the tubes. Mix by gentle tapping and place on ice.
+                <br>
+                Note: For control: Add 1µL (10ng) pUC19 control DNA to one tube. Mix by gentle tapping and place on ice.
+            </li>
+            <li>
+                Incubate the cells on ice for 30 minutes.
+            </li>
+            <li>
+                Transfer the cells to 42°C water bath for exactly 90 seconds.
+            </li>
+            <li>
+                Transfer the cells to ice for 2 minutes.
+            </li>
+            <li>
+                Add SOC medium to each tube. Transfer the cells to sterile polypropylene tubes and loosen the caps to facilitate aeration of the cultures.
+            </li>
+            <li>
+                Incubates the cells on shaker incubator (225-250 rpm) at 37°C for 1 hour.
+            </li>
+            <li>
+                Pipette 10-100µL of each transformed cell suspension onto LB agar plates with selection antibiotic and spread it using sterile spreader.
+            </li>
+            <li>
+                Incubate plates at 37°C overnight.
+            </li>
+            <li>
+                Select colony (colonies) and culture as needed.
+            </li>
+            <li>
+                Isolate the plasmid DNA from each culture.
+            </li>
+            <li>
+                Digest the plasmid DNA using restriction enzymes; separate by gel electrophoresis.
+            </li>
+            <li>
+                Culture the preferred clones.
+            </li>
+        </ol>
+    </div>
+
+
+
+
+<button class="wiki-collapsible wiki-section-start" id="wiki-section-9">
+    Expression & purification-pyomancer R2-AP22:
+    <svg class="wiki-chevron-down" viewBox="0 0 448 512"><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg>
+</button>
+    <div class="wiki-collapsed-content">
+        <h5 class="wiki-h5 wiki-bold wiki-dark">
+            R2-AP22 will be purified from overnight culture of E. coli BL21 DE3 containing the expression vector as follows. 
+        </h5>
+        <ol class="wiki-ol">
+            <li>
+                Grow transformed BL21 DE3 in 200 ml of tryptic soy broth with no dextrose (BD)-1% KNO3-12.5 μg ml−1 chloramphenicol at 37°C with shaking at 250 rpm.
+            </li>
+            <li>
+                At an optical density at 600 nm (OD600) of 1.0, add IPTG to a final concentration of 0.05%.
+            </li>
+            <li>
+                After ∼3 h, collect cell pellet and lyse. Centrifuge the lysed cell culture at 6,000 × g for 20 min to remove heavy cellular debris. Centrifuge the cleared supernatant again at 24,000 × g for 1 h to remove finer debris.  Pellet the pyocin by high-speed centrifugation at 61,000 × g (1 h). 
+            </li>
+            <li>
+                Resuspend the pyocin pellet in 5 ml of TN50 buffer (10 mM Tris, pH 7.5, 50 mM NaCl) containing 3% mannitol.
+            </li>
+            <li>
+                Include a non-transformed E. coli BL21 DE3 lysate as a negative control for purification.
+            </li>
+        </ol>
+        <br>
+        <p class="wiki-p">
+            Based on Scholl et. al, Total pyocin activity recovered in the pellet will typically be >90% of the total starting activity, and typical yields about 10^13 killing units per liter of culture. Pyocin material should be ∼90% pure by SDS gel electrophoresis. 
+        </p>
+    </div>
+
+
+
+<button class="wiki-collapsible wiki-section-start" id="wiki-section-10">
+    Bradford Assay for protein concentration:
+    <svg class="wiki-chevron-down" viewBox="0 0 448 512"><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg>
+</button>
+    <div class="wiki-collapsed-content">
+        <h5 class="wiki-h5 wiki-bold wiki-dark">
+            Concentration of pyocins in the above purified pyocin solution would be found using Bradford Reagent from Sigma Aldrich. The standard 3.1ml Assay Protocol would be employed. Refer to the attached document. 
+        </h5>
+        <p class="wiki-p">
+            <a href="../src/assets/documents/WetLab_Protocols_Bradford.pdf" class="wiki-a">Link</a>
+        </p>
+    </div>
+
+<button class="wiki-collapsible wiki-section-start" id="wiki-section-11">
+    Advanced Purification (for CD spectroscopy):
+    <svg class="wiki-chevron-down" viewBox="0 0 448 512"><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg>
+</button>
+    <div class="wiki-collapsed-content">
+        <h5 class="wiki-h5 wiki-bold wiki-dark">
+            The following steps are to be performed after following steps 1-3 of the above mentioned basic purification protocol.
+        </h5>
+        <ol class="wiki-ol">
+            <li>
+                Perform ultracentrifugation of crude sample using a 10–50% sucrose (w/v) gradient at 77,000g for 1.5 h at 4 °C 
+            </li>
+            <li>
+                After centrifugation, a band should be visible at around 25% position of the centrifuge tube. Gently extract this band by fractionation using a 100-μL pipette from the top of the centrifuge tube along its side.
+            </li>
+            <li>
+                Dilute the extracted sample to a final volume of 4 ml Tris buffer ((10 mM Tris and 130 mM NaCl, pH 7.4)
+            </li>
+            <li>
+                Concentrate using 100 kDa Amicon molecular filter to a final volume of about 50 μL.
+            </li>
+            <li>
+                Repeat the dilution-concentration sequence 3 more times in the same filter as an alternate means of dialysis. This would yield a highly pure sample of final volume 50 μl.
+            </li>
+        </ol>
+    </div>
+
+
+<button class="wiki-collapsible wiki-section-start" id="wiki-section-12">
+    Antibacterial Spectrum determination:
+<svg class="wiki-chevron-down" viewBox="0 0 448 512"><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg>
+</button>
+    <div class="wiki-collapsed-content">
+        <p class="wiki-p">
+            Semiquantitative assays for determination of strain spectrum and specificity of clinical isolates.
+            <br>50+ Acinetobacter baumannii isolates, E. coli lab strains and Pseudomonas aeruginosa PAO1 would be tested.  
+            <br>Mueller-Hinton agar plates will be used for this, as they are optimal for antimicrobial testing. It contains starch which is known to absorb toxins released from bacteria, so that they cannot interfere with antimicrobials. Secondly, it is a loose agar which allows for better diffusion than most other plates, which would show a truer zone of inhibition.
+        </p><br>
+        <p class="wiki-p wiki-bold">
+            Preparation of Mueller-Hinton agar:
+        </p>
+        <ol class="wiki-ol">
+            <li>
+                Prepare broth from dehydrated medium according to manufacturer’s instructions. 
+            </li>
+            <li>
+                Autoclave and chill overnight at 2-8°C or in an ice bath.
+            </li>
+            <li>
+                Ensure the pH falls between 7.2-7.4.  Add additional cations if necessary.
+            </li>
+            <li>
+                Add 2.5-5% (v/v) lysed horse blood.
+            </li>
+            <li>
+                Check pH and confirm that it remains between 7.2-7.4.
+            </li>
+        </ol>
+        <br>
+        <p class="wiki-p">
+            <span class="wiki-bold">
+                Inoculating a lawn plate:
+            </span>
+            This procedure requires extra precautions while handling drug resistant clinical isolates. Maintenance of sterile procedure is of paramount importance. 
+        </p>
+        <ol class="wiki-ol">
+            <li>Loosen the cap of the bottle/ test tube containing the broth culture.</li>
+            <li>Remove a sterile Pasteur pipette from its container and attach a teat using your right hand.</li>
+            <li>Hold the sterile pipette in your right hand and the bottle/ test tube containing the broth culture in your left.</li>
+            <li>Remove the cap/ cotton wool plug of the bottle/ test tube with the little finger of your right hand and flame the neck.</li>
+            <li>Squeeze the teat of the pipette, and draw up a small amount of broth.</li>
+            <li>Flame the neck of the bottle/ test tube and replace the cap/ plug.</li>
+            <li>With your left hand, partially lift the lid of a Petri dish containing the solid nutrient medium.</li>
+            <li>Place a few drops of culture onto the surface – about 0.1 cm3/ around 5 drops/</li>
+            <li>Replace the lid of the Petri dish.</li>
+            <li>Place the pipette in a discard jar of disinfectant.</li>
+            <li>Dip a glass spreader into alcohol (70% IDA), flame and allow the alcohol to burn off </li>
+            <li>Lift the lid of the Petri dish to allow entry of the spreader.</li>
+            <li>Place the spreader on the surface of the inoculated agar. Move the spreader in a top-to-bottom or a side-to-side motion to spread the inoculum over the surface of the agar. Make sure the entire agar surface is covered.</li>
+            <li>Replace the lid of the Petri dish.</li>
+            <li>Flame the spreader using alcohol </li>
+            <li>Let the inoculum dry . This will take some time.</li>
+            <li>Tape the plate closed and incubate it in an inverted position.</li>
+        </ol>
+        <br>
+        <p class="wiki-p">
+            <span class="wiki-bold">
+                Performing the spot test:
+            </span>
+            The pyocin solution used for this would be purified by centrifugation, yielding ~90% purity.
+        </p>
+        <ol class="wiki-ol">
+            <li>Serially dilute 5-μl samples of pyocin solution 1:5 in TN50 buffer and repeat similarly for the purified E. coli lysate as a negative control.</li>
+            <li>Spot these 5-μl samples using a micropipette, making sure to dispose of tips safely.</li>
+            <li>Incubate overnight at 37°C</li>
+            <li>Pyocin activity to be observed by a circular clear zone.</li>
+        </ol>
+    </div>
+
+
+
+
+<button class="wiki-collapsible wiki-section-start" id="wiki-section-13">
+    Quantitative assays:
+<svg class="wiki-chevron-down" viewBox="0 0 448 512"><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg>
+</button>
+    <div class="wiki-collapsed-content">
+        <p class="wiki-p">
+            Broth microdilution method is used because of its accuracy and clear results. In this method, wells are filled with broth containing different concentrations of the antibiotic. These are then inoculated with bacteria and incubated overnight. The next day, the minimal inhibitory concentration is determined. 
+        </p><br>
+        <h5 class="wiki-h5 wiki-bold wiki-dark">
+            Broth microdilution:
+        </h5>
+        <p class="wiki-p">
+            This test involves the use of small volumes of broth dispensed in sterile microdilution plates with conical bottom wells. Each well should contain 0.1 ml of broth.
+        </p>
+        <ol class="wiki-ol">
+            <li>Add 0.1 (± 0.02) ml of MH broth containing five fold serial dilutions of pyocins in TN50 buffer to the wells. Include a growth control well and a sterility control (uninoculated well). </li>
+            <li>Seal the plates in plastic bags and store.</li>
+            <li>On the day of testing, inoculate panels with the standard quantity of target bacteria 1 × 108 CFU/100 μl in Mueller-Hinton Broth. </li>
+            <li>Seal plate before incubating to prevent drying. </li>
+            <li>Incubate microwell panel for 40 min at 37°C. </li>
+            <li>Extract contents of the microwells and spot serially diluted aliquots on MH agar plates </li>
+            <li>Count the number of surviving bacteria using a colony counter</li>
+            <li>Apply the below given Poisson distribution relation and find the MIC.</li>
+        </ol>
+        <p class="wiki-p">
+            It has been shown by Kageyama et al that one pyocin molecule is capable of killing one bacterial cell, and that is how we define a bactericidal event. Probabilistically, bacterial cells may be met by multiple pyocins, one pyocin or no pyocins at all. We must account for this variability. 
+            <br>Based on the work of Scholl et. al, the number of bactericidal events are related to the fraction of bacterial survivors in a Poisson distribution, m = −lnS, where m is the average number of bactericidal events per bacterial cell, and S is the fraction of survivors. This allows us to calculate the total number of bactericidal events per ml, which equals m times the number of bacterial cells per ml.
+        </p>
+        <h5 class="wiki-h5 wiki-bold wiki-dark">
+            Time-Kill Assay:
+        </h5>
+        <p class="wiki-p">
+            To observe the bactericidal effect of pyocins over time in-vitro. This would give us an idea of the time-frame required for sufficient 3-log reduction of cell count.
+        </p>
+        <ol class="wiki-ol">
+            <li>Grow an overnight culture of a susceptible strain of A. baumannii(as found through above assay) to achieve a concentration of 108 CFU/100 μl in Mueller-Hinton Broth. </li>
+            <li>Centrifuge at 5520g for 15 min at room temperature, which should result he formation of a bacterial pellet at the bottom of the tube</li>
+            <li>Remove the supernatant and resuspend the pellet in fresh medium containing pyocins in TN50 buffer at concentrations equal to twice the determined MIC (from above assay). Include negative control. Repeat count for viable bacteria to verify that the inoculum was not significantly reduced during the process of centrifugation. </li>
+            <li>Include 1 test tube in the assay containing no pyocins as a growth control. </li>
+            <li>Extract samples and perform viable cell counts using a colony counter at periods 15 min, 30 min, 45 min, 1h, 2h, 4h, 8h, and 12h. </li>
+            <li>Graph and analyse cell count results</li>
+        </ol>
+    </div>
+
+
+
+
+<button class="wiki-collapsible wiki-section-start" id="wiki-section-14">
+    Cell line antimicrobial susceptibility test:
+<svg class="wiki-chevron-down" viewBox="0 0 448 512"><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg>
+</button>
+    <div class="wiki-collapsed-content">
+        <h5 class="wiki-h5 wiki-bold wiki-dark">
+            Growing  lung epithelial cells in culture plate:
+        </h5>
+        <p class="wiki-p">
+            Cell culture media used would be antimicrobial-free growth medium (Dulbecco’s modified essential medium (DMEM) with 10% fetal bovine serum and 220 μg/L of L-glutamine.)
+        </p>
+        <ol class="wiki-ol">
+            <li>Grow cells to desired level of confluency in a T75 flask.</li>
+            <li>Decant or aspirate the medium.</li>
+            <li>Wash with warm PBS without calcium and magnesium (approximately 2 mL per 10 cm2 culture surface area). Aspirate.</li>
+            <li>Add the prewarmed dissociation reagent (trypsin) to the side of the flask; use enough reagent to cover the cell layer (approximately 0.5 mL per 10 cm2). Gently rock the container to get complete coverage of the cell layer</li>
+            <li>After 5 minutes, tap the side of the flask, and examine the flask under a microscope for lifting. If cells are less than 90% detached, increase the incubation time a few more minutes, checking for dissociation every 30 seconds. You may also tap the vessel to expedite cell detachment.</li>
+            <li>Quickly quench the Trypsin reaction by adding 5–6 ml prewarmed cell culture medium.</li>
+            <li>Transfer the cells to sterile 15 ml conical tubes.</li>
+            <li>Pellet the cells by centrifugation at 300 x g for 7 minutes.</li>
+            <li>Decant the supernatant.</li>
+            <li>Wash the cells by pipetting 10 ml medium into each conical tube and resuspending the pellet. Collect the cells by centrifugation at 300 x g for 7 minutes.</li>
+            <li>Resuspend the washed cells in complete cell culture medium.</li>
+            <li>Determine the total number of cells and percent viability using a hemocytometer, cell counter, and trypan blue exclusion. If necessary, add growth medium to the cells to achieve the desired cell concentration and recount the cells.</li>
+            <li>Enumerate cell density. For most applications, the cell density should be adjusted to 5–25 x 104 cells/ml cell culture medium. It is important to note that this value may require some optimization for each specific application.</li>
+            <li>Plate 200 µL of cell culture (i.e., 10,000–50,000 cells) into the wells of the sterile 96-well cell culture plate. Incubate the cells for 18 hours at 37°C</li>
+        </ol><br>
+        <h5 class="wiki-h5 wiki-bold wiki-dark">
+            Counting cell viability with hemocytometer:
+        </h5>
+        <ol class="wiki-ol">
+            <li>If using a glass hemocytometer and coverslip, clean with alcohol before use. Moisten the coverslip with water and affix to the hemocytometer.</li>
+            <li>Gently swirl the flask to ensure the cells are evenly distributed.</li>
+            <li>Before the cells have a chance to settle, take 100 µL of cells into an Eppendorf tube and add 400 µL 0.4% Trypan Blue (final concentration 0.32%). Mix gently.</li>
+            <li>Using a pipette, take 100 µL of Trypan Blue-treated cell suspension and apply to the hemocytometer. If using a glass hemocytometer, very gently fill both chambers underneath the coverslip, allowing the cell suspension to be drawn out by capillary action.</li>
+            <li>Using a microscope, focus on the grid lines of the hemocytometer with a 10X objective.</li>
+            <li>Using a hand tally counter, count the live, unstained cells (live cells do not take up Trypan Blue) in one set of 16 squares (Figure). When counting, employ a system whereby cells are only counted when they are set within a square or on the right-hand or bottom boundary line. Following the same guidelines, dead cells stained with Trypan Blue can also be counted for a viability estimate if required.</li>
+            <li>Move the hemocytometer to the next set of 16 corner squares and carry on counting until all 4 sets of 16 corners are counted.</li>
+        </ol>
+        <p class="wiki-p wiki-bold">
+            To calculate the number of viable cells/mL:
+        </p>
+        <ul class="wiki-ul">
+            <li>Take the average cell count from each of the sets of 16 corner squares.</li>
+            <li>Multiply by 10,000 (104).</li>
+            <li>Multiply by 5 to correct for the 1:5 dilution from the Trypan Blue addition.</li>
+            <li>The final value is the number of viable cells/mL in the original cell suspension.</li>
+        </ul>
+        <br>
+        <p class="wiki-p wiki-bold">
+            To calculate viability:
+        </p>
+        <ul class="wiki-ul">
+            <li>If both live and dead cell counts have been recorded for each set of 16 corner squares, an estimate viability can be calculated.</li>
+            <li>Add together the live and dead cell count to obtain a total cell count.</li>
+            <li>Divide the live cell count by the total cell count to calculate the percentage viability.</li>
+        </ul>
+        <h5 class="wiki-h5 wiki-bold wiki-dark">
+            Incubating with bacteria and pyocins:
+        </h5>
+        <ol class="wiki-ol">
+            <li>Maintain lung epithelial cell monolayers in 96-well culture plate in an antimicrobial-free growth medium (Dulbecco’s modified essential medium (DMEM) with 10% fetal bovine serum and 220 μg/L of L-glutamine.)</li>
+            <li>On day of testing, make two-fold diluted solutions of pyocins in antibiotic-free DMEM.</li>
+            <li>Add 100 μl of each dilution to wells of the PBS-washed lung cells to give a final concentration range of 0.008 to 128 μg/ml.</li>
+            <li>Incubate at 37°C for one hour</li>
+            <li>Add 100 μl of A. baumannii cell at the desired MOI for each well. </li>
+            <li>Incubate cells at 37°C in 5% CO2 for 24 to 48 h.</li>
+            <li>Serially dilute the contents of the wells and spot on LB agar plates. </li>
+            <li>Count the number of surviving bacterial cells using a colony counter.</li>
+            <li>To calculate epithelial cell viability post treatment, wash the cells thrice in PBS (containing 50 mg/ml gentamycin) and perform MTT assay using cell viability kit (as per manufacturer’s instructions).</li>
+        </ol>
+        <h5 class="wiki-h5 wiki-bold wiki-dark">
+            Vybrant® MTT Cell Proliferation Assay Kit protocol:
+        </h5>
+        <ol class="wiki-ol">
+            <li>Prepare a 12 mM MTT stock solution by adding 1 mL of sterile PBS to one 5 mg vial of MTT (Component A). Mix by vortexing or sonication until dissolved. Occasionally there may be some particulate material that will not dissolve; this can be removed by filtration or centrifugation.  Each 5 mg vial of MTT provides sufficient reagent for 100 tests, using 10 µL of the stock solution per well. Once prepared, the MTT solution can be stored for four weeks at 4°C protected from light. </li>
+            <li>Add 10 mL of 0.01 M HCl to one tube containing 1 gm of SDS (Component B).  Mix the solution gently by inversion or sonication until the SDS dissolves. Once prepared, the solution should be used promptly. Each tube makes sufficient solution for 100 tests, using 100 µL per well.</li>
+            <li>For adherent cells, remove the medium and replace it with 100 µL of fresh culture medium. For non-adherent cells, centrifuge the microplate, pellet the cells, carefully remove as much medium as possible and replace it with 100 µL of fresh medium.</li>
+            <li>Add 10 µL of the 12 mM MTT stock solution (prepared in step 1.1) to each well. Include a negative control of 10 µL of the MTT stock solution added to 100 µL of medium alone.</li>
+            <li>Incubate at 37°C for 4 hours. At high cell densities (>100,000 cells per well) the incubation time can be shortened to 2 hours.</li>
+            <li>Add 100 µL of the SDS-HCl solution (prepared in step 1.2) to each well and mix thoroughly using the pipette.</li>
+            <li>Incubate the microplate at 37°C for 4 hours in a humidified chamber. Longer incubations will decrease the sensitivity of the assay.9</li>
+            <li>Mix each sample again using a pipette and read absorbance at 570 nm.</li>
+        </ol>
+    </div>
+
+
+<button class="wiki-collapsible wiki-section-start" id="wiki-section-15">
+    Thermal Stability test by CD Spectroscopy:
+<svg class="wiki-chevron-down" viewBox="0 0 448 512"><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg>
+</button>
+    <div class="wiki-collapsed-content">
+        <ol class="wiki-ol">
+            <li>High purity pyocins as purified by above mentioned methods are dialyzed in CD buffer  (10 mM NaCl and 10 mM phosphate buffer pH 7.0 ) with  pyocin concentration equal to 0.1 mg/mL.</li>
+            <li>Pipette into quartz cuvette of 0.1 cm path length.</li>
+            <li>CD measurements taken using JASCO J-1000 spectrophotometer.</li>
+            <li>ATake measurements of buffer solution sans pyocins to calibrate for absorption due to buffer. </li>
+            <li>Take measurements of CD in terms of ellipticity in units of millidegrees, in the range of 0-80°C in increments of 1 °C. The change of ellipticity is expected to be temperature-dependent in the non-contracted state of pyocin. </li>
+            <li>Plotting and analysis of data would be done using the DichroWeb interface.</li>
+        </ol>
+    </div>
+
+
+<button class="wiki-collapsible wiki-section-start" id="wiki-section-15">
+    pH Stability test by CD spectroscopy:
+<svg class="wiki-chevron-down" viewBox="0 0 448 512"><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg>
+</button>
+    <div class="wiki-collapsed-content">
+        <ol class="wiki-ol">
+            <li>High purity pyocins as purified by above mentioned methods are dialyzed in CD buffer (pyocin concentration equal to 0.1 mg/mL in 10 mM NaCl and 10 mM phosphate buffer) and prepare solutions of varying pH ranging from 4-10 with 0.5 increments.</li>
+            <li>Pipette each into a quartz cuvette of 0.1 cm path length</li>
+            <li>Take measurements of CD in terms of ellipticity in units of millidegrees.</li>
+            <li>Plot and analyze data using the DichroWeb interface. </li>
+        </ol>
+    </div>
+
+
+<button class="wiki-collapsible wiki-section-start" id="wiki-section-15">
+    Resistance development studies:
+<svg class="wiki-chevron-down" viewBox="0 0 448 512"><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg>
+</button>
+    <div class="wiki-collapsed-content">
+        <h5 class="wiki-h5 wiki-bold wiki-dark">
+            Spontaneous mutation frequency assay (Frequency of resistance analysis) and resistant strain isolation:
+        </h5>
+        <ol class="wiki-ol">
+            <li>Grow an overnight culture of a susceptible strain of A. baumannii (as found through above assay) to achieve a concentration of 10^8 CFU/100 μl in Mueller-Hinton Broth.</li>
+            <li>Centrifuge at 5520g for 15 min at room temperature, which should result he formation of a bacterial pellet at the bottom of the tube</li>  
+            <li>TRemove the supernatant and resuspend the pellet in fresh medium containing pyocins in TN50 buffer at concentrations equal to 4x the determined MIC (from above assay). Include negative control. Repeat count for viable bacteria to verify that the inoculum was not significantly reduced during the process of centrifugation.</li>   
+            <li>Transfer to MH agar plates after incubation for 1 hour at 37°C.</li>
+            <li>Count the number of surviving colonies and determine frequency of resistance from initial cell count.</li>
+            <li>To obtain an isolate, flame-sterilize an inoculating loop or needle Exercising aseptic technique, touch the colony so that some material adheres to the end of the instrument. Aseptically transfer the material to a fresh agar plate and streak it out using the dilution streak method.</li>
+        </ol>
+    </div>
+
+
+
+<button class="wiki-collapsible wiki-section-start" id="wiki-section-15">
+    LPS extraction and analysis
+<svg class="wiki-chevron-down" viewBox="0 0 448 512"><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg>
+</button>
+    <div class="wiki-collapsed-content">
+        <p class="wiki-p">
+            A concern with any antibacterial agent is the emergence of resistant target bacteria. The LPS/LOS of Acinetobacter has been shown to be an important virulence and antibiotic resistance factor. 
+            <br>Here, we attempt to demonstrate that pyocin-resistant A. baumannii mutants show phenotype for reduced LPS/LOS as compared to susceptible strains. 
+            <br>Here, LPS would be extracted using the Bacterial lipopolysaccharide extraction  kit from iNtRON Biotech. Its standard protocol is attached on the Protocols page. 
+        </p>
+        <ol class="wiki-ol">
+            <li>Perform LPS extraction using the kit with standard protocol on all cultures.</li>
+            <li>Separate the LPS preparations on 15% (w/v) SDS-PAGE</li>  
+            <li>Stain with 2D-Silver Stain Reagent II which allows visualization of lipopolysaccharides and lipooligosaccharides on a gel.</li>
+        </ol>
+    </div>
+    <br><br><br><br><br>
+
+   
+    
+    
+    
+
+
+
+
+
+
+
+
+</div>
+</main>
+
+<div class="fab-border"></div>
+<a class="fab" href="#">
+  <img src="../assets/images/icons/next.svg" data-toggle="tooltip" data-placement="left" title="Next section" class="fab-next-section"></img>
+  <img src="../assets/images/icons/top.svg" data-toggle="tooltip" data-placement="left" title="Top"  class="fab-top-section"></img>
+</a>
+<div class="circular-progress-container">
+  <svg class="progress-svg" viewbox="0 0 84 84">
+    <circle class="progress-pie" cx="42" cy="42" r="40"></circle>
+  </svg>
+</div>
+
+<footer class="footer">
+  <div class="footer-brand"><a href="#" class="">iGEM IIT Roorkee</a></div>
+  <div class="footer-lists">
+    <div class="footer-list">
+      <div class="footer-list-title">People</div>
+      <a href="../Team/" class="tab footer-list-item"><span>Team</span></a>
+      <a href="../Attributions/" class="tab footer-list-item"><span>Attributions</span></a>
+      <a href="../Sponsors/" class="tab footer-list-item"><span>Sponsors</span></a>
+    </div>
+    <div class="footer-list">
+      <div class="footer-list-title">Project</div>
+      <a href="../Description/" class="tab footer-list-item"><span>Description</span></a>
+      <a href="../Problem/" class="tab footer-list-item"><span>Problem</span></a>
+      <a href="../Design/" class="tab footer-list-item"><span>Design</span></a>
+      <a href="../Engineering/" class="tab footer-list-item"><span>Engineering</span></a>
+      <a href="../Implementation/" class="tab footer-list-item"><span>Implementation</span></a>
+      <a href="../Contribution/" class="tab footer-list-item"><span>Contributions</span></a>
+    </div>
+    <div class="footer-list">
+      <div class="footer-list-title">Human Practices</div>
+      <a href="../Human_Practices/" class="tab footer-list-item"><span>Overview</span></a>
+      <a href="../Education/" class="tab footer-list-item"><span>Science Communication and Public Engagement</span></a>
+      <a href="../Integrated_HP/" class="tab footer-list-item"><span>Integrated Human Practices</span></a>
+      <a href="../Sustainable/" class="tab footer-list-item"><span>Sustainable Development Goals</span></a>
+      <a href="../Collaborations/" class="tab footer-list-item"><span>Collaborations</span></a>
+    </div>
+    <div class="footer-list">
+      <div class="footer-list-title">Dry Lab</div>
+      <a href="../Model/" class="tab footer-list-item"><span>Modelling</span></a>
+      <a href="../DryLab_Results/" class="tab footer-list-item"><span>Results</span></a>
+      <a href="../Software/" class="tab footer-list-item"><span>Software</span></a>
+    </div>
+    <div class="footer-list">
+      <div class="footer-list-title">Wet Lab</div>
+      <a href="../Experiments/" class="tab footer-list-item"><span>Overview</span></a>
+      <a href="../Results/" class="tab footer-list-item"><span>Results</span></a>
+      <a href="#" class="tab footer-list-item  footer-list-item-active"><span>Protocols</span></a>
+      <a href="../Parts/" class="tab footer-list-item"><span>Parts</span></a>
+      <a href="../Safety/" class="tab footer-list-item"><span>Safety</span></a>
+      <a href="../References/" class="tab footer-list-item"><span>References</span></a>
+    </div>
+    <div class="footer-list">
+      <div class="footer-list-title">Machine Learning</div>
+      <a href="../ML_Overview/" class="tab footer-list-item"><span>Overview</span></a>
+      <a href="../ML_Model/" class="tab footer-list-item"><span>Model</span></a>
+      <a href="../ML_Results/" class="tab footer-list-item"><span>Results</span></a>
+      <a href="../ML_Impact/" class="tab footer-list-item"><span>Impact</span></a>
+    </div>
+  </div>
+  <div class="footer-info">
+    <div class="footer-info-address">
+      <div class="footer-address">
+        The Department of Biotechnology, <br />
+        Indian Institute of Technology, Roorkee <br />
+        Roorkee, Uttarakhand, <br />
+        India - 247667
         </div>
-        <div class="footer-list">
-          <div class="footer-list-title">Project</div>
-          <a href="../Description/" class="tab footer-list-item"><span>Description</span></a>
-          <a href="../Problem/" class="tab footer-list-item"><span>Problem</span></a>
-          <a href="../Design/" class="tab footer-list-item"><span>Design</span></a>
-          <a href="../Engineering/" class="tab footer-list-item"><span>Engineering</span></a>
-          <a href="../Implementation/" class="tab footer-list-item"><span>Implementation</span></a>
-          <a href="../Contribution/" class="tab footer-list-item"><span>Contributions</span></a>
-        </div>
-        <div class="footer-list">
-          <div class="footer-list-title">Human Practices</div>
-          <a href="../Human_Practices/" class="tab footer-list-item"><span>Overview</span></a>
-          <a href="../Education/" class="tab footer-list-item"><span>Science Communication and Public Engagement</span></a>
-          <a href="../Integrated_HP/" class="tab footer-list-item"><span>Integrated Human Practices</span></a>
-          <a href="../Sustainable/" class="tab footer-list-item"><span>Sustainable Development Goals</span></a>
-          <a href="../Collaborations/" class="tab footer-list-item"><span>Collaborations</span></a>
-        </div>
-        <div class="footer-list">
-          <div class="footer-list-title">Dry Lab</div>
-          <a href="../Model/" class="tab footer-list-item"><span>Modelling</span></a>
-          <a href="../DryLab_Results/" class="tab footer-list-item"><span>Results</span></a>
-          <a href="../Software/" class="tab footer-list-item"><span>Software</span></a>
-        </div>
-        <div class="footer-list">
-          <div class="footer-list-title">Wet Lab</div>
-          <a href="../Experiments/" class="tab footer-list-item"><span>Overview</span></a>
-          <a href="../Results/" class="tab footer-list-item"><span>Results</span></a>
-          <a href="../Protocols/" class="tab footer-list-item footer-list-item-active"><span>Protocols</span></a>
-          <a href="../Parts/" class="tab footer-list-item"><span>Parts</span></a>
-          <a href="#" class="tab footer-list-item "><span>Safety</span></a>
-          <a href="../References/" class="tab footer-list-item"><span>References</span></a>
-        </div>
-        <div class="footer-list">
-          <div class="footer-list-title">Machine Learning</div>
-          <a href="../ML_Overview/" class="tab footer-list-item"><span>Overview</span></a>
-          <a href="../ML_Model/" class="tab footer-list-item"><span>Model</span></a>
-          <a href="../ML_Results/" class="tab footer-list-item"><span>Results</span></a>
-          <a href="../ML_Impact/" class="tab footer-list-item"><span>Impact</span></a>
-        </div>
+      <img src="../assets/images/images/james_thomason_building.svg" class="footer-james-thomason"></img>
+    </div>
+    <div class="footer-info-socials">
+      <div class="footer-section-heading">Contact us:</div>
+      <div class="contacts">
+        <a href="tel:+011-2875468" class="contact"><span>+011-2875468</span></a>
+        <a href="tel:+91-76487699" class="contact"><span>+91-76487699</span></a>
+        <a href="mailto:igem@iitr.ac.in" class="contact"><span>igem@iitr.ac.in</span></a>
       </div>
-      <div class="footer-info">
-        <div class="footer-info-address">
-          <div class="footer-address">
-            The Department of Biotechnology, <br />
-            Indian Institute of Technology, Roorkee <br />
-            Roorkee, Uttarakhand, <br />
-            India - 247667
-            </div>
-          <img src="../assets/images/images/james_thomason_building.svg" class="footer-james-thomason"></img>
-        </div>
-        <div class="footer-info-socials">
-          <div class="footer-section-heading">Contact us:</div>
-          <div class="contacts">
-            <a href="tel:+011-2875468" class="contact"><span>+011-2875468</span></a>
-            <a href="tel:+91-76487699" class="contact"><span>+91-76487699</span></a>
-            <a href="mailto:igem@iitr.ac.in" class="contact"><span>igem@iitr.ac.in</span></a>
-          </div>
-          <div class="footer-section-heading">Follow us on:</div>
-          <div class="socials">
-            <a href="https://www.instagram.com/igem_iitr/" class="social"><img src="../assets/images/icons/instagram.svg" alt="Instagrm"></a>
-            <a href="https://www.facebook.com/IGEM-IIT-Roorkee-111403760578466" class="social"><img src="../assets/images/icons/facebook.svg" alt="Facebook"></a>
-            <a href="https://twitter.com/igem_iitr" class="social"><img src="../assets/images/icons/twitter.svg" alt="Twitter"></a>
-
-
-          </div>
-        </div>
-        <img src="../assets/images/images/james_thomason_building.svg" class="footer-james-thomason-mobile"></img>
+      <div class="footer-section-heading">Follow us on:</div>
+      <div class="socials">
+        <a href="https://www.instagram.com/igem_iitr/" class="social"><img src="../assets/images/icons/instagram.svg" alt="Instagrm"></a>
+        <a href="https://www.facebook.com/IGEM-IIT-Roorkee-111403760578466" class="social"><img src="../assets/images/icons/facebook.svg" alt="Facebook"></a>
+        <a href="https://twitter.com/igem_iitr" class="social"><img src="../assets/images/icons/twitter.svg" alt="Twitter"></a>
       </div>
-    </footer>
+    </div>
+    <img src="../assets/images/images/james_thomason_building.svg" class="footer-james-thomason-mobile"></img>
+  </div>
+</footer>
 
-    <script src="../js/igem-reset.js"></script>
-    <script src="../js/jquery-slim.min.js"></script>
-    </script>
-    <script src="../js/jquery.waypoints.min.js"></script>
-    <script src="../js/popper.min.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/holder.min.js"></script>
-    <script src="../js/index.js"></script>
-    <script>
-      Holder.addTheme("thumb", {
-        bg: "#55595c",
-        fg: "#eceeef",
-        text: "Thumbnail",
-      });
-    </script>
-  </body>
+<script src="../js/igem-reset.js"></script>
+<script src="../js/jquery-slim.min.js"></script>
+</script>
+<script src="../js/jquery.waypoints.min.js"></script>
+<script src="../js/popper.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/holder.min.js"></script>
+<script src="../js/index.js"></script>
+<script>
+  Holder.addTheme("thumb", {
+    bg: "#55595c",
+    fg: "#eceeef",
+    text: "Thumbnail",
+  });
+</script>
+</body>
 </html>
+    
+
+
+
+
+
+
+        
+        
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
