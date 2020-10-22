@@ -1154,6 +1154,19 @@ main.wiki {
   font-family: "Quattrocento Sans";
 }
 
+.link-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-x: auto;
+  max-width: 100%;
+  margin: 10px 0;
+}
+
+.link-row a {
+  margin: 20px;
+}
+
 @media screen and (max-width: 768px) {
   .notebook-banner-p {
     width: 95%;
