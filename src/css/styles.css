@@ -1117,6 +1117,10 @@ main.wiki {
   margin: 15px;
 }
 
+.feature-card-notebook {
+  width: 33%;
+}
+
 .feature-card-2 {
   padding: 35px;
 }
@@ -1157,6 +1161,10 @@ main.wiki {
 
   .feature-cards {
     flex-direction: column;
+  }
+
+  .feature-card-notebook {
+    width: 100%;
   }
 }
 /* WIKI COMPONENTS END */
