@@ -539,6 +539,14 @@ assets:
     link_URL: https://2020.igem.org/wiki/images/a/a5/T--IIT_Roorkee--images--images--IITR_new_logo_color.jpg
     md5: 592d5bcaf64567301a80f0072f343919
     upload_filename: T--IIT_Roorkee--images--images--IITR_new_logo_color.jpg
+  assets/images/images/ML_Model_weight_equation_higher.png:
+    link_URL: https://2020.igem.org/wiki/images/f/ff/T--IIT_Roorkee--images--images--ML_Model_weight_equation_higher.png
+    md5: 47ca7ed183cef9fc3d299dca6eb4d99c
+    upload_filename: T--IIT_Roorkee--images--images--ML_Model_weight_equation_higher.png
+  assets/images/images/ML_model_higher.png:
+    link_URL: https://2020.igem.org/wiki/images/9/9e/T--IIT_Roorkee--images--images--ML_model_higher.png
+    md5: 744cc1bc9fa782bf374fb44c4b4dc2d0
+    upload_filename: T--IIT_Roorkee--images--images--ML_model_higher.png
   assets/images/images/Project_Contributions_1.png:
     link_URL: https://2020.igem.org/wiki/images/6/68/T--IIT_Roorkee--images--images--Project_Contributions_1.png
     md5: 64e434af0e568745329fedc7acef243b
@@ -756,7 +764,7 @@ css:
 html:
   Attributions/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Attributions
-    md5: 6ee05f0e78cd008ad621d92b1853aa27
+    md5: 7bb3591f6ddac1372ebe9c15cf9777e5
   Collaborations/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Collaborations
     md5: 9bac50104ec7cb2af4ddafe004694762
@@ -789,13 +797,13 @@ html:
     md5: b07a1fe6ed1be0dca2534ae0b132b70f
   Integrated_HP/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Integrated_HP
-    md5: ae9aa0c414b55c634df4f0f92d406612
+    md5: b38a2e9e6af8a230ae971a4d8a337487
   Judging/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Judging
-    md5: 488f522078f47e6ec0a68b4054ee4455
+    md5: 4c03553d6b8f873e076430f1e1802341
   ML_Model/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/ML_Model
-    md5: 4713d04d124a69c35a41e4f811a10ce6
+    md5: 209f0432ae414408febdc9b3e5ba35f1
   ML_Overview/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/ML_Overview
     md5: ead1dbab10ab3897bfa02489a23a8885
