@@ -143,10 +143,10 @@
           </ul>
        </li>
             <li class="nav-item">
-              <a class="tab nav-link" href="#">Judges</a>
+              <a class="tab nav-link" href="../Judging/">Judges</a>
             </li>
             <li class="nav-item">
-              <a class="tab nav-link" href="#">Notebook</a>
+              <a class="tab nav-link" href="../Notebook/">Notebook</a>
             </li>
           </ul>
         </div>
@@ -200,9 +200,13 @@
           structures. There are three methods for modelling proteins:
         </p>
 
-        <p class="wiki-p">
-          <ol class="wiki-ol">
 
+        <button class="wiki-collapsible">
+          Methods
+          <svg class="wiki-chevron-down" viewBox="0 0 448 512"><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg>
+        </button>
+        <div class="wiki-collapsed-content">
+          <ol class="wiki-ol">
             <li><span class="wiki-bold">Homology Modelling: </span><br>
               This is used when we have a structurally unknown protein and a similar 
               structurally known protein. The structurally known protein is used as a 
@@ -229,7 +233,8 @@
               Robetta-Baker Lab’s online modelling server was used to model our protein using this method. 
             </li>
           </ol>
-        </p>
+        </div><br>
+
               
         
         <h2 class="wiki-h wiki-h2 wiki-section-start" id="our_approach">Our Approach:</h2><br>
@@ -239,7 +244,7 @@
         
         <p class="wiki-p">
           R2 tail fibre protein sequence comprises 691 amino acids. The AP22 
-          bacteriophage tail fibre protein that targets A.baumannii is 271 amino 
+          bacteriophage tail fibre protein that targets <i><i>A. baumannii</i></i> is 271 amino 
           acids in length. However, through literature review, it was found that the 
           R2 pyocin- NTF (N-truncated fragment) (G-443 to R-691) is sufficient to 
           bind to the bacterial surface. Therefore, only the N-truncated fragment was modelled. <br>
@@ -330,206 +335,264 @@
         </p><br><br><br><br><br>
 
         <h2 class="wiki-h wiki-h2 wiki-section-start" id="obtained_models">Obtained Models:</h2><br>
-        <h4 class="wiki-h wiki-h4">Homology Modelling</h4>
-        <!-- <h2 class="wiki-h wiki-h2">Heading 2</h2>
-        <h3 class="wiki-h wiki-h3">Heading 3</h3> -->
+
+
+
+        <button class="wiki-collapsible">
+          Homology Modelling
+          <svg class="wiki-chevron-down" viewBox="0 0 448 512"><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg>
+        </button>
+        <div class="wiki-collapsed-content">
+          <p class="wiki-p">
+            The SWISS-MODEL template library (SMTL version 2020-09-09, PDB release 2020-09-04) 
+            was searched with BLAST and HHBlits for evolutionary related structures matching the target sequence of the fusion protein. Overall 43 templates 
+            were found and the best one was chosen. 6cl6.1.A having a sequence identity of 63.64, 
+            a sequence similarity of 0.49 and a coverage of 0.96 was chosen as the template. 
+            The QSQE score is a number between 0 and 1, reflecting the expected accuracy of the 
+            interchain contacts for a model built based on a given alignment and template. 
+            In general, a higher QSQE is "better", while a value above 0.7 can be considered 
+            reliable to follow the predicted quaternary structure in the modelling process. 
+            The chosen template had a QSQE score of 0.79, indicating it to be a good template for modelling.  
+          </p>
+  
+          <p class="wiki-p">
+            Template Parameters -  
+          </p>
+  
+          <div class="table-responsive">
+            <table class="table table-hover table-bordered">
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col">Template</th>
+                  <th scope="col">Seq Identity</th>
+                  <th scope="col">Oligo-state</th>
+                  <th scope="col">QSQE</th>
+                  <th scope="col">Found by</th>
+                  <th scope="col">Method</th>
+                  <th scope="col">Resolution</th>
+                  <th scope="col">Sew Similarity</th>
+                  <th scope="col">Range</th>
+                  <th scope="col">Coverage</th>
+                  <th scope="col">Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>6cl6.1.A</td>
+                  <td>63.64</td>
+                  <td>homo-trimer</td>
+                  <td>0.79</td>
+                  <td>BLAST</td>
+                  <td>X-Ray</td>
+                  <td>1.90Å</td>
+                  <td>0.49</td>
+                  <td>1 - 251</td>
+                  <td>0.96</td>
+                  <td>Tail fiber protein</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+  
+          <p class="wiki-p">
+            Model Parameters -  
+          </p>
+  
+          <div class="table-responsive">
+            <table class="table table-hover table-bordered">
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col">Built with </th>
+                  <th scope="col">Oligo-state</th>
+                  <th scope="col">Ligands </th>
+                  <th scope="col">GMQE</th>
+                  <th scope="col">QMEAN</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>ProMod3 3.1.1</td>
+                  <td>homo-trimer (matching prediction)</td>
+                  <td>None</td>
+                  <td>0.77</td>
+                  <td>-3.42</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+  
+          <div class="wiki-graphic">
+            <img src="../assets/images/images/DL_Modelling_Homology_model.png" alt="Homology Model" class="wiki-graphic-image">
+            <div class="wiki-graphic-reference">Homology Model</div>
+          </div>
+        </div>
+
         
-        <p class="wiki-p">
-          The SWISS-MODEL template library (SMTL version 2020-09-09, PDB release 2020-09-04) 
-          was searched with BLAST <span style="color:#FF0000;">(Camacho et al.)</span> and 
-          HHBlits <span style="color:#FF0000;">(Remmert et al.)</span> for evolutionary 
-          related structures matching the target sequence of the fusion protein. Overall 43 templates 
-          were found and the best one was chosen. 6cl6.1.A having a sequence identity of 63.64, 
-          a sequence similarity of 0.49 and a coverage of 0.96 was chosen as the template. 
-          The QSQE score is a number between 0 and 1, reflecting the expected accuracy of the 
-          interchain contacts for a model built based on a given alignment and template. 
-          In general, a higher QSQE is "better", while a value above 0.7 can be considered 
-          reliable to follow the predicted quaternary structure in the modelling process. 
-          The chosen template had a QSQE score of 0.79, indicating it to be a good template for modelling.  
-        </p>
 
-        <p class="wiki-p">
-          Template Parameters -  
-        </p>
-
-        <div class="table-responsive">
-          <table class="table table-hover table-bordered">
-            <thead class="thead-dark">
-              <tr>
-                <th scope="col">Template</th>
-                <th scope="col">Seq Identity</th>
-                <th scope="col">Oligo-state</th>
-                <th scope="col">QSQE</th>
-                <th scope="col">Found by</th>
-                <th scope="col">Method</th>
-                <th scope="col">Resolution</th>
-                <th scope="col">Sew Similarity</th>
-                <th scope="col">Range</th>
-                <th scope="col">Coverage</th>
-                <th scope="col">Description</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>6cl6.1.A</td>
-                <td>63.64</td>
-                <td>homo-trimer</td>
-                <td>0.79</td>
-                <td>BLAST</td>
-                <td>X-Ray</td>
-                <td>1.90Å</td>
-                <td>0.49</td>
-                <td>1 - 251</td>
-                <td>0.96</td>
-                <td>Tail fiber protein</td>
-              </tr>
-            </tbody>
-          </table>
+        <button class="wiki-collapsible">
+          Threading/Fold-Recognition
+          <svg class="wiki-chevron-down" viewBox="0 0 448 512"><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg>
+        </button>
+        <div class="wiki-collapsed-content">
+          <p class="wiki-p">
+            The fusion protein sequence was submitted for modelling on 
+            the I-Tasser web server and the modelling results were obtained 
+            via email. Top 5 models are predicted by I-Tasser using the threading 
+            approach for protein modelling. The confidence of each model is 
+            quantitatively measured by a C-score that is calculated based on 
+            the significance of threading template alignments and the convergence
+            parameters of the structure assembly simulations. C-score is typically 
+            in the range of [-5, 2], where a C-score of a higher value signifies a 
+            model with higher confidence and vice-versa.  
+          </p>
+  
+          <div class="table-responsive">
+            <table class="table table-hover table-bordered">
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col">I-Tasser Models </th>
+                  <th scope="col">C-Scores</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Model 1</th>
+                  <td>0.71</td>
+                </tr>
+                <tr>
+                  <th scope="row">Model 2</th>
+                  <td>-2.15</td>
+                </tr>
+                <tr>
+                  <th scope="row">Model 3</th>
+                  <td>-2.70</td>
+                </tr>
+                <tr>
+                  <th scope="row">Model 4</th>
+                  <td>-1.50</td>
+                </tr>
+                <tr>
+                  <th scope="row">Model 5</th>
+                  <td>-4.08</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+  
+          <p class="wiki-p">
+            All the 5 models obtained were monomers and through 
+            C-score comparison model 1 comes out to be the best model predicted by this method. 
+          </p>
+  
+  
+  
+  
+          <div id="carousel2" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" style="background-image:url(../assets/images/images/DL_Modelling_Threading_model_1.png)">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="wiki-h5 wiki-bold">Threading Model 1</h5>
+                  
+                </div>
+              </div>
+              <div class="carousel-item" style="background-image:url(../assets/images/images/DL_Modelling_Threading_model_2.png)">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="wiki-h5 wiki-bold">Threading Model 2</h5>
+                  
+                </div>
+              </div>
+              <div class="carousel-item" style="background-image:url(../assets/images/images/DL_Modelling_Threading_model_3.png)">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="wiki-h5 wiki-bold">Threading Model 3</h5>
+                  
+                </div>
+              </div>
+              <div class="carousel-item" style="background-image:url(../assets/images/images/DL_Modelling_Threading_model_4.png)">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="wiki-h5 wiki-bold">Threading Model 4</h5>
+                  
+                </div>
+              </div>
+              <div class="carousel-item" style="background-image:url(../assets/images/images/DL_Modelling_Threading_model_5.png)">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="wiki-h5 wiki-bold">Threading Model 5</h5>
+                  
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel2" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel2" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>  
         </div>
 
-        <p class="wiki-p">
-          Model Parameters -  
-        </p>
 
-        <div class="table-responsive">
-          <table class="table table-hover table-bordered">
-            <thead class="thead-dark">
-              <tr>
-                <th scope="col">Built with </th>
-                <th scope="col">Oligo-state</th>
-                <th scope="col">Ligands </th>
-                <th scope="col">GMQE</th>
-                <th scope="col">QMEAN</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>ProMod3 3.1.1</td>
-                <td>homo-trimer (matching prediction)</td>
-                <td>None</td>
-                <td>0.77</td>
-                <td>-3.42</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-
-        <div class="wiki-graphic">
-          <img src="../assets/images/images/DL_Modelling_Homology_model.png" alt="Homology Model" class="wiki-graphic-image">
-          <div class="wiki-graphic-reference">Homology Model</div>
-        </div>
-        <br><br><br>
-
-
-        <h4 class="wiki-h wiki-h4">Threading/Fold-Recognition</h4>
-        <!-- <h2 class="wiki-h wiki-h2">Heading 2</h2>
-        <h3 class="wiki-h wiki-h3">Heading 3</h3> -->
         
-        <p class="wiki-p">
-          The fusion protein sequence was submitted for modelling on 
-          the I-Tasser web server and the modelling results were obtained 
-          via email. Top 5 models are predicted by I-Tasser using the threading 
-          approach for protein modelling. The confidence of each model is 
-          quantitatively measured by a C-score that is calculated based on 
-          the significance of threading template alignments and the convergence
-          parameters of the structure assembly simulations. C-score is typically 
-          in the range of [-5, 2], where a C-score of a higher value signifies a 
-          model with higher confidence and vice-versa.  
-        </p>
-
-        <div class="table-responsive">
-          <table class="table table-hover table-bordered">
-            <thead class="thead-dark">
-              <tr>
-                <th scope="col">I-Tasser Models </th>
-                <th scope="col">C-Scores</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">Model 1</th>
-                <td>0.71</td>
-              </tr>
-              <tr>
-                <th scope="row">Model 2</th>
-                <td>-2.15</td>
-              </tr>
-              <tr>
-                <th scope="row">Model 3</th>
-                <td>-2.70</td>
-              </tr>
-              <tr>
-                <th scope="row">Model 4</th>
-                <td>-1.50</td>
-              </tr>
-              <tr>
-                <th scope="row">Model 5</th>
-                <td>-4.08</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-
-        <p class="wiki-p">
-          All the 5 models obtained were monomers and through 
-          C-score comparison model 1 comes out to be the best model predicted by this method. 
-        </p>
-
-        <div class="wiki-graphic">
-          <img src="../assets/images/images/DL_Modelling_Threading_model_1.png" alt="Threading Model 1" class="wiki-graphic-image">
-          <div class="wiki-graphic-reference">Threading Model 1</div>
-        </div>
-        <div class="wiki-graphic">
-          <img src="../assets/images/images/DL_Modelling_Threading_model_2.png" alt="Threading Model 2" class="wiki-graphic-image">
-          <div class="wiki-graphic-reference">Threading Model 2</div>
-        </div>
-        <div class="wiki-graphic">
-          <img src="../assets/images/images/DL_Modelling_Threading_model_3.png" alt="Threading Model 3" class="wiki-graphic-image">
-          <div class="wiki-graphic-reference">Threading Model 3</div>
-        </div>
-        <div class="wiki-graphic">
-          <img src="../assets/images/images/DL_Modelling_Threading_model_4.png" alt="Threading Model 4" class="wiki-graphic-image">
-          <div class="wiki-graphic-reference">Threading Model 4</div>
-        </div>
-        <div class="wiki-graphic">
-          <img src="../assets/images/images/DL_Modelling_Threading_model_5.png" alt="Threading Model 5" class="wiki-graphic-image">
-          <div class="wiki-graphic-reference">Threading Model 5</div>
-        </div>
-        <br><br><br>
 
 
-        <h4 class="wiki-h wiki-h4">Ab-initio Modelling</h4>
-        <!-- <h2 class="wiki-h wiki-h2">Heading 2</h2>
-        <h3 class="wiki-h wiki-h3">Heading 3</h3> -->
+        <button class="wiki-collapsible">
+          Ab-initio Modelling
+          <svg class="wiki-chevron-down" viewBox="0 0 448 512"><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg>
+        </button>
+        <div class="wiki-collapsed-content">
+          <p class="wiki-p">
+            The fusion protein sequence was submitted on the Robetta Baker Lab web server. 
+            The modelling results were obtained in a couple of days and 5 best models were 
+            predicted for the fusion protein sequence. All the suggested models were 
+            homo-trimers similar to the native R2-NTF pyocin structure.  
+          </p>
+  
+  
+  
+  
+          <div id="carousel3" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" style="background-image:url(../assets/images/images/DL_Modelling_ab-initio_model_1.png)">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="wiki-h5 wiki-bold">Ab-initio Model 1</h5>
+                </div>
+              </div>
+              <div class="carousel-item" style="background-image:url(../assets/images/images/DL_Modelling_ab-initio_model_2.png)">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="wiki-h5 wiki-bold">Ab-initio Model 2</h5>
+                </div>
+              </div>
+              <div class="carousel-item" style="background-image:url(../assets/images/images/DL_Modelling_ab-initio_model_3.png)">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="wiki-h5 wiki-bold">Ab-initio Model 3</h5>
+                </div>
+              </div>
+              <div class="carousel-item" style="background-image:url(../assets/images/images/DL_Modelling_ab-initio_model_4.png)">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="wiki-h5 wiki-bold">Ab-initio Model 4</h5>
+                </div>
+              </div>
+              <div class="carousel-item" style="background-image:url(../assets/images/images/DL_Modelling_ab-initio_model_5.png)">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="wiki-h5 wiki-bold">Ab-initio Model 5</h5>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel3" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel3" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>  
+        </div>
+
         
-        <p class="wiki-p">
-          The fusion protein sequence was submitted on the Robetta Baker Lab web server. 
-          The modelling results were obtained in a couple of days and 5 best models were 
-          predicted for the fusion protein sequence. All the suggested models were 
-          homo-trimers similar to the native R2-NTF pyocin structure.  
-        </p>
 
-        <div class="wiki-graphic">
-          <img src="../assets/images/images/DL_Modelling_ab-initio_model_1.png" alt="Ab-Initio Model 1" class="wiki-graphic-image">
-          <div class="wiki-graphic-reference">Ab-initio Model 1</div>
-        </div>
-        <div class="wiki-graphic">
-          <img src="../assets/images/images/DL_Modelling_ab-initio_model_2.png" alt="Ab-Initio Model 2" class="wiki-graphic-image">
-          <div class="wiki-graphic-reference">Ab-initio Model 2</div>
-        </div>
-        <div class="wiki-graphic">
-          <img src="../assets/images/images/DL_Modelling_ab-initio_model_3.png" alt="Ab-Initio Model 3" class="wiki-graphic-image">
-          <div class="wiki-graphic-reference">Ab-initio Model 3</div>
-        </div>
-        <div class="wiki-graphic">
-          <img src="../assets/images/images/DL_Modelling_ab-initio_model_4.png" alt="Ab-Initio Model 4" class="wiki-graphic-image">
-          <div class="wiki-graphic-reference">Ab-initio Model 4</div>
-        </div>
-        <div class="wiki-graphic">
-          <img src="../assets/images/images/DL_Modelling_ab-initio_model_5.png" alt="Ab-Initio Model 5" class="wiki-graphic-image">
-          <div class="wiki-graphic-reference">Ab-initio Model 5</div>
-        </div>
-        <br><br><br><br><br>
+
+        <br><br><br><br><br><br><br>
 
             
 
