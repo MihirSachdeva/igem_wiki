@@ -169,7 +169,7 @@
     <main role="main" class="container wiki">    
 
       <div class="side-nav">
-        <div class="page-title">Design/div>
+        <div class="page-title">Design</div>
         <div class="side-nav-menu">
         </div>
       </div>
@@ -295,57 +295,70 @@
           <p class="wiki-p">
               We used a preliminary bioinformatics analysis to design our fusion protein tail fiber. The overall analysis involved:
           </p><br/>
-          <ol class="wiki-ol">
-            <li>
-              <span class="wiki-bold">Identifying a suitable bacteriophage for <i><i>A. baumannii</i></i></span><br/>
-              <p class="wiki-p">
-                  A bioinformatics search for <i>A. baumannii</i> bacteriophages and the multiple sequence alignment of resulting bacteriophage tail fiber sequences resulted in identification of conservedness in N-terminal region (Fig 1). The C-terminal region is highly variable in sequence and length. Phylogenetic analysis revealed two prominent clades of viral tail fibers; a short tail clade (AP22 clade) of approximately 270 aa and a long tail clade (AB1 clade) of around 730 aa (Fig 2). The crystal structure of a bacteriophage AP22 tail fiber is available in the database and we chose to utilize the same for our further work. When analyzed for evolutionary sequence-similarity , AP22 tail fiber had over 60% similarity with the other members in its clade (Fig 3). 
-              </p>
-              <div class="wiki-graphic">
-                  <img src="../assets/images/images/Project_Design_Figure_1.png" alt="" class="wiki-graphic-image">
-                  <div class="wiki-graphic-reference">Fig 1. Representative AP22 and AB1-type <i>A. baumannii</i> bacteriophage tail fiber sequences were aligned by CLUSTAL Omega and rendered using JALVIEW. Sequence differences between two types occur in a C-terminal region.</div>
-              </div><br/>
-              <div class="wiki-graphic">
-                  <img src="../assets/images/images/Project_Design_Figure_2.png" alt="" class="wiki-graphic-image">
-                  <div class="wiki-graphic-reference">Fig 2. Neighbour-joining phylogenetic tree obtained from tail fiber sequences of major Acinetobacter bacteriophages. Numbers refer to significant bootstrap values of 100 calculated trees.</div>
-              </div><br/>
-              <div class="wiki-graphic">
-                  <img src="../assets/images/images/Project_Design_Figure_3.png" alt="" class="wiki-graphic-image">
-                  <div class="wiki-graphic-reference">Fig 3. AP22-type Acinetobacter bacteriophage tail fibers sequences are conserved in their sequences with minor variations at C-terminal end.</div>
-              </div><br/>
-            </li>
+
+          <button class="wiki-collapsible">
+            Identifying a suitable bacteriophage for <i><i>A. baumannii</i></i>
+            <svg class="wiki-chevron-down" viewBox="0 0 448 512"><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg>
+          </button>
+          <div class="wiki-collapsed-content">
+            <p class="wiki-p">
+              A bioinformatics search for <i>A. baumannii</i> bacteriophages and the multiple sequence alignment of resulting bacteriophage tail fiber sequences resulted in identification of conservedness in N-terminal region (Fig 1). The C-terminal region is highly variable in sequence and length. Phylogenetic analysis revealed two prominent clades of viral tail fibers; a short tail clade (AP22 clade) of approximately 270 aa and a long tail clade (AB1 clade) of around 730 aa (Fig 2). The crystal structure of a bacteriophage AP22 tail fiber is available in the database and we chose to utilize the same for our further work. When analyzed for evolutionary sequence-similarity , AP22 tail fiber had over 60% similarity with the other members in its clade (Fig 3). 
+          </p>
+          <div class="wiki-graphic">
+              <img src="../assets/images/images/Project_Design_Figure_1.png" alt="" class="wiki-graphic-image">
+              <div class="wiki-graphic-reference">Fig 1. Representative AP22 and AB1-type <i>A. baumannii</i> bacteriophage tail fiber sequences were aligned by CLUSTAL Omega and rendered using JALVIEW. Sequence differences between two types occur in a C-terminal region.</div>
+          </div><br/>
+          <div class="wiki-graphic">
+              <img src="../assets/images/images/Project_Design_Figure_2.png" alt="" class="wiki-graphic-image">
+              <div class="wiki-graphic-reference">Fig 2. Neighbour-joining phylogenetic tree obtained from tail fiber sequences of major Acinetobacter bacteriophages. Numbers refer to significant bootstrap values of 100 calculated trees.</div>
+          </div><br/>
+          <div class="wiki-graphic">
+              <img src="../assets/images/images/Project_Design_Figure_3.png" alt="" class="wiki-graphic-image">
+              <div class="wiki-graphic-reference">Fig 3. AP22-type Acinetobacter bacteriophage tail fibers sequences are conserved in their sequences with minor variations at C-terminal end.</div>
+          </div><br/>
+          </div>
 
 
-            <li class="wiki-bold">
-                <span class="wiki-bold">Rational design of chimeric tail fiber </span><br/>
-                <p class="wiki-p">
-                    Analysis of key domains in AP22 tail fiber (Fig 4) revealed a conserved lectin-fold similar to that of R2-pyocin tail fiber. Considering this information, we reasoned that a chimera of R2 N-terminal domain fused with AP22 C-terminal domain (Fig 5) would result in generation of specific R2 pyocin against <i><i>A. baumannii</i></i>. To identify specific amino acid positions for genetic replacement, we aligned C-terminal ends of AP22 and R2 pyocin tail fibers (Fig 6). The sequence alignment revealed that the last 137 amino acids of AP22 constituting the head and shaft of tail fiber aligned with the last 134 amino acids of R2 pyocin tail fiber. We predicted the secondary structure formation of the aforementioned 137 and 134 amino acid sequences and found that the alpha helix and 8 beta sheets (constituting lectin fold) are conserved in both the tails (fig 7) albeit variations in sequence length and size (Fig 8). 
-                </p>
-                <div class="wiki-graphic">
-                    <img src="../assets/images/images/Project_Design_Figure_4.png" alt="" class="wiki-graphic-image">
-                    <div class="wiki-graphic-reference">
-                        Fig 4. Key domains of Acinetobacter bacteriophage AP22-type tail fiber involved in bacterial attachment. The lectin fold in the C-terminal domain head region is majorly involved in binding to bacterial lipopolysaccharides.
-                        </div>
-                </div><br/>
-                <div class="wiki-graphic">
-                    <img src="../assets/images/images/Project_Design_Figure_5.png" alt="" class="wiki-graphic-image">
-                    <div class="wiki-graphic-reference">Fig 5. Rationale and design of chimeric R2P-AP22 tail fiber</div>
-                </div><br/>
-                <div class="wiki-graphic">
-                    <img src="../assets/images/images/Project_Design_Figure_6.png" alt="" class="wiki-graphic-image">
-                    <div class="wiki-graphic-reference">Fig 6. Sequence comparison of C-domains of AP22 phage tail (137 aa) with R2-pyocin (134 aa).</div>
-                </div><br/>
-                <div class="wiki-graphic">
-                    <img src="../assets/images/images/Project_Design_Figure_7.png" alt="" class="wiki-graphic-image">
-                    <div class="wiki-graphic-reference">Fig 7. AP22 and R2-pyocin tail fiber C-domain secondary structure prediction by Jpred4 software.</div>
-                </div><br/>
-                <div class="wiki-graphic">
-                    <img src="../assets/images/images/Project_Design_Figure_8.png" alt="" class="wiki-graphic-image">
-                    <div class="wiki-graphic-reference">Fig 8. Major structural differences between R2 Pyocin and AP22 tail fiber head regions.</div>
-                </div><br/>
-                For further information on our bioinformatics and modelling, refer to the <a href="../Model/" class="wiki-a">Dry Lab</a> tab.
-            </li>
-          </ol><br/><br/><br/>
+
+
+          <button class="wiki-collapsible">
+            Rational design of chimeric tail fiber
+            <svg class="wiki-chevron-down" viewBox="0 0 448 512"><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg>
+          </button>
+          <div class="wiki-collapsed-content">
+            <p class="wiki-p">
+              Analysis of key domains in AP22 tail fiber (Fig 4) revealed a conserved lectin-fold similar to that of R2-pyocin tail fiber. Considering this information, we reasoned that a chimera of R2 N-terminal domain fused with AP22 C-terminal domain (Fig 5) would result in generation of specific R2 pyocin against <i><i>A. baumannii</i></i>. To identify specific amino acid positions for genetic replacement, we aligned C-terminal ends of AP22 and R2 pyocin tail fibers (Fig 6). The sequence alignment revealed that the last 137 amino acids of AP22 constituting the head and shaft of tail fiber aligned with the last 134 amino acids of R2 pyocin tail fiber. We predicted the secondary structure formation of the aforementioned 137 and 134 amino acid sequences and found that the alpha helix and 8 beta sheets (constituting lectin fold) are conserved in both the tails (fig 7) albeit variations in sequence length and size (Fig 8). 
+          </p>
+          <div class="wiki-graphic">
+              <img src="../assets/images/images/Project_Design_Figure_4.png" alt="" class="wiki-graphic-image">
+              <div class="wiki-graphic-reference">
+                  Fig 4. Key domains of Acinetobacter bacteriophage AP22-type tail fiber involved in bacterial attachment. The lectin fold in the C-terminal domain head region is majorly involved in binding to bacterial lipopolysaccharides.
+                  </div>
+          </div><br/>
+          <div class="wiki-graphic">
+              <img src="../assets/images/images/Project_Design_Figure_5.png" alt="" class="wiki-graphic-image">
+              <div class="wiki-graphic-reference">Fig 5. Rationale and design of chimeric R2P-AP22 tail fiber</div>
+          </div><br/>
+          <div class="wiki-graphic">
+              <img src="../assets/images/images/Project_Design_Figure_6.png" alt="" class="wiki-graphic-image">
+              <div class="wiki-graphic-reference">Fig 6. Sequence comparison of C-domains of AP22 phage tail (137 aa) with R2-pyocin (134 aa).</div>
+          </div><br/>
+          <div class="wiki-graphic">
+              <img src="../assets/images/images/Project_Design_Figure_7.png" alt="" class="wiki-graphic-image">
+              <div class="wiki-graphic-reference">Fig 7. AP22 and R2-pyocin tail fiber C-domain secondary structure prediction by Jpred4 software.</div>
+          </div><br/>
+          <div class="wiki-graphic">
+              <img src="../assets/images/images/Project_Design_Figure_8.png" alt="" class="wiki-graphic-image">
+              <div class="wiki-graphic-reference">Fig 8. Major structural differences between R2 Pyocin and AP22 tail fiber head regions.</div>
+          </div><br/>
+          For further information on our bioinformatics and modelling, refer to the <a href="../Model/" class="wiki-a">Dry Lab</a> tab.
+      </li>
+    </ol><br>
+          </div>
+          <br><br><br>
+
+
+          
 
 
           <h1 class="wiki-h wiki-h1 wiki-section-start" id="wiki-section-3">Plasmid Design</h1><br/>
@@ -354,7 +367,10 @@
           </p>
           <p class="wiki-p">
               The wild-type pyocin gene cluster consists of 18 genes, PA0613 to PA0631, with 16 ORFs, that encode for all the subunit proteins and chaperones required for proper folding and complex formation. It also contains a lysis gene which allows the release of assembled pyocins into the surroundings. The gene responsible for the tail fiber, PA0620 has been replaced by the fusion tail-fiber gene originating from AP22 phage. 
-          </p>
+          </p><br>
+          <div class="wiki-graphic">
+            <img src="../assets/images/images/Project_design_new.png" alt="" class="wiki-graphic-image">
+        </div><br/>
           <p class="wiki-p">
               This procedure is possible through biochemical methods but we opted for DNA synthesis to reduce complications and time taken. 
           </p>
