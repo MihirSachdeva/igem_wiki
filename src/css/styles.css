@@ -225,7 +225,7 @@ nav.navbar {
     rgba(0, 0, 0, 0.25) 182.95%
   );
   box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.25);
-  backdrop-filter: blur(20px);
+  /* backdrop-filter: blur(20px); */
   /* background-color: #000000; */
 }
 
@@ -506,6 +506,34 @@ main.wiki {
   font-weight: 500;
   z-index: 2;
   max-width: 1000px;
+}
+
+.banner-drylab {
+  background-image: url(../assets/images/images/landing_drylab.png);
+}
+
+.banner-hp {
+  background-image: url(../assets/images/images/landing_hp.png);
+}
+
+.banner-judges {
+  background-image: url(../assets/images/images/landing_judges.png);
+}
+
+.banner-ml {
+  background-image: url(../assets/images/images/landing_ml.png);
+}
+
+.banner-notebook {
+  background-image: url(../assets/images/images/landing_notebook.png);
+}
+
+.banner-team {
+  background-image: url(../assets/images/images/landing_team.png);
+}
+
+.banner-wetlab {
+  background-image: url(../assets/images/images/landing_wetlab.png);
 }
 
 @media screen and (max-width: 768px) {
