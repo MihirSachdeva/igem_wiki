@@ -48,6 +48,7 @@ var fab = document.querySelector(".fab")
 const wikiSections = document.getElementsByClassName("wiki-section-start")
 const sections = []
 for (var i = 0; i < wikiSections.length; i++) {
+  // !wikiSections[i].classList.contains("wiki-section-blank") && sections.push(wikiSections[i].id)
   sections.push(wikiSections[i].id)
 }
 
@@ -58,7 +59,8 @@ for (var i = 0; i < sections.length; i++) {
   var node = document.createElement("a")
   node.setAttribute("class", "side-nav-menu-item")
   node.setAttribute("href", `#${sectionID}`)
-  node.innerHTML = heading
+  var textToShow = heading.length >= 25 ? `${heading.slice(0, 35)}...` : heading
+  node.innerHTML = textToShow
   document.querySelector(".side-nav-menu").appendChild(node)
 }
 
@@ -120,9 +122,9 @@ const hideTopButton = () => {
 
 
 var $window = $(window)
-$(document).ready(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-})
+// $(document).ready(function () {
+//   $('[data-toggle="tooltip"]').tooltip()
+// })
 
 if (window.innerWidth > 768) {
 
@@ -236,4 +238,20 @@ for (i = 0; i < coll.length; i++) {
       content.style.maxHeight = content.scrollHeight + "px"
     }
   })
+}
+
+// $('.modal-expand-button').click(() => {
+//   $(this).parent().parent().parent().addClass('modal-container-active')
+//   $(this.element).css('display', 'none')
+//   console.log($(this))
+//   console.log('MORE')
+// })
+
+// $('.modal-collapse-button').click(() => {
+//   $(this).closest('.modal-container').removeClass('modal-container-active')
+//   console.log('LESS')
+// })
+
+const modalFn = (id) => {
+  $(`#${id}`).toggleClass('modal-container-active')
 }

@@ -11,6 +11,7 @@ body {
 body {
   position: absolute;
   top: 15px;
+  width: 100%;
 }
 
 div,
@@ -568,10 +569,11 @@ main.wiki {
   font-size: 14px;
   width: var(--sidebar-width);
   float: left;
-  background-color: var(--main-light-color);
-  /* background-color: #82828214; */
+  background-color: #ffffff52;
+  backdrop-filter: blur(20px);
   padding: 20px;
   border-radius: 10px;
+  z-index: 2;
 }
 
 @media screen and (min-width: 768px) {
@@ -1196,6 +1198,55 @@ main.wiki {
   margin: 20px;
 }
 
+.members-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-flow: wrap;
+}
+
+.member {
+  text-align: center;
+  margin: 0 0px 50px 0;
+  height: 270px;
+  width: 220px;
+}
+
+.member-image {
+  width: 180px;
+  border-radius: 1000px;
+  padding: 6px;
+  border: 3px solid transparent;
+  transition: all 0.1s ease;
+}
+
+.member-name {
+  color: var(--main-dark-color);
+  font-weight: 600;
+  margin: 10px 0;
+  font-size: 17px;
+}
+
+.member-role {
+  font-weight: 600;
+  color: rgba(128, 128, 128, 0.541);
+  font-size: 15px;
+  font-family: "Quattrocento Sans" !important;
+  transition: all 0.1s ease;
+}
+
+.member:hover {
+  cursor: pointer;
+}
+
+.member:hover .member-image {
+  border: 3px solid var(--main-green-color);
+}
+
+.member:hover .member-role {
+  color: var(--main-green-color);
+}
+
 @media screen and (max-width: 768px) {
   .notebook-banner-p {
     width: 95%;
@@ -1208,8 +1259,150 @@ main.wiki {
   .feature-card-notebook {
     width: 100%;
   }
+
+  .members-container {
+    justify-content: center;
+  }
 }
 /* WIKI COMPONENTS END */
+
+/* MODAL */
+.modal.show .modal-dialog {
+  min-width: 750px;
+}
+
+.modal-open .modal {
+  backdrop-filter: blur(5px);
+  background-color: #0000003d;
+}
+
+.modal-content {
+  border-radius: 10px;
+  min-width: 750px;
+  min-height: 550px;
+}
+
+.modal-container {
+  display: flex;
+  min-height: 550px;
+}
+
+.modal-left {
+  padding: 25px;
+  width: 50%;
+  position: relative;
+  text-align: left;
+}
+
+.modal-text-left,
+.modal-text-right {
+  margin-right: 25px;
+}
+
+.modal-socials {
+  position: absolute;
+  bottom: 25px;
+}
+
+.modal-social {
+  margin: 0 12px 0 0;
+  opacity: 0.8;
+}
+
+.modal-social:hover {
+  opacity: 1;
+}
+
+.modal-right {
+  width: 50%;
+  position: relative;
+  text-align: left;
+}
+
+.modal-text-right {
+  display: none;
+}
+
+.modal-member-image {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 100%;
+  width: 100%;
+}
+
+.close-modal-button {
+  width: min-content;
+  height: min-content;
+  position: absolute;
+  right: 25px;
+  top: 25px;
+  opacity: 0.8;
+  transition: all 0.1s ease;
+  z-index: 10;
+}
+
+.close-modal-button:hover {
+  opacity: 1;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.modal-btn:hover {
+  cursor: pointer;
+}
+
+.modal-container-active .modal-member-image {
+  display: none;
+}
+
+.modal-container-active .modal-right {
+  padding: 25px;
+}
+
+.modal-container-active .modal-text-right {
+  display: inline-block;
+}
+
+.modal-container-active .modal-expand-button {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .modal.show .modal-dialog {
+    min-width: auto;
+  }
+
+  .modal-container {
+    flex-direction: column;
+  }
+
+  .modal-content {
+    min-width: auto;
+  }
+
+  .modal-left,
+  .modal-right {
+    width: 100%;
+  }
+
+  .modal-text-left,
+  .modal-text-right {
+    position: unset;
+  }
+
+  .modal-member-image {
+    height: unset;
+    width: 100%;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+
+  .modal-socials {
+    position: relative;
+    bottom: 0;
+  }
+}
+/* MODAL END */
 
 /* FAB */
 .fab-border {
