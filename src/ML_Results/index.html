@@ -1,0 +1,1470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="Pyomancer by iGEM IIT Roorkee" />
+  <meta name="author" content="Team iGEM IIT Roorkee" />
+  <meta name="theme-color" content="#272727">
+  <title>PYOMANCER</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="../css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="../css/igem_reset.css" rel="stylesheet" />
+  <link href="../css/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <div class="navbar-overlay navbar-overlay-1"></div>
+    <div class="navbar-overlay navbar-overlay-2"></div>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top wiki-navbar">
+      <a class="navbar-brand" href="../">PYOMANCER</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto tabs-wrapper">
+          <li class="nav-item dropdown">
+            <a class="tab nav-link" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              People
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="../Team/"><span>Team</span></a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="../Attributions/"><span>Attributions</span></a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="../Sponsors/"><span>Sponsors</span></a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="tab nav-link" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Project
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../Description/"><span>Description</span></a></li>
+              <li><a class="dropdown-item" href="../Problem/"><span>Problem</span></a></li>
+              <li><a class="dropdown-item" href="../Design/"><span>Design</span></a></li>
+              <li><a class="dropdown-item" href="../Engineering/"><span>Engineering</span></a></li>
+              <li><a class="dropdown-item" href="../Implementation/"><span>Implementation</span></a></li>
+              <li><a class="dropdown-item" href="../Contribution/"><span>Contributions</span></a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="tab nav-link" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Human
+              Practices
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../Human_Practices/"> <span>Overview</span></a></li>
+              <li><a class="dropdown-item" href="../Education/"> <span>Science Communication & Public Engagement</span>
+                </a></li>
+              <li><a class="dropdown-item" href="../Integrated_HP/"> <span>Integrated Human Practices</span> </a></li>
+              <li><a class="dropdown-item" href="../Sustainable/"> <span>Sustainable Development Goals</span> </a></li>
+              <li><a class="dropdown-item" href="../Collaborations/"> <span>Collaborations</span> </a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="tab nav-link" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dry Lab
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../Model/"> <span>Modelling</span> </a></li>
+              <li><a class="dropdown-item" href="../DryLab_Results/"> <span>Results</span> </a></li>
+              <li><a class="dropdown-item" href="../Software/"> <span>Software</span> </a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="tab nav-link" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Wet Lab
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../Experiments/"> <span>Overview</span></a></li>
+              <li><a class="dropdown-item" href="../Results/"> <span>Results</span> </a></li>
+              <li><a class="dropdown-item" href="../Protocols/"> <span>Protocols</span> </a></li>
+              <li><a class="dropdown-item" href="../Parts/"> <span>Parts</span> </a></li>
+              <li><a class="dropdown-item" href="../Safety/"> <span>Safety</span> </a></li>
+              <li><a class="dropdown-item" href="../References/"> <span>References</span> </a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="tab nav-link nav-link-active" href="#" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">Machine Learning
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../ML_Overview/"> <span>Overview</span></a></li>
+              <li><a class="dropdown-item" href="../ML_Model/"> <span>Model</span> </a></li>
+              <li><a class="dropdown-item dropdown-item-active" href="#"> <span>Results</span> </a></li>
+              <li><a class="dropdown-item" href="../ML_Impact/"> <span>Impact</span> </a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="tab nav-link" href="../Judging/">Judges</a>
+          </li>
+          <li class="nav-item">
+            <a class="tab nav-link" href="../Notebook/">Notebook</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="header-progress">
+      <div class="header-progress-indicator"></div>
+    </div>
+
+  </header>
+
+  <div class="banner banner-ml">
+    <p class="text-center font-size-24">
+    <h1 class="banner-h1">Machine Learning</h1>
+    <h2 class="banner-h2">Results</h2>
+
+    <div class="banner-overlay"></div>
+    </p>
+  </div>
+
+  <main role="main" class="container wiki">
+
+    <div class="side-nav">
+      <div class="page-title">Results</div>
+      <div class="side-nav-menu">
+      </div>
+    </div>
+
+    <div class="wiki-content">
+
+      <p class="wiki-p">
+        We have utilized a machine learning algorithm over the strain-gene/allele dataset of A. <em>baumannii</em>
+        available from
+        the PATRIC database that can predict the resistance phenotype of strains. In nutshell, we have used the presence
+        or absence of particular genes or alleles as features in predicting the phenotype of strain. We have utilized
+        the data of 1360 A. <em>baumannii</em> strains along with 10 different antibiotics.
+      </p>
+
+      <!--- <Graph representing the distribution of strains></Graph> -->
+      <div class="wiki-graphic">
+        <img src="../assets/images/images/ML_Results_table_strains.png" alt="" class="wiki-graphic-image" />
+      </div>
+      <div class="wiki-graphic">
+        <img src="../assets/images/images/ML_Results_distribution_strains.png" alt="" class="wiki-graphic-image" />
+      </div>
+      <p class="wiki-p">
+        The results of machine learning can be summarized in the following two points
+      <ol class="wiki-ol">
+        <li>Detection of genes conferring antibiotic resistance</li>
+        <li>Analysis of the effect of mutations on antibiotic resistance</li>
+      </ol>
+      </p>
+      <h2 class="wiki-h wiki-h2 wiki-section-start" id="wiki_section_1">
+        Detection of Genes conferring Antibiotic resistance
+      </h2>
+
+      <p class="wiki-p">
+        The machine-learning algorithm has helped in the identification of genes that are either specific to the
+        mechanism of the particular antibiotic or involved in the novel pathway or target. There are few genes that are
+        involved in basic cellular processes that strongly relate to the survival and growth of A. <em>baumannii</em>.
+        The genes
+        corresponding to the particular antibiotic are listed below.
+      </p>
+
+      <!--Dropdown1-->
+
+      <button class="wiki-collapsible">
+        DNA Replication
+        <svg class="wiki-chevron-down" viewBox="0 0 448 512">
+          <path fill="currentColor"
+            d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z">
+          </path>
+        </svg>
+      </button>
+      <div class="wiki-collapsed-content">
+        <!--table1-->
+        <h3 class="wiki-h wiki-h3">esiB (Ciprofloxacin and Levofloxacin)</h3>
+        <p class="wiki-p">
+          esiB encodes for Secretory immunoglobulin A-binding protein (UP_esiB).
+          <br /><br />
+          GO Molecular function: IgA binding and Metal ion binding
+          <br /><br />
+          GO Biological function: Negative regulation of immune response and neutrophil activation, and pathogenesis
+          <br /><br />
+          Complete GO annotation: GO_esiB
+          <br /><br />
+          According to the study of Pastorello et al. (Ref1_esiB), they concluded that esiB helps in secretion of the
+          protein which binds with immunoglobulins in the blood or antibodies helping bacteria escape from neutrophil
+          (cell eating bacteria). The neutrophil is the most common White Blood Cells (WBC) in the human body, so these
+          proteins help the bacterial pathogen in escaping the immune system pathway in the patients of Urinary Tract
+          Infections. The study also concluded that esiB is preferentially associated with extraintestinal strains,
+          while the gene is rarely found in either intestinal or nonpathogenic strains.
+          <br /><br />
+          Importance: The presence and importance of this gene in the case of patients with Urinary Tract Infection (one
+          of the major Hospital Acquired Infections) make it an important target/gene to explore using wet-lab
+          experiments in the case of A. baumannii.
+        </p>
+        <h3 class="wiki-h wiki-h3">aroP (Ciprofloxacin and Levofloxacin)</h3>
+        <p class="wiki-p">
+          aroP encodes for Aromatic amino acid transport protein. It is a permease that is involved in the transport
+          across the cytoplasmic membrane of the aromatic amino acids (phenylalanine, tyrosine, and tryptophan),
+          (UP_aroP).
+          <br /><br />
+          GO Molecular function: Transmembrane transporter activity of aromatic amino acids
+          <br /><br />
+          GO Biological function: Amino acids transport
+          <br /><br />
+          GO Cellular Component: Integral component of Plasma membrane
+          <br /><br />
+
+          Complete GO annotation: GO_aroP
+          <br /><br />
+          Since aroP helps in encoding protein responsible for transportation aromatic amino acids, therefore it is
+          related to very basic cellular functions. Amino acids are important for the process of transcription and
+          translation, their transportation plays an important role in these functions.
+          <br /><br />
+          Importance: There is a lack of studies conducted for exploring the functioning of aroP in the context of A.
+          baumannii (UP2_aroP), which makes it a novel and important target pathway to be explored for using wet-lab
+          experiments, especially because it is involved in the basic cellular process i.e. amino acid transport.
+        </p>
+        <h3 class="wiki-h wiki-h3">tnsB (Ciprofloxacin)</h3>
+        <p class="wiki-p">
+          tnsB encodes for Transposon Tn7 transposition protein, which are very special proteins helping in cutting,
+          pasting, and making copies of DNA in the chromosome (UP_tnsB).
+          <br /><br />
+          GO Molecular function: DNA Binding, and Transposase activity
+          <br /><br />
+          GO Biological function: DNA Integration and DNA-mediated transposition
+          <br /><br />
+          GO Cellular Component: Cytoplasmic membrane
+          <br /><br />
+          Complete GO annotation: GO_tnsB
+          <br /><br />
+          Ciprofloxacin acts by inhibition of DNA replication by inhibiting bacterial DNA topoisomerase and DNA-gyrase.
+          Transposons help in DNA strand breakage which is also carried out by topoisomerase. These facts make it very
+          clear that tnsB is an important gene and target in the context of DNA replication and is involved in a similar
+          mechanism as that of Ciprofloxacin.
+          <br /><br />
+          Tn7 class transposon proteins are associated with carbapenem-resistance in A. baumannii (Ref1_tnsB). The study
+          by Rose (Ref2_tnsB), discovered a novel Tn7-related transposon, TnAbaR1 which contributes to the accumulation
+          and dissemination of antibiotic resistance genes. According to their study, Tn7 is a well-studied, highly
+          promiscuous cut-and-paste transposon, found in a variety of bacteria and mainly important for resistance to
+          antibiotics such as trimethoprim and streptomycin.
+          <br /><br />
+          Importance: The involvement of tnsB in being a cause of resistance to several antibiotics makes it an
+          important target and pathway to be explored especially in the context of our novel protein-based therapeutic
+          and our pathogen of interest, A. baumannii.
+        </p>
+        <h3 class="wiki-h wiki-h3">xerC (Ciprofloxacin) </h3>
+        <p class="wiki-p">
+          xerC encodes for tyrosine recombinase, which acts by catalyzing the cutting and rejoining of the recombining
+          DNA molecules.
+          <br /><br />
+          GO Molecular function: DNA binding, Site-specific recombinase activity
+          <br /><br />
+          GO Biological function: Cell cycle, Cell division, and Chromosome segregation
+          <br /><br />
+          GO Cellular Component: Cytoplasm
+          <br /><br />
+          Complete GO annotation: GO_xerC
+          <br /><br />
+          It binds cooperatively to specific DNA consensus sequences that are separated from XerD binding sites by a
+          short central region, forming the heterotetrameric XerC-XerD complex is essential to convert dimers of the
+          bacterial chromosome into monomers to permit their segregation at cell division. It also contributes to the
+          segregational stability of plasmid. (UP_xerC)
+          <br /><br />
+          During the recombination phase, this complex catalyzes two consecutive pairs of strand exchanges, implying
+          that specific pairs of active sites are sequentially switched on and off in the recombinase tetramer to ensure
+          that appropriate DNA strands will be exchanged at both reaction steps. These findings have been made for E.
+          coli and it would be interesting to check for the same in the case of A. baumannii.
+          <br /><br />
+          According to the study related to A. baumannii conducted by Lin et al. (Ref1_xerC), they concluded that XerC
+          and XerD are functional proteins and participate in horizontal dissemination of resistant genes among
+          bacteria. The horizontal dissemination or transfer of resistance genes is a major cause of the increase in
+          Antibiotic resistance. Furthermore, the study conducted by Merino et al. (Ref2_xerC), finds that DNA
+          recombination through the Xer system in plasmids requires XerC and XerD (recombinases). DNA recombination
+          helps in the natural editing of the bacterial genome and makes the natural process of evolution faster.
+          <br /><br />
+          Importance: Since A. baumannii is an opportunistic pathogen that is evolving at a faster rate, and as
+          mentioned above, xerC helps in DNA recombination which leads to natural editing of the genome, becomes an
+          important target or pathway to be explored using wet-lab experiments.
+
+        </p>
+        <h3 class="wiki-h wiki-h3">asnC (Levofloxacin)</h3>
+        <p class="wiki-p">
+          asnC encodes for a regulatory protein called AsnC (UP_asnc).
+          <br /><br />
+          GO Molecular function: Amino acid-binding, DNA-binding transcription activity, and Sequence-specific DNA
+          binding
+          <br /><br />
+          GO Biological function: Positive and negative regulation of transcription, Response to amino acid
+          <br /><br />
+          Complete annotation: GO_asnC
+          <br /><br />
+          The study conducted by Gebhardt et al. (Ref1_asnC), finds the list of around 300 genes which are important for
+          the survival and growth of A. baumannii, and find two AsnC/Lrp family regulators as putative transcriptional
+          regulators.
+          <br /><br />
+          Importance: The involvement of asnC in amino acid binding and impacting the process of transcription makes it
+          an interesting pathway to be explored using wet-lab experiments. Like, aroP, it helps bacteria in performing
+          basic cellular functions which are essential for survival and growth.
+        </p>
+        <h3 class="wiki-h wiki-h3">puuP (Levofloxacin)</h3>
+        <p class="wiki-p">
+          puuP encodes for putrescine importer PuuP (UP_puuP)
+          <br /><br />
+          GO Molecular function: Putrescine transmembrane transporter activity
+          <br /><br />
+          GO Biological function: Amino acid transport and cellular response to DNA damage stimulus
+          <br /><br />
+          Complete annotation: GO_puuP
+          <br /><br />
+          It is involved in the uptake of Putrescine, and according to a study conducted by Terui et al. (Ref1_puuP) it
+          helps in the import of putrescine to be utilized as an energy resource in absence of glucose. Further, it has
+          a biological process of helping in the cellular response to DNA damage, and given the fact that Levofloxacin
+          is involved in the mechanism of DNA replication which makes it a very interesting and prospective pathway to
+          be explored.
+          <br /><br />
+          According to the study by Hassan et al. (Ref2_puuP), A. baumannii encodes for the transport protein AceI,
+          which confers resistance to chlorhexidine, a widely used antiseptic. They also concluded that several gene
+          expression studies have revealed that the aceI gene responsible for encoding AceI protein is induced in A.
+          baumannii by the short-chain diamines cadaverine and putrescine. It helps us in understanding the indirect
+          involvement of putrescine imported by puuP in antibiotic resistance.
+          <br /><br />
+          Importance: puuP helps in conferring resistance to chlorhexidine, it would be very important to check for the
+          same in the case of Levofloxacin especially for A. baumannii.
+        </p>
+        <!--Links to be added (garbage links)-->
+      </div>
+
+      <!--Dropdown2-->
+
+      <button class="wiki-collapsible">
+        Protein synthesis
+        <svg class="wiki-chevron-down" viewBox="0 0 448 512">
+          <path fill="currentColor"
+            d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z">
+          </path>
+        </svg>
+      </button>
+      <div class="wiki-collapsed-content">
+        <!--table2-->
+        <h3 class="wiki-h wiki-h3">aadB (Gentamicin, Tobramycin and Amikacin)</h3>
+        <p class="wiki-p">
+          aadB encodes for 2''-aminoglycoside nucleotidyltransferase (UP_aadB)
+          <br /><br />
+          It helps in mediating bacterial resistance to kanamycin, gentamicin, dibekacin, sisomicin, and tobramycin by
+          adenylate the 2''-hydroxyl group of these antibiotics in K. pneumoniae (UP_Kp_aadB) and kanamycin, gentamicin,
+          and tobramycin in E. coli (UP_aadB).
+          <br /><br />
+          GO Molecular function: Aminoglycoside 2''-nucleotidyltransferase activity, and Metal ion binding
+          <br /><br />
+          GO Biological function: Response to antibiotic and Antibiotic resistance
+          <br /><br />
+          Complete annotation: GO_aadB
+          <br /><br />
+          aadB is a resistance-conferring gene which is confirmed by one of the most essential and relevant databases
+          i.e. The Comprehensive Antibiotic Resistance Database (CARD). It works by the mechanism of antibiotic
+          inactivation and confers resistance to aminoglycoside antibiotics (CARD_aadB).
+          <br /><br />
+          The study conducted by Rizk et al. (Ref1_aadB) involves the collection of clinical samples of A. baumannii
+          strains from intensive care units (ICUs) patients with suspected hospital-acquired infections followed by
+          checking them for resistance to aminoglycoside antibiotics. The study concluded that the most common prevalent
+          resistant genes among A. baumannii resistance to aminoglycosides was aadB with a contribution towards
+          antibiotic resistance as high as 42%. Since this study involves strains taken from hospitals with suspected
+          infections, it makes it essential for our novel protein-based drug to be checked for its efficacy against
+          aadB.
+          <br /><br />
+          As per the study by Anderson et al. (Ref2_aadB), in A. baumannii AB5075, a large plasmid (p1AB5075) carries
+          aadB, a 2″-nucleotidyltransferase that confers resistance to both tobramycin and gentamicin but not amikacin.
+          It is very important in the case of our machine learning approach since our approach ranks aadB as the most
+          important feature (gene/allele) in the case of Gentamicin and Tobramycin but not in the case of Amikacin.
+          <br /><br />
+          The study conducted by Chan et al. (Ref3_aadB), found a novel antibiotic resistance island in A. baumannii by
+          analyzing genomes of several isolates collected from the US hospital system. They further concluded that after
+          sequencing the genomes to completion, they found tobramycin-resistance gene aadB.
+          <br /><br />
+          Si-Tuan et al., (Ref4_aadB) characterized the genome of the A. baumannii strain DMS06669 which was isolated
+          from the sputum of a male patient with hospital-acquired pneumonia, and identified genes related to antibiotic
+          resistance. They find aadB which is majorly resistant to gentamicin, as one of the genes responsible for
+          conferring resistance in the strain.
+          <br /><br />
+          Importance: These several studies make it very clear that aadB is an important gene especially considering
+          aminoglycoside antibiotics. Moreover, the presence of resistance by aadB to majorly gentamicin and tobramycin
+          but not amikacin further validates the effectiveness of our machine learning analysis as aadB was the top
+          feature in the first two antibiotics but not in the latter.
+        </p>
+
+        <h3 class="wiki-h wiki-h3">neo (Gentamicin, Tobramycin and Amikacin) </h3>
+        <p class="wiki-p">
+          neo encodes Aminoglycoside 3'-phosphotransferase (UP_neo)
+          <br /><br />
+          GO Molecular function: ATP binding, Kanamycin kinase activity
+          <br /><br />
+          GO Biological function: Response to antibiotic and Antibiotic resistance
+          <br /><br />
+          Complete GO annotation: GO_neo
+          <br /><br />
+          It helps in providing resistance to kanamycin, neomycin, paromomycin, ribostamycin, butirosin, and gentamicin
+          B in the case of K. pneumoniae. This enzyme is encoded by the kanamycin and neomycin resistance transposon
+          Tn5. Tn5 was originally isolated from K.pneumoniae, but has been transferred to a number of bacteria including
+          E.coli. Since it has been transferred to E. coli, it is quite important to check for its relevance in the case
+          of A. baumannii.
+          <br /><br />
+          Importance: There has been a lack of literature studies conducted for neo in the context of A. baumannii, but
+          it targets using protein pathway which is similar in mechanism to aminoglycoside antibiotics. Moreover, as
+          mentioned before, it would be interesting to check for its relevance in A. baumannii.
+
+        </p>
+        <h3 class="wiki-h wiki-h3">msr(E) (Gentamicin, Tobramycin and Amikacin)</h3>
+        <p class="wiki-p">
+          msr(E) encodes for ABC-F type ribosomal protection protein (UP_msrE).
+          <br /><br />
+          GO Molecular function: ATPase binding and ATP binding
+          <br /><br />
+          Complete annotation: GO_msrE
+          <br /><br />
+          msr(E) is a resistant conferring gene as per the Comprehensive Antibiotic Resistance Database (CARD) and
+          provides resistance through antibiotic target alteration (CARD_msrE). Furthermore, as per CARD, Msr(E) is an
+          ABC-F subfamily protein expressed to K. pneumoniae that confers resistance to erythromycin and streptogramin B
+          antibiotics. It is associated with plasmid DNA. It is also 100% identical to ABC-F type ribosomal protection
+          protein Msr(E) which is in multiple species. Since it is associated with plasmid DNA, it becomes an important
+          factor in horizontal transfer and dissemination of antibiotic resistance.
+          <br /><br />
+          Blackwell and Hall (Ref1_msrE) find in their study that macrolide resistance genes msrE and mphE were present
+          in an 18.2-kb plasmid of A. baumannii isolate from Singapore which confers resistance to erythromycin and
+          tetracycline, both of which follow protein synthesis mechanism.
+          <br /><br />
+          A study conducted by Karah et al. (Ref2_msrE) concluded that msr(E) is one of the resistance genes present in
+          clinical isolates of A. baumannii in Pakistan. The study by Kumburu et al. (Ref3_msrE) utilized Whole Genome
+          Sequencing (WGS) to identify resistance-conferring genes in MDR A. baumannii in Tanzania. They found several
+          antibiotic resistance genes some of which were present in chromosomes while some on plasmids. msr(E) was
+          detected as an antibiotic resistance gene that is present on plasmids and playing an important role in the
+          spreading of the resistance.
+          <br /><br />
+          Similar to the case of aadB, the study conducted by Si-Tuan et al., (Ref4_aadB, Ref4_msrE) identified msr(E)
+          which is majorly resistant to streptogramin, which follows the similar mechanism as of aminoglycoside
+          antibiotics.
+          <br /><br />
+          Importance: As shown by several studies, msr(E) is responsible for resistance to several antibiotics like
+          macrolide, streptogramin, etc, which follow a similar mechanism to those of aminoglycosides, it becomes
+          exciting and interesting to check for its relevance to Gentamicin, Tobramycin, and Amikacin.
+
+        </p>
+
+        <h3 class="wiki-h wiki-h3">emrE (Gentamicin)</h3>
+        <p class="wiki-p">
+          emrE encodes for Multidrug transporter EmrE (UP_emrE).
+          <br /><br />
+
+
+          GO Molecular function: Antiporter activity, Identical protein binding, etc.
+          <br /><br />
+          GO Biological function: Cellular response to DNA damage stimulus, Response to drug, etc.
+          <br /><br />
+          Complete GO annotation: GO_emrE
+          <br /><br />
+          It is a multidrug efflux protein that confers resistance to a wide range of toxic compounds, including
+          ethidium, methyl viologen, acriflavine, tetraphenylphosphonium (TPP+), benzalkonium, propidium, dequalinium,
+          and the aminoglycoside antibiotics streptomycin and tobramycin (UP_emrE).
+          <br /><br />
+          Further, as per the Comprehensive Antibiotic Resistance Database (CARD), EmrE is a small multidrug transporter
+          and works by antibiotic efflux mechanism to confer antibiotic resistance (CARD_emrE).
+          <br /><br />
+          Importance: emrE is majorly found in P. aeruginosa and E. coli, which makes it quite interesting to check for
+          existence on A. baumannii genomes. Moreover, it has been shown to be causing resistance to Tobramycin while
+          our machine learning detected it to be an important gene in the case of Gentamicin, so it would also be
+          exciting to validate and confirm by wet-lab experiments.
+
+        </p>
+        <h3 class="wiki-h wiki-h3">cysL (Tobramycin)</h3>
+
+        <p class="wiki-p">
+          cysL encodes for HTH-type transcriptional regulator CysL (UP_cysL).
+          <br /><br />
+          GO Molecular function: DNA-binding transcription factor activity
+          <br /><br />
+          GO Biological function: DNA-templated regulation of transcription
+          <br /><br />
+
+
+          Complete GO annotation: GO_cysL
+          <br /><br />
+          There is a lack of literature evidence in the case of cysL, but it has been identified as one of the topmost
+          features in the case of Tobramycin, and given the fact our machine learning has identified several genes
+          confirming to literature evidence, cysL is one of the novel genes uncovered by our algorithm responsible for
+          antibiotic resistance.
+          <br /><br />
+
+
+          Importance: It would be interesting to check the relevance and importance of cysL in the context of A.
+          baumannii and our novel protein-based drug as well, as it has been detected as the topmost feature by machine
+          learning.
+
+        </p>
+        <h3 class="wiki-h wiki-h3">rmtB (Amikacin)</h3>
+
+        <p class="wiki-p">
+          rmtB encodes for 16S rRNA (guanine(1405)-N(7))-methyltransferase (UP_rmtB).
+          <br /><br />
+
+
+          GO Molecular function: rRNA methyltransferase activity
+          <br /><br />
+          GO Biological function: Response to antibiotic and Antibiotic resistance
+          <br /><br />
+          Complete GO annotation: GO_rmtB
+          <br /><br />
+
+
+          rmtB encoding protein specifically methylated the N7 position of guanine 1405 in 16S rRNA, and conferring
+          resistance to various aminoglycosides (UP_rmtB).
+          <br /><br />
+          It is a resistance gene as per the Comprehensive Antibiotic Resistance Database (CARD), which works with the
+          mechanism of antibiotic target alteration and belongs to the drug class of aminoglycoside antibiotics
+          (CARD_rmtB).
+          <br /><br />
+
+          Tada et al. (Ref1_rmtB) conducted a study on strains of A. baumannii and P. aeruginosa isolated from patients
+          in intensive care units (ICUs) in two medical settings in Vietnam and out of which 71.3% strains were highly
+          resistant to amikacin and gentamicin. They further concluded that, 16S rRNA methylase RmtB was produced by 9
+          strains (of 101) of A. baumannii and 2 (of 15) strains of P. aeruginosa and 16S rRNA methylase producing
+          organism are emerging.
+          <br /><br />
+
+
+          The study by Lee et al. (Ref2_rmtB) analyzed amikacin resistant strains of gram-negative bacteria in Korea and
+          concluded that armA and rmtB were genes predominantly responsible for the resistance.
+          <br /><br />
+          Wachino et al. (Ref3_rmtB) and Wang et al. (Ref4_rmtB) concluded that 16S rRNA methylases, which lead to the
+          high-level resistance of various aminoglycosides, can easily transfer to other bacteria since their genes are
+          typically present on plasmids. The transfer of genes plays an important role in horizontal gene transfer and
+          the dissemination of antibiotic resistance.
+          <br /><br />
+          Importance: Several studies have indicated the spread of aminoglycoside resistance in A. baumannii which is a
+          major cause of worry for the researchers. Since our novel drug is protein-based therapeutic, it becomes
+          apparent to test our drug for its efficacy against such antibiotic-resistant genes.
+        </p>
+        <!--Links to be added (garbage links)-->
+
+      </div>
+
+      <!--Dropdown3-->
+
+      <button class="wiki-collapsible">
+        Cell wall synthesis
+        <svg class="wiki-chevron-down" viewBox="0 0 448 512">
+          <path fill="currentColor"
+            d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z">
+          </path>
+        </svg>
+      </button>
+      <div class="wiki-collapsed-content">
+        <!--table3-->
+        <h3 class="wiki-h wiki-h3">glmM (Ceftriaxone)</h3>
+        <p class="wiki-p">
+          glmM encodes for Phosphoglucosamine mutase protein (UP_glmM).
+          <br /><br />
+          GO Molecular function: Magnesium ion binding, Phosphoglucosamine mutase activity, and Phosphomannomutase
+          activity
+          <br /><br />
+          GO Biological function: Carbohydrate metabolic process, Protein autophosphorylation, and
+          UDP-N-acetylglucosamine biosynthetic process
+          <br /><br />
+          Complete GO annotation: GO_glmM
+          <br /><br />
+          Li et al. (Ref1_glmM) analyzed carbapenem-resistant clinical A. baumannii strains. They identified several
+          AbaR resistance islands for a better understanding of evolutionary processes contributing to the emergence of
+          carbapenem-resistant A. baumannii. As per their analysis, phosphoglucosamine mutase (GlmM) was detected in
+          type 2, 7, and 10 AbaR islands. It is important to note that GlmM can catalyze the conversion of
+          glucosamine-6-phosphate to glucosamine-1-phosphate, which is an essential step in the formation of the cell
+          wall precursor UDP-N-acetylglucosamine (Ref2_glmM).
+          <br /><br />
+          Kenyon and Lee (Ref3_glmM) analyzed the biosynthesis of extracellular polysaccharides which are major
+          immunogenic components of the bacterial cell envelope. They further mentioned that GlmM is required for the
+          synthesis of UDP-D-GlcpNAc.
+          <br /><br />
+          Importance: There are several studies stating that glmM encodes for the formation of cell wall precursors, and
+          it has been detected as one of the top features in the case of Ceftriaxone which also works with the mechanism
+          of bacterial cell wall synthesis. So, our machine learning algorithm has identified genes involved in the
+          pathway of antibiotics.
+        </p>
+
+
+        <h3 class="wiki-h wiki-h3">mshA (Ceftriaxone)</h3>
+        <p class="wiki-p">
+          mshA encodes for D-inositol 3-phosphate glycosyltransferase (UP_mshA).
+          <br /><br />
+          GO Molecular function: Acetylglucosaminyltransferase activity, transferring glycosyl groups
+          <br /><br />
+          GO Biological function: Mycothiol biosynthetic process
+          <br /><br />
+          Complete annotation: GO_mshA
+          <br /><br />
+          It is involved in the mechanism of Acetylglucosaminyltransferase which is important for cell wall mechanism as
+          mentioned in the case of glmM.
+          <br /><br />
+          The Comprehensive Antibiotic Resistance Database (CARD) provides several evidences for the involvement of mshA
+          in antibiotics targeting cell wall mechanisms. Mutations in mshA result in the inactivation of antibiotics and
+          it works by the mechanism of antibiotic target alteration (CARD1_mshA).
+          <br /><br />
+          As mentioned above, mshA is glycosyltransferase and is involved in the first step of mycothiol biosynthesis.
+          This is a step that is required for growth in M. tuberculosis and resistance has been in the gene to
+          isoniazid, which is antibiotic inhibiting mycobacterial cell wall (CARD2_mshA). Further, the mutations in mshA
+          confer resistance to isoniazid in M. tuberculosis (CARD3_mshA).
+          <br /><br />
+          Importance: Our machine learning approach identifies allele of mshA as one of the most important features in
+          predicting resistance phenotype of strain, which in accordance with literature evidence related to mutations
+          in mshA causing antibiotic resistance. Moreover, it has been detected as one of the most important genes in
+          the case of Ceftriaxone, which also works with mechanisms of bacterial cell wall synthesis.
+        </p>
+
+        <h3 class="wiki-h wiki-h3">relE (Imipenem)</h3>
+        <p class="wiki-p">
+
+          relE encodes for mRNA interferase toxin RelE (UP_relE).
+          <br /><br />
+          GO Molecular function: DNA-binding transcription repressor activity, ribosome binding, rRNA binding
+          <br /><br />
+          GO Biological function: Cellular response to amino acid starvation, mRNA catabolic process, negative
+          regulation of translation
+          <br /><br />
+          GO Cellular component: Protein-DNA complex
+          <br /><br />
+
+          Complete GO annotation: GO_relE
+          <br /><br />
+          relE encodes for mRNA interferase, and mRNA interferases play a role in bacterial persistence to antibiotics;
+          overexpression of this protein induces persisters resistant to ciprofloxacin and ampicillin (UP_relE,
+          Ref1_relE).
+          <br /><br />
+          relE is a part of type II toxin-antitoxin system relBE wherein it is toxin and relB is anti-toxin. In presence
+          of unfavorable conditions, toxin relE sharply increases persisters (cells that neither grow nor die in the
+          presence of bactericidal agents) and are largely responsible for high levels of biofilm tolerance to
+          antimicrobials (CARD_relE). So it blocks the process of mRNA to protein conversion inhibiting cell growth. The
+          increase in biofilm tolerance makes it difficult for antibiotics to reach the bacteria for necessary action.
+          <br /><br />
+          Pourhajibagher et al. (Ref2_relE) utilized the concept of this toxin-antitoxin system, relBE, for designing
+          Antimicrobial Photodynamic Therapy as an alternative to conventional antibiotic therapy using in-silico
+          modeling and bioinformatics analysis.
+          <br /><br />
+          Importance: There are several studies indicating the involvement of relE in being responsible for antibiotic
+          resistance, so it makes it interesting to look for its relevance in the case of A. baumannii using wet-lab
+          experiments.
+        </p>
+
+        <h3 class="wiki-h wiki-h3">tufA (Imipenem)</h3>
+
+        <p class="wiki-p">
+          tufA encodes for the Elongation factor Tu 1 (UP_tufA).
+          <br /><br />
+          GO Molecular function: GTPase activity, GTP binding
+          <br /><br />
+          GO Biological function: Translational elongation, Response to antibiotic and Antibiotic Resistance.
+          <br /><br />
+          Complet GO annotation: GO_tufA
+          <br /><br />
+          The study conducted by Koenigs et al. (Ref1_tufA) showed for the first time that A. baumannii binds to
+          host-derived plasminogen with help of the translation elongation factor Tuf as a moonlighting
+          plasminogen-binding protein that is exposed on the outer surface of A. baumannii. This binding phenomenon is
+          at least partly dependent on lysine residues and ionic interactions. Once bound to Tuf, plasminogen can be
+          converted to active plasmin and proteolytically degrade fibrinogen as well as the key complement component
+          C3b. Therefore they concluded that Tuf acts as a multifunctional protein that may contribute to the virulence
+          of A. baumannii by aiding in dissemination and evasion of the complement system.
+          <br /><br />
+          Importance: The results of the above study clearly indicates the importance of Tuf protein is increasing and
+          contributing to the virulence of A. baumannii. It would be interesting to explore more about the functioning
+          and mechanism of this protein in the context of our novel protein-based drug-using wet-lab experiments.
+        </p>
+
+        <h3 class="wiki-h wiki-h3">yafQ (Ceftazidime)</h3>
+        <p class="wiki-p">
+          yafQ encodes for mRNA interferase toxin YafQ (UP_yafQ)
+          <br /><br />
+          GO Molecular function: DNA binding, ribosome binding
+          <br /><br />
+          GO Biological function: mRNA catabolic process, response to antibiotic
+          <br /><br />
+          Complete GO annotation: GO_yafQ
+          <br /><br />
+          yafQ is working in a similar mechanism that of relE i.e. working as a toxin-antitoxin pair. YafQ protein pairs
+          with DinJ. which seems to play a role in biofilm formation. mRNA interferases play a role in bacterial
+          persistence to antibiotics (UP_yafQ). Since it helps in biofilm formation and biofilm can decrease the amount
+          of antibiotics reaching the bacterial cell, therefore it is indirectly responsible for increasing antibiotic
+          resistance.
+          <br /><br />
+          Importance: It has not been explored much in the literature, and it would be really interesting to explore its
+          working in the context of A. baumannii along with relE as well.
+        </p>
+
+        <h3 class="wiki-h wiki-h3">eptA (Ceftazidime)</h3>
+        <p class="wiki-p">
+          eptA encodes Phosphoethanolamine transferase EptA (UP_eptA).
+          <br /><br />
+          GO Molecular function: phosphotransferase activity, sulfuric ester hydrolase activity
+          <br /><br />
+          GO Biological function: Lipid A biosynthesis, Antibiotic Resistance
+          <br /><br />
+
+          Complete GO annotation: GO_eptA
+          <br /><br />
+          As per the Comprehensive Antibiotic Resistance Database (CARD), eptA mediates the modification Lipid A by the
+          addition of 4-amino-4-deoxy-L-arabinose (L-Ara4N) and phosphoethanolamine which results in a less negative
+          cell membrane and decreased binding of polymyxin B. It works by the mechanism of antibiotic target alteration
+          (CARD_eptA).
+          <br /><br />
+          The study conducted by Gerson et al. (Ref1_eptA) concluded that mutations in eptA were associated with
+          colistin resistance in A. baumannii. Trebsoc et al. (Ref2_eptA) suggested that direct targeting of the
+          homologous PetN transferases PmrC/EptA may have the potential to overcome colistin resistance in A. baumannii.
+          <br /><br />
+          Importance: eptA has been known to provide resistance to polymyxin B which works with the mechanism of
+          membrane disruption. It has been identified as one of the top genes for Ceftazidime which also works with the
+          mechanism of cell wall synthesis. Further, it has been studied to play a role in colistin resistance which
+          makes it very important and interesting to check for the efficacy of our novel protein-based drug against
+          eptA.
+        </p>
+      </div>
+
+      <!--dropdown4-->
+
+      <button class="wiki-collapsible">
+        Trimethoprim + Sulfamethoxazole
+        <svg class="wiki-chevron-down" viewBox="0 0 448 512">
+          <path fill="currentColor"
+            d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z">
+          </path>
+        </svg>
+      </button>
+      <div class="wiki-collapsed-content">
+        <p class="wiki-p">
+          Mechanism: Sulfamethoxazole inhibits bacterial synthesis of dihydrofolic acid by competing with
+          para-aminobenzoic acid (PABA). Trimethoprim blocks the production of tetrahydrofolic acid from dihydrofolic
+          acid by binding to and reversibly inhibiting the required enzyme, dihydrofolate reductase. So, in a nutshell,
+          combinations of these drugs mainly work with folate synthesis.
+          <br /><br />
+          In bacteria, antibacterial sulfonamides act as competitive inhibitors of the enzyme dihydropteroate synthase
+          (DHPS), an enzyme involved in folate synthesis.
+
+        </p>
+        <h3 class="wiki-h wiki-h3">folP</h3>
+        <p class="wiki-p">
+          folP encodes for Dihydropteroate synthase (UP_folP)
+          <br /><br />
+          GO Molecular function: Dihydropteroate synthase activity, and metal ion binding
+          <br /><br />
+          GO Biological function: Folate biosynthesis and Response to drug
+          <br /><br />
+          GO Cellular component: Cytoplasm and Cytosol
+          <br /><br />
+          Complete GO annotation: GO_folP
+          <br /><br />
+
+          The protein Dihydropteroate synthase catalyzes the condensation of para-aminobenzoate (PABA) with
+          6-hydroxymethyl-7,8-dihydropterin diphosphate (DHPt-PP) to form 7,8-dihydropteroate (H2Pte), the immediate
+          precursor of folate derivatives (UP_folP).
+          <br /><br />
+          As per the Comprehensive Antibiotic Resistance Database (CARD), point mutations in dihydropteroate synthase,
+          folP prevent sulfonamide antibiotics from inhibiting its role in folate synthesis, thus conferring sulfonamide
+          resistance (CARD_folP). It works with the mechanism of antibiotic target alteration. Our machine learning
+          approach identified folP and its alleles as the topmost important features which further validate the efficacy
+          of our algorithm.
+          <br /><br />
+          Importance: The detection of folP in the case of antibiotics working with folate disruption by machine
+          learning algorithm is a very important indication for the efficacy of the approach. It would be very
+          interesting to check for the impact of folP in establishing resistance to our novel protein-based drug.
+        </p>
+      </div>
+
+      <!--dropdown5-->
+
+      <button class="wiki-collapsible">
+        Ampicillin + Sulbactam
+        <svg class="wiki-chevron-down" viewBox="0 0 448 512">
+          <path fill="currentColor"
+            d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z">
+          </path>
+        </svg>
+      </button>
+      <div class="wiki-collapsed-content">
+        <p class="wiki-p">
+          Mechanism: Ampicillin/sulbactam is a combination of a β-lactam antibiotic and a β-lactamase inhibitor.
+          Ampicillin works by binding to penicillin-binding proteins (PBPs) to inhibit bacterial cell wall synthesis.
+          Sulbactam blocks the enzyme which breaks down ampicillin and thereby allows ampicillin to attack and kill the
+          bacteria.
+          <br /><br />
+          Beta-lactam enzymes are produced by some bacteria that are responsible for their resistance to beta-lactam
+          antibiotics like penicillins, cephalosporins, cephamycins, and carbapenems. These antibiotics have a common
+          element in their molecular structure: a four-atom ring known as a beta-lactam.
+
+        </p>
+        <h3 class="wiki-h wiki-h3">bla</h3>
+        <p class="wiki-p">
+          bla encodes for Beta-lactamase TEM
+          <br /><br />
+          GO Molecular function: Beta-lactamase activity
+          <br /><br />
+          GO Biological function: Beta-lactam antibiotic catabolic process, response to antibiotic and Antibiotic
+          resistance
+          <br /><br />
+          Complete GO annotation: GO_bla
+          <br /><br />
+          TEM-type is the most prevalent beta-lactamases in Enterobacteriaceae; they hydrolyze the beta-lactam bond in
+          susceptible beta-lactam antibiotics, thus conferring resistance to these antibiotics (UP_bla).
+          <br /><br />
+          The study conducted by Subramaniyan and Sundaram (Ref1_bla) concluded the presence of bla genes in
+          carbapenem-resistant P. aeruginosa and A. baumannii isolated from clinical settings, Intensive Care Unit
+          (ICU). Further, the study by Kumar et al. (Ref2_bla) analyzed the carbapenem-resistant A. baumannii isolates
+          from two tertiary care hospitals of North India and concluded that bla encoding clones. It is an important
+          discovery especially in the context of India hospital settings.
+          <br /><br />
+          Importance: Our machine learning algorithm identifies bla as the most important feature, which is also in the
+          mechanism of Ampicillin and Sulbactam. It shows the efficacy of our approach. Moreover, the above studies
+          clearly indicate the importance of bla gene in A. baumannii and it would be surely interesting to check for
+          its relevance in the case of our novel protein-based drug.
+        </p>
+      </div>
+      <h2 class="wiki-h wiki-h2 wiki-section-start" id="wiki_section_2">
+        Correlation and mutational analysis of gene-gene pair
+      </h2>
+
+      <!--dropdown6-->
+      <button class="wiki-collapsible">
+        DNA replication
+        <svg class="wiki-chevron-down" viewBox="0 0 448 512">
+          <path fill="currentColor"
+            d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z">
+          </path>
+        </svg>
+      </button>
+      <div class="wiki-collapsed-content">
+        <h3 class="wiki-h wiki-h3">xerC vs. ssuC (Ciprofloxacin)</h3>
+        <div class="wiki-graphic">
+          <img src="../assets/images/images/ML_Results_ciprofloxacin_analysis.png" alt="" class="wiki-graphic-image" />
+        </div>
+        <ol class="wiki-ol">
+          <li>Resistance increases with mutations in xerC</li>
+          <li>Resistance increases with mutations in ssuC</li>
+          <li>The increase in resistance with mutations in both genes confirm a positive correlation between them</li>
+          <li>Mutations in xerC are accompanied by an increase in resistance for all of the following, ssuC_1, ssuC_2,
+            ssuC_3, ssuC_4 and ssuC_5</li>
+        </ol>
+
+        <h3 class="wiki-h wiki-h3">puuP vs. astC (Levofloxacin)</h3>
+        <div class="wiki-graphic">
+          <img src="../assets/images/images/ML_Results_levofloxacin_analysis.png" alt="" class="wiki-graphic-image" />
+        </div>
+        <ol class="wiki-ol">
+          <li>astC is a gene important for resistance but strains became more susceptible in presence of puuP</li>
+          <li>Mutations in astC causes a decrease in resistance </li>
+          <li>Mutations in astC increase resistance in presence of puuP but decrease resistance with mutations in puuP
+            which confirms a negative correlation</li>
+        </ol>
+      </div>
+      <!--dropdown7-->
+
+      <button class="wiki-collapsible">
+        Protein synthesis
+        <svg class="wiki-chevron-down" viewBox="0 0 448 512">
+          <path fill="currentColor"
+            d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z">
+          </path>
+        </svg>
+      </button>
+      <div class="wiki-collapsed-content">
+        <h3 class="wiki-h wiki-h3">emrE vs. folP (Gentamicin)</h3>
+        <div class="wiki-graphic">
+          <img src="../assets/images/images/ML_Results_gentamicin_analysis.png" alt="" class="wiki-graphic-image" />
+        </div>
+        <ol class="wiki-ol">
+          <li>Resistance increases with mutations in emrE</li>
+          <li>Resistance increases with mutations in folP</li>
+          <li>Mutations in both the genes work in tandem and increase the resistance of strains confirming a positive
+            correlation between them</li>
+
+        </ol>
+
+        <h3 class="wiki-h wiki-h3">cysL vs. hcaR (Tobramycin) </h3>
+        <div class="wiki-graphic">
+          <img src="../assets/images/images/ML_Results_tobramycin_analysis.png" alt="" class="wiki-graphic-image" />
+        </div>
+        <ol class="wiki-ol">
+          <li>Resistance increases with mutations in cysL</li>
+          <li>Resistance decreases with mutations in hcaR</li>
+          <li>Mutations in hcaR increases the resistance but not when cysL is present confirming a negative correlation
+          </li>
+        </ol>
+
+        <h3 class="wiki-h wiki-h3">esiB vs. cspV (Amikacin) </h3>
+        <div class="wiki-graphic">
+          <img src="../assets/images/images/ML_Results_amikacin_analysis.png" alt="" class="wiki-graphic-image" />
+        </div>
+        <ol class="wiki-ol">
+          <li>Resistance decreases with mutations in esiB</li>
+          <li>Resistance decreases with mutations in cspV</li>
+          <li>Resistance in strains with cspV decreases or reaches zero with mutations in esiB confirming a positive
+            correlation</li>
+        </ol>
+      </div>
+
+      <!--dropdown8-->
+
+      <button class="wiki-collapsible">
+        Cell wall synthesis
+        <svg class="wiki-chevron-down" viewBox="0 0 448 512">
+          <path fill="currentColor"
+            d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z">
+          </path>
+        </svg>
+      </button>
+      <div class="wiki-collapsed-content">
+        <h3 class="wiki-h wiki-h3">ssuA vs. ssuC (Ceftriaxone) </h3>
+        <div class="wiki-graphic">
+          <img src="../assets/images/images/ML_Results_ceftriaxone_analysis.png" alt="" class="wiki-graphic-image" />
+        </div>
+        <ol class="wiki-ol">
+          <li>There is lack of strains having ssuA and ssuC genes without mutations</li>
+          <li>Resistance increases with mutations in ssuA</li>
+          <li>Resistance increases with mutations in ssuC which confirms a positive correlation between genes</li>
+
+        </ol>
+
+        <h3 class="wiki-h wiki-h3">tufA vs. tufB (Imipenem)</h3>
+        <div class="wiki-graphic">
+          <img src="../assets/images/images/ML_Results_imipenem_analysis.png" alt="" class="wiki-graphic-image" />
+        </div>
+        <ol class="wiki-ol">
+          <li>Resistance decreases with mutations in tufA </li>
+          <li>Resistance increases with mutations in tufB confirming a negative correlation between genes</li>
+
+        </ol>
+
+        <h3 class="wiki-h wiki-h3">aphA vs. fatA (Ceftazidime)</h3>
+        <div class="wiki-graphic">
+          <img src="../assets/images/images/ML_Results_ceftazidine_analysis.png" alt="" class="wiki-graphic-image" />
+        </div>
+        <ol class="wiki-ol">
+          <li>Resistance increases with mutations in aphA</li>
+          <li>Resistance increases with mutations in fatA which confirms a positive correlation between genes</li>
+          <li>There is less number of strains having fatA gene and much more number of strains with mutations in fatA
+          </li>
+        </ol>
+      </div>
+
+      <!--dropdown9-->
+      <button class="wiki-collapsible">
+        Trimethoprim + Sulfamethoxazole
+        <svg class="wiki-chevron-down" viewBox="0 0 448 512">
+          <path fill="currentColor"
+            d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z">
+          </path>
+        </svg>
+      </button>
+      <div class="wiki-collapsed-content">
+        <h3 class="wiki-h wiki-h3">folP vs. emrE</h3>
+        <div class="wiki-graphic">
+          <img src="../assets/images/images/ML_Results_t+s_analysis.png" alt="" class="wiki-graphic-image" />
+        </div>
+        <ol class="wiki-ol">
+          <li>Resistance increases with mutations in folP</li>
+          <li>Resistance increases with mutations in emrE confirming a positive correlation between genes</li>
+          <li>There is less number of strains with folP and more number of strains with mutations in folP</li>
+
+        </ol>
+      </div>
+
+
+      <!--dropdown10-->
+
+      <button class="wiki-collapsible">
+        Ampicillin + Sulbactam
+        <svg class="wiki-chevron-down" viewBox="0 0 448 512">
+          <path fill="currentColor"
+            d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z">
+          </path>
+        </svg>
+      </button>
+      <div class="wiki-collapsed-content">
+        <h3 class="wiki-h wiki-h3">mobA vs. yddG</h3>
+        <div class="wiki-graphic">
+          <img src="../assets/images/images/ML_Results_a+s_analysis.png" alt="" class="wiki-graphic-image" />
+        </div>
+        <ol class="wiki-ol">
+          <li>Resistance decreases with mutations in mobA</li>
+          <li>Resistance increases with mutations in yddG confirming a negative correlation between genes</li>
+          <li>Increased resistance due to mutations in yddG vanished with mutations in mobA</li>
+
+        </ol>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!--DELETE THIS CONTENT AFTER YOU ARE DONE-->
+      <!--THIS IS COPIED FROM SOME OTHER PAGE JUST FOR REFERENCE-->
+      <!--I have added a comment down to mention upto where you have to remove-->
+      <h1>Garbage Content</h1>
+      <h2 class="wiki-h wiki-h2 wiki-section-start" id="blank_1"></h2>
+      <p class="wiki-p">
+        Machine learning refers to the study of computer algorithms that tend
+        to improve its performance automatically with experience without being
+        explicitly programmed. Over the past decade, machine learning has been
+        applied to perform several complex tasks such as image classification
+        and object recognition. We decided to explore its applications in helping
+        to overcome the problem of antibiotic resistance, a major threat to the
+        human population. The availability of large public datasets makes it
+        crucial and important to utilize the power of machine learning in
+        understanding and predicting biological phenomena such as antibiotic resistance.
+      </p>
+
+      <p class="wiki-p">
+        To this end, we have used a class of machine learning algorithms called
+        Support Vector Machines in understanding and uncovering the genetic
+        interaction when a bacterial strain is treated with a particular antibiotic.
+        We identified <i>Acinetobacter baumannii</i> as a critical priority pathogen according
+        to the World Health Organisation as our target pathogen of interest.
+      </p>
+
+      <div class="wiki-graphic">
+        <img src="../assets/images/images/ML_model_higher.png" alt="ML_Model" class="wiki-graphic-image">
+      </div>
+      <br><br><br><br><br>
+
+      <h3 class="wiki-h wiki-h3 wiki-section-start" id="step_1">Step 1: Data Collection</h3>
+      <p class="wiki-p">
+        We utilized and selected 1360 strains of <i><i>A. Baumannii</i></i> whose AMR phenotypic data was available
+        in the PATRIC database [1]. The testing data includes the outcome when the strain is treated
+        with a particular antibiotic. The outcome can be binary i.e. strain can be either resistant or
+        susceptible to the antibiotic. Strains with verified phenotypes from laboratory data were selected
+        for the analysis, thus excluding strains that were validated only via computational methods.
+      </p>
+
+      <p class="wiki-p">
+        We choose 10 different antibiotics to understand the influence of genetic information on
+        resistance phenotype when different strains are treated with these drugs. The different
+        antibiotics are as follows,
+      </p>
+
+      <div class="table-responsive">
+        <table class="table table-hover table-bordered">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">Antibiotic</th>
+              <th scope="col">Mechanism</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Ciprofloxacin</td>
+              <td rowspan="2">DNA Replication</td>
+            </tr>
+
+            <tr>
+              <td>Levofloxacin</td>
+            </tr>
+
+
+
+            <tr>
+              <td>Gentamicin</td>
+              <td rowspan="3">Protein Synthesis</td>
+            </tr>
+
+            <tr>
+              <td>Tobramycin</td>
+            </tr>
+
+            <tr>
+              <td>Amikacin</td>
+            </tr>
+            <tr>
+              <td>Ceftriaxone</td>
+              <td rowspan="3">Cell Wall Synthesis</td>
+            </tr>
+
+            <tr>
+              <td>Imipenem</td>
+            </tr>
+
+            <tr>
+              <td>Ceftazidime</td>
+            </tr>
+
+
+
+            <tr>
+              <td>Trimethoprim+Sulfamethoxazole</td>
+              <td>Folate disruption</td>
+            </tr>
+
+
+
+            <tr>
+              <td>Ampicillin+Sulbactam</td>
+              <td>Cell Wall Synthesis</td>
+            </tr>
+          </tbody>
+        </table>
+      </div><br><br><br><br>
+
+
+
+
+      <h3 class="wiki-h wiki-h3 wiki-section-start" id="step_2">Step 2: Genome Annotation</h3>
+      <p class="wiki-p">
+        The genomes of the strains were then annotated to develop a pan-genome which is the
+        entire set of genes present in all the selected strains. The genome annotation was
+        carried out using Prokka software [2] which is used for prokaryotic genome annotations.
+        This software was able to identify and annotate alleles as well as their respective genes.
+        The software is publicly available at,
+        <a href="https://github.com/tseemann/prokka" class="wiki-a">https://github.com/tseemann/prokka</a>.
+        We utilized the bioconda channel of the conda environment to run the software.
+      </p><br><br><br><br>
+
+
+      <h3 class="wiki-h wiki-h3 wiki-section-start" id="step_3">Step 3: Binarization</h3>
+      <p class="wiki-p">
+        After the formation of the pan-genome and getting the list of all genes and alleles present
+        in all the strains, we created a binary matrix with each row representing a particular strain
+        and each column representing a particular gene/allele. If a particular strain has that particular
+        gene/allele, the value at that position in the matrix is 1, else 0. In simpler terms, if there
+        are ‘n’ number of genes/alleles in the pan-genome, we represent each strain as a vector of ‘n’
+        dimensions wherein a particular index of the vector refers to a gene/allele. The value at a
+        particular index if gene/allele corresponding to that index is present in the strain.
+        The strains are referred to as examples, while genes/alleles are referred to as features.
+      </p>
+      <p class="wiki-p">
+        Along with representing the strains in terms of binary vectors,
+        we also collected the phenotype information of strains for a particular
+        antibiotic. So at this stage, we have vector representation of strain i.e.
+        input and phenotype of strain i.e. output ready. The machine learning algorithm
+        will be developed to predict the phenotype of strain using gene/allele vector
+        representation of strains. We have used Support Vector Machines (SVMs) as a
+        machine learning algorithm.
+      </p><br><br><br><br>
+
+
+      <h3 class="wiki-h wiki-h3 wiki-section-start" id="step_4">Step 4: SVM Training</h3>
+      <h5 class="wiki-h wiki-h5">Support Vector Machines (SVM)</h5>
+      <p class="wiki-p">
+        SVM [3] is a supervised machine learning algorithm which is mainly used for analyzing the
+        data for the classification task. The algorithm represents all the examples of different
+        labels in higher-dimensional space, the number of dimensions of this space is usually the
+        number of features which are the number of genes/alleles in this case. Here in our case,
+        the SVM algorithm represents the strains in ‘n’ dimensional space where ‘n’ is the number
+        of genes/alleles in the pan-genome. Each dimension represents a particular gene/allele
+      </p>
+      <p class="wiki-p">
+        After representing the strains in ‘n’ dimensional space, the algorithm tends to find
+        the most optimal plane which can differentiate between both labels i.e. Resistant and
+        Susceptible. This optimal plane is also referred to as a hyperplane. The hyperplane is
+        constructed such that the distance between the hyperplane and the nearest example
+        represented in the space is maximized.<br>
+        The illustration about the working of SVM is shown in the above figure, wherein
+        the samples are represented in two-dimensional space using two alleles for the sake of simplicity .
+        However in reality, the space is occupied in ‘n’ dimensions. Different hyperplanes are shown
+        which act as the decision boundary for predicting the phenotype, i.e. labels on either side
+        of this boundary will be different. The decision boundary can never be perfect but SVM tries
+        to achieve the most optimal decision boundary based on the examples given.
+      </p><br><br><br><br>
+
+
+      <h3 class="wiki-h wiki-h3 wiki-section-start" id="step5">Step 5: Computation of Weights</h3>
+      <p class="wiki-p">
+        The type of SVM algorithm used in our case is Linear SVM i.e. the hyperplane is a
+        linear boundary or the hyperplane is a linear function of features. As in our case,
+        there are ‘n’ features representing a particular strain (or example), so the equation
+        of the hyperplane will be linear and can be represented as,
+      </p>
+
+      <div class="wiki-graphic">
+        <img src="../assets/images/images/ML_Model_weight_equation_higher.png" alt="Equation"
+          class="wiki-graphic-image">
+        <div class="wiki-graphic-reference">wherein, xi refers to the ith gene/allele and wi refers to the linear
+          coefficient of the ith gene/allele</div>
+      </div>
+
+      <p class="wiki-p">
+        This linear coefficient is referred to as the weight of the particular gene/allele and it represents the
+        quantitative weightage given to the presence/absence of a particular gene/allele while making predictions.
+        The linear coefficient can be positive or negative, wherein the +/- sign decides the impact of the gene/allele
+        on the final prediction.
+      </p>
+
+      <p class="wiki-p">
+        We trained SVM not for multiple iterations since machine learning algorithms are
+        probabilistic in nature and they tend to produce a different output each time.
+        Running the algorithm for more and more number of iterations helps in achieving more stable and reliable
+        results. We find the hyperplane for each iteration and from where we calculate the weight of the particular
+        gene/allele and represent them as a matrix as shown in the figure. Each row of the matrix represents a
+        particular gene/allele while each column represents a particular iteration of the process. The value at a
+        particular position refers to the weight of the gene/allele in that row during the iteration number of that
+        column.
+      </p><br><br><br><br>
+
+
+      <h3 class="wiki-h wiki-h3 wiki-section-start" id="step6">Step 6: Top AMR alleles</h3>
+      <p class="wiki-p">
+        As mentioned above, every gene/allele is given a weightage while developing a hyperplane. The more the
+        magnitude of the weight, the more is the importance of that gene/allele in predicting the phenotype
+        of the strain. Since the sign (+/-) of the value of weight merely indicates the direction of impact
+        of that particular gene/allele i.e. if the sign is negative, it means that the gene/allele is
+        responsible for shifting the prediction to Susceptible and if the sign is positive, it means that
+        the gene/allele is responsible for shifting the predicted phenotype to Resistant. So, it is the
+        magnitude of the weight, which determines the relative importance of different genes/alleles. We
+        calculated the sum of absolute values of weights given to each gene/allele for every iteration.
+        The higher the value of this sum, the higher is the relative importance of that gene/allele. We
+        sorted different genes/alleles in the order of their relative importance based on the sum of
+        absolute weights and found out the list of top AMR genes/alleles. It is not sure that these
+        genes/alleles will confer resistance to the antibiotics, they can confer susceptibility to the
+        antibiotic as well since we have taken the sum of absolute weights neglecting the direction of
+        impact of that gene/allele. It must be noted that the absolute weights have no mathematical, or
+        physical, or biological significance, but only provide us an idea about the relative importance
+        of different weights in predicting resistance or susceptibility. They have no absolute
+        significance but surely relative importance.
+      </p><br><br><br><br>
+
+
+      <h3 class="wiki-h wiki-h3 wiki-section-start" id="step7">Step 7: Correlation analysis</h3>
+      <p class="wiki-p">
+        We selected the list of top 40 genes/alleles based on the sum of the absolute weights resulting from the
+        iterations. Now, since we have the weights of these genes/alleles for each iteration as well, we calculate
+        the pairwise correlation between the weights of these top 40 genes/alleles. For example let us suppose,
+        there are ‘k’ iterations, then every gene/allele will have a ‘k’ number of weights i.e. it can be represented
+        as the vector of ‘k’ dimensions. For finding a correlation between two genes/alleles, we calculated the Pearson
+        correlation between their corresponding vectors. The positive correlation would mean that an increase in weights
+        of a particular gene/allele is accompanied by the increase in weights of another gene/allele and vice versa.
+      </p>
+      <p class="wiki-p">
+        These correlation analyses provide us with an idea of the relationship between two genes/alleles which
+        is further explored while analyzing the impact of a mutation in particular genes on the resistance
+        phenotype of the strain.
+      </p><br><br><br><br>
+
+
+      <h3 class="wiki-h wiki-h3 wiki-section-start" id="step8">Step 8: Mutational Analyses</h3>
+      <p class="wiki-p">
+        Like in the case of weights given to a particular gene/allele, the sign of the value was merely an indicator
+        of the direction of its impact on resistance phenotype, similarly, the sign in the case of correlation
+        between two genes/alleles is also an indicator of the direction of variation of their weights. We
+        selected the top pair of genes/alleles based on the magnitude of their correlation and analyzed them
+        for the impact of a mutation in the respective genes on the resistant phenotype. We mainly look for
+        the cases, for example where a mutation in gene A was responsible for resistance to a particular
+        antibiotic, but not in the case when another gene B was also present along with mutated gene A.
+        We performed these analyses for the pairs with the highest correlation values. These help us to
+        make better conclusions about the relationship between a particular pair of genes/alleles.
+      </p><br><br><br><br>
+
+      <h3 class="wiki-h wiki-h3 wiki-section-start" id="References">References</h3>
+      <p class="wiki-p">
+      <ol class="wiki-ol">
+
+        <li>PATRIC, the bacterial bioinformatics database and analysis resource,
+          Wattam A. R. et al., Nucleic Acids Research, Database issue (42),
+          D581-D591 (2013),
+          <a href="https://doi.org/10.1093/nar/gkt1099" class="wiki-a">DOI: 10.1093/nar/gkt1099</a>
+        </li>
+
+        <li>Prokka: rapid prokaryotic genome annotation, Seemann T., Bioinformatics, 30(14):2068-9 (2014),
+          <a href="https://doi.org/10.1093/bioinformatics/btu153" class="wiki-a">DOI: 10.1093/bioinformatics/btu153</a>
+        </li>
+
+        <li>Support-Vector Networks, Cortes C., Vapnik V., Machine Learning, 20, 273-297 (1995),
+          <a href="https://doi.org/10.1007/BF00994018" class="wiki-a">DOI: 10.1007/BF00994018</a>
+        </li>
+
+      </ol>
+      </p><br><br><br><br><br>
+
+
+      <!--TILL HERE-->
+      <!--TILL HERE-->
+      <!--TILL HERE-->
+      <!--TILL HERE-->
+      <!--TILL HERE-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </main>
+
+  <div class="fab-border"></div>
+  <a class="fab" href="#">
+    <img src="../assets/images/icons/next.svg" data-toggle="tooltip" data-placement="left" title="Next section"
+      class="fab-next-section"></img>
+    <img src="../assets/images/icons/top.svg" data-toggle="tooltip" data-placement="left" title="Top"
+      class="fab-top-section"></img>
+  </a>
+  <div class="circular-progress-container">
+    <svg class="progress-svg" viewbox="0 0 84 84">
+      <circle class="progress-pie" cx="42" cy="42" r="40"></circle>
+    </svg>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-brand"><a href="#" class="">iGEM IIT Roorkee</a></div>
+    <div class="footer-lists">
+      <div class="footer-list">
+        <div class="footer-list-title">People</div>
+        <a href="../Team/" class="tab footer-list-item"><span>Team</span></a>
+        <a href="../Attributions/" class="tab footer-list-item"><span>Attributions</span></a>
+        <a href="../Sponsors/" class="tab footer-list-item"><span>Sponsors</span></a>
+      </div>
+      <div class="footer-list">
+        <div class="footer-list-title">Project</div>
+        <a href="../Description/" class="tab footer-list-item"><span>Description</span></a>
+        <a href="../Problem/" class="tab footer-list-item"><span>Problem</span></a>
+        <a href="../Design/" class="tab footer-list-item"><span>Design</span></a>
+        <a href="../Engineering/" class="tab footer-list-item"><span>Engineering</span></a>
+        <a href="../Implementation/" class="tab footer-list-item"><span>Implementation</span></a>
+        <a href="../Contribution/" class="tab footer-list-item"><span>Contributions</span></a>
+      </div>
+      <div class="footer-list">
+        <div class="footer-list-title">Human Practices</div>
+        <a href="../Human_Practices/" class="tab footer-list-item"><span>Overview</span></a>
+        <a href="../Education/" class="tab footer-list-item"><span>Science Communication and Public
+            Engagement</span></a>
+        <a href="../Integrated_HP/" class="tab footer-list-item"><span>Integrated Human Practices</span></a>
+        <a href="../Sustainable/" class="tab footer-list-item"><span>Sustainable Development Goals</span></a>
+        <a href="../Collaborations/" class="tab footer-list-item"><span>Collaborations</span></a>
+      </div>
+      <div class="footer-list">
+        <div class="footer-list-title">Dry Lab</div>
+        <a href="../Model/" class="tab footer-list-item"><span>Modelling</span></a>
+        <a href="../DryLab_Results/" class="tab footer-list-item"><span>Results</span></a>
+        <a href="../Software/" class="tab footer-list-item"><span>Software</span></a>
+      </div>
+      <div class="footer-list">
+        <div class="footer-list-title">Wet Lab</div>
+        <a href="../Experiments/" class="tab footer-list-item"><span>Overview</span></a>
+        <a href="../Results/" class="tab footer-list-item"><span>Results</span></a>
+        <a href="../Protocols/" class="tab footer-list-item"><span>Protocols</span></a>
+        <a href="../Parts/" class="tab footer-list-item"><span>Parts</span></a>
+        <a href="../Safety/" class="tab footer-list-item"><span>Safety</span></a>
+        <a href="../References/" class="tab footer-list-item"><span>References</span></a>
+      </div>
+      <div class="footer-list">
+        <div class="footer-list-title">Machine Learning</div>
+        <a href="../ML_Overview/" class="tab footer-list-item"><span>Overview</span></a>
+        <a href="../ML_Model/" class="tab footer-list-item"><span>Model</span></a>
+        <a href="#" class="tab footer-list-item footer-list-item-active"><span>Results</span></a>
+        <a href="../ML_Impact/" class="tab footer-list-item"><span>Impact</span></a>
+      </div>
+    </div>
+    <div class="footer-info">
+      <div class="footer-info-address">
+        <div class="footer-address">
+          The Department of Biotechnology, <br /><br />
+          Indian Institute of Technology, Roorkee <br /><br />
+          Roorkee, Uttarakhand, <br /><br />
+          India - 247667
+        </div>
+        <img src="../assets/images/images/james_thomason_building.svg" class="footer-james-thomason"></img>
+      </div>
+      <div class="footer-info-socials">
+        <div class="footer-section-heading">Contact us:</div>
+        <div class="contacts">
+          <a href="tel:+011-2875468" class="contact"><span>+011-2875468</span></a>
+          <a href="tel:+91-76487699" class="contact"><span>+91-76487699</span></a>
+          <a href="mailto:igem@iitr.ac.in" class="contact"><span>igem@iitr.ac.in</span></a>
+        </div>
+        <div class="footer-section-heading">Follow us on:</div>
+        <div class="socials">
+          <a href="https://www.instagram.com/igem_iitr/" class="social"><img src="../assets/images/icons/instagram.svg"
+              alt="Instagrm"></a>
+          <a href="https://www.facebook.com/IGEM-IIT-Roorkee-111403760578466" class="social"><img
+              src="../assets/images/icons/facebook.svg" alt="Facebook"></a>
+          <a href="https://twitter.com/igem_iitr" class="social"><img src="../assets/images/icons/twitter.svg"
+              alt="Twitter"></a>
+        </div>
+      </div>
+      <img src="../assets/images/images/james_thomason_building.svg" class="footer-james-thomason-mobile"></img>
+    </div>
+  </footer>
+
+  <script src="../js/igem-reset.js"></script>
+  <script src="../js/jquery-slim.min.js"></script>
+  </script>
+  <script src="../js/jquery.waypoints.min.js"></script>
+  <script src="../js/popper.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/holder.min.js"></script>
+  <script src="../js/index.js"></script>
+  <script>
+    Holder.addTheme("thumb", {
+      bg: "#55595c",
+      fg: "#eceeef",
+      text: "Thumbnail",
+    });
+  </script>
+</body>
+
+</html>

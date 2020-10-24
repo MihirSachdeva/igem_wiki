@@ -92,7 +92,7 @@
                 <li><a class="dropdown-item" href="../Human_Practices/"> <span>Overview</span></a></li>
                 <li><a class="dropdown-item" href="../Education/"> <span>Science Communication & Public Engagement</span> </a></li>
                 <li><a class="dropdown-item" href="../Integrated_HP/"> <span>Integrated Human Practices</span> </a></li>
-                <li><a class="dropdown-item" href="#"> <span>Sustainable Development Goals</span> </a></li>
+                <li><a class="dropdown-item" href="../Sustainable/"> <span>Sustainable Development Goals</span> </a></li>
                 <li><a class="dropdown-item" href="../Collaborations/"> <span>Collaborations</span> </a></li>
               </ul>
             </li>
@@ -169,7 +169,7 @@
     <main role="main" class="container wiki">    
 
       <div class="side-nav">
-        <div class="page-title">Design/div>
+        <div class="page-title">Design</div>
         <div class="side-nav-menu">
         </div>
       </div>
@@ -208,10 +208,10 @@
 
 
           <p class="wiki-p">
-              In 2008, Scholl et. al demonstrated that R-type pyocins could be retargeted to specifically bind and inhibit a target bacterium, by creating a fusion of the pyocin tail-fiber protein with that of a phage tail-fiber. 
+              In 2008, Scholl et. al demonstrated that R-type pyocins could be retargeted to specifically bind and inhibit a target bacterium, by creating a fusion of the pyocin tail fiber protein with that of a phage tail fiber. 
           </p>
           <p class="wiki-p">
-              In this project, we plan to make an E.coli based expression system for producing antibacterial protein complexes called <span style="font-weight: bold;">Seekercins</span>, which have been engineered to target drug-resistant pathogens. The pathogen we have chosen to test our system on is <span style="font-style:italic;"><i>Acinetobacter baumannii</i></span>. 
+              In this project, we plan to make an <i>E. coli</i> based expression system for producing antibacterial protein complexes called <span style="font-weight: bold;">Seekercins</span>, which have been engineered to target drug-resistant pathogens. The pathogen we have chosen to test our system on is <span style="font-style:italic;"><i>Acinetobacter baumannii</i></span>. 
           </p>
           <br/><br/><br/>
 
@@ -219,13 +219,13 @@
         <h1 class="wiki-h wiki-h1 wiki-section-start" id="wiki-section-1">Principles of Seekercin design</h1><br/>
         <ol class="wiki-ol">
           <li>
-            All native proteins of the pyocin tail structure including tube, spike, sheath and baseplate must be conserved for proper functioning.
+            All native proteins of the pyocin tail structure including tube, spike, sheath and baseplate must be conserved for proper functioning
           </li>
           <li>
-            The initial 164 N-terminal amino acid residues of the wild-type pyocin tail fiber must be conserved for proper functioning. 
+            The initial 164 N-terminal amino acid residues of the wild-type pyocin tail fiber must be conserved for proper functioning
           </li>
           <li>
-            The C-terminal of the fusion tail-fiber (originating from the phage-tail) must bind specifically to a surface-accessible receptor(sugar or protein) on the cell wall of the target bacterium.
+            The C-terminal of the fusion tail fiber (originating from the phage-tail) must bind specifically to a surface-accessible receptor(sugar or protein) on the cell wall of the target bacterium
           </li>
         </ol>
         <br/><br/><br/>
@@ -236,7 +236,7 @@
         <h1 class="wiki-h wiki-h1 wiki-section-start" id="wiki-section-2">Targeting <i>Acinetobacter baumannii</i></h1><br/>
         <h2 class="wiki-h wiki-h2">Choosing a phage </h2>
         <p class="wiki-p">
-            An extensive literature search was done to identify phages that show lytic activity to MDR <span style="font-style: italic;"><i>A. baumannii</i></span> clinical isolates. The search was limited to the families <span style="font-style: italic;">Myoviridae</span> and <span style="font-style: italic;">Podoviridae</span>, due to the similarity of their structure and injection mechanism (in the cell wall) to that of pyocins. Search parameters that were used were lytic spectrum range as well as specificity to the species. An ideal search parameter would be to look for their binding spectrum, which is the percentage of strains the phage binds to out of tested strains. However, this characteristic is rarely studied by researchers and the data was insufficient. Further, the phage would have to have been tested on a minimum of 40 strains for the results to be considered significant for our purpose. 
+            An extensive literature search was done to identify phages that show lytic activity towards MDR <span style="font-style: italic;"><i><i>A. Baumannii</i></i></span> clinical isolates. The search was limited to the families <span style="font-style: italic;">Myoviridae</span> and <span style="font-style: italic;">Podoviridae</span>, due to the similarity of their structure and injection mechanism (in the cell wall) to that of pyocins. Search parameters that were used were lytic spectrum range as well as specificity to the species. An ideal search parameter would be to look for their binding spectrum, which is the percentage of strains the phage binds to out of tested strains. However, this characteristic is rarely studied by researchers and the data was insufficient. Further, the phage should have to have been tested on a minimum of 40 strains for the results to be considered significant for our purpose. 
         </p>
         <p class="wiki-p">
             Based on the search, following candidates were selected for their large lytic spectrum- 
@@ -295,66 +295,82 @@
           <p class="wiki-p">
               We used a preliminary bioinformatics analysis to design our fusion protein tail fiber. The overall analysis involved:
           </p><br/>
-          <ol class="wiki-ol">
-            <li>
-              <span class="wiki-bold">Identifying a suitable bacteriophage for <i><i>A. baumannii</i></i></span><br/>
-              <p class="wiki-p">
-                  A bioinformatics search for <i>A. baumannii</i> bacteriophages and the multiple sequence alignment of resulting bacteriophage tail fiber sequences resulted in identification of conservedness in N-terminal region (Fig 1). The C-terminal region is highly variable in sequence and length. Phylogenetic analysis revealed two prominent clades of viral tail fibers; a short tail clade (AP22 clade) of approximately 270 aa and a long tail clade (AB1 clade) of around 730 aa (Fig 2). The crystal structure of a bacteriophage AP22 tail fiber is available in the database and we chose to utilize the same for our further work. When analyzed for evolutionary sequence-similarity , AP22 tail fiber had over 60% similarity with the other members in its clade (Fig 3). 
-              </p>
-              <div class="wiki-graphic">
-                  <img src="../assets/images/images/Project_Design_Figure_1.png" alt="" class="wiki-graphic-image">
-                  <div class="wiki-graphic-reference">Fig 1. Representative AP22 and AB1-type <i>A. baumannii</i> bacteriophage tail fiber sequences were aligned by CLUSTAL Omega and rendered using JALVIEW. Sequence differences between two types occur in a C-terminal region.</div>
-              </div><br/>
-              <div class="wiki-graphic">
-                  <img src="../assets/images/images/Project_Design_Figure_2.png" alt="" class="wiki-graphic-image">
-                  <div class="wiki-graphic-reference">Fig 2. Neighbour-joining phylogenetic tree obtained from tail fiber sequences of major Acinetobacter bacteriophages. Numbers refer to significant bootstrap values of 100 calculated trees.</div>
-              </div><br/>
-              <div class="wiki-graphic">
-                  <img src="../assets/images/images/Project_Design_Figure_3.png" alt="" class="wiki-graphic-image">
-                  <div class="wiki-graphic-reference">Fig 3. AP22-type Acinetobacter bacteriophage tail fibers sequences are conserved in their sequences with minor variations at C-terminal end.</div>
-              </div><br/>
-            </li>
+
+          <button class="wiki-collapsible">
+            Identifying a suitable bacteriophage for <i><i><i>A. Baumannii</i></i></i>
+            <svg class="wiki-chevron-down" viewBox="0 0 448 512"><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg>
+          </button>
+          <div class="wiki-collapsed-content">
+            <p class="wiki-p">
+              A bioinformatics search for <i><i>A. Baumannii</i></i> bacteriophages and the multiple sequence alignment of resulting bacteriophage tail fiber sequences resulted in identification of conservedness in N-terminal region (Fig 1). The C-terminal region is highly variable in sequence and length. Phylogenetic analysis revealed two prominent clades of viral tail fibers; a short tail clade (AP22 clade) of approximately 270 aa and a long tail clade (AB1 clade) of around 730 aa (Fig 2). The crystal structure of a bacteriophage AP22 tail fiber is available in the database and we chose to utilize the same for our further work. When analyzed for evolutionary sequence-similarity , AP22 tail fiber had over 60% similarity with the other members in its clade (Fig 3). 
+          </p>
+          <div class="wiki-graphic">
+              <img src="../assets/images/images/Project_Design_Figure_1.png" alt="" class="wiki-graphic-image">
+              <div class="wiki-graphic-reference">Fig 1. Representative AP22 and AB1-type <i><i>A. Baumannii</i></i> bacteriophage tail fiber sequences were aligned by CLUSTAL Omega and rendered using JALVIEW. Sequence differences between two types occur in a C-terminal region.</div>
+          </div><br/>
+          <div class="wiki-graphic">
+              <img src="../assets/images/images/Project_Design_Figure_2.png" alt="" class="wiki-graphic-image">
+              <div class="wiki-graphic-reference">Fig 2. Neighbour-joining phylogenetic tree obtained from tail fiber sequences of major Acinetobacter bacteriophages. Numbers refer to significant bootstrap values of 100 calculated trees.</div>
+          </div><br/>
+          <div class="wiki-graphic">
+              <img src="../assets/images/images/Project_Design_Figure_3.png" alt="" class="wiki-graphic-image">
+              <div class="wiki-graphic-reference">Fig 3. AP22-type Acinetobacter bacteriophage tail fibers sequences are conserved in their sequences with minor variations at C-terminal end.</div>
+          </div><br/>
+          </div>
 
 
-            <li class="wiki-bold">
-                <span class="wiki-bold">Rational design of chimeric tail fiber </span><br/>
-                <p class="wiki-p">
-                    Analysis of key domains in AP22 tail fiber (Fig 4) revealed a conserved lectin-fold similar to that of R2-pyocin tail fiber. Considering this information, we reasoned that a chimera of R2 N-terminal domain fused with AP22 C-terminal domain (Fig 5) would result in generation of specific R2 pyocin against <i><i>A. baumannii</i></i>. To identify specific amino acid positions for genetic replacement, we aligned C-terminal ends of AP22 and R2 pyocin tail fibers (Fig 6). The sequence alignment revealed that the last 137 amino acids of AP22 constituting the head and shaft of tail fiber aligned with the last 134 amino acids of R2 pyocin tail fiber. We predicted the secondary structure formation of the aforementioned 137 and 134 amino acid sequences and found that the alpha helix and 8 beta sheets (constituting lectin fold) are conserved in both the tails (fig 7) albeit variations in sequence length and size (Fig 8). 
-                </p>
-                <div class="wiki-graphic">
-                    <img src="../assets/images/images/Project_Design_Figure_4.png" alt="" class="wiki-graphic-image">
-                    <div class="wiki-graphic-reference">
-                        Fig 4. Key domains of Acinetobacter bacteriophage AP22-type tail fiber involved in bacterial attachment. The lectin fold in the C-terminal domain head region is majorly involved in binding to bacterial lipopolysaccharides.
-                        </div>
-                </div><br/>
-                <div class="wiki-graphic">
-                    <img src="../assets/images/images/Project_Design_Figure_5.png" alt="" class="wiki-graphic-image">
-                    <div class="wiki-graphic-reference">Fig 5. Rationale and design of chimeric R2P-AP22 tail fiber</div>
-                </div><br/>
-                <div class="wiki-graphic">
-                    <img src="../assets/images/images/Project_Design_Figure_6.png" alt="" class="wiki-graphic-image">
-                    <div class="wiki-graphic-reference">Fig 6. Sequence comparison of C-domains of AP22 phage tail (137 aa) with R2-pyocin (134 aa).</div>
-                </div><br/>
-                <div class="wiki-graphic">
-                    <img src="../assets/images/images/Project_Design_Figure_7.png" alt="" class="wiki-graphic-image">
-                    <div class="wiki-graphic-reference">Fig 7. AP22 and R2-pyocin tail fiber C-domain secondary structure prediction by Jpred4 software.</div>
-                </div><br/>
-                <div class="wiki-graphic">
-                    <img src="../assets/images/images/Project_Design_Figure_8.png" alt="" class="wiki-graphic-image">
-                    <div class="wiki-graphic-reference">Fig 8. Major structural differences between R2 Pyocin and AP22 tail fiber head regions.</div>
-                </div><br/>
-                For further information on our bioinformatics and modelling, refer to the <a href="../Model/" class="wiki-a">Dry Lab</a> tab.
-            </li>
-          </ol><br/><br/><br/>
+
+
+          <button class="wiki-collapsible">
+            Rational design of chimeric tail fiber
+            <svg class="wiki-chevron-down" viewBox="0 0 448 512"><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg>
+          </button>
+          <div class="wiki-collapsed-content">
+            <p class="wiki-p">
+              Analysis of key domains in AP22 tail fiber (Fig 4) revealed a conserved lectin-fold similar to that of R2-pyocin tail fiber. Considering this information, we reasoned that a chimera of R2 N-terminal domain fused with AP22 C-terminal domain (Fig 5) would result in generation of specific R2 pyocin against <i><i><i>A. Baumannii</i></i></i>. To identify specific amino acid positions for genetic replacement, we aligned C-terminal ends of AP22 and R2 pyocin tail fibers (Fig 6). The sequence alignment revealed that the last 137 amino acids of AP22 constituting the head and shaft of tail fiber aligned with the last 134 amino acids of R2 pyocin tail fiber. We predicted the secondary structure formation of the aforementioned 137 and 134 amino acid sequences and found that the alpha helix and 8 beta sheets (constituting lectin fold) are conserved in both the tails (fig 7) albeit variations in sequence length and size (Fig 8). 
+          </p>
+          <div class="wiki-graphic">
+              <img src="../assets/images/images/Project_Design_Figure_4.png" alt="" class="wiki-graphic-image">
+              <div class="wiki-graphic-reference">
+                  Fig 4. Key domains of Acinetobacter bacteriophage AP22-type tail fiber involved in bacterial attachment. The lectin fold in the C-terminal domain head region is majorly involved in binding to bacterial lipopolysaccharides.
+                  </div>
+          </div><br/>
+          <div class="wiki-graphic">
+              <img src="../assets/images/images/Project_Design_Figure_5.png" alt="" class="wiki-graphic-image">
+              <div class="wiki-graphic-reference">Fig 5. Rationale and design of chimeric R2P-AP22 tail fiber</div>
+          </div><br/>
+          <div class="wiki-graphic">
+              <img src="../assets/images/images/Project_Design_Figure_6.png" alt="" class="wiki-graphic-image">
+              <div class="wiki-graphic-reference">Fig 6. Sequence comparison of C-domains of AP22 phage tail (137 aa) with R2-pyocin (134 aa).</div>
+          </div><br/>
+          <div class="wiki-graphic">
+              <img src="../assets/images/images/Project_Design_Figure_7.png" alt="" class="wiki-graphic-image">
+              <div class="wiki-graphic-reference">Fig 7. AP22 and R2-pyocin tail fiber C-domain secondary structure prediction by Jpred4 software.</div>
+          </div><br/>
+          <div class="wiki-graphic">
+              <img src="../assets/images/images/Project_Design_Figure_8.png" alt="" class="wiki-graphic-image">
+              <div class="wiki-graphic-reference">Fig 8. Major structural differences between R2 Pyocin and AP22 tail fiber head regions.</div>
+          </div><br/>
+          For further information on our bioinformatics and modelling, refer to the <a href="../Model/" class="wiki-a">Dry Lab</a> tab.
+      </li>
+    </ol><br>
+          </div>
+          <br><br><br>
+
+
+          
 
 
           <h1 class="wiki-h wiki-h1 wiki-section-start" id="wiki-section-3">Plasmid Design</h1><br/>
           <p class="wiki-p">
-              Based on the fusion protein sequence created after bioinformatic analysis, the fusion tail fiber gene will  be incorporated into the pyocin gene cluster in an expression vector. 
+              Based on the fusion protein sequence created after bioinformatics analysis, the fusion tail fiber gene will  be incorporated into the pyocin gene cluster in an expression vector. 
           </p>
           <p class="wiki-p">
-              The wild-type pyocin gene cluster consists of 18 genes, PA0613 to PA0631, with 16 ORFs, that encode for all the subunit proteins and chaperones required for proper folding and complex formation. It also contains a lysis gene which allows the release of assembled pyocins into the surroundings. The gene responsible for the tail fiber, PA0620 has been replaced by the fusion tail-fiber gene originating from AP22 phage. 
-          </p>
+              The wild-type pyocin gene cluster consists of 18 genes, PA0613 to PA0631, with 16 ORFs, that encode for all the subunit proteins and chaperones required for proper folding and complex formation. It also contains a lysis gene which allows the release of assembled pyocins into the surroundings. The gene responsible for the tail fiber, PA0620 has been replaced by the fusion tail fiber gene originating from AP22 phage. 
+          </p><br>
+          <div class="wiki-graphic">
+            <img src="../assets/images/images/Project_design_new.png" alt="" class="wiki-graphic-image">
+        </div><br/>
           <p class="wiki-p">
               This procedure is possible through biochemical methods but we opted for DNA synthesis to reduce complications and time taken. 
           </p>
@@ -364,10 +380,10 @@
               <div class="wiki-graphic-reference"></div>
           </div><br/>
           <p class="wiki-p">
-              As a chassis we chose to produce them in Escherichia coli, specifically strain BL21(DE3). It is a commonly grown lab strain that is used for expression of proteins at a high efficiency. Its genome contains a DE3 recombinant prophage harboring the T7 RNA polymerase gene that can direct high-level expression of cloned genes under the control of the T7 promoter. 
+              As a chassis we chose to produce them in <i></i>Escherichia coli</i>, specifically strain BL21(DE3). It is a commonly grown lab strain that is used for expression of proteins at a high efficiency. Its genome contains a DE3 recombinant prophage harboring the T7 RNA polymerase gene that can direct high-level expression of cloned genes under the control of the T7 promoter. 
           </p>
           <p class="wiki-p">
-              As an expression vector, we chose pET-28 a from Novagen. It contains a T7 promoter upstream of a strong RBS and a lac operator, allowing IPTG-controllable protein expression. 
+              As an expression vector, we chose pET-28 a from Novagen. It contains a T7 promoter upstream of a strong RBS and a <i>lac</i> operator, allowing IPTG-controllable protein expression. 
           </p><br/><br/><br/>
 
 
@@ -375,7 +391,7 @@
           <p class="wiki-p">The sequences for the pyocin gene cluster and fusion tail fiber were generously synthesized by our sponsor IDT. Coding region sequences were codon-optimized by the supplier to reduce the high natural complexity of the gene cluster sequence to allow the possibility of DNA synthesis. Furthermore, illegal Biobrick and Type IIs restriction sites were edited out. The entire construct is <span class="wiki-bold">12732</span> bp long and was divided into 8 gBlocks fragments during synthesis. The overlaps required for Gibson assembly were built into the ordered gBlocks, eliminating the need for a PCR extension step. The ordered DNA was received and is ready for assembly. Our plasmid would be sent for sequencing to verify that we cloned it correctly.
           </p>
           <p class="wiki-p">
-              For further details about the assembly and further experiments, refer to the <a href="../Experiments/" class="wiki-a">Experiments</a> page. 
+              For further details about the assembly and experiments, refer to the <a href="../Experiments/" class="wiki-a">Experiments</a> page. 
           </p><br/><br/><br/>
 
 
@@ -438,7 +454,7 @@
           <a href="../Human_Practices/" class="tab footer-list-item"><span>Overview</span></a>
           <a href="../Education/" class="tab footer-list-item"><span>Science Communication and Public Engagement</span></a>
           <a href="../Integrated_HP/" class="tab footer-list-item"><span>Integrated Human Practices</span></a>
-          <a href="#" class="tab footer-list-item "><span>Sustainable Development Goals</span></a>
+          <a href="../Sustainable/" class="tab footer-list-item "><span>Sustainable Development Goals</span></a>
           <a href="../Collaborations/" class="tab footer-list-item"><span>Collaborations</span></a>
         </div>
         <div class="footer-list">
