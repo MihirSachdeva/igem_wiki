@@ -1447,6 +1447,7 @@ main.wiki {
 
 .feature-text {
   font-family: "Quattrocento Sans";
+  color: #272727 !important;
 }
 
 .link-row {
