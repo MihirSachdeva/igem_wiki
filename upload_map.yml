@@ -1055,7 +1055,7 @@ css:
     md5: b5677d5c325401dc0c1a0d0a87cc6810
   css/styles.css:
     link_URL: https://2020.igem.org/Template:IIT_Roorkee/css/stylesCSS?action=raw&ctype=text/css
-    md5: 16b159ab34251e1fefce962b14f5ed22
+    md5: 638f6097ef3bf5ab83e56999a93ffe23
 html:
   Attributions/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Attributions
@@ -1146,7 +1146,7 @@ html:
     md5: 7c9962cfe868c4b3f1d89c207e7c8744
   index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee
-    md5: 0fc97be4b5256b9da672d4894b5c572f
+    md5: 103aaf6659e379056fbc5db8a6c67402
   team/team.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/team/team
     md5: c679bffc5f95c767fcf06b7de03ffda0
