@@ -37,10 +37,52 @@ function setProgress(container, progressBar, totalLength) {
 
 
 
+var $window = $(window)
+// $(document).ready(function () {
+//   $('[data-toggle="tooltip"]').tooltip()
+// })
+
+if (window.innerWidth > 768) {
+
+  var $sidebar = $(".side-nav")
+  var $sidebarHeight = $sidebar.innerHeight()
+  var $footerOffsetTop = $(".footer").offset().top
+  var $sidebarOffset = $sidebar.offset()
+  var $wikiContent = $(".wiki-content")
+  $wikiContent.css({ "bottom": $sidebarHeight, })
+}
+
+if ($window.scrollTop() > 25) {
+  $(".wiki-navbar").addClass("navbar-dark-opaque")
+  $(".header-progress").css("display", "inline-block")
+  // $(".navbar-overlay").css("display", "none")
+} else {
+  $(".wiki-navbar").removeClass("navbar-dark-opaque")
+  $(".header-progress").css("display", "none")
+  // $(".navbar-overlay").css("display", "block")
+}
+
+$window.scroll(function () {
+
+  if ($window.scrollTop() > 25) {
+    $(".wiki-navbar").addClass("navbar-dark-opaque")
+    $(".header-progress").css("display", "inline-block")
+    // $(".navbar-overlay").css("display", "none")
+  } else {
+    $(".wiki-navbar").removeClass("navbar-dark-opaque")
+    $(".header-progress").css("display", "none")
+    // $(".navbar-overlay").css("display", "block")
+  }
+})
+
+
+
 $(".navbar-toggler").click(() => {
   !$(".wiki-navbar").hasClass("navbar-dark-opaque")
     && $(".wiki-navbar").toggleClass("navbar-dark-opaque")
 })
+
+
 
 
 
@@ -98,7 +140,7 @@ const setCurrentLink = (currentIndex) => {
   prevSectionID = `#${sections[currentIndex]}`
   fab.setAttribute("href", prevSectionID)
   currentIndex != 0 && sideMenuItems[currentIndex - 1].classList.add("side-nav-menu-item-active")
-  sideMenuItems[currentIndex].classList.remove("side-nav-menu-item-active")
+  sideMenuItems[currentIndex] && sideMenuItems[currentIndex].classList.contains("side-nav-menu-item-active") && sideMenuItems[currentIndex].classList.remove("side-nav-menu-item-active")
   if (currentIndex == sections.length - 1) {
     hideTopButton()
   }
@@ -121,43 +163,6 @@ const hideTopButton = () => {
 
 
 
-var $window = $(window)
-// $(document).ready(function () {
-//   $('[data-toggle="tooltip"]').tooltip()
-// })
-
-if (window.innerWidth > 768) {
-
-  var $sidebar = $(".side-nav")
-  var $sidebarHeight = $sidebar.innerHeight()
-  var $footerOffsetTop = $(".footer").offset().top
-  var $sidebarOffset = $sidebar.offset()
-  var $wikiContent = $(".wiki-content")
-  $wikiContent.css({ "bottom": $sidebarHeight, })
-}
-
-if ($window.scrollTop() > 25) {
-  $(".wiki-navbar").addClass("navbar-dark-opaque")
-  $(".header-progress").css("display", "inline-block")
-  // $(".navbar-overlay").css("display", "none")
-} else {
-  $(".wiki-navbar").removeClass("navbar-dark-opaque")
-  $(".header-progress").css("display", "none")
-  // $(".navbar-overlay").css("display", "block")
-}
-
-$window.scroll(function () {
-
-  if ($window.scrollTop() > 25) {
-    $(".wiki-navbar").addClass("navbar-dark-opaque")
-    $(".header-progress").css("display", "inline-block")
-    // $(".navbar-overlay").css("display", "none")
-  } else {
-    $(".wiki-navbar").removeClass("navbar-dark-opaque")
-    $(".header-progress").css("display", "none")
-    // $(".navbar-overlay").css("display", "block")
-  }
-})
 
 var $sidebar = $(".side-nav")
 var $sidebarHeight = $sidebar.innerHeight()
@@ -240,18 +245,45 @@ for (i = 0; i < coll.length; i++) {
   })
 }
 
-// $('.modal-expand-button').click(() => {
-//   $(this).parent().parent().parent().addClass('modal-container-active')
-//   $(this.element).css('display', 'none')
-//   console.log($(this))
-//   console.log('MORE')
-// })
 
-// $('.modal-collapse-button').click(() => {
-//   $(this).closest('.modal-container').removeClass('modal-container-active')
-//   console.log('LESS')
-// })
+
 
 const modalFn = (id) => {
   $(`#${id}`).toggleClass('modal-container-active')
 }
+
+
+
+
+function stack() {
+  var rotate, timeline
+
+  rotate = function () {
+    var firstChild = $('.stack-card:first-child')
+    return firstChild.fadeOut(400, 'swing', function () {
+      $('.stack-container').append(firstChild)
+      // return $('.stack-card:first-child').appendTo('.container')
+    }).fadeIn(400, 'swing')
+  }
+
+  // timeline = setInterval(rotate, 1200)
+
+  $('body').hover(function () {
+    return clearInterval(timeline)
+  })
+
+  $('.stack-card').click(function () {
+    return rotate()
+  })
+
+}
+
+// stack()
+
+window.setInterval(function () {
+  var firstChild = $('.stack-card:first-child')
+  return firstChild.fadeOut(400, 'swing', function () {
+    $('.stack-container').append(firstChild)
+    // return $('.stack-card:first-child').appendTo('.container')
+  }).fadeIn(400, 'swing')
+}, 5000)
