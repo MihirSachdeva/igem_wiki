@@ -751,7 +751,7 @@ main.wiki {
 .stack-card-3 {
   background-image: url(../assets/images/images/stack-card-3.jpg) !important;
   background-size: cover !important;
-  background-repeat: no-repeat; !important
+  background-repeat: no-repeat !important;
   background-position: center !important;
 }
 
