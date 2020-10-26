@@ -1055,11 +1055,11 @@ css:
     md5: b5677d5c325401dc0c1a0d0a87cc6810
   css/styles.css:
     link_URL: https://2020.igem.org/Template:IIT_Roorkee/css/stylesCSS?action=raw&ctype=text/css
-    md5: 381935ed83f6a18397e0c5355f1a3d60
+    md5: 03d63d28556f10f1622933e3a6fccd64
 html:
   Attributions/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Attributions
-    md5: 26b9ca6607683a24886e79e5a0806e9b
+    md5: 3d5534faefbe90b02f282158ba4f8b7c
   Collaborations/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Collaborations
     md5: ed406669d5073d6dd596aa0346e60169
@@ -1095,7 +1095,7 @@ html:
     md5: 86557fc49b228f4e584c70713ea7169d
   Judging/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Judging
-    md5: 081f150c460b20588c69fab5ef5ec2aa
+    md5: 039ecf925e2f8971b6f417a3a4fb60c4
   ML_Impact/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/ML_Impact
     md5: 1b067ca0eff6f8bac79ddab9b471b7ca
@@ -1137,16 +1137,16 @@ html:
     md5: a4b71e88e47cd2a3566403e909261f29
   Sponsors/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Sponsors
-    md5: fde53647167af0899c51e8dca03a93c6
+    md5: b6c62c808a1dd30cc3e345a3f44c5a6b
   Sustainable/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Sustainable
     md5: 3fa7168d69bfb8e9f4c2f0f75d9ffd8b
   Team/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Team
-    md5: a6a7ae86d57c16a1da0f5d43562927bd
+    md5: 23c086d17d80c67dd057eeac203be068
   index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee
-    md5: 6771c40bcd42e1097f5542f7b14f5be9
+    md5: 77c000d296c6fe3fa5c856758fc69c65
   team/team.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/team/team
     md5: c679bffc5f95c767fcf06b7de03ffda0

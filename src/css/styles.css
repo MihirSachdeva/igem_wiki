@@ -462,7 +462,7 @@ main.wiki {
   width: 100%;
   margin-top: 0;
   padding: 0 0;
-  height: calc(100vh - 15px);
+  height: calc(100vh - 40px);
   background-image: url(../assets/images/images/bg.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -518,7 +518,7 @@ main.wiki {
   padding: 12px 27px;
   border-radius: 100px;
   border: 2px solid var(--main-green-color);
-  color: #fff;
+  color: #fff !important;
   font-weight: 600;
   transition: all 0.1s ease;
 }
