@@ -1,7 +1,7 @@
 .stack-container {
   position: relative;
   width: 650px;
-  height: 440px;
+  height: 390px;
   margin-bottom: 10px;
 }
 
@@ -156,7 +156,7 @@
 }
 
 .stack-container {
-  margin: 100px auto;
+  margin: 40px auto;
   margin-bottom: 10px;
 }
 
