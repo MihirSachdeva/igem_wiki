@@ -734,6 +734,14 @@ main.wiki {
 .home-section-2 {
 }
 
+.home-section-2-1 {
+  width: 30%;
+}
+
+.home-section-2-2 {
+  width: 60%;
+}
+
 .stack-card-1 {
   background-image: url(../assets/images/images/stack-card-1.tif) !important;
   background-size: cover !important;
@@ -811,15 +819,19 @@ main.wiki {
     width: 100%;
     float: unset;
   }
-  
 }
 
-@media screen and (min-width:768px) {
-  .home-section-1, 
-  .home-section-2, 
-  .home-section-3, 
+@media screen and (min-width: 768px) {
+  .home-section-1,
+  .home-section-2,
+  .home-section-3,
   .home-section-4 {
     margin: 20px 0;
+  }
+
+  .home-section-4 .feature-card {
+    width: 17vw;
+    height: 100%;
   }
 }
 /* HOME COMPONENTS END */

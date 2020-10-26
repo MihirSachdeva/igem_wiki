@@ -399,6 +399,10 @@ assets:
     link_URL: https://2020.igem.org/wiki/images/5/5c/T--IIT_Roorkee--images--images--DryLab_Results_RM_S.png
     md5: cd6197a4b452513a0958f9f4690bae18
     upload_filename: T--IIT_Roorkee--images--images--DryLab_Results_RM_S.png
+  assets/images/images/DryLab_Software_Web_Flow_new.png:
+    link_URL: https://2020.igem.org/wiki/images/1/14/T--IIT_Roorkee--images--images--DryLab_Software_Web_Flow_new.png
+    md5: 22b2a781d8606b5b02d8837ecd8f8e8a
+    upload_filename: T--IIT_Roorkee--images--images--DryLab_Software_Web_Flow_new.png
   assets/images/images/HP_Collab_Logo_1.PNG:
     link_URL: https://2020.igem.org/wiki/images/0/01/T--IIT_Roorkee--images--images--HP_Collab_Logo_1.PNG
     md5: 2714bccdb39465236626d29811342234
@@ -1059,19 +1063,19 @@ css:
 html:
   Attributions/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Attributions
-    md5: 3d5534faefbe90b02f282158ba4f8b7c
+    md5: e40eefb51f358ff3614c49246ca44743
   Collaborations/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Collaborations
     md5: ed406669d5073d6dd596aa0346e60169
   Contribution/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Contribution
-    md5: 8d53d61f888bd4f3ad92901790a067bc
+    md5: bfab807f730138cc735c8552cda3563a
   Description/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Description
-    md5: b807b5f61830dd00e3412609ec9b5423
+    md5: 8ec1d9a8b3768a353f8daca3b541d167
   Design/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Design
-    md5: 9fcee5664e934b3edfe8bc3da45dc53d
+    md5: 30f8b2123d32b7d4bbfc5e1ba737e383
   DryLab_Results/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/DryLab_Results
     md5: 576ae70db3e0fe64aabd71f21e763b48
@@ -1080,19 +1084,19 @@ html:
     md5: 9e676d0d36a7eac291f905a62dd6299e
   Engineering/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Engineering
-    md5: 7e8def55de98c77d409c04ab73cfd38a
+    md5: 8b224fe1d287b467170b963454fa7dd5
   Experiments/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Experiments
-    md5: 9530fe4df22f0a146434137a8d0b98fb
+    md5: 0b64ddc44ba995828b011c9ecde98e5d
   Human_Practices/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Human_Practices
-    md5: d38b9cc20f4874cc6612600aef63f159
+    md5: 2b8edd971789aead40254d1feb681b83
   Implementation/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Implementation
     md5: 0ba1cb76af25be7895827038f9980c45
   Integrated_HP/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Integrated_HP
-    md5: 86557fc49b228f4e584c70713ea7169d
+    md5: daded71a85fc1cc33409414509dd8055
   Judging/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Judging
     md5: 039ecf925e2f8971b6f417a3a4fb60c4
@@ -1101,40 +1105,40 @@ html:
     md5: 1b067ca0eff6f8bac79ddab9b471b7ca
   ML_Model/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/ML_Model
-    md5: 0ffdc601cc1461b36737293ca0daa034
+    md5: 121142399e0069a4dadb5f23ecc10d10
   ML_Overview/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/ML_Overview
-    md5: 131245848d01f7c5d8cc8cf287fddec0
+    md5: 4f2118b20c28a75d966b65d071595443
   ML_Results/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/ML_Results
     md5: 4f12a9e8db15356d79d0373fb7df7a1c
   Model/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Model
-    md5: ec17afff17ca9a14913f755a994b3ab4
+    md5: b37d83c1bbc10498417c3cc707349000
   Notebook/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Notebook
-    md5: 8203e06651a793227716baaeffda1379
+    md5: 3b101a7a1b75e70b172b08dc4420bd18
   Parts/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Parts
     md5: 9af6d68ad63fe36d72d320f609b7a932
   Problem/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Problem
-    md5: a770320abf992c7ffe60d5ef09c50c14
+    md5: 39d8402868a7092b581c9540a304189b
   Protocols/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Protocols
-    md5: bcb2d28be5dd1b6f0971f905cd2cf81b
+    md5: 1565699a47dcf7d905f1539a7ac3fb16
   References/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/References
     md5: 9814d3f4ffc0121c0390db4cc6309c65
   Results/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Results
-    md5: 04be0df3efa0bf2b485d5d35dc7c2e7d
+    md5: c6333c2eb833a72185eacd34f19c7842
   Safety/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Safety
-    md5: 6ae4e8e80a9c6fe61be8af57bd4cfc0b
+    md5: 4baf6d81ca689d1ef4f09b859ad255c8
   Software/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Software
-    md5: a4b71e88e47cd2a3566403e909261f29
+    md5: 0cca9359f861334ae0b10eaf736e9742
   Sponsors/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Sponsors
     md5: b6c62c808a1dd30cc3e345a3f44c5a6b
@@ -1143,10 +1147,10 @@ html:
     md5: 3fa7168d69bfb8e9f4c2f0f75d9ffd8b
   Team/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Team
-    md5: 23c086d17d80c67dd057eeac203be068
+    md5: 864a571c3ce6e2946e86a69dce5a1ec7
   index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee
-    md5: 145d52d2a99662056061a255381449de
+    md5: 02f2f56a91378a12468185aa514242af
   team/team.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/team/team
     md5: c679bffc5f95c767fcf06b7de03ffda0

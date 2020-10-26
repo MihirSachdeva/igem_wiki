@@ -1,6 +1,6 @@
 .stack-container {
   position: relative;
-  width: 400px;
+  width: 650px;
   height: 440px;
   margin-bottom: 10px;
 }
@@ -10,8 +10,8 @@
   top: 0;
   left: 0;
   background: #ffffff;
-  width: 400px;
-  height: 400px;
+  width: 650px;
+  height: 350px;
   border-radius: 4px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   -webkit-transform-origin: center;
