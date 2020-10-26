@@ -16,11 +16,11 @@ body {
 
 ::-moz-selection {
   /* Code for Firefox */
-  background: #7bb8fa50;
+  background: #7bb8fa50 !important;
 }
 
 ::selection {
-  background: #7bb8fa50;
+  background: #7bb8fa50 !important;
 }
 
 div,

@@ -643,6 +643,10 @@ assets:
     link_URL: https://2020.igem.org/wiki/images/9/9e/T--IIT_Roorkee--images--images--ML_model_higher.png
     md5: 744cc1bc9fa782bf374fb44c4b4dc2d0
     upload_filename: T--IIT_Roorkee--images--images--ML_model_higher.png
+  assets/images/images/People_Sponsors_IDT_Logo16_RGB.jpg:
+    link_URL: https://2020.igem.org/wiki/images/a/a3/T--IIT_Roorkee--images--images--People_Sponsors_IDT_Logo16_RGB.jpg
+    md5: 473d243113b5a86ee878a3670db5afb3
+    upload_filename: T--IIT_Roorkee--images--images--People_Sponsors_IDT_Logo16_RGB.jpg
   assets/images/images/Project_Contributions_1.png:
     link_URL: https://2020.igem.org/wiki/images/6/68/T--IIT_Roorkee--images--images--Project_Contributions_1.png
     md5: 64e434af0e568745329fedc7acef243b
@@ -1056,10 +1060,10 @@ css:
     md5: 1b30e38f22057b55ee8656e42ab0f157
   css/stack.css:
     link_URL: https://2020.igem.org/Template:IIT_Roorkee/css/stackCSS?action=raw&ctype=text/css
-    md5: 45cca809678750eca9ed17dd4fdc5523
+    md5: 7fa5b9107bdfad1f8a011007944b51b2
   css/styles.css:
     link_URL: https://2020.igem.org/Template:IIT_Roorkee/css/stylesCSS?action=raw&ctype=text/css
-    md5: 78c921f9ff2c34146c3232820450ec0f
+    md5: bd4763ad9983b55d699110e370169db6
 html:
   Attributions/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Attributions
@@ -1138,16 +1142,16 @@ html:
     md5: 4baf6d81ca689d1ef4f09b859ad255c8
   Software/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Software
-    md5: 0cca9359f861334ae0b10eaf736e9742
+    md5: 8913a969493f7266cf0678743b017539
   Sponsors/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Sponsors
-    md5: b6c62c808a1dd30cc3e345a3f44c5a6b
+    md5: 3aaab78d90e5d517d996f63ceb76efae
   Sustainable/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Sustainable
     md5: 3fa7168d69bfb8e9f4c2f0f75d9ffd8b
   Team/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Team
-    md5: 864a571c3ce6e2946e86a69dce5a1ec7
+    md5: d42d3238dc842c321fabb8e29b755ec2
   index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee
     md5: c66eebd3b47863f7b013c5ca1b546420
