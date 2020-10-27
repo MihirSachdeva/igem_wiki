@@ -193,22 +193,22 @@
           To this end, we have used a class of machine learning algorithms called 
           Support Vector Machines in understanding and uncovering the genetic 
           interaction when a bacterial strain is treated with a particular antibiotic. 
-          We identified <i>Acinetobacter baumannii</i> as  a critical priority pathogen according 
-          to  the World Health Organisation as our target pathogen of interest.
+          We identified <i>Acinetobacter baumannii</i> as our target pathogen since it is a critical priority pathogen according 
+          to the World Health Organisation.
         </p>
         
         <div class="wiki-graphic">
           <img src="../assets/images/images/ML_model_higher.png" alt="ML_Model" class="wiki-graphic-image">
         </div>
-        <br><br><br><br><br>
+        <br><br><br>
 
         <h3 class="wiki-h wiki-h3 wiki-section-start" id="step_1">Step 1: Data Collection</h3>
         <p class="wiki-p">
-          We utilized and selected 1360 strains of <i><i>A. baumannii</i></i> whose AMR phenotypic data was available 
+          We utilized and selected 1360 strains of <i>A. baumannii</i> whose AMR phenotypic data was available 
           in the PATRIC database [1]. The testing data includes the outcome when the strain is treated 
-          with a particular antibiotic. The outcome can be binary i.e. strain can be either resistant or 
+          with a particular antibiotic. The outcome is binary i.e. strain can either be resistant or 
           susceptible to the antibiotic. Strains with verified phenotypes from laboratory data were selected 
-          for the analysis, thus excluding strains that were validated only via computational methods. 
+          for the analysis, thus excluding strains that were validated via computational methods. 
         </p>
 
         <p class="wiki-p">
@@ -269,19 +269,19 @@
 
 
               <tr>
-                <td>Trimethoprim+Sulfamethoxazole</td>
+                <td>Trimethoprim + Sulfamethoxazole</td>
                 <td>Folate disruption</td>
               </tr>
 
 
 
               <tr>
-                <td>Ampicillin+Sulbactam</td>
+                <td>Ampicillin + Sulbactam</td>
                 <td>Cell Wall Synthesis</td>
               </tr>
             </tbody>
           </table>
-        </div><br><br><br><br>
+        </div><br><br>
 
 
         <h3 class="wiki-h wiki-h3 wiki-section-start" id="step_2">Step 2: Genome Annotation</h3>
@@ -290,10 +290,10 @@
           entire set of genes present in all the selected strains. The genome annotation was 
           carried out using Prokka software [2] which is used for prokaryotic genome annotations. 
           This software was able to identify and annotate alleles as well as their respective genes. 
-          The software is publicly available at, 
-          <a href="https://github.com/tseemann/prokka" class="wiki-a">https://github.com/tseemann/prokka</a>. 
+          The software is publicly available, 
+          <a href="https://github.com/tseemann/prokka" class="wiki-a">here</a>. 
           We utilized the bioconda channel of the conda environment to run the software. 
-        </p><br><br><br><br>
+        </p><br><br>
 
 
         <h3 class="wiki-h wiki-h3 wiki-section-start" id="step_3">Step 3: Binarization</h3>
@@ -304,18 +304,18 @@
           gene/allele, the value at that position in the matrix is 1, else 0. In simpler terms, if there 
           are ‘n’ number of genes/alleles in the pan-genome, we represent each strain as a vector of ‘n’ 
           dimensions wherein a particular index of the vector refers to a gene/allele. The value at a 
-          particular index if gene/allele corresponding to that index is present in the strain. 
+          particular index is 1 if gene/allele corresponding to that index is present in the strain. 
           The strains are referred to as examples, while genes/alleles are referred to as features. 
         </p>
         <p class="wiki-p">
           Along with representing the strains in terms of binary vectors, 
           we also collected the phenotype information of strains for a particular 
           antibiotic. So at this stage, we have vector representation of strain i.e. 
-          input and phenotype of strain i.e. output ready. The machine learning algorithm 
+          input and phenotype of strain i.e. output. The machine learning algorithm 
           will be developed to predict the phenotype of strain using gene/allele vector 
           representation of strains. We have used Support Vector Machines (SVMs) as a 
           machine learning algorithm. 
-        </p><br><br><br><br>
+        </p><br><br>
 
 
         <h3 class="wiki-h wiki-h3 wiki-section-start" id="step_4">Step 4: SVM Training</h3>
@@ -326,7 +326,7 @@
           labels in higher-dimensional space, the number of dimensions of this space is usually the 
           number of features which are the number of genes/alleles in this case. Here in our case, 
           the SVM algorithm represents the strains in ‘n’ dimensional space where ‘n’ is the number 
-          of genes/alleles in the pan-genome. Each dimension represents a particular gene/allele 
+          of genes/alleles in the pan-genome. Each dimension represents a particular gene/allele.
         </p>
         <p class="wiki-p">
           After representing the strains in ‘n’ dimensional space, the algorithm tends to find 
@@ -335,13 +335,12 @@
           constructed such that the distance between the hyperplane and the nearest example 
           represented in the space is maximized.<br> 
           The illustration about the working of SVM is shown in the above figure, wherein 
-          the samples are represented in two-dimensional space using two alleles for the sake of simplicity . 
+          the samples are represented in two-dimensional space using two alleles for the sake of simplicity. 
           However in reality, the space is occupied in ‘n’ dimensions. Different hyperplanes are shown 
           which act as the decision boundary for predicting the phenotype, i.e. labels on either side 
           of this boundary will be different. The decision boundary can never be perfect but SVM tries 
           to achieve the most optimal decision boundary based on the examples given.
-        </p><br><br><br><br>
-
+        </p><br><br>
 
         <h3 class="wiki-h wiki-h3 wiki-section-start" id="step5">Step 5: Computation of Weights</h3>
         <p class="wiki-p">
@@ -353,10 +352,11 @@
 
         <div class="wiki-graphic">
           <img src="../assets/images/images/ML_Model_weight_equation_higher.png" alt="Equation" class="wiki-graphic-image">
-          <div class="wiki-graphic-reference">wherein, xi refers to the ith gene/allele and wi refers to the linear coefficient of the ith gene/allele</div>
+          <!--<div class="wiki-graphic-reference">wherein, xi refers to the ith gene/allele and wi refers to the linear coefficient of the ith gene/allele</div>-->
         </div>
-
+        
         <p class="wiki-p">
+          wherein, <i>x<sub>i</sub></i> refers to the <i>i</i><sup>th</sup> gene/allele and <i>w<sub>i</sub></i> refers to the linear coefficient of the <i>i</i><sup>th</sup> gene/allele<br><br>
           This linear coefficient is referred to as the weight of the particular gene/allele and it represents the 
           quantitative  weightage given to the presence/absence of a particular gene/allele while making predictions. 
           The linear coefficient can be positive or negative, wherein the +/- sign decides the impact of the gene/allele 
@@ -364,14 +364,14 @@
         </p>
 
         <p class="wiki-p">
-          We trained SVM not for multiple  iterations since machine learning algorithms are 
+          We trained SVM for multiple  iterations since machine learning algorithms are 
           probabilistic in nature and they tend to produce a different output each time. 
           Running the algorithm for more and more number of iterations helps in achieving more stable and reliable 
           results. We find the hyperplane for each iteration and from where we calculate the weight of the particular 
           gene/allele and represent them as a matrix as shown in the figure. Each row of the matrix represents a 
           particular gene/allele while each column represents a particular iteration of the process. The value at a 
           particular position refers to the weight of the gene/allele in that row during the iteration number of that column.
-        </p><br><br><br><br>
+        </p><br><br>
 
 
         <h3 class="wiki-h wiki-h3 wiki-section-start" id="step6">Step 6: Top AMR alleles</h3>
@@ -392,8 +392,8 @@
           impact of that gene/allele. It must be noted that the absolute weights have no mathematical, or 
           physical, or biological significance, but only provide us an idea about the relative importance 
           of different weights in predicting resistance or susceptibility. They have no absolute 
-          significance but surely relative importance. 
-        </p><br><br><br><br>
+          significance but surely possess a relative importance. 
+        </p><br><br>
 
 
         <h3 class="wiki-h wiki-h3 wiki-section-start" id="step7">Step 7: Correlation analysis</h3>
@@ -410,7 +410,7 @@
           These correlation analyses provide us with an idea of the relationship between two genes/alleles which 
           is further explored while analyzing the impact of a mutation in particular genes on the resistance 
           phenotype of the strain.
-        </p><br><br><br><br>
+        </p><br><br>
 
 
         <h3 class="wiki-h wiki-h3 wiki-section-start" id="step8">Step 8: Mutational Analyses</h3>
@@ -424,28 +424,19 @@
           antibiotic, but not in the case when another gene B was also present along with mutated gene A. 
           We performed these analyses for the pairs with the highest correlation values. These help us to 
           make better conclusions about the relationship between a particular pair of genes/alleles.
-        </p><br><br><br><br>
+        </p><br><br>
 
         <h3 class="wiki-h wiki-h3 wiki-section-start" id="References">References</h3>
         <p class="wiki-p">
           <ol class="wiki-ol">
+            <li>Wattam, A. R. et al. 2013. PATRIC, the bacterial bioinformatics database and analysis resource. <i>Nucleic Acids Research</i>, Database issue (42), pp.581-D591</li>
+            <li>Seemann, T. 2014. Prokka: rapid prokaryotic genome annotation. <i>Bioinformatics</i>, 30(14):2068-9</li>
+            <li>Cortes, C., Vapnik, V. 1995. Support-Vector Networks. <i>Machine Learning</i>, 20, pp.273-297</li>
+            
 
-            <li>PATRIC, the bacterial bioinformatics database and analysis resource, 
-              Wattam A. R. et al., Nucleic Acids Research, Database issue (42), 
-              D581-D591 (2013),  
-              <a href="https://doi.org/10.1093/nar/gkt1099" class="wiki-a">DOI: 10.1093/nar/gkt1099</a>
-            </li>
-
-            <li>Prokka: rapid prokaryotic genome annotation, Seemann T., Bioinformatics, 30(14):2068-9 (2014), 
-              <a href="https://doi.org/10.1093/bioinformatics/btu153" class="wiki-a">DOI: 10.1093/bioinformatics/btu153</a>
-            </li>
-
-            <li>Support-Vector Networks, Cortes C., Vapnik V., Machine Learning, 20, 273-297 (1995),  
-              <a href="https://doi.org/10.1007/BF00994018" class="wiki-a">DOI: 10.1007/BF00994018</a>
-            </li>
-
+            
           </ol>
-        </p><br><br><br><br><br>
+        </p><br><br>
 
 
 
