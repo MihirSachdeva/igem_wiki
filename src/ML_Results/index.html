@@ -138,11 +138,11 @@
     <div class="wiki-content">
 
       <p class="wiki-p">
-        We have utilized a machine learning algorithm over the strain-gene/allele dataset of A. <em>baumannii</em>
+        We have utilized a machine learning algorithm over the strain-gene/allele dataset of <em>A. baumannii</em>
         available from
-        the PATRIC database that can predict the resistance phenotype of strains. In nutshell, we have used the presence
+        the <a href="https://www.patricbrc.org" target="_blank" class="wiki-a">PATRIC</a> database that can predict the resistance phenotype of strains. In nutshell, we have used the presence
         or absence of particular genes or alleles as features in predicting the phenotype of strain. We have utilized
-        the data of 1360 A. <em>baumannii</em> strains along with 10 different antibiotics.
+        the data of 1360 <em>A. baumannii</em> strains for 10 different antibiotics.
       </p>
       <br/><br/><br/>
 
@@ -156,12 +156,12 @@
       <p class="wiki-p">
         The results of machine learning can be summarized in the following two points
       <ol class="wiki-ol">
-        <li>Detection of genes conferring antibiotic resistance</li>
-        <li>Analysis of the effect of mutations on antibiotic resistance</li>
+        <li>Detection of Genes conferring Antibiotic resistance</li>
+        <li>Correlation and Mutational analysis of gene-gene pair</li>
       </ol>
       </p>
 
-      <br><br><br><br>
+      <br>
       
       <h2 class="wiki-h wiki-h2 wiki-section-start" id="wiki_section_1">
 
@@ -170,8 +170,8 @@
 
       <p class="wiki-p">
         The machine-learning algorithm has helped in the identification of genes that are either specific to the
-        mechanism of the particular antibiotic or involved in the novel pathway or target. There are few genes that are
-        involved in basic cellular processes that strongly relate to the survival and growth of A. <em>baumannii</em>.
+        mechanism of the particular antibiotic or involved in the novel pathway/target. There are few genes that are
+        involved in basic cellular processes that strongly relate to the survival and growth of <em> A. baumannii </em>.
         The genes
         corresponding to the particular antibiotic are listed below.
       </p>
@@ -206,45 +206,50 @@
           <tbody>
             <tr>
               <td><i>esiB</i></td>
-              <td>iprofloxacin Levofloxacin</td>
-              <td>GO_esiB</td>
+              <td>Ciprofloxacin<br/>
+              Levofloxacin
+              </td>
+              <td><a href="https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=A0A0H2VDN9" target="_blank" class="wiki-a">GO_esiB</a></td>
               <td>Secretory immunoglobulin <br/>A-binding protein</td>
-              <td>Ref1_esiB</td>
+              <td><a href="https://pubmed.ncbi.nlm.nih.gov/23882011/" target="_blank" class="wiki-a">Ref1_esiB</a></td>
             </tr>
             <tr>
               <td><i>aroP</i></td>
-              <td>iprofloxacin Levofloxacin</td>
-              <td>GO_aroP</td>
+              <td>Ciprofloxacin<br/>
+              Levofloxacin
+              </td>
+              <td><a href="https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=P15993" target="_blank" class="wiki-a">GO_aroP</a></td>
               <td>Aromatic amino acid <br/>transport protein</td>
               <td>-</td>
             </tr>
             <tr>
               <td><i>tnsB</i></td>
               <td>Ciprofloxacin</td>
-              <td>GO_tnsB</td>
+              <td><a href="https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=P13989" target="_blank" class="wiki-a">GO_tnsB</a></td>
               <td>Transposon Tn7 transposition protein</td>
-              <td>Ref1_tnsB</td>
+              <td><a href="https://www.sciencedirect.com/science/article/pii/S1517838216305330" target="_blank" class="wiki-a">Ref1_tnsB</a><br/><a href="https://academic.oup.com/biohorizons/article/3/1/40/228211" target="_blank" class="wiki-a">Ref2_tnsB</a>
+              </td>
             </tr>
             <tr>
               <td><i>xerC</i></td>
               <td>Ciprofloxacin</td>
-              <td>GO_xerC</td>
+              <td><a href="https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=P0A8P6" target="_blank" class="wiki-a">GO_xerC</a></td>
               <td>Tyrosine recombinase</td>
-              <td>Ref1_xerC, Ref2_xerC</td>
+              <td><a href="https://www.mdpi.com/2079-6382/9/7/405" target="_blank" class="wiki-a">Ref1_xerC</a><br/> <a href="https://aac.asm.org/content/54/6/2724" target="_blank" class="wiki-a">Ref2_xerC</a></td>
             </tr>
             <tr>
               <td><i>asnC</i></td>
               <td>Levofloxacin</td>
-              <td>GO_asnC</td>
+              <td><a href="https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=P0ACI6" target="_blank" class="wiki-a">GO_asnC</a></td>
               <td>Regulatory protein, AsnC</td>
-              <td>-</td>
+              <td><a href="https://mbio.asm.org/content/6/6/e01660-15" target="_blank" class="wiki-a">Ref1_asnC</a></td>
             </tr>
             <tr>
               <td><i>puuP</i></td>
               <td>Levofloxacin</td>
-              <td>GO_puup</td>
+              <td><a href="https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=P76037" target="_blank" class="wiki-a">GO_puuP</a></td>
               <td>Putrescine importer</td>
-              <td>Ref1_puuP, Ref2_puuP</td>
+              <td><a href="https://link.springer.com/article/10.1007/s00726-013-1517-x" target="_blank" class="wiki-a">Ref1_puuP</a><br/> <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6731653/" target="_blank" class="wiki-a">Ref2_puuP</a></td>
             </tr>            
           </tbody>
         </table>
@@ -257,32 +262,32 @@
 
 
 
-        <br/><br/><h4 class="wiki-h wiki-h4"><i><b>esiB</b> </i>(Ciprofloxacin and Levofloxacin)</h4>
+        <br/><br/><h4 class="wiki-h wiki-h4"><i><b>esiB</b></i> (Ciprofloxacin and Levofloxacin)</h4>
         <p class="wiki-p">
-          <i>esiB </i>encodes for Secretory immunoglobulin A-binding protein (UP_esiB).
+          <i>esiB </i>encodes for Secretory immunoglobulin A-binding protein (<a href="https://www.uniprot.org/uniprot/A0A0H2VDN9" target="_blank" class="wiki-a">UP_esiB</a>).
           <br /><br />
           <b>GO Molecular function</b>: IgA binding and Metal ion binding
           <br /><br />
           <b>GO Biological function</b>: Negative regulation of immune response and neutrophil activation, and pathogenesis
           <br /><br />
-          <b>Complete GO annotation</b>: GO_esiB
+          <b>Complete GO annotation</b>: <a href=": https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=A0A0H2VDN9" target="_blank" class="wiki-a">GO_esiB</a>
           <br /><br />
-          According to the study of Pastorello <i>et al.</i> (Ref1_esiB), they concluded that <i>esiB </i>helps in secretion of the
+          According to the study of Pastorello <i>et al.</i> (<a href="https://pubmed.ncbi.nlm.nih.gov/23882011/" target="_blank" class="wiki-a">Ref1_esiB</a>), <i>esiB </i>helps in secretion of the
           protein which binds with immunoglobulins in the blood or antibodies helping bacteria escape from neutrophil
           (cell eating bacteria). The neutrophil is the most common White Blood Cells (WBC) in the human body, so these
           proteins help the bacterial pathogen in escaping the immune system pathway in the patients of Urinary Tract
           Infections. The study also concluded that <i>esiB </i>is preferentially associated with extraintestinal strains,
-          while the gene is rarely found in either intestinal or nonpathogenic strains.
+          while the gene is rarely found in either intestinal or nonpathogenic strains of <i>E. coli</i>.
           <br /><br />
           <b>Importance:</b> The presence and importance of this gene in the case of patients with Urinary Tract Infection (one
           of the major Hospital Acquired Infections) make it an important target/gene to explore using wet-lab
           experiments in the case of <i>A. baumannii</i>.
         </p>
-        <br/><br/><h4 class="wiki-h wiki-h4"><i>aroP<b></b> </i>(Ciprofloxacin and Levofloxacin)</h4>
+        <br/><br/><h4 class="wiki-h wiki-h4"><i><b>aroP</b> </i>(Ciprofloxacin and Levofloxacin)</h4>
         <p class="wiki-p">
           <i>aroP </i>encodes for Aromatic amino acid transport protein. It is a permease that is involved in the transport
           across the cytoplasmic membrane of the aromatic amino acids (phenylalanine, tyrosine, and tryptophan),
-          (UP_aroP).
+          (<a href="https://www.uniprot.org/uniprot/P15993" target="_blank" class="wiki-a">UP_aroP</a>).
           <br /><br />
           <b>GO Molecular function</b>: Transmembrane transporter activity of aromatic amino acids
           <br /><br />
@@ -291,20 +296,20 @@
           <b>GO Cellular Component</b>: Integral component of Plasma membrane
           <br /><br />
 
-          <b>Complete GO annotation</b>: GO_aroP
+          <b>Complete GO annotation</b>: <a href="https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=P15993" target="_blank" class="wiki-a">GO_aroP</a>
           <br /><br />
-          Since <i>aroP </i>helps in encoding protein responsible for transportation aromatic amino acids, therefore it is
+          Since <i>aroP</i> helps in encoding protein responsible for transportation aromatic amino acids, therefore it is
           related to very basic cellular functions. Amino acids are important for the process of transcription and
           translation, their transportation plays an important role in these functions.
           <br /><br />
-          <b>Importance:</b> There is a lack of studies conducted for exploring the functioning of <i>aroP </i>in the context of A.
-          baumannii (UP2_aroP), which makes it a novel and important target pathway to be explored for using wet-lab
-          experiments, especially because it is involved in the basic cellular process i.e. amino acid transport.
+          <b>Importance:</b> There is a lack of studies conducted for exploring the functioning of <i>aroP </i>in the context of 
+          <i>A. baumannii</i>, which makes it a novel and important target pathway to be explored for using wet-lab
+          experiments, especially because it is involved in the basic cellular process <i>i.e.</i> amino acid transport.
         </p>
-        <br/><br/><h4 class="wiki-h wiki-h4"><i><b>tnsB</b>tnsB </i>(Ciprofloxacin)</h4>
+        <br/><br/><h4 class="wiki-h wiki-h4"><i><b>tnsB</b> </i>(Ciprofloxacin)</h4>
         <p class="wiki-p">
           <i>tnsB </i>encodes for Transposon Tn7 transposition protein, which are very special proteins helping in cutting,
-          pasting, and making copies of DNA in the chromosome (UP_tnsB).
+          pasting, and making copies of DNA in the chromosome (<a href="https://www.uniprot.org/uniprot/P13989" target="_blank" class="wiki-a">UP_tnsB</a>).
           <br /><br />
           <b>GO Molecular function</b>: DNA Binding, and Transposase activity
           <br /><br />
@@ -312,15 +317,15 @@
           <br /><br />
           <b>GO Cellular Component</b>: Cytoplasmic membrane
           <br /><br />
-          <b>Complete GO annotation</b>: GO_tnsB
+          <b>Complete GO annotation</b>: <a href="https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=P13989" target="_blank" class="wiki-a">GO_tnsB</a>
           <br /><br />
           Ciprofloxacin acts by inhibition of DNA replication by inhibiting bacterial DNA topoisomerase and DNA-gyrase.
           Transposons help in DNA strand breakage which is also carried out by topoisomerase. These facts make it very
           clear that <i>tnsB </i>is an important gene and target in the context of DNA replication and is involved in a similar
           mechanism as that of Ciprofloxacin.
           <br /><br />
-          Tn7 class transposon proteins are associated with carbapenem-resistance in <i>A. baumannii</i> (Ref1_tnsB). The study
-          by Rose (Ref2_tnsB), discovered a novel Tn7-related transposon, Tn<i>AbaR1</i> which contributes to the accumulation
+          Tn7 class transposon proteins are associated with carbapenem-resistance in <i>A. baumannii</i> (<a href="https://www.sciencedirect.com/science/article/pii/S1517838216305330" target="_blank" class="wiki-a">Ref1_tnsB</a>). The study
+          by Rose (<a href="https://academic.oup.com/biohorizons/article/3/1/40/228211" target="_blank" class="wiki-a">Ref2_tnsB</a>), discovered a novel Tn7-related transposon, Tn<i>AbaR1</i> which contributes to the accumulation
           and dissemination of antibiotic resistance genes. According to their study, Tn7 is a well-studied, highly
           promiscuous cut-and-paste transposon, found in a variety of bacteria and mainly important for resistance to
           antibiotics such as trimethoprim and streptomycin.
@@ -332,7 +337,7 @@
         <br/><br/><h4 class="wiki-h wiki-h4"><i><b>xerC</b> </i>(Ciprofloxacin) </h4>
         <p class="wiki-p">
           <i>xerC </i>encodes for tyrosine recombinase, which acts by catalyzing the cutting and rejoining of the recombining
-          DNA molecules.
+          DNA molecules (<a href="https://www.uniprot.org/uniprot/P0A8P6" target="_blank" class="wiki-a">UP_xerC</a>).
           <br /><br />
           <b>GO Molecular function</b>: DNA binding, Site-specific recombinase activity
           <br /><br />
@@ -340,22 +345,22 @@
           <br /><br />
           <b>GO Cellular Component</b>: Cytoplasm
           <br /><br />
-          <b>Complete GO annotation</b>: GO_xerC
+          <b>Complete GO annotation</b>: <a href="https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=P0A8P6" target="_blank" class="wiki-a">GO_xerC</a>
           <br /><br />
           It binds cooperatively to specific DNA consensus sequences that are separated from XerD binding sites by a
           short central region, forming the heterotetrameric XerC-XerD complex is essential to convert dimers of the
           bacterial chromosome into monomers to permit their segregation at cell division. It also contributes to the
-          segregational stability of plasmid. (UP_xerC)
+          segregational stability of plasmid (<a href="https://www.uniprot.org/uniprot/P0A8P6" target="_blank" class="wiki-a">UP_xerC</a>).
           <br /><br />
           During the recombination phase, this complex catalyzes two consecutive pairs of strand exchanges, implying
           that specific pairs of active sites are sequentially switched on and off in the recombinase tetramer to ensure
-          that appropriate DNA strands will be exchanged at both reaction steps. These findings have been made for E.
-          coli and it would be interesting to check for the same in the case of <i>A. baumannii</i>.
+          that appropriate DNA strands will be exchanged at both reaction steps. These findings have been made for 
+          <i>E. coli</i> and it would be interesting to check for the same in the case of <i>A. baumannii</i>.
           <br /><br />
-          According to the study related to <i>A. baumannii</i> conducted by Lin <i>et al.</i> (Ref1_xerC), they concluded that XerC
+          According to the study related to <i>A. baumannii</i> conducted by Lin <i>et al.</i> (<a href="https://www.mdpi.com/2079-6382/9/7/405" target="_blank" class="wiki-a">Ref1_xerC</a>), they concluded that XerC
           and XerD are functional proteins and participate in horizontal dissemination of resistant genes among
           bacteria. The horizontal dissemination or transfer of resistance genes is a major cause of the increase in
-          Antibiotic resistance. Furthermore, the study conducted by Merino <i>et al.</i> (Ref2_xerC), finds that DNA
+          Antibiotic resistance. Furthermore, the study conducted by Merino <i>et al.</i> (<a href="https://aac.asm.org/content/54/6/2724" target="_blank" class="wiki-a">Ref2_xerC</a>), found that DNA
           recombination through the Xer system in plasmids requires XerC and XerD (recombinases). DNA recombination
           helps in the natural editing of the bacterial genome and makes the natural process of evolution faster.
           <br /><br />
@@ -366,43 +371,43 @@
         </p>
         <br/><br/><h4 class="wiki-h wiki-h4"><i><b>asnC</b> </i>(Levofloxacin)</h4>
         <p class="wiki-p">
-          <i>asnC </i>encodes for a regulatory protein called AsnC (UP_asnc).
+          <i>asnC </i>encodes for a regulatory protein called AsnC (<a href="https://www.uniprot.org/uniprot/P0ACI6" target="_blank" class="wiki-a">UP_asnC</a>).
           <br /><br />
           <b>GO Molecular function</b>: Amino acid-binding, DNA-binding transcription activity, and Sequence-specific DNA
           binding
           <br /><br />
           <b>GO Biological function</b>: Positive and negative regulation of transcription, Response to amino acid
           <br /><br />
-          <b>Complete annotation</b>: GO_asnC
+          <b>Complete annotation</b>: <a href="https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=P0ACI6" target="_blank" class="wiki-a">GO_asnC</a>
           <br /><br />
-          The study conducted by Gebhardt <i>et al.</i> (Ref1_asnC), finds the list of around 300 genes which are important for
+          The study conducted by Gebhardt <i>et al.</i> (<a href="https://mbio.asm.org/content/6/6/e01660-15" target="_blank" class="wiki-a">Ref1_asnC</a>), finds the list of around 300 genes which are important for
           the survival and growth of <i>A. baumannii</i>, and find two AsnC/Lrp family regulators as putative transcriptional
           regulators.
           <br /><br />
           <b>Importance:</b> The involvement of <i>asnC </i>in amino acid binding and impacting the process of transcription makes it
-          an interesting pathway to be explored using wet-lab experiments. Like, aroP, it helps bacteria in performing
+          an interesting pathway to be explored using wet-lab experiments. Like, <i>aroP</i>, it helps bacteria in performing
           basic cellular functions which are essential for survival and growth.
         </p>
         <br/><br/><h4 class="wiki-h wiki-h4"><i><b>puuP</b> </i>(Levofloxacin)</h4>
         <p class="wiki-p">
-          <i>puuP </i>encodes for putrescine importer PuuP (UP_puuP)
+          <i>puuP </i>encodes for putrescine importer PuuP (<a href="https://www.uniprot.org/uniprot/P76037" target="_blank" class="wiki-a">UP_puuP</a>)
           <br /><br />
           <b>GO Molecular function</b>: Putrescine transmembrane transporter activity
           <br /><br />
           <b>GO Biological function</b>: Amino acid transport and cellular response to DNA damage stimulus
           <br /><br />
-          <b>Complete annotation</b>: GO_puuP
+          <b>Complete annotation</b>: <a href="https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=P76037" target="_blank" class="wiki-a">GO_puuP</a>
           <br /><br />
-          It is involved in the uptake of Putrescine, and according to a study conducted by Terui <i>et al.</i> (Ref1_puuP) it
+          It is involved in the uptake of Putrescine, and according to a study conducted by Terui <i>et al.</i> (<a href="https://link.springer.com/article/10.1007/s00726-013-1517-x" target="_blank" class="wiki-a">Ref1_puuP</a>) it
           helps in the import of putrescine to be utilized as an energy resource in absence of glucose. Further, it has
           a biological process of helping in the cellular response to DNA damage, and given the fact that Levofloxacin
           is involved in the mechanism of DNA replication which makes it a very interesting and prospective pathway to
           be explored.
           <br /><br />
-          According to the study by Hassan <i>et al.</i> (Ref2_puuP), <i>A. baumannii</i> encodes for the transport protein AceI,
+          According to the study by Hassan <i>et al.</i> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6731653/" target="_blank" class="wiki-a">Ref2_puuP</a>), <i>A. baumannii</i> encodes for the transport protein AceI,
           which confers resistance to chlorhexidine, a widely used antiseptic. They also concluded that several gene
-          expression studies have revealed that the <i>aceI</i> gene responsible for encoding AceI protein is induced in A.
-          baumannii by the short-chain diamines cadaverine and putrescine. It helps us in understanding the indirect
+          expression studies have revealed that the <i>aceI</i> gene responsible for encoding AceI protein is induced in 
+          <i>A. baumannii</i> by the short-chain diamines cadaverine and putrescine. It helps us in understanding the indirect
           involvement of putrescine imported by <i>puuP </i>in antibiotic resistance.
           <br /><br />
           <b>Importance:</b> <i>puuP </i>helps in conferring resistance to chlorhexidine, it would be very important to check for the
@@ -410,35 +415,6 @@
         </p>
         <!--Links to be added (garbage links)-->
         <br><br><br>
-        <p class="wiki-p"><b>Links:</b></p>
-        <p class="wiki-p">
-          GO_esiB: https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=A0A0H2VDN9<br>
-          GO_aroP: https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=P15993<br/>
-          GO_tnsB: https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=P13989<br/>
-          GO_xerC: https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=P0A8P6<br/>
-          GO_asnC: https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=P0ACI6<br/>
-          GO_puuP: https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=P76037<br/>
-<br/>
-          UP_esiB: https://www.uniprot.org/uniprot/A0A0H2VDN9<br/>
-          UP_aroP: https://www.uniprot.org/uniprot/P15993<br/>
-          UP_tnsB: https://www.uniprot.org/uniprot/P13989<br/>
-          UP_xerC: https://www.uniprot.org/uniprot/P0A8P6<br/>
-          UP_asnc: https://www.uniprot.org/uniprot/P0ACI6<br/>
-          UP_puuP: https://www.uniprot.org/uniprot/P76037<br/>
-<br/>
-          Ref1_esiB: https://pubmed.ncbi.nlm.nih.gov/23882011/<br/>
-          Ref1_tnsB: https://www.sciencedirect.com/science/article/pii/S1517838216305330<br/>
-          Ref1_xerC: https://www.mdpi.com/2079-6382/9/7/405<br/>
-          Ref2_xerC: https://aac.asm.org/content/54/6/2724<br/>
-          Ref1_puuP: https://link.springer.com/article/10.1007/s00726-013-1517-x<br/>
-          Ref2_puuP: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6731653/<br/>
-
-        </p>
-
-
-
-
-
       </div>
 
       <!--Dropdown2-->
@@ -471,52 +447,66 @@
           <tbody>
             <tr>
               <td><i>aadB</i></td>            
-              <td>Gentamicin
-                Tobramycin
+              <td>Gentamicin<br/>
+                Tobramycin<br/>
                 Amikacin
-                </td>            
-              <td>GO_aadB</td>            
+              </td>            
+              <td><a href="https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=P0AE04" target="_blank" class="wiki-a">GO_aadB</a></td>            
               <td>Antibiotic inactivation</td>            
-              <td>CARD_aadB, Ref1_aadB, Ref2_aadB, Ref3_aadB, Ref4_aadB</td>            
+              <td><a href="https://card.mcmaster.ca/ontology/36369" target="_blank" class="wiki-a">CARD_aadB</a><br/>
+                <a href="https://www.clin-lab-publications.com/article/3088" target="_blank" class="wiki-a">Ref1_aadB</a><br/>
+                <a href="https://msphere.asm.org/content/3/4/e00271-18" target="_blank" class="wiki-a">Ref2_aadB</a><br/>
+                <a href="https://academic.oup.com/jac/article-abstract/75/10/2760/5873331" target="_blank" class="wiki-a">Ref3_aadB</a><br/>
+                <a href="https://ann-clinmicrob.biomedcentral.com/articles/10.1186/s12941-017-0250-9" target="_blank" class="wiki-a">Ref4_aadB</a></td>            
             </tr>
             <tr>
               <td><i>neo</i></td>   
-              <td>Gentamicin
-                Tobramycin
+              <td>Gentamicin<br/>
+                Tobramycin<br/>
                 Amikacin
-                </td>          
-              <td>GO_neo</td>            
+              </td>           
+              <td><a href="https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=P00552" target="_blank"  class="wiki-a">GO_neo</a></td>            
               <td>Kanamycin kinase activity</td>            
               <td>-</td>      
                          
             </tr>
             <tr>
               <td><i>msr(E)</i></td>
-              <td></td>                        
-              <td>GO_msrE</td>            
+              <td>Gentamicin<br/>
+                Tobramycin<br/>
+                Amikacin
+              </td>                          
+              <td><a href="https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=F6M9M9" target="_blank" class="wiki-a">GO_msrE</a></td>            
               <td>Plasmid DNA</td>            
-              <td>Ref1_msrE, Ref2_msrE, Ref3_msrE, Ref4_msrE</td>            
+              <td><a href="https://aac.asm.org/content/61/8/e00780-17" target="_blank" class="wiki-a">Ref1_msrE</a><br/>
+                <a href="https://ann-clinmicrob.biomedcentral.com/articles/10.1186/s12941-019-0344-7" target="_blank" class="wiki-a">Ref2_msrE</a><br/>
+                <a href="https://academic.oup.com/jac/article/74/6/1484/5370329" target="_blank" class="wiki-a">Ref3_msrE</a><br/>
+                <a href="https://ann-clinmicrob.biomedcentral.com/articles/10.1186/s12941-017-0250-9" target="_blank" class="wiki-a">Ref4_msrE</a></td>            
             </tr>
             <tr>
               <td><i>emrE</i></td>            
               <td>Gentamicin</td>            
-              <td>GO_emrE</td>            
+              <td><a href="https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=P23895" target="_blank" class="wiki-a">GO_emrE</a></td>            
               <td>Antibiotic efflux</td>            
-              <td>CARD_emrE</td>            
+              <td><a href="https://card.mcmaster.ca/ontology/36403" target="_blank" class="wiki-a">CARD_emrE</a></td>            
             </tr>
             <tr>
               <td><i>cysL</i></td>            
               <td>Tobramycin</td>            
-              <td>GO_cysL</td>            
+              <td><a href="https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=A0A0M3FB12" target="_blank" class="wiki-a">GO_cysL</a></td>            
               <td>DNA binding</td>            
               <td>-</td>            
             </tr>
             <tr>
               <td><i>rmtB</i></td>            
               <td>Amikacin</td>            
-              <td>GO_rmtB</td>            
+              <td><a href="https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=Q763K9" target="_blank" class="wiki-a">GO_rmtB</a></td>            
               <td>Antibiotic target alteration</td>            
-              <td>CARD_rmtB, Ref1_rmtB, Ref2_rmtB, Ref3_rmtB, Ref4_rmtB </td>            
+              <td><a href="https://card.mcmaster.ca/ontology/37240" target="_blank" class="wiki-a">CARD_rmtB</a><br/>
+                <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3680199/" target="_blank" class="wiki-a">Ref1_rmtB</a><br/>
+                <a href="https://www.jkms.org/Synapse/Data/PDFData/0063JKMS/jkms-33-e262.pdf" target="_blank" class="wiki-a">Ref2_rmtB</a><br/>
+                <a href="https://pubmed.ncbi.nlm.nih.gov/17875999/" target="_blank" class="wiki-a">Ref3_rmtB</a><br/>
+                <a href="https://www.spandidos-publications.com/10.3892/etm.2016.3828#b13-etm-0-0-3828" target="_blank" class="wiki-a">Ref4_rmtB</a></td>            
             </tr> 
             
           </tbody>
@@ -534,110 +524,105 @@
 
         <br/><br/><h4 class="wiki-h wiki-h4"><i><b>aadB</b> </i>(Gentamicin, Tobramycin and Amikacin)</h4>
         <p class="wiki-p">
-          <i>aadB </i>encodes for 2''-aminoglycoside nucleotidyltransferase (UP_aadB)
+          <i>aadB </i>encodes for 2''-aminoglycoside nucleotidyltransferase (<a href="https://www.uniprot.org/uniprot/P0AE04" target="_blank" class="wiki-a">UP_aadB</a>)
           <br /><br />
           It helps in mediating bacterial resistance to kanamycin, gentamicin, dibekacin, sisomicin, and tobramycin by
-          adenylate the 2''-hydroxyl group of these antibiotics in <i>K. pneumoniae </i>(UP_Kp_aadB) and kanamycin, gentamicin,
-          and tobramycin in <i>E. coli</i> (UP_aadB).
+          adenylate the 2''-hydroxyl group of these antibiotics in <i>K. pneumoniae </i>(<a href="https://www.uniprot.org/uniprot/P0AE05" target="_blank" class="wiki-a">UP_Kp_aadB</a>) and kanamycin, gentamicin,
+          and tobramycin in <i>E. coli</i> (<a href="https://www.uniprot.org/uniprot/P0AE04" target="_blank" class="wiki-a">UP_aadB</a>).
           <br /><br />
           <b>GO Molecular function</b>: Aminoglycoside 2''-nucleotidyltransferase activity, and Metal ion binding
           <br /><br />
           <b>GO Biological function</b>: Response to antibiotic and Antibiotic resistance
           <br /><br />
-          <b>Complete annotation</b>: GO_aadB
+          <b>Complete annotation</b>: <a href="https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=P0AE04" target="_blank" class="wiki-a">GO_aadB</a>
           <br /><br />
           <i>aadB </i>is a resistance-conferring gene which is confirmed by one of the most essential and relevant databases
-          i.e. The Comprehensive Antibiotic Resistance Database (CARD). It works by the mechanism of antibiotic
-          inactivation and confers resistance to aminoglycoside antibiotics (CARD_aadB).
+          <i>i.e.</i> The Comprehensive Antibiotic Resistance Database (CARD). It works by the mechanism of antibiotic
+          inactivation and confers resistance to aminoglycoside antibiotics (<a href="https://card.mcmaster.ca/ontology/36369" target="_blank" class="wiki-a">CARD_aadB</a>).
           <br /><br />
-          The study conducted by Rizk <i>et al.</i> (Ref1_aadB) involves the collection of clinical samples of <i>A. baumannii</i>
-          strains from intensive care units (ICUs) patients with suspected hospital-acquired infections followed by
+          The study conducted by Rizk <i>et al.</i> (<a href="https://www.clin-lab-publications.com/article/3088" target="_blank" class="wiki-a">Ref1_aadB</a>) involved the collection of clinical samples of <i>A. baumannii</i>
+          strains from patients in Intensive Care Units (ICUs) with suspected hospital-acquired infections followed by
           checking them for resistance to aminoglycoside antibiotics. The study concluded that the most common prevalent
           resistant genes among <i>A. baumannii</i> resistance to aminoglycosides was <i>aadB </i>with a contribution towards
           antibiotic resistance as high as 42%. Since this study involves strains taken from hospitals with suspected
           infections, it makes it essential for our novel protein-based drug to be checked for its efficacy against
-          aadB.
+          <i>aadB</i>.
           <br /><br />
-          As per the study by Anderson <i>et al.</i> (Ref2_aadB), in <i>A. baumannii</i> AB5075, a large plasmid (p1AB5075) carries
-          aadB, a 2″-nucleotidyltransferase that confers resistance to both tobramycin and gentamicin but not amikacin.
+          As per the study by Anderson <i>et al.</i> (<a href="https://msphere.asm.org/content/3/4/e00271-18" target="_blank" class="wiki-a">Ref2_aadB</a>), in <i>A. baumannii</i> AB5075, a large plasmid (p1AB5075) carries
+          <i>aadB</i>, a 2″-nucleotidyltransferase that confers resistance to both tobramycin and gentamicin but not amikacin.
           It is very important in the case of our machine learning approach since our approach ranks <i>aadB </i>as the most
           important feature (gene/allele) in the case of Gentamicin and Tobramycin but not in the case of Amikacin.
           <br /><br />
-          The study conducted by Chan <i>et al.</i> (Ref3_aadB), found a novel antibiotic resistance island in <i>A. baumannii</i> by
+          The study conducted by Chan <i>et al.</i> (<a href="https://academic.oup.com/jac/article-abstract/75/10/2760/5873331?redirectedFrom=fulltext" target="_blank" class="wiki-a">Ref3_aadB</a>), found a novel antibiotic resistance island in <i>A. baumannii</i> by
           analyzing genomes of several isolates collected from the US hospital system. They further concluded that after
-          sequencing the genomes to completion, they found tobramycin-resistance gene aadB.
+          sequencing the genomes to completion, they found tobramycin-resistance gene <i>aadB</i>.
           <br /><br />
-          Si-Tuan <i>et al.</i>, (Ref4_aadB) characterized the genome of the <i>A. baumannii</i> strain DMS06669 which was isolated
-          from the sputum of a male patient with hospital-acquired pneumonia, and identified genes related to antibiotic
+          Si-Tuan <i>et al.</i>, (<a href="https://ann-clinmicrob.biomedcentral.com/articles/10.1186/s12941-017-0250-9" target="_blank" class="wiki-a">Ref4_aadB</a>, <a href="https://ann-clinmicrob.biomedcentral.com/articles/10.1186/s12941-017-0250-9" target="_blank" class="wiki-a">Ref4_msrE</a>) characterized the genome of the <i>A. baumannii</i> strain DMS06669 which was isolated from the sputum of a male patient with hospital-acquired pneumonia, and identified genes related to antibiotic
           resistance. They find <i>aadB </i>which is majorly resistant to gentamicin, as one of the genes responsible for
           conferring resistance in the strain.
           <br /><br />
-          <b>Importance:</b> These several studies make it very clear that <i>aadB </i>is an important gene especially considering
-          aminoglycoside antibiotics. Moreover, the presence of resistance by <i>aadB </i>to majorly gentamicin and tobramycin
-          but not amikacin further validates the effectiveness of our machine learning analysis as <i>aadB </i>was the top
+          <b>Importance:</b> These several studies make it very clear that <i>aadB </i>is an important gene especially considering resistance towards aminoglycoside antibiotics. Moreover, the presence of resistance by <i>aadB </i>to majorly gentamicin and tobramycin but not amikacin further validates the effectiveness of our machine learning analysis as <i>aadB </i>was the top
           feature in the first two antibiotics but not in the latter.
         </p>
 
         <br/><br/><h4 class="wiki-h wiki-h4"><i><b>neo </b></i>(Gentamicin, Tobramycin and Amikacin) </h4>
         <p class="wiki-p">
-          <i>neo </i>encodes Aminoglycoside 3'-phosphotransferase (UP_neo)
+          <i>neo </i>encodes Aminoglycoside 3'-phosphotransferase (<a href="https://www.uniprot.org/uniprot/P00552" target="_blank" class="wiki-a">UP_neo</a>)
           <br /><br />
           <b>GO Molecular function</b>: ATP binding, Kanamycin kinase activity
           <br /><br />
           <b>GO Biological function</b>: Response to antibiotic and Antibiotic resistance
           <br /><br />
-          <b>Complete GO annotation</b>: GO_neo
+          <b>Complete GO annotation</b>: <a href="https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=P00552" target="_blank"  class="wiki-a">GO_neo</a>
           <br /><br />
           It helps in providing resistance to kanamycin, neomycin, paromomycin, ribostamycin, butirosin, and gentamicin
           B in the case of <i>K. pneumoniae</i>. This enzyme is encoded by the kanamycin and neomycin resistance transposon
-          Tn5. Tn5 was originally isolated from K.pneumoniae, but has been transferred to a number of bacteria including
-          E.coli. Since it has been transferred to <i>E. coli</i>, it is quite important to check for its relevance in the case
+          Tn5. Tn5 was originally isolated from <i>K. pneumoniae</i>, but has been transferred to a number of bacteria including
+          <i>E. coli</i>. Since it has been transferred to <i>E. coli</i>, it is quite important to check for its relevance in the case
           of <i>A. baumannii</i>.
           <br /><br />
           <b>Importance:</b> There has been a lack of literature studies conducted for <i>neo </i>in the context of <i>A. baumannii</i>, but
           it targets using protein pathway which is similar in mechanism to aminoglycoside antibiotics. Moreover, as
-          mentioned before, it would be interesting to check for its relevance in <i>A. baumannii</i>.
+          mentioned before, it would be interesting to check for its relevance in <i>A. baumannii</i> in context of our novel protein-based drug.
 
         </p>
         <br/><br/><h4 class="wiki-h wiki-h4"><i><b>msr(E)</b> </i>(Gentamicin, Tobramycin and Amikacin)</h4>
         <p class="wiki-p">
-          <i>msr(E) </i>encodes for ABC-F type ribosomal protection protein (UP_msrE).
+          <i>msr(E) </i>encodes for ABC-F type ribosomal protection protein (<a href="https://www.uniprot.org/uniprot/F6M9M9" target="_blank" class="wiki-a">UP_msrE</a>).
           <br /><br />
           <b>GO Molecular function</b>: ATPase binding and ATP binding
           <br /><br />
-          <b>Complete annotation</b>: GO_msrE
+          <b>Complete annotation</b>: <a href="https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=F6M9M9" target="_blank" class="wiki-a">GO_msrE</a>
           <br /><br />
           <i>msr(E) </i>is a resistant conferring gene as per the Comprehensive Antibiotic Resistance Database (CARD) and
-          provides resistance through antibiotic target alteration (CARD_msrE). Furthermore, as per CARD, Msr(E) is an
+          provides resistance through antibiotic target alteration (<a href="https://card.mcmaster.ca/ontology/39685" target="_blank" class="wiki-a">CARD_msrE</a>). Furthermore, as per CARD, Msr(E) is an
           ABC-F subfamily protein expressed to <i>K. pneumoniae </i>that confers resistance to erythromycin and streptogramin B
           antibiotics. It is associated with plasmid DNA. It is also 100% identical to ABC-F type ribosomal protection
           protein Msr(E) which is in multiple species. Since it is associated with plasmid DNA, it becomes an important
           factor in horizontal transfer and dissemination of antibiotic resistance.
           <br /><br />
-          Blackwell and Hall (Ref1_msrE) find in their study that macrolide resistance genes msrE and <i>mphE</i> were present
+          Blackwell and Hall (<a href="https://aac.asm.org/content/61/8/e00780-17" target="_blank" class="wiki-a">Ref1_msrE</a>) find in their study that macrolide resistance genes <i>msrE</i> and <i>mphE</i> were present
           in an 18.2-kb plasmid of <i>A. baumannii</i> isolate from Singapore which confers resistance to erythromycin and
           tetracycline, both of which follow protein synthesis mechanism.
           <br /><br />
-          A study conducted by Karah <i>et al.</i> (Ref2_msrE) concluded that <i>msr(E) </i>is one of the resistance genes present in
-          clinical isolates of <i>A. baumannii</i> in Pakistan. The study by Kumburu <i>et al.</i> (Ref3_msrE) utilized Whole Genome
+          A study conducted by Karah <i>et al.</i> (<a href="https://ann-clinmicrob.biomedcentral.com/articles/10.1186/s12941-019-0344-7" target="_blank" class="wiki-a">Ref2_msrE</a>) concluded that <i>msr(E) </i>is one of the resistance genes present in
+          clinical isolates of <i>A. baumannii</i> in Pakistan. The study by Kumburu <i>et al.</i> (<a href="https://academic.oup.com/jac/article/74/6/1484/5370329" target="_blank" class="wiki-a">Ref3_msrE</a>) utilized Whole Genome
           Sequencing (WGS) to identify resistance-conferring genes in MDR <i>A. baumannii</i> in Tanzania. They found several
           antibiotic resistance genes some of which were present in chromosomes while some on plasmids. <i>msr(E) </i>was
           detected as an antibiotic resistance gene that is present on plasmids and playing an important role in the
           spreading of the resistance.
           <br /><br />
-          Similar to the case of aadB, the study conducted by Si-Tuan <i>et al.</i>, (Ref4_aadB, Ref4_msrE) identified msr(E)
-          which is majorly resistant to streptogramin, which follows the similar mechanism as of aminoglycoside
-          antibiotics.
+          Similar to the case of <i>aadB</i>, the study conducted by Si-Tuan <i>et al.</i>, (<a href="https://ann-clinmicrob.biomedcentral.com/articles/10.1186/s12941-017-0250-9" target="_blank" class="wiki-a">Ref4_aadB</a>, <a href="https://ann-clinmicrob.biomedcentral.com/articles/10.1186/s12941-017-0250-9" target="_blank" class="wiki-a">Ref4_msrE</a>) identified <i>msr(E)</i> which is majorly resistant to streptogramin, which follows the similar mechanism as of aminoglycoside antibiotics.
           <br /><br />
           <b>Importance:</b> As shown by several studies, <i>msr(E) </i>is responsible for resistance to several antibiotics like
           macrolide, streptogramin, etc, which follow a similar mechanism to those of aminoglycosides, it becomes
-          exciting and interesting to check for its relevance to Gentamicin, Tobramycin, and Amikacin.
+          exciting and interesting to check for its relevance to Gentamicin, Tobramycin, and Amikacin in case of <i>A. baumannii</i>.
 
         </p>
 
         <br/><br/><h4 class="wiki-h wiki-h4"><i><b>emrE </b></i>(Gentamicin)</h4>
         <p class="wiki-p">
-          <i>emrE </i>encodes for Multidrug transporter EmrE (UP_emrE).
+          <i>emrE </i>encodes for Multidrug transporter EmrE (<a href="https://www.uniprot.org/uniprot/P23895" target="_blank" class="wiki-a">UP_emrE</a>).
           <br /><br />
 
 
@@ -645,14 +630,14 @@
           <br /><br />
           <b>GO Biological function</b>: Cellular response to DNA damage stimulus, Response to drug, etc.
           <br /><br />
-          <b>Complete GO annotation</b>: GO_emrE
+          <b>Complete GO annotation</b>: <a href="https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=P23895" target="_blank" class="wiki-a">GO_emrE</a>
           <br /><br />
           It is a multidrug efflux protein that confers resistance to a wide range of toxic compounds, including
           ethidium, methyl viologen, acriflavine, tetraphenylphosphonium (TPP+), benzalkonium, propidium, dequalinium,
-          and the aminoglycoside antibiotics streptomycin and tobramycin (UP_emrE).
+          and the aminoglycoside antibiotics streptomycin and tobramycin (<a href="https://www.uniprot.org/uniprot/P23895" target="_blank" class="wiki-a">UP_emrE</a>).
           <br /><br />
           Further, as per the Comprehensive Antibiotic Resistance Database (CARD), EmrE is a small multidrug transporter
-          and works by antibiotic efflux mechanism to confer antibiotic resistance (CARD_emrE).
+          and works by antibiotic efflux mechanism to confer antibiotic resistance (<a href="https://card.mcmaster.ca/ontology/36403" target="_blank" class="wiki-a">CARD_emrE</a>).
           <br /><br />
           <b>Importance:</b> <i>emrE </i>is majorly found in <i>P. aeruginosa </i>and <i>E. coli</i>, which makes it quite interesting to check for
           existence on <i>A. baumannii</i> genomes. Moreover, it has been shown to be causing resistance to Tobramycin while
@@ -663,32 +648,30 @@
         <br/><br/><h4 class="wiki-h wiki-h4"><i><b>cysL</b> </i>(Tobramycin)</h4>
 
         <p class="wiki-p">
-          <i>cysL </i>encodes for HTH-type transcriptional regulator CysL (UP_cysL).
+          <i>cysL </i>encodes for HTH-type transcriptional regulator CysL (<a href="https://www.uniprot.org/uniprot/A0A0M3FB12" target="_blank" class="wiki-a">UP_cysL</a>).
           <br /><br />
           <b>GO Molecular function</b>: DNA-binding transcription factor activity
           <br /><br />
           <b>GO Biological function</b>: DNA-templated regulation of transcription
           <br /><br />
-
-
-          <b>Complete GO annotation</b>: GO_cysL
+          <b>Complete GO annotation</b>: <a href="https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=A0A0M3FB12" target="_blank" class="wiki-a">GO_cysL</a>
           <br /><br />
-          There is a lack of literature evidence in the case of cysL, but it has been identified as one of the topmost
+          There is a lack of literature evidence in the case of <i>cysL</i>, but it has been identified as one of the topmost
           features in the case of Tobramycin, and given the fact our machine learning has identified several genes
           confirming to literature evidence, <i>cysL </i>is one of the novel genes uncovered by our algorithm responsible for
           antibiotic resistance.
           <br /><br />
 
 
-          <b>Importance:</b> It would be interesting to check the relevance and importance of <i>cysL </i>in the context of A.
-          baumannii and our novel protein-based drug as well, as it has been detected as the topmost feature by machine
+          <b>Importance:</b> It would be interesting to check the relevance and importance of <i>cysL </i>in the context of <i>A.
+          baumannii</i> and our novel protein-based drug as well, as it has been detected as the topmost feature by machine
           learning.
 
         </p>
         <br/><br/><h4 class="wiki-h wiki-h4"><i><b>rmtB</b> </i>(Amikacin)</h4>
 
         <p class="wiki-p">
-          <i>rmtB </i>encodes for 16S rRNA (guanine(1405)-N(7))-methyltransferase (UP_rmtB).
+          <i>rmtB </i>encodes for 16S rRNA (guanine(1405)-N(7))-methyltransferase (<a href="https://www.uniprot.org/uniprot/Q763K9" target="_blank" class="wiki-a">UP_rmtB</a>).
           <br /><br />
 
 
@@ -696,30 +679,29 @@
           <br /><br />
           <b>GO Biological function</b>: Response to antibiotic and Antibiotic resistance
           <br /><br />
-          <b>Complete GO annotation</b>: GO_rmtB
+          <b>Complete GO annotation</b>: <a href="https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=Q763K9" target="_blank" class="wiki-a">GO_rmtB</a>
           <br /><br />
 
 
           <i>rmtB </i>encoding protein specifically methylated the N7 position of guanine 1405 in 16S rRNA, and conferring
-          resistance to various aminoglycosides (UP_rmtB).
+          resistance to various aminoglycosides (<a href="https://www.uniprot.org/uniprot/Q763K9" target="_blank" class="wiki-a">UP_rmtB</a>).
           <br /><br />
           It is a resistance gene as per the Comprehensive Antibiotic Resistance Database (CARD), which works with the
           mechanism of antibiotic target alteration and belongs to the drug class of aminoglycoside antibiotics
-          (CARD_rmtB).
+          (<a href="https://card.mcmaster.ca/ontology/37240" target="_blank" class="wiki-a">CARD_rmtB</a>).
           <br /><br />
 
-          Tada <i>et al.</i> (Ref1_rmtB) conducted a study on strains of <i>A. baumannii</i> and <i>P. aeruginosa </i>isolated from patients
+          Tada <i>et al.</i> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3680199/" target="_blank" class="wiki-a">Ref1_rmtB</a>) conducted a study on strains of <i>A. baumannii</i> and <i>P. aeruginosa </i>isolated from patients
           in intensive care units (ICUs) in two medical settings in Vietnam and out of which 71.3% strains were highly
           resistant to amikacin and gentamicin. They further concluded that, 16S rRNA methylase RmtB was produced by 9
-          strains (of 101) of <i>A. baumannii</i> and 2 (of 15) strains of <i>P. aeruginosa </i>and 16S rRNA methylase producing
-          organism are emerging.
+          strains (of 101) of <i>A. baumannii</i> and 2 (of 15) strains of <i>P. aeruginosa </i>.
           <br /><br />
 
 
-          The study by Lee <i>et al.</i> (Ref2_rmtB) analyzed amikacin resistant strains of gram-negative bacteria in Korea and
-          concluded that armA and <i>rmtB </i>were genes predominantly responsible for the resistance.
+          The study by Lee <i>et al.</i> (<a href="https://www.jkms.org/Synapse/Data/PDFData/0063JKMS/jkms-33-e262.pdf" target="_blank" class="wiki-a">Ref2_rmtB</a>) analyzed amikacin resistant strains of gram-negative bacteria in Korea and
+          concluded that <i>armA</i> and <i>rmtB </i>were genes predominantly responsible for the resistance.
           <br /><br />
-          Wachino <i>et al.</i> (Ref3_rmtB) and Wang <i>et al.</i> (Ref4_rmtB) concluded that 16S rRNA methylases, which lead to the
+          Wachino <i>et al.</i> (<a href="https://pubmed.ncbi.nlm.nih.gov/17875999/" target="_blank" class="wiki-a">Ref3_rmtB</a>) and Wang <i>et al.</i> (<a href="https://www.spandidos-publications.com/10.3892/etm.2016.3828#b13-etm-0-0-3828" target="_blank" class="wiki-a">Ref4_rmtB</a>) concluded that 16S rRNA methylases, which lead to the
           high-level resistance of various aminoglycosides, can easily transfer to other bacteria since their genes are
           typically present on plasmids. The transfer of genes plays an important role in horizontal gene transfer and
           the dissemination of antibiotic resistance.
@@ -730,41 +712,7 @@
         </p>
         <!--Links to be added (garbage links)-->
         <br><br><br>
-        <p class="wiki-p"><b>Links:</b></p>
-        <p class="wiki-p">
-          GO_aadB: https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=P0AE04<br/>
-          GO_neo: https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=A0A086HV77<br/>
-          GO_msrE: https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=A5Y460<br/>
-          GO_emrE: https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=P23895<br/>
-          GO_cysL: https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=A0A0M3FB12<br/>
-          GO_rmtB: https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=Q763K9<br/>
-<br/>
-          UP_aadB: https://www.uniprot.org/uniprot/P0AE04<br/>
-          UP_Kp_aadB: https://www.uniprot.org/uniprot/P0AE05<br/>
-          UP_neo: https://www.uniprot.org/uniprot/P00552<br/>
-          UP_msrE: https://www.uniprot.org/uniprot/A5Y460<br/>
-          UP_emrE: https://www.uniprot.org/uniprot/P23895<br/>
-          UP_cysL: https://www.uniprot.org/uniprot/A0A0M3FB12<br/>
-          UP_rmtB: https://www.uniprot.org/uniprot/Q763K9<br/>
-<br/>
-          CARD_aadB: https://card.mcmaster.ca/ontology/36369<br/>
-          CARD_emrE: https://card.mcmaster.ca/ontology/36403<br/>
-          CARD_rmtB: https://card.mcmaster.ca/ontology/37240<br/>
-<br/>
-          Ref1_aadB: https://www.clin-lab-publications.com/article/3088<br/>
-          Ref2_aadB: https://msphere.asm.org/content/3/4/e00271-18<br/>
-          Ref3_aadB: https://academic.oup.com/jac/article-abstract/75/10/2760/5873331?redirectedFrom=fulltext<br/>
-          Ref4_aadB: https://ann-clinmicrob.biomedcentral.com/articles/10.1186/s12941-017-0250-9<br/>
-          Ref1_msrE: https://aac.asm.org/content/61/8/e00780-17<br/>
-          Ref2_msrE: https://ann-clinmicrob.biomedcentral.com/articles/10.1186/s12941-019-0344-7<br/>
-          Ref3_msrE: https://academic.oup.com/jac/article/74/6/1484/5370329<br/>
-          Ref4_msrE: https://ann-clinmicrob.biomedcentral.com/articles/10.1186/s12941-017-0250-9<br/>
-          Ref1_rmtB: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3680199/<br/>
-          Ref2_rmtB: https://www.jkms.org/Synapse/Data/PDFData/0063JKMS/jkms-33-e262.pdf<br/>
-          Ref3_rmtB: https://pubmed.ncbi.nlm.nih.gov/17875999/<br/>
-          Ref4_rmtB: https://www.spandidos-publications.com/10.3892/etm.2016.3828#b13-etm-0-0-3828<br/>
 
-        </p>
 
       </div>
 
@@ -799,44 +747,52 @@
             <tr>
               <td>glmM</td>            
               <td>Ceftriaxone</td>            
-              <td>GO_glmM</td>            
+              <td><a href="https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=P31120" target="_blank" class="wiki-a">GO_glmM</a></td>            
               <td>Phosphoglucosamine mutase protein</td>            
-              <td>Ref1_glmM, Ref2_glmM, Ref3_glmM</td>                  
+              <td><a href="https://aac.asm.org/content/59/2/1168" target="_blank" class="wiki-a">Ref1_glmM</a><br/>
+                <a href="https://pubmed.ncbi.nlm.nih.gov/10913078/" target="_blank" class="wiki-a">Ref2_glmM</a><br/>
+                <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3628348/" target="_blank" class="wiki-a">Ref3_glmM</a></td>                  
             </tr>
             <tr>
               <td>mshA</td>            
               <td>Ceftriaxone</td>            
-              <td>GO_mshA</td>            
+              <td><a href="https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=P9WMY7" target="_blank" class="wiki-a">GO_mshA</a></td>            
               <td>D-inositol 3-phosphate glycosyltransferase</td>            
-              <td>CARD1_mshA, CARD2_mshA, CARD3_mshA</td>                  
+              <td><a href="https://card.mcmaster.ca/ontology/43086" target="_blank" class="wiki-a">CARD1_mshA</a><br/>
+                <a href="https://card.mcmaster.ca/ontology/43087" target="_blank" class="wiki-a">CARD2_mshA</a><br/>
+                <a href="https://card.mcmaster.ca/ontology/43111" target="_blank" class="wiki-a">CARD3_mshA</a></td>                  
             </tr>
             <tr>
               <td>relE</td>            
               <td>Imipenem</td>            
-              <td>GO_relE</td>            
+              <td><a href="https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=P0C077" target="_blank" class="wiki-a">GO_relE</a></td>            
               <td>mRNA interferase toxin</td>            
-              <td>Ref1_relE, Ref2_relE, CARD_relE</td>                  
+              <td><a href="https://pubmed.ncbi.nlm.nih.gov/21788497/" target="_blank" class="wiki-a">Ref1_relE</a><br/>
+                <a href="https://www.derpharmachemica.com/pharma-chemica/in-silico-modeling-of-releb-type-ii-toxinantitoxin-system-in-acinetobacter-baumannii-as-a-therapeutic-target-via-antimicrobial-pho-14977.html" target="_blank" class="wiki-a">Ref2_relE</a><br/>
+                <a href="https://card.mcmaster.ca/ontology/40753" target="_blank" class="wiki-a">CARD_relE</a></td>                  
             </tr>
             <tr>
               <td>tufA</td>            
               <td>Imipenem</td>            
-              <td>GO_tufA</td>            
+              <td><a href="https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=P0CE47" target="_blank" class="wiki-a">GO_tufA</a></td>            
               <td>Elongation factor Tu 1</td>            
-              <td>-</td>                  
+              <td><a href="https://pubmed.ncbi.nlm.nih.gov/26230848/" target="_blank" class="wiki-a">Ref1_tufA</a></td>                  
             </tr>
             <tr>
               <td>yafQ</td>            
               <td>Ceftazidime</td>            
-              <td>GO_yafQ</td>            
+              <td><a href="https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=Q47149" target="_blank" class="wiki-a">GO_yafQ</a></td>            
               <td>mRNA interferase toxin</td>            
               <td>-</td>                  
             </tr>
             <tr>
               <td>eptA</td>            
               <td>Ceftazidime</td>            
-              <td>GO_eptA</td>            
+              <td><a href="https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=P30845" target="_blank" class="wiki-a">GO_eptA</a></td>            
               <td>Phosphoethanolamine transferase</td>            
-              <td>Ref1_eptA, Ref2_eptA, CARD_eptA</td>                  
+              <td><a href="https://aac.asm.org/content/63/3/e01586-18" target="_blank" class="wiki-a">Ref1_eptA</a><br/>
+                <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6635527/" target="_blank" class="wiki-a">Ref2_eptA</a><br/>
+                <a href="https://card.mcmaster.ca/ontology/40186" target="_blank" class="wiki-a">CARD_eptA</a></td>                  
             </tr>
             
             
@@ -856,7 +812,7 @@
 
         <br/><br/><h4 class="wiki-h wiki-h4"><i><b>glmM</b> </i>(Ceftriaxone)</h4>
         <p class="wiki-p">
-          <i>glmM </i>encodes for Phosphoglucosamine mutase protein (UP_glmM).
+          <i>glmM </i>encodes for Phosphoglucosamine mutase protein (<a href="https://www.uniprot.org/uniprot/P31120" target="_blank" class="wiki-a">UP_glmM</a>).
           <br /><br />
           <b>GO Molecular function</b>: Magnesium ion binding, Phosphoglucosamine mutase activity, and Phosphomannomutase
           activity
@@ -864,16 +820,16 @@
           <b>GO Biological function</b>: Carbohydrate metabolic process, Protein autophosphorylation, and
           UDP-N-acetylglucosamine biosynthetic process
           <br /><br />
-          <b>Complete GO annotation</b>: GO_glmM
+          <b>Complete GO annotation</b>: <a href="https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=P31120" target="_blank" class="wiki-a">GO_glmM</a>
           <br /><br />
-          Li <i>et al.</i> (Ref1_glmM) analyzed carbapenem-resistant clinical <i>A. baumannii</i> strains. They identified several
+          Li <i>et al.</i> (<a href="https://aac.asm.org/content/59/2/1168" target="_blank" class="wiki-a">Ref1_glmM</a>) analyzed carbapenem-resistant clinical <i>A. baumannii</i> strains. They identified several
           AbaR resistance islands for a better understanding of evolutionary processes contributing to the emergence of
           carbapenem-resistant <i>A. baumannii</i>. As per their analysis, phosphoglucosamine mutase (GlmM) was detected in
           type 2, 7, and 10 AbaR islands. It is important to note that GlmM can catalyze the conversion of
           glucosamine-6-phosphate to glucosamine-1-phosphate, which is an essential step in the formation of the cell
-          wall precursor UDP-N-acetylglucosamine (Ref2_glmM).
+          wall precursor UDP-N-acetylglucosamine (<a href="https://pubmed.ncbi.nlm.nih.gov/10913078/" target="_blank" class="wiki-a">Ref2_glmM</a>).
           <br /><br />
-          Kenyon and Lee (Ref3_glmM) analyzed the biosynthesis of extracellular polysaccharides which are major
+          Kenyon and Hall (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3628348/" target="_blank" class="wiki-a">Ref3_glmM</a>) analyzed the biosynthesis of extracellular polysaccharides which are major
           immunogenic components of the bacterial cell envelope. They further mentioned that GlmM is required for the
           synthesis of UDP-D-GlcpNAc.
           <br /><br />
@@ -886,25 +842,25 @@
 
         <br/><br/><h4 class="wiki-h wiki-h4"><i><b>mshA</b> </i>(Ceftriaxone)</h4>
         <p class="wiki-p">
-          <i>mshA </i>encodes for D-inositol 3-phosphate glycosyltransferase (UP_mshA).
+          <i>mshA </i>encodes for D-inositol 3-phosphate glycosyltransferase (<a href="https://www.uniprot.org/uniprot/P9WMY7" target="_blank" class="wiki-a">UP_mshA</a>).
           <br /><br />
           <b>GO Molecular function</b>: Acetylglucosaminyltransferase activity, transferring glycosyl groups
           <br /><br />
           <b>GO Biological function</b>: Mycothiol biosynthetic process
           <br /><br />
-          <b>Complete annotation</b>: GO_mshA
+          <b>Complete annotation</b>: <a href="https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=P9WMY7" target="_blank" class="wiki-a">GO_mshA</a>
           <br /><br />
           It is involved in the mechanism of Acetylglucosaminyltransferase which is important for cell wall mechanism as
-          mentioned in the case of glmM.
+          mentioned in the case of <i>glmM</i>.
           <br /><br />
           The Comprehensive Antibiotic Resistance Database (CARD) provides several evidences for the involvement of mshA
           in antibiotics targeting cell wall mechanisms. Mutations in <i>mshA </i>result in the inactivation of antibiotics and
-          it works by the mechanism of antibiotic target alteration (CARD1_mshA).
+          it works by the mechanism of antibiotic target alteration (<a href="https://card.mcmaster.ca/ontology/43086" target="_blank" class="wiki-a">CARD1_mshA</a>).
           <br /><br />
           As mentioned above, <i>mshA </i>is glycosyltransferase and is involved in the first step of mycothiol biosynthesis.
           This is a step that is required for growth in <i>M. tuberculosis</i> and resistance has been in the gene to
-          isoniazid, which is antibiotic inhibiting mycobacterial cell wall (CARD2_mshA). Further, the mutations in mshA
-          confer resistance to isoniazid in <i>M. tuberculosis</i> (CARD3_mshA).
+          isoniazid, which is antibiotic inhibiting mycobacterial cell wall (<a href="https://card.mcmaster.ca/ontology/43087" target="_blank" class="wiki-a">CARD2_mshA</a>). Further, the mutations in mshA
+          confer resistance to isoniazid in <i>M. tuberculosis</i> (<a href="https://card.mcmaster.ca/ontology/43111" target="_blank" class="wiki-a">CARD3_mshA</a>).
           <br /><br />
           <b>Importance:</b> Our machine learning approach identifies allele of <i>mshA </i>as one of the most important features in
           predicting resistance phenotype of strain, which in accordance with literature evidence related to mutations
@@ -915,7 +871,7 @@
         <br/><br/><h4 class="wiki-h wiki-h4"><i><b>relE</b> </i>(Imipenem)</h4>
         <p class="wiki-p">
 
-          <i>relE </i>encodes for mRNA interferase toxin RelE (UP_relE).
+          <i>relE </i>encodes for mRNA interferase toxin RelE (<a href="https://www.uniprot.org/uniprot/P0C077" target="_blank" class="wiki-a">UP_relE</a>).
           <br /><br />
           <b>GO Molecular function</b>: DNA-binding transcription repressor activity, ribosome binding, rRNA binding
           <br /><br />
@@ -925,19 +881,19 @@
           <b>GO Cellular Component</b>: Protein-DNA complex
           <br /><br />
 
-          <b>Complete GO annotation</b>: GO_relE
+          <b>Complete GO annotation</b>: <a href="https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=P0C077" target="_blank" class="wiki-a">GO_relE</a>
           <br /><br />
           <i>relE </i>encodes for mRNA interferase, and mRNA interferases play a role in bacterial persistence to antibiotics;
-          overexpression of this protein induces persisters resistant to ciprofloxacin and ampicillin (UP_relE,
-          Ref1_relE).
+          overexpression of this protein induces persisters resistant to ciprofloxacin and ampicillin (<a href="https://www.uniprot.org/uniprot/P0C077" target="_blank" class="wiki-a">UP_relE</a>,
+          <a href="https://pubmed.ncbi.nlm.nih.gov/21788497/" target="_blank" class="wiki-a">Ref1_relE</a>).
           <br /><br />
-          <i>relE </i>is a part of type II toxin-antitoxin system relBE wherein it is toxin and relB is anti-toxin. In presence
+          <i>relE </i>is a part of type II toxin-antitoxin system relBE wherein it is toxin and <i>relB</i> is anti-toxin. In presence
           of unfavorable conditions, toxin <i>relE </i>sharply increases persisters (cells that neither grow nor die in the
           presence of bactericidal agents) and are largely responsible for high levels of biofilm tolerance to
-          antimicrobials (CARD_relE). So it blocks the process of mRNA to protein conversion inhibiting cell growth. The
+          antimicrobials (<a href="https://card.mcmaster.ca/ontology/40753" target="_blank" class="wiki-a">CARD_relE</a>). So it blocks the process of mRNA to protein conversion inhibiting cell growth. The
           increase in biofilm tolerance makes it difficult for antibiotics to reach the bacteria for necessary action.
           <br /><br />
-          Pourhajibagher <i>et al.</i> (Ref2_relE) utilized the concept of this toxin-antitoxin system, relBE, for designing
+          Pourhajibagher <i>et al.</i> (<a href="https://www.derpharmachemica.com/pharma-chemica/in-silico-modeling-of-releb-type-ii-toxinantitoxin-system-in-acinetobacter-baumannii-as-a-therapeutic-target-via-antimicrobial-pho-14977.html" target="_blank" class="wiki-a">Ref2_relE</a>) utilized the concept of this toxin-antitoxin system, relBE, for designing
           Antimicrobial Photodynamic Therapy as an alternative to conventional antibiotic therapy using in-silico
           modeling and bioinformatics analysis.
           <br /><br />
@@ -949,15 +905,15 @@
         <br/><br/><h4 class="wiki-h wiki-h4"><i><b>tufA</b> </i>(Imipenem)</h4>
 
         <p class="wiki-p">
-          <i>tufA </i>encodes for the Elongation factor Tu 1 (UP_tufA).
+          <i>tufA </i>encodes for the Elongation factor Tu 1 (<a href="https://www.uniprot.org/uniprot/P0CE47" target="_blank" class="wiki-a">UP_tufA</a>).
           <br /><br />
           <b>GO Molecular function</b>: GTPase activity, GTP binding
           <br /><br />
           <b>GO Biological function</b>: Translational elongation, Response to antibiotic and Antibiotic Resistance.
           <br /><br />
-          Complet GO annotation: GO_tufA
+          <b>Complete GO annotation</b>: <a href="https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=P0CE47" target="_blank" class="wiki-a">GO_tufA</a>
           <br /><br />
-          The study conducted by Koenigs <i>et al.</i> (Ref1_tufA) showed for the first time that <i>A. baumannii</i> binds to
+          The study conducted by Koenigs <i>et al.</i> (<a href="https://pubmed.ncbi.nlm.nih.gov/26230848/" target="_blank" class="wiki-a">Ref1_tufA</a>) showed for the first time that <i>A. baumannii</i> binds to
           host-derived plasminogen with help of the translation elongation factor Tuf as a moonlighting
           plasminogen-binding protein that is exposed on the outer surface of <i>A. baumannii</i>. This binding phenomenon is
           at least partly dependent on lysine residues and ionic interactions. Once bound to Tuf, plasminogen can be
@@ -972,17 +928,17 @@
 
         <br/><br/><h4 class="wiki-h wiki-h4"><i><b>yafQ</b> </i>(Ceftazidime)</h4>
         <p class="wiki-p">
-          <i>yafQ </i>encodes for mRNA interferase toxin YafQ (UP_yafQ)
+          <i>yafQ </i>encodes for mRNA interferase toxin YafQ (<a href="https://www.uniprot.org/uniprot/Q47149" target="_blank" class="wiki-a">UP_yafQ</a>)
           <br /><br />
           <b>GO Molecular function</b>: DNA binding, ribosome binding
           <br /><br />
           <b>GO Biological function</b>: mRNA catabolic process, response to antibiotic
           <br /><br />
-          <b>Complete GO annotation</b>: GO_yafQ
+          <b>Complete GO annotation</b>: <a href="https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=Q47149" target="_blank" class="wiki-a">GO_yafQ</a>
           <br /><br />
-          <i>yafQ </i>is working in a similar mechanism that of <i>relE </i>i.e. working as a toxin-antitoxin pair. YafQ protein pairs
+          <i>yafQ </i>is working in a similar mechanism that of <i>relE </i><i>i.e.</i> working as a toxin-antitoxin pair. YafQ protein pairs
           with DinJ. which seems to play a role in biofilm formation. mRNA interferases play a role in bacterial
-          persistence to antibiotics (UP_yafQ). Since it helps in biofilm formation and biofilm can decrease the amount
+          persistence to antibiotics (<a href="https://www.uniprot.org/uniprot/Q47149" target="_blank" class="wiki-a">UP_yafQ</a>). Since it helps in biofilm formation and biofilm can decrease the amount
           of antibiotics reaching the bacterial cell, therefore it is indirectly responsible for increasing antibiotic
           resistance.
           <br /><br />
@@ -992,64 +948,33 @@
 
         <br/><br/><h4 class="wiki-h wiki-h4"><i><b>eptA</b> </i>(Ceftazidime)</h4>
         <p class="wiki-p">
-          <i>eptA </i>encodes Phosphoethanolamine transferase EptA (UP_eptA).
+          <i>eptA </i>encodes Phosphoethanolamine transferase EptA (<a href="https://www.uniprot.org/uniprot/P30845" target="_blank" class="wiki-a">UP_eptA</a>).
           <br /><br />
           <b>GO Molecular function</b>: phosphotransferase activity, sulfuric ester hydrolase activity
           <br /><br />
           <b>GO Biological function</b>: Lipid A biosynthesis, Antibiotic Resistance
           <br /><br />
 
-          <b>Complete GO annotation</b>: GO_eptA
+          <b>Complete GO annotation</b>: <a href="https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=P30845" target="_blank" class="wiki-a">GO_eptA</a>
           <br /><br />
           As per the Comprehensive Antibiotic Resistance Database (CARD), <i>eptA </i>mediates the modification Lipid A by the
           addition of 4-amino-4-deoxy-L-arabinose (L-Ara4N) and phosphoethanolamine which results in a less negative
           cell membrane and decreased binding of polymyxin B. It works by the mechanism of antibiotic target alteration
-          (CARD_eptA).
+          (<a href="https://card.mcmaster.ca/ontology/40186" target="_blank" class="wiki-a">CARD_eptA</a>).
           <br /><br />
-          The study conducted by Gerson <i>et al.</i> (Ref1_eptA) concluded that mutations in <i>eptA </i>were associated with
-          colistin resistance in <i>A. baumannii</i>. Trebsoc <i>et al.</i> (Ref2_eptA) suggested that direct targeting of the
+          The study conducted by Gerson <i>et al.</i> (<a href="https://aac.asm.org/content/63/3/e01586-18" target="_blank" class="wiki-a">Ref1_eptA</a>) concluded that mutations in <i>eptA </i>were associated with
+          colistin resistance in <i>A. baumannii</i>. Trebosc <i>et al.</i> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6635527/" target="_blank" class="wiki-a">Ref2_eptA</a>) suggested that direct targeting of the
           homologous PetN transferases PmrC/EptA may have the potential to overcome colistin resistance in <i>A. baumannii</i>.
           <br /><br />
           <b>Importance:</b> <i>eptA </i>has been known to provide resistance to polymyxin B which works with the mechanism of
           membrane disruption. It has been identified as one of the top genes for Ceftazidime which also works with the
           mechanism of cell wall synthesis. Further, it has been studied to play a role in colistin resistance which
           makes it very important and interesting to check for the efficacy of our novel protein-based drug against
-          eptA.
+          <i>eptA</i>.
         </p>
 
         <br><br><br>
-        <p class="wiki-p"><b>Links:</b></p>
-        <p class="wiki-p">
-          GO_glmM: https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=P31120<br/>
-          GO_mshA: https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=P9WMY7<br/>
-          GO_relE: https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=P0C077<br/>
-          GO_tufA: https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=P0CE47<br/>
-          GO_yafQ: https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=Q47149<br/>
-          GO_aptA: https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=P30845<br/>
-<br/>
-          UP_glmM: https://www.uniprot.org/uniprot/P31120<br/>
-          UP_mshA: https://www.uniprot.org/uniprot/P9WMY7<br/>
-          UP_relE: https://www.uniprot.org/uniprot/P0C077<br/>
-          UP_tufA: https://www.uniprot.org/uniprot/P0CE47<br/>
-          UP_yafQ: https://www.uniprot.org/uniprot/Q47149<br/>
-          UP_eptA: https://www.uniprot.org/uniprot/P30845<br/>
-<br/>
-<br/>
-          CARD1_mshA: https://card.mcmaster.ca/ontology/43086<br/>
-          CARD2_mshA: https://card.mcmaster.ca/ontology/43087<br/>
-          CARD3_mshA: https://card.mcmaster.ca/ontology/43111<br/>
-          CARD_relE: https://card.mcmaster.ca/ontology/40753<br/>
-          CARD_eptA: https://card.mcmaster.ca/ontology/40186<br/>
-<br/>
-          Ref1_glmM: https://aac.asm.org/content/59/2/1168<br/>
-          Ref2_glmM: https://pubmed.ncbi.nlm.nih.gov/10913078/<br/>
-          Ref3_glmM: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3628348/<br/>
-          Ref1_relE: https://pubmed.ncbi.nlm.nih.gov/21788497/<br/>
-          Ref2_relE: https://www.derpharmachemica.com/pharma-chemica/in-silico-modeling-of-releb-type-ii-toxinantitoxin-system-in-acinetobacter-baumannii-as-a-therapeutic-target-via-antimicrobial-pho-14977.html<br/>
-          Ref1_eptA: https://aac.asm.org/content/63/3/e01586-18<br/>
-          Ref2_eptA: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6635527/<br/>
-
-        </p>
+        
       </div>
 
       <!--dropdown4-->
@@ -1064,7 +989,7 @@
       </button>
       <div class="wiki-collapsed-content">
         <p class="wiki-p">
-          Mechanism: Sulfamethoxazole inhibits bacterial synthesis of dihydrofolic acid by competing with
+          <b>Mechanism</b>: Sulfamethoxazole inhibits bacterial synthesis of dihydrofolic acid by competing with
           para-aminobenzoic acid (PABA). Trimethoprim blocks the production of tetrahydrofolic acid from dihydrofolic
           acid by binding to and reversibly inhibiting the required enzyme, dihydrofolate reductase. So, in a nutshell,
           combinations of these drugs mainly work with folate synthesis.
@@ -1075,7 +1000,7 @@
         </p>
         <br/><br/><h4 class="wiki-h wiki-h4"><i><b>folP</b> </i></h4>
         <p class="wiki-p">
-          <i>folP </i>encodes for Dihydropteroate synthase (UP_folP)
+          <i>folP </i>encodes for Dihydropteroate synthase (<a href="https://www.uniprot.org/uniprot/P0AC13" target="_blank" class="wiki-a">UP_folP</a>)
           <br /><br />
           <b>GO Molecular function</b>: Dihydropteroate synthase activity, and metal ion binding
           <br /><br />
@@ -1083,20 +1008,20 @@
           <br /><br />
           <b>GO Cellular Component</b>: Cytoplasm and Cytosol
           <br /><br />
-          <b>Complete GO annotation</b>: GO_folP
+          <b>Complete GO annotation</b>: <a href="https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=P0AC13" target="_blank" class="wiki-a">GO_folP</a>
           <br /><br />
 
           The protein Dihydropteroate synthase catalyzes the condensation of para-aminobenzoate (PABA) with
           6-hydroxymethyl-7,8-dihydropterin diphosphate (DHPt-PP) to form 7,8-dihydropteroate (H2Pte), the immediate
-          precursor of folate derivatives (UP_folP).
+          precursor of folate derivatives (<a href="https://www.uniprot.org/uniprot/P0AC13" target="_blank" class="wiki-a">UP_folP</a>).
           <br /><br />
           As per the Comprehensive Antibiotic Resistance Database (CARD), point mutations in dihydropteroate synthase,
           <i>folP </i>prevent sulfonamide antibiotics from inhibiting its role in folate synthesis, thus conferring sulfonamide
-          resistance (CARD_folP). It works with the mechanism of antibiotic target alteration. Our machine learning
+          resistance (<a href="https://card.mcmaster.ca/ontology/36365" target="_blank" class="wiki-a">CARD_folP</a>). It works with the mechanism of antibiotic target alteration. Our machine learning
           approach identified <i>folP </i>and its alleles as the topmost important features which further validate the efficacy
           of our algorithm.
           <br /><br />
-          <b>Importance:</b> The detection of <i>folP </i>in the case of antibiotics working with folate disruption by machine
+          <b>Importance:</b> The detection of <i>folP </i>in the case of antibiotics working with folate disruption by our machine
           learning algorithm is a very important indication for the efficacy of the approach. It would be very
           interesting to check for the impact of <i>folP </i>in establishing resistance to our novel protein-based drug.
         </p>
@@ -1114,7 +1039,7 @@
       </button>
       <div class="wiki-collapsed-content">
         <p class="wiki-p">
-          Mechanism: Ampicillin/sulbactam is a combination of a β-lactam antibiotic and a β-lactamase inhibitor.
+          <b>Mechanism</b>: Ampicillin/Sulbactam is a combination of a β-lactam antibiotic and a β-lactamase inhibitor.
           Ampicillin works by binding to penicillin-binding proteins (PBPs) to inhibit bacterial cell wall synthesis.
           Sulbactam blocks the enzyme which breaks down ampicillin and thereby allows ampicillin to attack and kill the
           bacteria.
@@ -1133,16 +1058,16 @@
           <b>GO Biological function</b>: Beta-lactam antibiotic catabolic process, response to antibiotic and Antibiotic
           resistance
           <br /><br />
-          <b>Complete GO annotation</b>: GO_bla
+          <b>Complete GO annotation</b>: <a href="https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=P62593" target="_blank" class="wiki-a">GO_bla</a>
           <br /><br />
           TEM-type is the most prevalent beta-lactamases in Enterobacteriaceae; they hydrolyze the beta-lactam bond in
-          susceptible beta-lactam antibiotics, thus conferring resistance to these antibiotics (UP_bla).
+          susceptible beta-lactam antibiotics, thus conferring resistance to these antibiotics (<a href="https://www.uniprot.org/uniprot/P62593" target="_blank" class="wiki-a">UP_bla</a>).
           <br /><br />
-          The study conducted by Subramaniyan and Sundaram (Ref1_bla) concluded the presence of <i>bla </i>genes in
+          The study conducted by Subramaniyan and Sundaram (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5896190/" target="_blank" class="wiki-a">Ref1_bla</a>) concluded the presence of <i>bla </i>genes in
           carbapenem-resistant <i>P. aeruginosa </i>and <i>A. baumannii</i> isolated from clinical settings, Intensive Care Unit
-          (ICU). Further, the study by Kumar <i>et al.</i> (Ref2_bla) analyzed the carbapenem-resistant <i>A. baumannii</i> isolates
+          (ICU). Further, the study by Kumar <i>et al.</i> (<a href="https://pubmed.ncbi.nlm.nih.gov/31362071/" target="_blank" class="wiki-a">Ref2_bla</a>) analyzed the carbapenem-resistant <i>A. baumannii</i> isolates
           from two tertiary care hospitals of North India and concluded that <i>bla </i>encoding clones. It is an important
-          discovery especially in the context of India hospital settings.
+          discovery especially in the context of hospital settings in India.
           <br /><br />
           <b>Importance:</b> Our machine learning algorithm identifies <i>bla </i>as the most important feature, which is also in the
           mechanism of Ampicillin and Sulbactam. It shows the efficacy of our approach. Moreover, the above studies
@@ -1151,23 +1076,10 @@
         </p>
 
         <br><br><br>
-        <p class="wiki-p"><b>Links:</b></p>
-        <p class="wiki-p">
-          GO_folP: https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=P0AC13<br/>
-          GO_bla: https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=P62593<br/>
-<br/>
-          UP_folP: https://www.uniprot.org/uniprot/P0AC13<br/>
-          UP_bla: https://www.uniprot.org/uniprot/P62593<br/>
-<br/>
-          CARD_folP: https://card.mcmaster.ca/ontology/36365<br/>
-<br/>
-          Ref1_bla: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5896190/<br/>
-          Ref2_bla: https://pubmed.ncbi.nlm.nih.gov/31362071/<br/>
-
-        </p>
+        
       </div>
 
-      <br><br><br><br>
+      <br><br>
 
       <h2 class="wiki-h wiki-h2 wiki-section-start" id="wiki_section_2">
 
@@ -1184,26 +1096,26 @@
         </svg>
       </button>
       <div class="wiki-collapsed-content">
-        <br/><br/><h4 class="wiki-h wiki-h4"><i><b>xerC vs. ssuC</b></i> (Ciprofloxacin)</h4>
+        <br/><br/><h4 class="wiki-h wiki-h4"><b><i>xerC</i> - <i>ssuC</i></b> (Ciprofloxacin)</h4>
         <div class="wiki-graphic">
-          <img src="../assets/images/images/ML_Results_ciprofloxacin_corr.png" alt="" class="wiki-graphic-image" />
+          <img src="../assets/images/images/ML_Results_ciprofloxacin_analysis.png" alt="" class="wiki-graphic-image" />
         </div>
         <ol class="wiki-ol">
-          <li>Resistance increases with mutations in xerC</li>
-          <li>Resistance increases with mutations in ssuC</li>
+          <li>Resistance increases with mutations in <i>xerC</i></li>
+          <li>Resistance increases with mutations in <i>ssuC</i></li>
           <li>The increase in resistance with mutations in both genes confirm a positive correlation between them</li>
-          <li>Mutations in <i>xerC </i>are accompanied by an increase in resistance for all of the following, ssuC_1, ssuC_2,
-            ssuC_3, ssuC_4 and ssuC_5</li>
+          <li>Mutations in <i>xerC </i>are accompanied by an increase in resistance for all of the following, <i>ssuC_1</i>, <i>ssuC_2</i>,
+            <i>ssuC_3</i>, <i>ssuC_4</i> and <i>ssuC_5</i></li>
         </ol>
 
-        <br/><br/><h4 class="wiki-h wiki-h4"><i><b>puuP vs. astC</b></i> (Levofloxacin)</h4>
+        <br/><br/><h4 class="wiki-h wiki-h4"><b><i>puuP</i> - <i>astC</i></b> (Levofloxacin)</h4>
         <div class="wiki-graphic">
           <img src="../assets/images/images/ML_Results_levofloxacin_analysis.png" alt="" class="wiki-graphic-image" />
         </div>
         <ol class="wiki-ol">
-          <li>astC is a gene important for resistance but strains became more susceptible in presence of puuP</li>
-          <li>Mutations in astC causes a decrease in resistance </li>
-          <li>Mutations in astC increase resistance in presence of <i>puuP </i>but decrease resistance with mutations in puuP
+          <li><i>astC</i> is a gene important for resistance but strains became more susceptible in presence of <i>puuP</i></li>
+          <li>Mutations in <i>astC</i> causes a decrease in resistance </li>
+          <li>Mutations in <i>astC</i> increase resistance in presence of <i>puuP </i>but decrease resistance with mutations in <i>puuP</i>
             which confirms a negative correlation</li>
         </ol>
       </div>
@@ -1218,30 +1130,30 @@
         </svg>
       </button>
       <div class="wiki-collapsed-content">
-        <br/><br/><h4 class="wiki-h wiki-h4"><i><b>emrE vs.<i> folP</i> </b></i>(Gentamicin)</h4>
+        <br/><br/><h4 class="wiki-h wiki-h4"><b><i>emrE</i> - <i>folP</i></b> (Gentamicin)</h4>
         <div class="wiki-graphic">
           <img src="../assets/images/images/ML_Results_gentamicin_analysis.png" alt="" class="wiki-graphic-image" />
         </div>
         <ol class="wiki-ol">
-          <li>Resistance increases with mutations in emrE</li>
+          <li>Resistance increases with mutations in <i>emrE</i></li>
           <li>Resistance increases with mutations in<i> folP</i></li>
           <li>Mutations in both the genes work in tandem and increase the resistance of strains confirming a positive
             correlation between them</li>
 
         </ol>
 
-        <br/><br/><h4 class="wiki-h wiki-h4"><i><b>cysL vs. <i>hcaR </i></b></i>(Tobramycin) </h4>
+        <br/><br/><h4 class="wiki-h wiki-h4"><b><i>cysL</i>- <i>hcaR</i></b> (Tobramycin) </h4>
         <div class="wiki-graphic">
           <img src="../assets/images/images/ML_Results_tobramycin_analysis.png" alt="" class="wiki-graphic-image" />
         </div>
         <ol class="wiki-ol">
-          <li>Resistance increases with mutations in cysL</li>
-          <li>Resistance decreases with mutations in hcaR</li>
+          <li>Resistance increases with mutations in <i>cysL</i></li>
+          <li>Resistance decreases with mutations in <i>hcaR</i></li>
           <li>Mutations in <i>hcaR </i>increases the resistance but not when <i>cysL </i>is present confirming a negative correlation
           </li>
         </ol>
 
-        <br/><br/><h4 class="wiki-h wiki-h4"><i><b>esiB vs. <i>cspV</i></b></i> (Amikacin) </h4>
+        <br/><br/><h4 class="wiki-h wiki-h4"><b><i>esiB</i> - <i>cspV</i></b> (Amikacin) </h4>
         <div class="wiki-graphic">
           <img src="../assets/images/images/ML_Results_amikacin_analysis.png" alt="" class="wiki-graphic-image" />
         </div>
@@ -1264,7 +1176,7 @@
         </svg>
       </button>
       <div class="wiki-collapsed-content">
-        <br/><br/><h4 class="wiki-h wiki-h4"><i><b><i>ssuA</i> vs. <i>ssuC </i></b></i>(Ceftriaxone) </h4>
+        <br/><br/><h4 class="wiki-h wiki-h4"><b><i>ssuA</i> - <i>ssuC </i></b>(Ceftriaxone) </h4>
 
         <div class="wiki-graphic">
           <img src="../assets/images/images/ML_Results_ceftriaxone_analysis.png" alt="" class="wiki-graphic-image" />
@@ -1272,11 +1184,11 @@
         <ol class="wiki-ol">
           <li>There is lack of strains having <i>ssuA</i> and <i>ssuC </i>genes without mutations</li>
           <li>Resistance increases with mutations in <i>ssuA</i></li>
-          <li>Resistance increases with mutations in <i>ssuC </i>which confirms a positive correlation between genes</li>
+          <li>Resistance increases with mutations in <i>ssuC</i> which confirms a positive correlation between genes</li>
 
         </ol>
 
-        <br/><br/><h4 class="wiki-h wiki-h4"><i><b>tufA vs. <i>tufB </i></b></i>(Imipenem)</h4>
+        <br/><br/><h4 class="wiki-h wiki-h4"><b><i>tufA</i> - <i>tufB </i></b>(Imipenem)</h4>
         <div class="wiki-graphic">
           <img src="../assets/images/images/ML_Results_imipenem_analysis.png" alt="" class="wiki-graphic-image" />
         </div>
@@ -1286,14 +1198,14 @@
 
         </ol>
 
-        <br/><br/><h4 class="wiki-h wiki-h4"><i><b>aphA vs. <i>fatA </i></b></i>(Ceftazidime)</h4>
+        <br/><br/><h4 class="wiki-h wiki-h4"><b><i>aphA</i> - <i>fatA </i></b>(Ceftazidime)</h4>
         <div class="wiki-graphic">
           <img src="../assets/images/images/ML_Results_ceftazidime_analysis.png" alt="" class="wiki-graphic-image" />
         </div>
         <ol class="wiki-ol">
-          <li>Resistance increases with mutations in aphA</li>
+          <li>Resistance increases with mutations in <i>aphA</i></li>
           <li>Resistance increases with mutations in <i>fatA </i>which confirms a positive correlation between genes</li>
-          <li>There is less number of strains having <i>fatA </i>gene and much more number of strains with mutations in fatA
+          <li>There is less number of strains having <i>fatA </i>gene and much more number of strains with mutations in <i>fatA</i>
           </li>
         </ol>
       </div>
@@ -1308,7 +1220,7 @@
         </svg>
       </button>
       <div class="wiki-collapsed-content">
-        <br/><br/><h4 class="wiki-h wiki-h4"><i><b>folP vs. emrE</b></i></h4>
+        <br/><br/><h4 class="wiki-h wiki-h4"><b><i>folP</i> - <i>emrE</i></b></h4>
         <div class="wiki-graphic">
           <img src="../assets/images/images/ML_Results_t+s_analysis.png" alt="" class="wiki-graphic-image" />
         </div>
@@ -1331,7 +1243,7 @@
         </svg>
       </button>
       <div class="wiki-collapsed-content">
-        <br/><br/><h4 class="wiki-h wiki-h4"><i><b><i>mobA</i> vs. yddG</b></i></h4>
+        <br/><br/><h4 class="wiki-h wiki-h4"><b><i>mobA</i> - <i>yddG</i></b></h4>
         <div class="wiki-graphic">
           <img src="../assets/images/images/ML_Results_a+s_analysis.png" alt="" class="wiki-graphic-image" />
         </div>
@@ -1345,7 +1257,8 @@
 
 
       <br><br><br>
-      <br><br><br>
+
+      
 
 
 
