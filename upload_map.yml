@@ -592,21 +592,25 @@ assets:
     md5: 47ca7ed183cef9fc3d299dca6eb4d99c
     upload_filename: T--IIT_Roorkee--images--images--ML_Model_weight_equation_higher.png
   assets/images/images/ML_Results_a+s_analysis.png:
-    link_URL: https://2020.igem.org/wiki/images/3/33/T--IIT_Roorkee--images--images--ML_Results_a%2Bs_analysis.png
-    md5: 8980aa369cfdc234d77b07da93249a18
+    link_URL: https://2020.igem.org/wiki/images/3/37/T--IIT_Roorkee--Poster_images--images--ML_Results_a%2Bs_analysis.png
+    md5: f5865437b68373a6b926e8b9e7267306
     upload_filename: T--IIT_Roorkee--images--images--ML_Results_a+s_analysis.png
   assets/images/images/ML_Results_amikacin_analysis.png:
-    link_URL: https://2020.igem.org/wiki/images/a/a4/T--IIT_Roorkee--images--images--ML_Results_amikacin_analysis.png
-    md5: d578d14f29c459e99f98b6bec8794849
+    link_URL: https://2020.igem.org/wiki/images/9/9d/T--IIT_Roorkee--Poster_images--images--ML_Results_amikacin_analysis.png
+    md5: b64157999280a348d46133198524143e
     upload_filename: T--IIT_Roorkee--images--images--ML_Results_amikacin_analysis.png
   assets/images/images/ML_Results_ceftazidime_analysis.png:
-    link_URL: https://2020.igem.org/wiki/images/f/f7/T--IIT_Roorkee--images--images--ML_Results_ceftazidime_analysis.png
-    md5: 3f820f04ac0950516943a2ecc3cec10c
+    link_URL: https://2020.igem.org/wiki/images/c/ca/T--IIT_Roorkee--Poster_images--images--ML_Results_ceftazidime_analysis.png
+    md5: c8eef814ae8d6b778a59e797f08a1a8b
     upload_filename: T--IIT_Roorkee--images--images--ML_Results_ceftazidime_analysis.png
   assets/images/images/ML_Results_ceftriaxone_analysis.png:
-    link_URL: https://2020.igem.org/wiki/images/3/3c/T--IIT_Roorkee--images--images--ML_Results_ceftriaxone_analysis.png
-    md5: c30d237b43081ef54d02d943a5b66e24
+    link_URL: https://2020.igem.org/wiki/images/6/6e/T--IIT_Roorkee--Poster_images--images--ML_Results_ceftriaxone_analysis.png
+    md5: ec2bdc659ce66ace70d973043a76e936
     upload_filename: T--IIT_Roorkee--images--images--ML_Results_ceftriaxone_analysis.png
+  assets/images/images/ML_Results_ciprofloxacin_analysis.png:
+    link_URL: https://2020.igem.org/wiki/images/d/d1/T--IIT_Roorkee--Poster_images--images--ML_Results_ciprofloxacin_analysis.png
+    md5: 67b58713659a6d1a0fc13fbe67b976ae
+    upload_filename: T--IIT_Roorkee--Poster_images--images--ML_Results_ciprofloxacin_analysis.png
   assets/images/images/ML_Results_ciprofloxacin_corr.png:
     link_URL: https://2020.igem.org/wiki/images/3/32/T--IIT_Roorkee--images--images--ML_Results_ciprofloxacin_corr.png
     md5: 071de82f15d35f3f77ce504003b5a47e
@@ -616,28 +620,28 @@ assets:
     md5: aaf2e7f018366c5648e9ea10edc2bd26
     upload_filename: T--IIT_Roorkee--images--images--ML_Results_distribution_strains.png
   assets/images/images/ML_Results_gentamicin_analysis.png:
-    link_URL: https://2020.igem.org/wiki/images/e/ef/T--IIT_Roorkee--images--images--ML_Results_gentamicin_analysis.png
-    md5: f9bb863a26d42d05afff51c850c7857b
+    link_URL: https://2020.igem.org/wiki/images/0/05/T--IIT_Roorkee--Poster_images--images--ML_Results_gentamicin_analysis.png
+    md5: 29e51f81cc6275080bfaa2607db1434f
     upload_filename: T--IIT_Roorkee--images--images--ML_Results_gentamicin_analysis.png
   assets/images/images/ML_Results_imipenem_analysis.png:
     link_URL: https://2020.igem.org/wiki/images/d/d1/T--IIT_Roorkee--images--images--ML_Results_imipenem_analysis.png
     md5: 31a8b9c9286308c4d2eae3e6f0e85fba
     upload_filename: T--IIT_Roorkee--images--images--ML_Results_imipenem_analysis.png
   assets/images/images/ML_Results_levofloxacin_analysis.png:
-    link_URL: https://2020.igem.org/wiki/images/6/6c/T--IIT_Roorkee--images--images--ML_Results_levofloxacin_analysis.png
-    md5: be2c7a17b2367b9ba8122b4338c82ed0
+    link_URL: https://2020.igem.org/wiki/images/c/c5/T--IIT_Roorkee--Poster_images--images--ML_Results_levofloxacin_analysis.png
+    md5: 23997cb1c13eade79bb02c89060528aa
     upload_filename: T--IIT_Roorkee--images--images--ML_Results_levofloxacin_analysis.png
   assets/images/images/ML_Results_t+s_analysis.png:
-    link_URL: https://2020.igem.org/wiki/images/7/71/T--IIT_Roorkee--images--images--ML_Results_t%2Bs_analysis.png
-    md5: 2207a419b72d904f505d1b4a156fb2b3
+    link_URL: https://2020.igem.org/wiki/images/a/ab/T--IIT_Roorkee--Poster_images--images--ML_Results_t%2Bs_analysis.png
+    md5: 034145905d69e2fcd695b6a40fc8576f
     upload_filename: T--IIT_Roorkee--images--images--ML_Results_t+s_analysis.png
   assets/images/images/ML_Results_table_strains.png:
-    link_URL: https://2020.igem.org/wiki/images/3/3a/T--IIT_Roorkee--images--images--ML_Results_table_strains.png
-    md5: 5ab75608989f67673fc6fcac1f1f2767
+    link_URL: https://2020.igem.org/wiki/images/5/57/T--IIT_Roorkee--Poster_images--images--ML_Results_table_strains.png
+    md5: 3e06e210f3dd1a85596b394ab84a9179
     upload_filename: T--IIT_Roorkee--images--images--ML_Results_table_strains.png
   assets/images/images/ML_Results_tobramycin_analysis.png:
-    link_URL: https://2020.igem.org/wiki/images/5/5b/T--IIT_Roorkee--images--images--ML_Results_tobramycin_analysis.png
-    md5: b935c92a6666b9f5dc2690876aae6dbf
+    link_URL: https://2020.igem.org/wiki/images/a/aa/T--IIT_Roorkee--Poster_images--images--ML_Results_tobramycin_analysis.png
+    md5: ee632f8df2c0f76472064401450aa0ee
     upload_filename: T--IIT_Roorkee--images--images--ML_Results_tobramycin_analysis.png
   assets/images/images/ML_model_higher.png:
     link_URL: https://2020.igem.org/wiki/images/9/9e/T--IIT_Roorkee--images--images--ML_model_higher.png
@@ -855,6 +859,10 @@ assets:
     link_URL: https://2020.igem.org/wiki/images/f/f9/T--IIT_Roorkee--images--images--notebook-banner.png
     md5: 16a252b1110641198afa2bb0a09eb75e
     upload_filename: T--IIT_Roorkee--images--images--notebook-banner.png
+  assets/images/images/people_sponsors_benchling.jpeg:
+    link_URL: https://2020.igem.org/wiki/images/6/68/T--IIT_Roorkee--Poster_images--images--people_sponsors_benchling.jpeg
+    md5: 7e93ffd140fda00d08c3c020e1c02408
+    upload_filename: T--IIT_Roorkee--Poster_images--images--people_sponsors_benchling.jpeg
   assets/images/images/people_sponsors_genscript.png:
     link_URL: https://2020.igem.org/wiki/images/b/bb/T--IIT_Roorkee--images--images--people_sponsors_genscript.png
     md5: bae55575b9ff41b836dbe4ba5dc12887
@@ -895,6 +903,262 @@ assets:
     link_URL: https://2020.igem.org/wiki/images/7/75/T--IIT_Roorkee--images--images--wetlab_parts_2.png
     md5: 86b904102905235323c8fe773adad2b2
     upload_filename: T--IIT_Roorkee--images--images--wetlab_parts_2.png
+  assets/images/poster-content/Poster_Collab1.PNG:
+    link_URL: https://2020.igem.org/wiki/images/3/3e/T--IIT_Roorkee--Poster_images--poster-content--Poster_Collab1.PNG
+    md5: 2714bccdb39465236626d29811342234
+    upload_filename: T--IIT_Roorkee--Poster_images--poster-content--Poster_Collab1.PNG
+  assets/images/poster-content/Poster_Collab2.png:
+    link_URL: https://2020.igem.org/wiki/images/1/18/T--IIT_Roorkee--Poster_images--poster-content--Poster_Collab2.png
+    md5: 3531d7532cd38552333aeae93b1cad6c
+    upload_filename: T--IIT_Roorkee--Poster_images--poster-content--Poster_Collab2.png
+  assets/images/poster-content/Poster_Collab3.png:
+    link_URL: https://2020.igem.org/wiki/images/5/56/T--IIT_Roorkee--Poster_images--poster-content--Poster_Collab3.png
+    md5: 7f93d747f66f68c02223be06bbbbc3da
+    upload_filename: T--IIT_Roorkee--Poster_images--poster-content--Poster_Collab3.png
+  assets/images/poster-content/Poster_Collab4.png:
+    link_URL: https://2020.igem.org/wiki/images/2/24/T--IIT_Roorkee--Poster_images--poster-content--Poster_Collab4.png
+    md5: 709fc0adf9a8652a013506c17589ca8e
+    upload_filename: T--IIT_Roorkee--Poster_images--poster-content--Poster_Collab4.png
+  assets/images/poster-content/Poster_Collab5.png:
+    link_URL: https://2020.igem.org/wiki/images/c/c5/T--IIT_Roorkee--Poster_images--poster-content--Poster_Collab5.png
+    md5: 3ac9ae755f0f01319eb9d9bd83af1c0d
+    upload_filename: T--IIT_Roorkee--Poster_images--poster-content--Poster_Collab5.png
+  assets/images/poster-content/Poster_Collab6.png:
+    link_URL: https://2020.igem.org/wiki/images/2/21/T--IIT_Roorkee--Poster_images--poster-content--Poster_Collab6.png
+    md5: 5f3e520371178c555a164d6c66ca137a
+    upload_filename: T--IIT_Roorkee--Poster_images--poster-content--Poster_Collab6.png
+  assets/images/poster-content/Poster_Collab7.png:
+    link_URL: https://2020.igem.org/wiki/images/f/fc/T--IIT_Roorkee--Poster_images--poster-content--Poster_Collab7.png
+    md5: fceb6255ab207ad580e71313283a1e1b
+    upload_filename: T--IIT_Roorkee--Poster_images--poster-content--Poster_Collab7.png
+  assets/images/poster-content/Poster_Collab8.png:
+    link_URL: https://2020.igem.org/wiki/images/4/42/T--IIT_Roorkee--Poster_images--poster-content--Poster_Collab8.png
+    md5: be67d5bf7c8fb0a989c3867e96669724
+    upload_filename: T--IIT_Roorkee--Poster_images--poster-content--Poster_Collab8.png
+  assets/images/poster-content/Poster_Collab9.png:
+    link_URL: https://2020.igem.org/wiki/images/0/0a/T--IIT_Roorkee--Poster_images--poster-content--Poster_Collab9.png
+    md5: 9c283126e40ccae43ae43430f79acec9
+    upload_filename: T--IIT_Roorkee--Poster_images--poster-content--Poster_Collab9.png
+  assets/images/poster-content/Poster_IHP 1.png:
+    link_URL: https://2020.igem.org/wiki/images/2/29/T--IIT_Roorkee--Poster_images--poster-content--Poster_IHP_1.png
+    md5: cbbd0e76c3cc886b36e28a2eb2aa9252
+    upload_filename: T--IIT_Roorkee--Poster_images--poster-content--Poster_IHP 1.png
+  assets/images/poster-content/Poster_IHP 2.png:
+    link_URL: https://2020.igem.org/wiki/images/7/7d/T--IIT_Roorkee--Poster_images--poster-content--Poster_IHP_2.png
+    md5: eb6457697dcd9dbbcae2409f402c8939
+    upload_filename: T--IIT_Roorkee--Poster_images--poster-content--Poster_IHP 2.png
+  assets/images/poster-content/Poster_IHP 3.png:
+    link_URL: https://2020.igem.org/wiki/images/2/2d/T--IIT_Roorkee--Poster_images--poster-content--Poster_IHP_3.png
+    md5: f47072cfd6f97f9e70d6d860a94b09e9
+    upload_filename: T--IIT_Roorkee--Poster_images--poster-content--Poster_IHP 3.png
+  assets/images/poster-content/Poster_Parts_2.png:
+    link_URL: https://2020.igem.org/wiki/images/3/32/T--IIT_Roorkee--Poster_images--poster-content--Poster_Parts_2.png
+    md5: 28ce39683bb26b0f57c2e0df276989ff
+    upload_filename: T--IIT_Roorkee--Poster_images--poster-content--Poster_Parts_2.png
+  assets/images/poster-content/Poster_SC_PE 1.png:
+    link_URL: https://2020.igem.org/wiki/images/3/31/T--IIT_Roorkee--Poster_images--poster-content--Poster_SC_PE_1.png
+    md5: 9a5bd6172a829548a3f81a57395070e0
+    upload_filename: T--IIT_Roorkee--Poster_images--poster-content--Poster_SC_PE 1.png
+  assets/images/poster-content/Poster_SC_PE 4.png:
+    link_URL: https://2020.igem.org/wiki/images/6/64/T--IIT_Roorkee--Poster_images--poster-content--Poster_SC_PE_4.png
+    md5: 17ea4a4c8cb26e13276859ffce1d605d
+    upload_filename: T--IIT_Roorkee--Poster_images--poster-content--Poster_SC_PE 4.png
+  assets/images/poster-content/Poster_SC_PE.jpg:
+    link_URL: https://2020.igem.org/wiki/images/a/aa/T--IIT_Roorkee--Poster_images--poster-content--Poster_SC_PE.jpg
+    md5: 142eb48d12aa94fbe21c86d55e83bce6
+    upload_filename: T--IIT_Roorkee--Poster_images--poster-content--Poster_SC_PE.jpg
+  assets/images/poster-content/Poster_engineering1.png:
+    link_URL: https://2020.igem.org/wiki/images/5/58/T--IIT_Roorkee--Poster_images--poster-content--Poster_engineering1.png
+    md5: 20b3e645514c1db7d9ae3f51c49e3f96
+    upload_filename: T--IIT_Roorkee--Poster_images--poster-content--Poster_engineering1.png
+  assets/images/poster-content/SDG1.png:
+    link_URL: https://2020.igem.org/wiki/images/0/0d/T--IIT_Roorkee--Poster_images--poster-content--SDG1.png
+    md5: 97be8b825053f005c0ef9f4a40b2c01d
+    upload_filename: T--IIT_Roorkee--Poster_images--poster-content--SDG1.png
+  assets/images/poster-content/SDG2.jpg:
+    link_URL: https://2020.igem.org/wiki/images/c/c8/T--IIT_Roorkee--Poster_images--poster-content--SDG2.jpg
+    md5: 0d463e183a4a8d40b6e27108e35c14b6
+    upload_filename: T--IIT_Roorkee--Poster_images--poster-content--SDG2.jpg
+  assets/images/poster-content/SDG3.png:
+    link_URL: https://2020.igem.org/wiki/images/c/c7/T--IIT_Roorkee--Poster_images--poster-content--SDG3.png
+    md5: d7e0366371164d7e95f084acef3814fd
+    upload_filename: T--IIT_Roorkee--Poster_images--poster-content--SDG3.png
+  assets/images/poster-content/poster_ML_1.png:
+    link_URL: https://2020.igem.org/wiki/images/a/af/T--IIT_Roorkee--Poster_images--poster-content--poster_ML_1.png
+    md5: 744cc1bc9fa782bf374fb44c4b4dc2d0
+    upload_filename: T--IIT_Roorkee--Poster_images--poster-content--poster_ML_1.png
+  assets/images/poster-content/poster_ML_2.png:
+    link_URL: https://2020.igem.org/wiki/images/e/e2/T--IIT_Roorkee--Poster_images--poster-content--poster_ML_2.png
+    md5: f8a46df19b37b6aa3bb5ea1e9b8bf4b7
+    upload_filename: T--IIT_Roorkee--Poster_images--poster-content--poster_ML_2.png
+  assets/images/poster-content/poster_Parts_1.png:
+    link_URL: https://2020.igem.org/wiki/images/c/c7/T--IIT_Roorkee--Poster_images--poster-content--poster_Parts_1.png
+    md5: 65a1bde81f163a312b0a579950ce26bf
+    upload_filename: T--IIT_Roorkee--Poster_images--poster-content--poster_Parts_1.png
+  assets/images/poster-content/poster_SC_PE 2.png:
+    link_URL: https://2020.igem.org/wiki/images/2/29/T--IIT_Roorkee--Poster_images--poster-content--poster_SC_PE_2.png
+    md5: 94f51df4c896cfc834d4033d14ba68d9
+    upload_filename: T--IIT_Roorkee--Poster_images--poster-content--poster_SC_PE 2.png
+  assets/images/poster-content/poster_SC_PE 3.png:
+    link_URL: https://2020.igem.org/wiki/images/b/bf/T--IIT_Roorkee--Poster_images--poster-content--poster_SC_PE_3.png
+    md5: 8949773c14669834af3409ada2171c35
+    upload_filename: T--IIT_Roorkee--Poster_images--poster-content--poster_SC_PE 3.png
+  assets/images/poster-content/poster_Software.png:
+    link_URL: https://2020.igem.org/wiki/images/0/02/T--IIT_Roorkee--Poster_images--poster-content--poster_Software.png
+    md5: 22b2a781d8606b5b02d8837ecd8f8e8a
+    upload_filename: T--IIT_Roorkee--Poster_images--poster-content--poster_Software.png
+  assets/images/poster-content/poster_engineering2.png:
+    link_URL: https://2020.igem.org/wiki/images/8/83/T--IIT_Roorkee--Poster_images--poster-content--poster_engineering2.png
+    md5: 888f5180c723a6341027f479e522e8c1
+    upload_filename: T--IIT_Roorkee--Poster_images--poster-content--poster_engineering2.png
+  assets/images/poster-content/poster_engineering3.png:
+    link_URL: https://2020.igem.org/wiki/images/6/63/T--IIT_Roorkee--Poster_images--poster-content--poster_engineering3.png
+    md5: c5bc0f70e6ecd18a2ac406d894a786d8
+    upload_filename: T--IIT_Roorkee--Poster_images--poster-content--poster_engineering3.png
+  assets/images/poster-content/poster_implementation_1.jpg:
+    link_URL: https://2020.igem.org/wiki/images/d/db/T--IIT_Roorkee--Poster_images--poster-content--poster_implementation_1.jpg
+    md5: 98f89e585ab6e3e64f9ea340f9f31128
+    upload_filename: T--IIT_Roorkee--Poster_images--poster-content--poster_implementation_1.jpg
+  assets/images/poster-content/poster_implementation_2.jpg:
+    link_URL: https://2020.igem.org/wiki/images/8/84/T--IIT_Roorkee--Poster_images--poster-content--poster_implementation_2.jpg
+    md5: 6603b2dd925908d3321d835dd7e7a02c
+    upload_filename: T--IIT_Roorkee--Poster_images--poster-content--poster_implementation_2.jpg
+  assets/images/poster-content/poster_inspiration_solution_1.png:
+    link_URL: https://2020.igem.org/wiki/images/5/56/T--IIT_Roorkee--Poster_images--poster-content--poster_inspiration_solution_1.png
+    md5: 7d2858d1eb3efdfa30a75ef8ca55a461
+    upload_filename: T--IIT_Roorkee--Poster_images--poster-content--poster_inspiration_solution_1.png
+  assets/images/poster-content/poster_intro1.png:
+    link_URL: https://2020.igem.org/wiki/images/2/21/T--IIT_Roorkee--Poster_images--poster-content--poster_intro1.png
+    md5: efbc69117a6696ff5b46187f434ce406
+    upload_filename: T--IIT_Roorkee--Poster_images--poster-content--poster_intro1.png
+  assets/images/poster-content/poster_model2.jpg:
+    link_URL: https://2020.igem.org/wiki/images/f/f9/T--IIT_Roorkee--Poster_images--poster-content--poster_model2.jpg
+    md5: c5bcfc27504f869775473080e430e815
+    upload_filename: T--IIT_Roorkee--Poster_images--poster-content--poster_model2.jpg
+  assets/images/poster-content/poster_model3.jpg:
+    link_URL: https://2020.igem.org/wiki/images/2/2a/T--IIT_Roorkee--Poster_images--poster-content--poster_model3.jpg
+    md5: c63d5f91853761d154de1b32bc98e82e
+    upload_filename: T--IIT_Roorkee--Poster_images--poster-content--poster_model3.jpg
+  assets/images/poster-content/poster_model_1.jpg:
+    link_URL: https://2020.igem.org/wiki/images/1/17/T--IIT_Roorkee--Poster_images--poster-content--poster_model_1.jpg
+    md5: 2a627b98592d32919421a51a51f0c131
+    upload_filename: T--IIT_Roorkee--Poster_images--poster-content--poster_model_1.jpg
+  assets/images/poster-content/poster_results1.jpg:
+    link_URL: https://2020.igem.org/wiki/images/3/3f/T--IIT_Roorkee--Poster_images--poster-content--poster_results1.jpg
+    md5: 4524c0802e1aff27f3f0f8ce5fda875a
+    upload_filename: T--IIT_Roorkee--Poster_images--poster-content--poster_results1.jpg
+  assets/images/poster-content/poster_results2.jpg:
+    link_URL: https://2020.igem.org/wiki/images/f/f7/T--IIT_Roorkee--Poster_images--poster-content--poster_results2.jpg
+    md5: 581306269382516d7b5ad5495aff7267
+    upload_filename: T--IIT_Roorkee--Poster_images--poster-content--poster_results2.jpg
+  assets/images/poster-content/poster_results3.png:
+    link_URL: https://2020.igem.org/wiki/images/c/cc/T--IIT_Roorkee--Poster_images--poster-content--poster_results3.png
+    md5: d533cfd5f9dd076e517cd599aa116340
+    upload_filename: T--IIT_Roorkee--Poster_images--poster-content--poster_results3.png
+  assets/images/poster-content/poster_results4.png:
+    link_URL: https://2020.igem.org/wiki/images/b/b2/T--IIT_Roorkee--Poster_images--poster-content--poster_results4.png
+    md5: b55444d23a4699c712c5f7631af2f9a2
+    upload_filename: T--IIT_Roorkee--Poster_images--poster-content--poster_results4.png
+  assets/images/poster-content/poster_results5.png:
+    link_URL: https://2020.igem.org/wiki/images/6/6c/T--IIT_Roorkee--Poster_images--poster-content--poster_results5.png
+    md5: f9b8f2a6287fb50ad6bb23b386a86a6b
+    upload_filename: T--IIT_Roorkee--Poster_images--poster-content--poster_results5.png
+  assets/images/poster-content/poster_sponsors_1.jpg:
+    link_URL: https://2020.igem.org/wiki/images/4/4c/T--IIT_Roorkee--Poster_images--poster-content--poster_sponsors_1.jpg
+    md5: 592d5bcaf64567301a80f0072f343919
+    upload_filename: T--IIT_Roorkee--Poster_images--poster-content--poster_sponsors_1.jpg
+  assets/images/poster-content/poster_sponsors_2.jpg:
+    link_URL: https://2020.igem.org/wiki/images/a/aa/T--IIT_Roorkee--Poster_images--poster-content--poster_sponsors_2.jpg
+    md5: 6555cdb822a106e5ac3e55e16370e8a5
+    upload_filename: T--IIT_Roorkee--Poster_images--poster-content--poster_sponsors_2.jpg
+  assets/images/poster-content/poster_sponsors_3.jpg:
+    link_URL: https://2020.igem.org/wiki/images/c/c3/T--IIT_Roorkee--Poster_images--poster-content--poster_sponsors_3.jpg
+    md5: 8d9c3ccb83ed4790a53ca13082ba193b
+    upload_filename: T--IIT_Roorkee--Poster_images--poster-content--poster_sponsors_3.jpg
+  assets/images/poster-content/poster_sponsors_4.png:
+    link_URL: https://2020.igem.org/wiki/images/f/f4/T--IIT_Roorkee--Poster_images--poster-content--poster_sponsors_4.png
+    md5: bae55575b9ff41b836dbe4ba5dc12887
+    upload_filename: T--IIT_Roorkee--Poster_images--poster-content--poster_sponsors_4.png
+  assets/images/poster-content/poster_sponsors_5.jpg:
+    link_URL: https://2020.igem.org/wiki/images/6/6b/T--IIT_Roorkee--Poster_images--poster-content--poster_sponsors_5.jpg
+    md5: 473d243113b5a86ee878a3670db5afb3
+    upload_filename: T--IIT_Roorkee--Poster_images--poster-content--poster_sponsors_5.jpg
+  assets/images/poster-content/poster_sponsors_6.jpeg:
+    link_URL: https://2020.igem.org/wiki/images/5/54/T--IIT_Roorkee--Poster_images--poster-content--poster_sponsors_6.jpeg
+    md5: 7e93ffd140fda00d08c3c020e1c02408
+    upload_filename: T--IIT_Roorkee--Poster_images--poster-content--poster_sponsors_6.jpeg
+  assets/images/poster/Collab.png:
+    link_URL: https://2020.igem.org/wiki/images/f/fb/T--IIT_Roorkee--Poster_images--poster--Collab.png
+    md5: 7894aa5f3a1120a00ec44b8cfdcf7c50
+    upload_filename: T--IIT_Roorkee--Poster_images--poster--Collab.png
+  assets/images/poster/Engineering.png:
+    link_URL: https://2020.igem.org/wiki/images/9/9c/T--IIT_Roorkee--Poster_images--poster--Engineering.png
+    md5: 945600ede355badaf435c9ee800bb933
+    upload_filename: T--IIT_Roorkee--Poster_images--poster--Engineering.png
+  assets/images/poster/Final Poster.png:
+    link_URL: https://2020.igem.org/wiki/images/6/68/T--IIT_Roorkee--Poster_images--poster--Final_Poster.png
+    md5: b22c8ba2f2de7f58dba013ac85431587
+    upload_filename: T--IIT_Roorkee--Poster_images--poster--Final Poster.png
+  assets/images/poster/Future Direction.png:
+    link_URL: https://2020.igem.org/wiki/images/1/18/T--IIT_Roorkee--Poster_images--poster--Future_Direction.png
+    md5: 3ea2141b504cab205182823f23626131
+    upload_filename: T--IIT_Roorkee--Poster_images--poster--Future Direction.png
+  assets/images/poster/Head.png:
+    link_URL: https://2020.igem.org/wiki/images/a/ac/T--IIT_Roorkee--Poster_images--poster--Head.png
+    md5: 4ec815da07349b80b9e50b3d0da1e4e9
+    upload_filename: T--IIT_Roorkee--Poster_images--poster--Head.png
+  assets/images/poster/IHP.png:
+    link_URL: https://2020.igem.org/wiki/images/e/e1/T--IIT_Roorkee--Poster_images--poster--IHP.png
+    md5: 49a3d2b5eb38a11ac4d799da7f5cbf17
+    upload_filename: T--IIT_Roorkee--Poster_images--poster--IHP.png
+  assets/images/poster/Inspiration and Sol..png:
+    link_URL: https://2020.igem.org/wiki/images/9/9f/T--IIT_Roorkee--Poster_images--poster--Inspiration_and_Sol..png
+    md5: a061fd4d0e8f8d83819d6ca159d00137
+    upload_filename: T--IIT_Roorkee--Poster_images--poster--Inspiration and Sol..png
+  assets/images/poster/Intro.png:
+    link_URL: https://2020.igem.org/wiki/images/3/39/T--IIT_Roorkee--Poster_images--poster--Intro.png
+    md5: 2c80650d1bf0647b22b9ddf1877467df
+    upload_filename: T--IIT_Roorkee--Poster_images--poster--Intro.png
+  assets/images/poster/ML.png:
+    link_URL: https://2020.igem.org/wiki/images/1/16/T--IIT_Roorkee--Poster_images--poster--ML.png
+    md5: b5b24a8cd1084b2dd042f8a0c6b1d0d4
+    upload_filename: T--IIT_Roorkee--Poster_images--poster--ML.png
+  assets/images/poster/Model.png:
+    link_URL: https://2020.igem.org/wiki/images/5/59/T--IIT_Roorkee--Poster_images--poster--Model.png
+    md5: 3134a6e18800a642d78d0c851bb481ed
+    upload_filename: T--IIT_Roorkee--Poster_images--poster--Model.png
+  assets/images/poster/Parts.png:
+    link_URL: https://2020.igem.org/wiki/images/1/18/T--IIT_Roorkee--Poster_images--poster--Parts.png
+    md5: 7b44d151cfc533a33c697baea4b4e754
+    upload_filename: T--IIT_Roorkee--Poster_images--poster--Parts.png
+  assets/images/poster/Ref. and aknowledegements.png:
+    link_URL: https://2020.igem.org/wiki/images/b/b7/T--IIT_Roorkee--Poster_images--poster--Ref._and_aknowledegements.png
+    md5: faf05d61f29e499146ce7727ee1dd0dd
+    upload_filename: T--IIT_Roorkee--Poster_images--poster--Ref. and aknowledegements.png
+  assets/images/poster/SDG.png:
+    link_URL: https://2020.igem.org/wiki/images/0/07/T--IIT_Roorkee--Poster_images--poster--SDG.png
+    md5: 2c3145be23ef2d0acbcd3cd158dd9463
+    upload_filename: T--IIT_Roorkee--Poster_images--poster--SDG.png
+  assets/images/poster/Science Comm.png:
+    link_URL: https://2020.igem.org/wiki/images/9/91/T--IIT_Roorkee--Poster_images--poster--Science_Comm.png
+    md5: 0ba69d6af47b7114a144546914f956e3
+    upload_filename: T--IIT_Roorkee--Poster_images--poster--Science Comm.png
+  assets/images/poster/Software.png:
+    link_URL: https://2020.igem.org/wiki/images/f/f1/T--IIT_Roorkee--Poster_images--poster--Software.png
+    md5: f146ded6aac7a51dbfa73e8c27a0b2bb
+    upload_filename: T--IIT_Roorkee--Poster_images--poster--Software.png
+  assets/images/poster/Sponsors.png:
+    link_URL: https://2020.igem.org/wiki/images/5/59/T--IIT_Roorkee--Poster_images--poster--Sponsors.png
+    md5: e470745174e6767b8e92cd0cab0a5fd3
+    upload_filename: T--IIT_Roorkee--Poster_images--poster--Sponsors.png
+  assets/images/poster/implementation.png:
+    link_URL: https://2020.igem.org/wiki/images/e/e6/T--IIT_Roorkee--Poster_images--poster--implementation.png
+    md5: ebc04a3755b53c88df0163ad3b75ea26
+    upload_filename: T--IIT_Roorkee--Poster_images--poster--implementation.png
+  assets/images/poster/results.png:
+    link_URL: https://2020.igem.org/wiki/images/b/bc/T--IIT_Roorkee--Poster_images--poster--results.png
+    md5: 25667830b51925a18d893c8d0bc7ca51
+    upload_filename: T--IIT_Roorkee--Poster_images--poster--results.png
   assets/images/team/large/darshak.png:
     link_URL: https://2020.igem.org/wiki/images/8/82/T--IIT_Roorkee--images--team--large--darshak.png
     md5: d1ed782dd4868fcc03fdd2504e1dda88
@@ -1047,6 +1311,10 @@ assets:
     link_URL: https://2020.igem.org/wiki/images/d/de/T--IIT_Roorkee--images--team--small--team_circle_yash.png
     md5: 554c3a43ac05797355ce795c6c9ecfdf
     upload_filename: T--IIT_Roorkee--images--team--small--team_circle_yash.png
+  assets/videos/dl_software_walkthrough.mp4:
+    link_URL: https://2020.igem.org/wiki/images/8/84/T--IIT_Roorkee--Poster_videos--dl_software_walkthrough.mp4
+    md5: 357d84118fa8ed165cddfbe16dc360e3
+    upload_filename: T--IIT_Roorkee--Poster_videos--dl_software_walkthrough.mp4
   assets/videos/iGEM IIT Roorkee Promo Video.mp4:
     link_URL: https://2020.igem.org/wiki/images/5/5d/T--IIT_Roorkee--videos--iGEM_IIT_Roorkee_Promo_Video.mp4
     md5: 8d7e30abd63c36e2acca2102d665906a
@@ -1063,98 +1331,101 @@ css:
     md5: 7fa5b9107bdfad1f8a011007944b51b2
   css/styles.css:
     link_URL: https://2020.igem.org/Template:IIT_Roorkee/css/stylesCSS?action=raw&ctype=text/css
-    md5: bd4763ad9983b55d699110e370169db6
+    md5: 79dfa8c1ec52f686324cdeb4ecd2a929
 html:
   Attributions/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Attributions
-    md5: e40eefb51f358ff3614c49246ca44743
+    md5: daeca697ac35364323d9490278fc9993
   Collaborations/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Collaborations
-    md5: ed406669d5073d6dd596aa0346e60169
+    md5: 8dd703ed89e7146bb37792809817d86c
   Contribution/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Contribution
-    md5: bfab807f730138cc735c8552cda3563a
+    md5: afefcea7aa1a28473d6af2f5649343cc
   Description/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Description
-    md5: 8ec1d9a8b3768a353f8daca3b541d167
+    md5: b4c1fa0727e9dd3afee2400225698e84
   Design/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Design
-    md5: 30f8b2123d32b7d4bbfc5e1ba737e383
+    md5: 7783a7148ad2e5e7ea2c50d59fb72d1b
   DryLab_Results/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/DryLab_Results
-    md5: 576ae70db3e0fe64aabd71f21e763b48
+    md5: 6303ec1ccc7fd410c5e5b503f95278c2
   Education/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Education
-    md5: 9e676d0d36a7eac291f905a62dd6299e
+    md5: dcb804ec963f31ee9cc2f88d432982f5
   Engineering/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Engineering
-    md5: 8b224fe1d287b467170b963454fa7dd5
+    md5: 65183f3ea523e00d07027288c059ef5b
   Experiments/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Experiments
-    md5: 0b64ddc44ba995828b011c9ecde98e5d
+    md5: 075820be38ae93b2bf7032cf29ae0e2c
   Human_Practices/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Human_Practices
-    md5: 2b8edd971789aead40254d1feb681b83
+    md5: e9e054addadc8fb5b22d3bd78f1a2043
   Implementation/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Implementation
-    md5: 0ba1cb76af25be7895827038f9980c45
+    md5: 6791f11a5374354ae65a7afd54796d08
   Integrated_HP/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Integrated_HP
-    md5: daded71a85fc1cc33409414509dd8055
+    md5: d0a79d762e8504ed3610045497a4337b
   Judging/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Judging
-    md5: 039ecf925e2f8971b6f417a3a4fb60c4
+    md5: 61686c94d3e5f761664a71d54034a821
   ML_Impact/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/ML_Impact
-    md5: 1b067ca0eff6f8bac79ddab9b471b7ca
+    md5: a5335aceac22c381a6b4f96806bf225e
   ML_Model/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/ML_Model
-    md5: 121142399e0069a4dadb5f23ecc10d10
+    md5: e83ddcfc5104a5e129c1ac7ac3f2ec5f
   ML_Overview/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/ML_Overview
-    md5: 4f2118b20c28a75d966b65d071595443
+    md5: b551731c1ed6ac3d28d81e94dccb96ed
   ML_Results/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/ML_Results
-    md5: 4f12a9e8db15356d79d0373fb7df7a1c
+    md5: 4655724b9dd07d7ed427b9ea0988e4e9
   Model/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Model
-    md5: b37d83c1bbc10498417c3cc707349000
+    md5: 8325739b7ef3fe0705c0b86451547b98
   Notebook/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Notebook
-    md5: 3b101a7a1b75e70b172b08dc4420bd18
+    md5: c50251535d6a5db34661e367f4e0f4b7
   Parts/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Parts
-    md5: 9af6d68ad63fe36d72d320f609b7a932
+    md5: 32bc948346dc36a7eefb5d6a32ccbae6
+  Poster/index.html:
+    link_URL: https://2020.igem.org/Team:IIT_Roorkee/Poster
+    md5: e1de1704391e3b48c0163d3fd1b615f5
   Problem/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Problem
-    md5: 39d8402868a7092b581c9540a304189b
+    md5: 23b9b59fd2ed71e1e770773011cf9f75
   Protocols/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Protocols
-    md5: 1565699a47dcf7d905f1539a7ac3fb16
+    md5: ea5e1aca72ea37fec7b6632d9da4da02
   References/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/References
-    md5: 9814d3f4ffc0121c0390db4cc6309c65
+    md5: bc386073617e4b5339d9711cf3ba8435
   Results/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Results
-    md5: c6333c2eb833a72185eacd34f19c7842
+    md5: f6c62de0ac3cf372c4cca644e0b7dc08
   Safety/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Safety
-    md5: 4baf6d81ca689d1ef4f09b859ad255c8
+    md5: b0de635d01125a271b98e97462f55dfd
   Software/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Software
-    md5: 8913a969493f7266cf0678743b017539
+    md5: 4b108b8bd9949c8b972b3008e1f489b4
   Sponsors/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Sponsors
-    md5: 3aaab78d90e5d517d996f63ceb76efae
+    md5: 6a946e8abea1c3f2d100973858275e3a
   Sustainable/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Sustainable
-    md5: 3fa7168d69bfb8e9f4c2f0f75d9ffd8b
+    md5: 8739e9186500c50a562f77674d7299be
   Team/index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/Team
-    md5: d42d3238dc842c321fabb8e29b755ec2
+    md5: 9c969f5908b704677244d3b829621b36
   index.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee
-    md5: c66eebd3b47863f7b013c5ca1b546420
+    md5: 6056ee1ede5038f6882121badf0377fc
   team/team.html:
     link_URL: https://2020.igem.org/Team:IIT_Roorkee/team/team
     md5: c679bffc5f95c767fcf06b7de03ffda0
