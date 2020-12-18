@@ -598,6 +598,7 @@ main.wiki {
 .banner-home-mobile .banner-image {
   width: 150px;
   margin-top: 80px;
+  margin-right: 120px !important;
 }
 
 .banner-home-mobile .banner-home-text {
@@ -611,6 +612,7 @@ main.wiki {
 .banner-image {
   -webkit-animation: mover 1s infinite alternate;
   animation: mover 2s infinite alternate;
+  margin-right: 150px;
 }
 
 @keyframes mover {
@@ -1968,3 +1970,136 @@ main.wiki {
   }
 }
 /* FOOTER END */
+
+/* GOLD MEDAL START */
+#container {
+  margin: 0%;
+  position: absolute;
+  right: 140px;
+  top: 50px;
+  display: inline-block;
+  z-index: 1;
+}
+
+#container-mobile {
+  margin: 0%;
+  position: absolute;
+  right: -30px;
+  top: 40px;
+  display: none;
+  z-index: 1;
+}
+
+#circle {
+  position: relative;
+  z-index: 100;
+}
+
+#circle text {
+  font-size: 21px;
+  font-weight: bold;
+  color: #f5c21d;
+}
+
+#circle-mobile text {
+  font-size: 20px;
+  font-weight: bold;
+  color: #f5c21d;
+}
+
+#circle svg {
+  -webkit-animation-name: rotate;
+  -moz-animation-name: rotate;
+  -ms-animation-name: rotate;
+  -o-animation-name: rotate;
+  animation-name: rotate;
+  -webkit-animation-duration: 5s;
+  -moz-animation-duration: 5s;
+  -ms-animation-duration: 5s;
+  -o-animation-duration: 5s;
+  animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -ms-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(360deg);
+  }
+  to {
+    -webkit-transform: rotate(0);
+  }
+}
+@-moz-keyframes rotate {
+  from {
+    -moz-transform: rotate(360deg);
+  }
+  to {
+    -moz-transform: rotate(0);
+  }
+}
+@-ms-keyframes rotate {
+  from {
+    -ms-transform: rotate(360deg);
+  }
+  to {
+    -ms-transform: rotate(0);
+  }
+}
+@-o-keyframes rotate {
+  from {
+    -o-transform: rotate(360deg);
+  }
+  to {
+    -o-transform: rotate(0);
+  }
+}
+@keyframes rotate {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0);
+  }
+}
+
+#container img {
+  position: absolute;
+  top: 85px;
+  right: 85px;
+  border-radius: 100%;
+  height: 230px;
+  padding: 42px;
+  border: 3px solid #2d64ba;
+  background-color: #0f102f;
+}
+
+#container-mobile img {
+  position: absolute;
+  top: 55px;
+  right: 55px;
+  border-radius: 100%;
+  height: 140px;
+  padding: 23px;
+  border: 3px solid #2d64ba;
+  background-color: #0f102f;
+}
+
+@media screen and (max-width: 768px) {
+  #container {
+    display: none;
+  }
+
+  #container-mobile {
+    display: inline-block;
+  }
+}
+/* GOLD MEDAL END */
